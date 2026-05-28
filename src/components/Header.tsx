@@ -18,31 +18,30 @@ const Header = () => {
       label: 'About Us',
       href: '#',
       submenu: [
-        { label: 'Institute Overview', href: '#' },
-        { label: 'Mission & Vision', href: '#' },
-        { label: 'History', href: '#' },
-        { label: 'Director', href: '#' },
-        { label: 'Faculty', href: '#' },
+        { label: 'Institute at glance', href: '#' },
+        { label: 'University Mission & Vision', href: '#' },
+        { label: 'Symbiosis Leadership', href: '#' },
+        { label: 'Institute Mission & Vision', href: '#' },
+        { label: "The Dean & Director's Message", href: '#' },
+        { label: "Deputy Director", href: '#' },
+        { label: "Institute committee", href: '#' },
+        { label: "University Statutory and Non Statutory committee", href: '#' },
+        { label: "Media Presence", href: '#' },
+        { label: "Gallery", href: '#' },
+        { label: " SIU Administrative Department", href: '#' },
+        { label: " SIU committee", href: '#' },
+        { label: " Ombudsman", href: '#' },
+
       ]
     },
     {
-      label: 'Academics',
+      label: 'Programmes',
       href: '#',
       submenu: [
         { label: 'Programs Offered', href: '#' },
         { label: 'Departments', href: '#' },
         { label: 'Curriculum', href: '#' },
         { label: 'Research', href: '#' },
-      ]
-    },
-    {
-      label: 'Students',
-      href: '#',
-      submenu: [
-        { label: 'Student Life', href: '#' },
-        { label: 'Clubs & Activities', href: '#' },
-        { label: 'Accommodations', href: '#' },
-        { label: 'Support Services', href: '#' },
       ]
     },
     {
@@ -55,6 +54,26 @@ const Header = () => {
         { label: 'Scholarships', href: '#' },
       ]
     },
+    {
+      label: 'Faculty & Research',
+      href: '#',
+      submenu: [
+        { label: 'Research Expertise', href: '#' },
+        { label: 'Research Scholars', href: '#' },
+        { label: 'Research Publications', href: '#' },
+        { label: 'Funded Research Project/ Counsltancy', href: '#' },
+      ]
+    },
+    {
+      label: 'Students',
+      href: '#',
+      submenu: [
+        { label: 'Student Life', href: '#' },
+        { label: 'Clubs & Activities', href: '#' },
+        { label: 'Accommodations', href: '#' },
+        { label: 'Support Services', href: '#' },
+      ]
+    },    
     {
       label: 'Placement & Industry',
       href: '#',
@@ -90,14 +109,14 @@ const Header = () => {
             <Image
               src="/images/common/Logo.webp"
               alt="Logo"
-              width={320}
-              height={50}
+              width={390}
+              height={70}
             />
           </Link>
 
           {/* Desktop Menu */}
           <div className="d-none d-lg-flex justify-content-center flex-grow-1 ms-4">
-            <ul className="navbar-nav gap-2">
+            <ul className="navbar-nav gap-0">
               {menuItems.map((item, index) => (
                 <li key={index} className="nav-item dropdown position-relative">
                   <Link
@@ -230,39 +249,6 @@ const Header = () => {
           </div>
         </>
       )}
-
-      <style>{`
-        .navbar .dropdown:hover .dropdown-menu {
-          display: block;
-        }
-
-        .dropdown-menu {
-          border: none;
-          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-          border-radius: 0.375rem;
-        }
-
-        .dropdown-item:hover {
-          background-color: #f8f9fa;
-          color: #dc3545 !important;
-        }
-
-        .offcanvas {
-          box-shadow: -0.5rem 0 1rem rgba(0, 0, 0, 0.15);
-        }
-
-        .btn-link {
-          color: inherit !important;
-        }
-
-        .btn-link:hover {
-          color: #dc3545 !important;
-        }
-
-        .rotate-90 {
-          transform: rotate(90deg);
-        }
-      `}</style>
     </div>
   )
 }

@@ -243,12 +243,12 @@ export default function AcademicPrograms() {
               <ProgramTabs activeTab={activeTab} setActiveTab={setActiveTab} />
             </div>
             <div className="col-lg-6 text-center">
-              <Image
-                src="/images/home/academic-programs-girls.webp"
+              <Image 
+                src="/images/home/student.webp"
                 alt="Students"
                 width={500}
                 height={400}
-                className="img-fluid"
+                className="img-fluid academicStudentImage"
               />
             </div>
           </div>
