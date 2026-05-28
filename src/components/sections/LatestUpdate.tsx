@@ -11,6 +11,7 @@ const LatestUpdate = () => {
                 alt="Announcement"
                 width={90}
                 height={90}
+                className="Announcementannimi"
               />
               <span className="ms-2"><b>Latest</b> Update</span>
             </div>

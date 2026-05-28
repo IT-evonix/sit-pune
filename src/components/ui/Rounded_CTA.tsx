@@ -1,12 +1,15 @@
-import React from 'react'
+import React from "react";
 import Link from "next/link";
 
 const Rounded_CTA = ({
-  label= "",
+  label = "",
   link = "",
   bgColor = "",
   textColor = "#10467F",
   borderColor = "#10467F",
+  hoverBgColor="#fff",
+  hoverTextColor="#000",
+  hoverBorderColor="#fff",
 }) => {
   return (
     <Link href={link}>
