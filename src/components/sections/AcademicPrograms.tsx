@@ -236,9 +236,9 @@ export default function AcademicPrograms() {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
-              <span className="heading_small">Programs Offered</span>
+              {/* <span className="heading_small">Programs Offered</span> */}
               <h2 className="heading">
-                Academic <span>Programs</span>
+                Programs <span>Offered</span>
               </h2>
               <ProgramTabs activeTab={activeTab} setActiveTab={setActiveTab} />
             </div>

@@ -35,12 +35,11 @@ const Placements = () => {
           <div className="row">
             
             <div className="col-md-6">
-              <div className="heading_small">Placements</div>
-
-              <div className="heading">
-                Excellent Opportunities{" "}
-                <span>Extraordinary Outcomes</span>
+              {/* <div className="heading_small">Placements</div> */}
+              <div className="heading">                
+                <span>Placements</span>
               </div>
+              <div className="subheading">Excellent Opportunities Extraordinary Outcomes</div>
             </div>
 
             <div className="col-md-6">
