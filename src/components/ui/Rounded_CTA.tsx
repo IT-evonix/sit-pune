@@ -19,7 +19,7 @@ const Rounded_CTA = ({
           color: textColor,
           border: `1px solid ${borderColor}`,
         }}
-        className="rounded-pill px-4 py-2 transition rounded_cta"
+        className="rounded-pill transition rounded_cta"
       >
         {label}
       </button>

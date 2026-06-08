@@ -99,8 +99,8 @@ export function ProgramTabs({
   setActiveTab: (tab: string) => void;
 }) {
   const tabs = [
-    { label: "UG", value: "UG" },
-    { label: "PG", value: "PG" },
+    { label: "Undergraduate", value: "UG" },
+    { label: "Postgraduate", value: "PG" },
     { label: "PhD", value: "DOCTORAL" },
   ];
 
@@ -236,7 +236,7 @@ export default function AcademicPrograms() {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
-              <span className="heading_small">PROGRAMMES OFFERED</span>
+              <span className="heading_small">Programs Offered</span>
               <h2 className="heading">
                 Academic <span>Programs</span>
               </h2>

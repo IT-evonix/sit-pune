@@ -9,11 +9,11 @@ const Header = () => {
   const [openSubmenu, setOpenSubmenu] = useState<number | null>(null)
 
   const menuItems = [
-    {
-      label: 'Home',
-      href: '/',
-      submenu: null
-    },
+    // {
+    //   label: 'Home',
+    //   href: '/',
+    //   submenu: null
+    // },
     {
       label: 'About Us',
       href: '#',
@@ -103,10 +103,11 @@ const Header = () => {
   return (
     <div>
       <Topstrip />
-      <nav className="navbar mainmenu navbar-expand-lg navbar-light bg-white shadow-sm py-3">
+      <nav className="navbar mainmenu navbar-expand-lg navbar-light bg-white shadow-sm py-2">
         <div className="container-fluid">
           <Link href="/" className="navbar-brand d-flex align-items-center gap-2 p-0">
             <Image
+              className='mainlogo'
               src="/images/common/Logo.webp"
               alt="Logo"
               width={390}
@@ -115,7 +116,7 @@ const Header = () => {
           </Link>
 
           {/* Desktop Menu */}
-          <div className="d-none d-lg-flex justify-content-center flex-grow-1 ms-4">
+          <div className="d-none d-lg-flex justify-content-end flex-grow-1 ms-4">
             <ul className="navbar-nav gap-0">
               {menuItems.map((item, index) => (
                 <li key={index} className="nav-item dropdown position-relative">

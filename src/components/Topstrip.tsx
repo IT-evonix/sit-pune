@@ -38,45 +38,58 @@ const Topstrip = () => {
       <div className="animated_gradient"></div>
 
       <div className="container-fluid position-relative">
-        <div className="topstrip_marquee">
-          {/* Desktop */}
-          <div className="topstrip_track desktop_track">
-            {topLinks.map((item, index) => (
-              <React.Fragment key={index}>
-                <Link
-                  href={item.link}
-                  className={`topstrip_link ${
-                    item.highlight ? "highlight_link" : ""
-                  }`}
-                  target="_blank"
-                >
-                  {item.title}
-                </Link>
+        <div className="d-flex align-items-center justify-content-between">
+          {/* Marquee Section */}
+          <div className="topstrip_marquee flex-grow-1">
+            {/* Desktop */}
+            <div className="topstrip_track desktop_track">
+              {topLinks.map((item, index) => (
+                <React.Fragment key={index}>
+                  <Link
+                    href={item.link}
+                    className={`topstrip_link ${
+                      item.highlight ? "highlight_link" : ""
+                    }`}
+                    target="_blank"
+                  >
+                    {item.title}
+                  </Link>
 
-                {index !== topLinks.length - 1 && (
+                  {index !== topLinks.length - 1 && (
+                    <span className="topstrip_divider">|</span>
+                  )}
+                </React.Fragment>
+              ))}
+            </div>
+
+            {/* Mobile */}
+            <div className="topstrip_track mobile_track">
+              {[...topLinks, ...topLinks].map((item, index) => (
+                <React.Fragment key={index}>
+                  <Link
+                    href={item.link}
+                    className={`topstrip_link ${
+                      item.highlight ? "highlight_link" : ""
+                    }`}
+                    target="_blank"
+                  >
+                    {item.title}
+                  </Link>
+
                   <span className="topstrip_divider">|</span>
-                )}
-              </React.Fragment>
-            ))}
+                </React.Fragment>
+              ))}
+            </div>
           </div>
 
-          {/* Mobile */}
-          <div className="topstrip_track mobile_track">
-            {[...topLinks, ...topLinks].map((item, index) => (
-              <React.Fragment key={index}>
-                <Link
-                  href={item.link}
-                  className={`topstrip_link ${
-                    item.highlight ? "highlight_link" : ""
-                  }`}
-                  target="_blank"
-                >
-                  {item.title}
-                </Link>
-
-                <span className="topstrip_divider">|</span>
-              </React.Fragment>
-            ))}
+          {/* Contact Us Button */}
+          <div className="ms-3 flex-shrink-0">
+            <Link
+              href="/"
+              className="contact_btnheader"
+            >
+              Contact Us
+            </Link>
           </div>
         </div>
       </div>
