@@ -11,8 +11,9 @@ const Internationalization = () => {
             <div className="internationalization_main">
               <div className="internationalization_left">
                 <div className="div">
-                  <div className="heading_small">Internationalization</div>
-                  <div className="heading">
+                  {/* <div className="heading_small">Internationalization</div> */}
+                  <div className="heading"> <span>Internationalization</span></div>
+                  <div className="subheading">
                     Global Exposure & Advanced{" "}
                     <span> Academic Pathways for Future Leaders</span>
                   </div>

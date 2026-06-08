@@ -566,6 +566,16 @@ Body{
   color:#10467F;
   font-family: 'Metropolis-Bold';
 }
+.subheading{
+  font-family: Metropolis-SemiBold;
+  font-size: 22px;
+  margin: 0 0 9px 0;
+  line-height: normal;
+}
+.subheading18{
+  font-size: 18px;
+  font-family: 'Metropolis-SemiBold';
+}
 .Aboutus_section{
   padding:140px 0px 0px 0px;
   position:relative;
@@ -618,7 +628,7 @@ Body{
 
 .Aboutus_inner{
   background: #FFFFFF;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(232, 231, 231, 1) 100%);
+  /* background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(232, 231, 231, 1) 100%); */
   padding:40px 0px 60px 0px;
 }
 .Aboutus_left{
@@ -827,6 +837,7 @@ Body{
   border-radius: 20px;
   justify-content: space-evenly;
   align-items: center;
+  margin:0px 0px 30px 0px;
 }
 .placementnumber:last-child{
   border:none !important;
@@ -2168,14 +2179,7 @@ table{
 .outcome_based_education_main .icon-box svg{
   max-height: inherit;
 }
-.subheading{
-  font-size: 22px;
-  font-family: 'Metropolis-Bold';
-}
-.subheading18{
-  font-size: 18px;
-  font-family: 'Metropolis-SemiBold';
-}
+
 /* .icon-box {
   width: 60px;
   height: 60px;

@@ -54,10 +54,10 @@ export default function GallerySec() {
 
           {/* Heading */}
           <div className="text-center mb-5">
-            <div className="heading_small onbg" style={{backgroundColor: "rgba(255, 255, 255, 0.39)", color: "#fff;"}}>Campus Life</div>
+            {/* <div className="heading_small onbg" style={{backgroundColor: "rgba(255, 255, 255, 0.39)", color: "#fff;"}}>Campus Life</div> */}
             <h2 className="heading text-white fw-bold" style={{fontFamily: "Metropolis-Bold"}}>
-              Life Beyond the{" "}
-              <span className="text-warning">Classroom</span>
+               Campus {" "}
+              <span className="text-warning">Life</span>
             </h2>
 
             <p className="text-white">
