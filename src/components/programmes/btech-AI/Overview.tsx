@@ -442,16 +442,18 @@ const Overview = () => {
               </div>
             </div>
             <div className="col-md-5">
-              <div className="intake_right">
-                <div className="heading innerpageheading text-white">
-                  Student <br /> Testimonials
+              <a target="_blank" className="overviewtestimonials" href="https://www.youtube.com/watch?v=DPIO8LYm-jk&feature=youtu.be">
+                <div className="intake_right" >
+                  <div className="heading innerpageheading text-white">
+                    Student <br /> Testimonials
+                  </div>
+                  <div className="StudentName">Aadith Sukumar</div>
+                  <div className="StudentDepartment">
+                    Student of B.Tech (Artificial Intelligence and Machine
+                    Learning)
+                  </div>
                 </div>
-                <div className="StudentName">Aadith Sukumar</div>
-                <div className="StudentDepartment">
-                  Student of B.Tech (Artificial Intelligence and Machine
-                  Learning)
-                </div>
-              </div>
+              </a>
             </div>
           </div>
         </div>

@@ -48,9 +48,8 @@ const programmeData: ProgrammeItem[] = [
 export default function ProgrammeStructurePage() {
   return (
     <>
-      <Container fluid className="">
-        <Container>
-          <div className="programme-wrapper">
+      <div className="main_content">
+        <div className="programme-wrapper">
             
            <div className="heading innerpageheading">
               Provisional Programme Structure
@@ -109,8 +108,7 @@ export default function ProgrammeStructurePage() {
               ))}
             </div>
           </div>
-        </Container>
-      </Container>
+      </div>
     </>
   );
 }
