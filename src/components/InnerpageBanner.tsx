@@ -18,7 +18,7 @@ const InnerpageBanner: React.FC<InnerpageBannerProps> = ({
 }) => {
   return (
     <section className="innerbannersection">
-      <div className="container-fluid">
+      <div className="container">
         <div className="innerbannerinner">
 
           {/* Heading */}
