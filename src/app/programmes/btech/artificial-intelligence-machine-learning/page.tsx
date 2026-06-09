@@ -104,7 +104,7 @@ const AIMLPage = () => {
   ];
 
   return (
-    <div className="div">
+    <div className="mainpage-wrapper">
       <InnerpageBanner
         title={`B.Tech in Artificial Intelligence \n & Machine Learning`}
         breadcrumbs={[
@@ -114,7 +114,7 @@ const AIMLPage = () => {
           { label: "B Tech (Artificial Intelligence and Machine Learning)" },
         ]}
       />
-
+  
       <div className="container-fluid py-5">
         <TabbingSidebar heading="B.Tech AIML" tabs={tabs} />
       </div>
