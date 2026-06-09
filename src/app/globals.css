@@ -43,6 +43,14 @@ Body{
    color:#000;
    font-size: clamp(14px, 1.5vw, 16px);
   }
+.header-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  background: #fff;
+}
 
 
 
@@ -301,7 +309,8 @@ Body{
   background-size: 13px;
 } */
 .firstslide{
-  max-height:550px;
+    max-height:550px;
+    margin: 103px 0 0 0;
 }
 .firstslide .swiper{
   max-height:550px;
@@ -577,7 +586,7 @@ Body{
   font-family: 'Metropolis-SemiBold';
 }
 .Aboutus_section{
-  padding:140px 0px 0px 0px;
+  padding:160px 0px 0px 0px;
   position:relative;
   overflow: hidden;
 }
