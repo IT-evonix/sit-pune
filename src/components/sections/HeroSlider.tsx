@@ -72,14 +72,6 @@ const HeroSlider = () => {
         {/* SLIDE 2 */}
         <SwiperSlide className="herofirstslide">
           <div className="position-relative">
-            {/* <Image
-              src="/images/home/banner-2-3.webp"
-              alt="Hero Banner 2"
-              fill
-              className="object-fit-cover"
-              priority
-            /> */}
-
             <div className="d-flex align-items-center">
               <div className="container">
                 <div className="row align-items-center">
@@ -127,14 +119,6 @@ const HeroSlider = () => {
         {/* SLIDE 3 */}
         <SwiperSlide className="herofirstslide">
           <div className="position-relative">
-            {/* <Image
-              src="/images/home/banner-2-3.webp"
-              alt="Hero Banner 3"
-              fill
-              className="object-fit-cover"
-              priority
-            /> */}
-
             <div className="d-flex align-items-center">
               <div className="container">
                 <div className="row align-items-center">
@@ -143,12 +127,10 @@ const HeroSlider = () => {
                       Engineering the Future at{" "}
                       <span className="sitpunetext">SIT Pune</span>
                     </h1>
-
                     <p className="mt-3 text-white">
                       Welcome to Symbiosis Institute of Technology — where
                       innovation meets excellence in engineering education.
                     </p>
-
                     <div className="mt-3 d-flex gap-3">
                       <Rounded_CTA
                         label="Apply Now"
@@ -168,7 +150,6 @@ const HeroSlider = () => {
                         hoverBorderColor="#fff"
                       />
                     </div>
-
                     <ul className="herolist">
                       <li>Industry-Ready Curriculum</li>
                       <li>Expert Faculty</li>

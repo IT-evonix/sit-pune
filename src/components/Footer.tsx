@@ -12,8 +12,8 @@ import {
 
 const Footer = () => {
   return (
-    <div>
-      <Blussitpune/>
+    <footer>
+        <Blussitpune/>
         <footer className="sit-footer">
           <div className="container">
             <div className="row gy-5">
@@ -246,7 +246,7 @@ const Footer = () => {
             </div>
           </div>
         </footer>
-    </div>
+    </footer>
   )
 }
 

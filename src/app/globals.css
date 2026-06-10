@@ -2433,6 +2433,60 @@ table {
 .eventlist_box:hover img {
     transform: scale(1.1);
 }
+/* Event Page End Here */
+/* Leadership Page Start Here */
+.leadership_page{
+  position: relative;
+}
+.leadership_page::after{
+  position: absolute;
+  left: 0;
+  top:0;
+  bottom:0;
+  width:25%;
+  content:"";
+  z-index:-1;
+  background: linear-gradient(180deg, rgba(226, 240, 255, 1) 35%, rgba(255, 185, 188, 1) 100%);
+}
+.leadership_inner{
+  padding: 60px 0;
+}
+.leader-header{
+  background: linear-gradient(90deg,rgba(247, 247, 247, 1) 35%, rgba(255, 255, 255, 1) 100%);
+  padding: 20px 20px 20px 30px;
+  border-radius: 15px;
+}
+.leader-header .subheading18{
+  color:#C4161C;
+  font-family: 'Metropolis-Medium';
+}
+.leader-sticky {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 120px;
+  align-self: flex-start;
+}
+
+.leader-image {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  display: block;
+}
+.leader-sticky {
+  position: sticky;
+  top: 120px;
+}
+
+.leader-image-wrapper {
+  position: relative;
+}
+/* Leadership Page End Here */
+
+
+
+
+
 /* ========== Rahul Normal CSS start ==========  */
 
 .adderess_form_mainbox {

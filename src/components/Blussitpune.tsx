@@ -1,13 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Blussitpune = () => {
-  return (
-    <div>
-        <div className="SITPUNE">
-            SIT PUNE
-        </div>
-    </div>
-  )
-}
+  return <div className="SITPUNE">SIT PUNE</div>;
+};
 
-export default Blussitpune
+export default Blussitpune;

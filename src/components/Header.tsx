@@ -103,10 +103,10 @@ const Header = () => {
   };
 
   return (
-    <div>
+    <header>
       <div className="header-wrapper">
         <Topstrip />
-      <nav className="navbar mainmenu navbar-expand-lg navbar-light bg-white shadow-sm py-2">
+        <nav className="navbar mainmenu navbar-expand-lg navbar-light bg-white shadow-sm py-2">
           <div className="container-fluid">
             <Link
               href="/"
@@ -163,9 +163,8 @@ const Header = () => {
               <i className={`bi ${isOffcanvasOpen ? "bi-x" : "bi-list"}`}></i>
             </button>
           </div>
-      </nav>
+        </nav>
       </div>
-      
 
       {/* Offcanvas Mobile Menu */}
       {isOffcanvasOpen && (
@@ -263,7 +262,7 @@ const Header = () => {
           </div>
         </>
       )}
-    </div>
+    </header>
   );
 };
 
