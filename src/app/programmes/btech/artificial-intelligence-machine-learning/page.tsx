@@ -61,19 +61,19 @@ const AIMLPage = () => {
         {
           id: "student-achievements",
           title: "Student Achievements",
-          content: <div>Student Achievements Content</div>,
+          content: <div>Coming Soon</div>,
         },
 
         {
           id: "placements",
           title: "Placements",
-          content: <div>Placement Content</div>,
+          content: <div>Coming Soon</div>,
         },
 
         {
           id: "higher-studies",
           title: "Higher Studies",
-          content: <div>Higher Studies Content</div>,
+          content: <div>Coming Soon</div>,
         },
       ],
     },

@@ -25,38 +25,38 @@ const TabbingSidebar = ({ heading, tabs }: TabbingSidebarProps) => {
   const firstTabId = tabs?.length ? tabs[0].id : "";
 
   const [activeTab, setActiveTab] = useState<string>(firstTabId);
+
   const [activeSubTab, setActiveSubTab] = useState<string>("");
+
   const [openSubmenu, setOpenSubmenu] = useState<string>("");
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
 
   // MAIN TAB CLICK
   const handleTabClick = (tab: TabItem) => {
     setActiveTab(tab.id);
 
     if (tab.subTabs && tab.subTabs.length > 0) {
-      // NO SCROLL for tabs with sub-tabs
       setOpenSubmenu((prev) => (prev === tab.id ? "" : tab.id));
 
-      setActiveSubTab(tab.subTabs?.[0]?.id || "");
+      setActiveSubTab(tab.subTabs[0]?.id || "");
     } else {
-      // SCROLL for normal tabs only
       setOpenSubmenu("");
       setActiveSubTab("");
-
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth",
-      });
     }
+
+    scrollToTop();
   };
 
-  // SUB TAB CLICK (ONLY THIS SCROLLS)
+  // SUB TAB CLICK
   const handleSubTabClick = (subTabId: string) => {
     setActiveSubTab(subTabId);
-
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
+    scrollToTop();
   };
 
   return (
@@ -74,7 +74,8 @@ const TabbingSidebar = ({ heading, tabs }: TabbingSidebarProps) => {
                     className={`sidebar-link nav-link ${
                       activeTab === tab.id ? "active" : ""
                     }`}
-                    onClick={() => handleTabClick(tab)}>
+                    onClick={() => handleTabClick(tab)}
+                  >
                     <span>{tab.title}</span>
 
                     {tab.subTabs?.length ? (
@@ -125,14 +126,12 @@ const TabbingSidebar = ({ heading, tabs }: TabbingSidebarProps) => {
               return <div key={tab.id}>{tab.content}</div>;
             }
 
-            // Sub tab
+            // Sub Tabs
             if (activeTab === tab.id && tab.subTabs) {
               return tab.subTabs.map((subTab) => (
                 <div
                   key={subTab.id}
-                  className={
-                    activeSubTab === subTab.id ? "d-block" : "d-none"
-                  }
+                  className={activeSubTab === subTab.id ? "d-block" : "d-none"}
                 >
                   {subTab.content}
                 </div>
