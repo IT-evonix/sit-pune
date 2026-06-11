@@ -6,6 +6,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import "@fancyapps/ui/dist/fancybox/fancybox.css";
+import StickyLinks from "@/components/StickyLinks";
 
 
 
@@ -28,6 +29,7 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col">
        <Header />
+       <StickyLinks />
         {children}
         <Footer />
         </body>

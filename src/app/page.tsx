@@ -10,6 +10,7 @@ import CompanySlider from "@/components/sections/CompanySlider";
 import GallerySec from "@/components/sections/GallerySec";
 import NewsAndEvents from "@/components/sections/NewsAndEvents";
 import Internationalization from "@/components/sections/Internationalization";
+// import Herobannervideo from "@/components/sections/Herobannervideo";
 
 
 
@@ -17,9 +18,9 @@ import Internationalization from "@/components/sections/Internationalization";
 export default function Home() {
   return (
     <div>
-      {/* <h1>Page</h1> */}
       {/* <HeroSection/> */}
       <HeroSlider/>
+      {/* <Herobannervideo/> */}
       <LatestUpdate/>
       <AboutUs/>
       <StatsSection />

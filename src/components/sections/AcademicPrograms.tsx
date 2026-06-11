@@ -21,37 +21,43 @@ export const programData = {
     {
       id: 1,
       name: "Artificial Intelligence and Machine Learning",
-      icon: "/images/home/ai.svg",
+      // icon: "/images/home/ai.svg",
+      icon: "/images/home/programs-icons/AIML-2.webp",
       levels: ["B.Tech", "M.Tech", "PhD"],
     },
     {
       id: 2,
       name: "Civil Engineering",
-      icon: "/images/home/Civil-Engineering.svg",
+      // icon: "/images/home/Civil-Engineering.svg",
+      icon: "/images/home/programs-icons/CIVIL.webp",
       levels: ["B.Tech", "M.Tech", "PhD"],
     },
     {
       id: 3,
       name: "Computer Science and Engineering",
-      icon: "/images/home/Computer-Science.svg",
+      // icon: "/images/home/Computer-Science.svg",
+      icon: "/images/home/programs-icons/CSE.webp",
       levels: ["B.Tech", "M.Tech", "PhD"],
     },
     {
       id: 4,
       name: "Electronics & Telecommunication",
-      icon: "/images/home/Electronics.svg",
+      // icon: "/images/home/Electronics.svg",
+      icon: "/images/home/programs-icons/E&TC.webp",
       levels: ["B.Tech", "M.Tech", "PhD"],
     },
     {
       id: 5,
       name: "Computer Science and Engineering",
-      icon: "/images/home/Computer-Science.svg",
+      // icon: "/images/home/Computer-Science.svg",
+      icon: "/images/home/programs-icons/Mechanical-Engineering.webp",
       levels: ["B.Tech", "M.Tech", "PhD"],
     },
     {
       id: 6,
       name: "Electronics & Telecommunication",
-      icon: "/images/home/Electronics.svg",
+      // icon: "/images/home/Electronics.svg",
+      icon: "/images/home/programs-icons/Roboticsan-artificial-Intelligence.webp",
       levels: ["B.Tech", "M.Tech", "PhD"],
     },
   ],
@@ -73,6 +79,20 @@ export const programData = {
       name: "M.Tech - Cybersecurity",
       icon: "/images/home/ai.svg",
       levels: ["M.Tech", "PhD"],
+    },
+  ],
+  DualDegree: [
+    {
+      id: 1,
+      name: "B.Tech + M.Tech (Computer Science)",
+      icon: "/images/home/ai.svg",
+      levels: ["DualDegree"],
+    },
+    {
+      id: 2,
+      name: "B.Tech + M.Tech (Artificial Intelligence)",
+      icon: "/images/home/ai.svg",
+      levels: ["DualDegree"],
     },
   ],
   DOCTORAL: [
@@ -101,7 +121,8 @@ export function ProgramTabs({
   const tabs = [
     { label: "Undergraduate", value: "UG" },
     { label: "Postgraduate", value: "PG" },
-    { label: "PhD", value: "DOCTORAL" },
+    { label: "Dual Degree", value: "DualDegree" },
+    { label: "PhD", value: "DOCTORAL" },    
   ];
 
   return (
@@ -194,7 +215,7 @@ export function ProgramSlider({ data }: { data: Program[] }) {
           <SwiperSlide key={program.id}>
             <div className="ProgramsCard">
               <div className="IconBox">
-                <Image src={program.icon} alt={program.name} width={40} height={40} />
+                <Image src={program.icon} alt={program.name} width={90} height={90} />
               </div>
 
               <h5 className="Programshead">{program.name}</h5>

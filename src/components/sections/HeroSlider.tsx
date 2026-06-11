@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import Image from "next/image";
+// import Image from "next/image";
 
 // SWIPER
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -26,43 +26,81 @@ const HeroSlider = () => {
       >
         {/* SLIDE 1 */}
         <SwiperSlide className="herofirstslide">
-          <div className="d-flex align-items-center">
-            <div className="container">
-              <div className="row align-items-center">
-                <div className="col-lg-6 mt-5">
-                  <h1 className="display-5 text-white">
-                    Engineering the Future at{" "}
-                    <span className="sitpunetext">SIT Pune</span>
-                  </h1>
+          <div className="videobanner_content">
+            <h1 className="display-5 text-white">
+              Engineering the Future at{" "}
+              <span className="sitpunetext">SIT Pune</span>
+            </h1>
+            <p className="mt-2 text-white m-0">
+              Welcome to Symbiosis Institute of Technology — where innovation
+              meets excellence in engineering education.
+            </p>
+            <div className="mt-2 d-flex gap-3">
+              <Rounded_CTA
+                label="Apply Now"
+                link="/apply"
+                bgColor="#fff"
+                textColor="#C4161C"
+                borderColor="transparent"
+              />
+              <Rounded_CTA
+                label="Explore More"
+                link="/programme"
+                bgColor="transparent"
+                textColor="#fff"
+                borderColor="#fff"
+              />
+            </div>
+            <ul className="herolist">
+              <li>Industry-Ready Curriculum</li>
+              <li>Expert Faculty</li>
+              <li>Innovation Hub</li>
+            </ul>
+          </div>
+          <video className="w-100" autoPlay muted loop playsInline>
+            <source src="/videos/sit-gif.mp4" type="video/mp4" />
+          </video>
+        </SwiperSlide>
+        <SwiperSlide className="herofirstslide d-none">
+          <div className="position-relative">
+            <div className="d-flex align-items-center">
+              <div className="container">
+                <div className="row align-items-center">
+                  <div className="col-lg-6 mt-5">
+                    <h1 className="display-5 text-white">
+                      Engineering the Future at{" "}
+                      <span className="sitpunetext">SIT Pune</span>
+                    </h1>
 
-                  <p className="mt-3 text-white">
-                    Welcome to Symbiosis Institute of Technology — where
-                    innovation meets excellence in engineering education.
-                  </p>
+                    <p className="mt-3 text-white">
+                      Welcome to Symbiosis Institute of Technology — where
+                      innovation meets excellence in engineering education.
+                    </p>
 
-                  <div className="mt-3 d-flex gap-3">
-                    <Rounded_CTA
-                      label="Apply Now"
-                      link="/apply"
-                      bgColor="#fff"
-                      textColor="#C4161C"
-                      borderColor="transparent"
-                    />
+                    <div className="mt-3 d-flex gap-3">
+                      <Rounded_CTA
+                        label="Apply Now"
+                        link="/apply"
+                        bgColor="#fff"
+                        textColor="#C4161C"
+                        borderColor="transparent"
+                      />
 
-                    <Rounded_CTA
-                      label="Explore More"
-                      link="/programme"
-                      bgColor="transparent"
-                      textColor="#fff"
-                      borderColor="#fff"
-                    />
+                      <Rounded_CTA
+                        label="Explore More"
+                        link="/programme"
+                        bgColor="transparent"
+                        textColor="#fff"
+                        borderColor="#fff"
+                      />
+                    </div>
+
+                    <ul className="herolist">
+                      <li>Industry-Ready Curriculum</li>
+                      <li>Expert Faculty</li>
+                      <li>Innovation Hub</li>
+                    </ul>
                   </div>
-
-                  <ul className="herolist">
-                    <li>Industry-Ready Curriculum</li>
-                    <li>Expert Faculty</li>
-                    <li>Innovation Hub</li>
-                  </ul>
                 </div>
               </div>
             </div>
@@ -70,7 +108,7 @@ const HeroSlider = () => {
         </SwiperSlide>
 
         {/* SLIDE 2 */}
-        <SwiperSlide className="herofirstslide">
+        <SwiperSlide className="herofirstslide  d-none">
           <div className="position-relative">
             <div className="d-flex align-items-center">
               <div className="container">
@@ -117,7 +155,7 @@ const HeroSlider = () => {
         </SwiperSlide>
 
         {/* SLIDE 3 */}
-        <SwiperSlide className="herofirstslide">
+        <SwiperSlide className="herofirstslide  d-none">
           <div className="position-relative">
             <div className="d-flex align-items-center">
               <div className="container">
