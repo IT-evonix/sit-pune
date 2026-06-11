@@ -9,6 +9,11 @@ interface Props {
 }
 
 export default function EventDetailsPage({ params }: Props) {
+  // Check if events data exists
+  if (!events || !Array.isArray(events)) {
+    notFound();
+  }
+
   const event = events.find((item) => item.slug === params.slug);
 
   if (!event) {
@@ -18,46 +23,57 @@ export default function EventDetailsPage({ params }: Props) {
   return (
     <div className="innerpages">
       <div className="container py-5">
-        <div className="heading innerpageheading">{event.title}</div>
+        <h1 className="heading innerpageheading mb-4">
+          {event.title}
+        </h1>
 
-        <Image
-          src={event.image}
-          alt={event.title}
-          width={1200}
-          height={600}
-          className="img-fluid eventimg_preview mb-4"
-        />
+        {event.image && (
+          <Image
+            src={event.image}
+            alt={event.title}
+            width={1200}
+            height={600}
+            priority
+            className="img-fluid eventimg_preview mb-4"
+          />
+        )}
 
         {event.description && (
-          <div className="mb-0">
-            {event.description.split("\n\n").map((paragraph, index) => (
-              <p key={index} className="mb-3">
-                {paragraph}
-              </p>
-            ))}
+          <div className="event-content mb-5">
+            {event.description
+              .split("\n\n")
+              .filter((paragraph) => paragraph.trim() !== "")
+              .map((paragraph, index) => (
+                <p key={index} className="mb-3">
+                  {paragraph}
+                </p>
+              ))}
           </div>
         )}
 
-        {event.gallery && event.gallery.length > 0 && (
-          <>
-            <div className="eventsimages">
-              <div className="heading innerpageheading">Event Gallery</div>
+        {(event.gallery?.length ?? 0) > 0 && (
+          <section className="eventsimages">
+            <h2 className="heading innerpageheading mb-4">
+              Event Gallery
+            </h2>
 
-              <div className="row g-4">
-                {event.gallery.map((image, index) => (
-                  <div className="col-lg-4 col-md-6" key={index}>
-                      <Image
-                        src={image}
-                        alt={`${event.title} ${index + 1}`}
-                        width={500}
-                        height={350}
-                        className="img-fluid rounded-4"
-                      />
-                  </div>
-                ))}
-              </div>
+            <div className="row g-4">
+              {event.gallery!.map((image, index) => (
+                <div
+                  className="col-lg-4 col-md-6"
+                  key={index}
+                >
+                  <Image
+                    src={image}
+                    alt={`${event.title} ${index + 1}`}
+                    width={500}
+                    height={350}
+                    className="img-fluid rounded-4"
+                  />
+                </div>
+              ))}
             </div>
-          </>
+          </section>
         )}
       </div>
     </div>
