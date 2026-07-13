@@ -1062,7 +1062,7 @@ Body {
   transition-duration: 0.5s;
   position: relative;
 }
-.ProgramsCard:hover {
+.ProgramsCard:hover   {
   transition-duration: 0.5s;
   background: linear-gradient(
     180deg,
@@ -1090,7 +1090,7 @@ Body {
   transition-duration: 0.5s;
 }
 .ProgramsCard:hover .IconBox {
-  background-color: #11467e;
+  background-color: #fff;
 }
 .IconBox {
   border-radius: 20px;
@@ -1104,53 +1104,34 @@ Body {
   justify-content: center;
   align-items: center;
   transition-duration: 0.7s;
+  border: 1px solid #4c88c9;
 }
 .IconBox img {
   max-height: 90px;
   width: auto;
   transition-duration: 0.7s;
 }
-/* .IconBox img {
-    max-height: 90px;
-    width: auto;
-    transition: transform .4s ease;
-    will-change: transform;
+
+.ProgramsCard:hover .IconBox img{
+  animation: hithere 1s ease infinite;
 }
-.IconBox:hover img {
-    transform: translateY(-6px) scale(1.08);
-} */
-.IconBox {
-    perspective: 600px;
+@keyframes hithere {
+30% {
+    transform: scale(1.1);
 }
-
-/* .IconBox img {
-    max-height: 90px;
-    width: auto;
-    transition: transform .4s ease;
-    transform-style: preserve-3d;
+40%, 60% {
+    transform: rotate(-20deg) scale(1.1);
 }
-
-.IconBox:hover img {
-    transform: rotateY(12deg) scale(1.05);
-} */
- .IconBox img {
-    max-height: 90px;
-    width: auto;
-
-    animation: zoomPulse 3s ease-in-out infinite;
-    will-change: transform;
-    transform-origin: center;
+50% {
+    transform: rotate(20deg) scale(1.1);
 }
-
-@keyframes zoomPulse {
-    0%,
-    100% {
-        transform: scale(0.9);
-    }
-
-    50% {
-        transform: scale(1.08);
-    }
+70% {
+    transform: rotate(0deg) scale(1.1);
+}
+100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
 }
 .Programshead {
   min-height: 50px;
@@ -1169,6 +1150,12 @@ Body {
   line-height: normal;
   padding: 5px 12px;
   border: 1px solid #fff;
+  height:22px;
+  transition-duration:0.5s;
+}
+.ProgramsCard:hover .badge{
+  background-color:#fff;
+  color:#000;
 }
 .exploreMorelink {
   font-family: "Metropolis-SemiBold";
