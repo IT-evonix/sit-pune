@@ -1,9 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import Image from "next/image";
 import InternationalDualDegree from "./InternationalDualDegree";
-// import Link from "next/link";
 
 const Internationalization = () => {
   const [counts, setCounts] = useState({
