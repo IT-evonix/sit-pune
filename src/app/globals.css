@@ -888,7 +888,7 @@ Body {
   content: "";
   background-image: url(/images/home/about-img.webp);
   width: 100%;
-  height: 478px;
+  height: 470px;
   position: absolute;
   top: 59%;
   right: 0px;
@@ -896,7 +896,7 @@ Body {
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
-  animation: floatImage 4s ease-in-out infinite;
+  animation: floatImage 5s ease-in-out infinite;
 }
 /* .Aboutus_section::after {
   content: "";
@@ -982,13 +982,43 @@ Body {
 .academic_programs_section {
   padding: 60px 0px 0px 0px;
 }
-.academic_programs_blue {
+/* .academic_programs_blue {
   background-color: #10467f;
   background-image: url("/images/home/bluebg-dotted.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   padding: 20px 0px 60px 0px;
+} */
+
+.academic_programs_blue {
+    position: relative;
+    overflow: hidden;
+    background-color: #10467f;
+    padding: 20px 0 60px;
+    z-index: 1;
+}
+
+.academic_programs_blue::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url("/images/home/bluebg-dotted.svg") center/cover no-repeat;
+    z-index: -1;
+    animation: floatBg 8s ease-in-out infinite;
+    will-change: transform;
+}
+
+@keyframes floatBg {
+    0% {
+        transform: scale(1) translate(0, 0);
+    }
+    50% {
+        transform: scale(1.05) translate(10px, -10px);
+    }
+    100% {
+        transform: scale(1) translate(0, 0);
+    }
 }
 .ProgramsTabbing {
   margin: 0px 0px -150px 0px;
@@ -1080,7 +1110,48 @@ Body {
   width: auto;
   transition-duration: 0.7s;
 }
+/* .IconBox img {
+    max-height: 90px;
+    width: auto;
+    transition: transform .4s ease;
+    will-change: transform;
+}
+.IconBox:hover img {
+    transform: translateY(-6px) scale(1.08);
+} */
+.IconBox {
+    perspective: 600px;
+}
 
+/* .IconBox img {
+    max-height: 90px;
+    width: auto;
+    transition: transform .4s ease;
+    transform-style: preserve-3d;
+}
+
+.IconBox:hover img {
+    transform: rotateY(12deg) scale(1.05);
+} */
+ .IconBox img {
+    max-height: 90px;
+    width: auto;
+
+    animation: zoomPulse 3s ease-in-out infinite;
+    will-change: transform;
+    transform-origin: center;
+}
+
+@keyframes zoomPulse {
+    0%,
+    100% {
+        transform: scale(0.9);
+    }
+
+    50% {
+        transform: scale(1.08);
+    }
+}
 .Programshead {
   min-height: 50px;
   font-family: "Metropolis-Bold";
@@ -1150,8 +1221,18 @@ Body {
   height: 420px;
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom:-12px;
+  animation:floatImage1 5s ease-in-out infinite;
 }
+@keyframes floatImage1{
+    0%,100%{
+        transform:translateY(0);
+    }
+    50%{
+        transform:translateY(-12px);
+    }
+}
+
 .placementnumber {
   gap: 20px;
   display: flex;
@@ -1168,10 +1249,12 @@ Body {
 .border-none {
   border: none !important;
 }
-/* .placementNum{
-  border-right:1px solid #000;
-  width: auto;
-} */
+.placementNum{
+  min-width: 125px;
+}
+.border-none{
+  min-width:110px;
+}
 .verticalline {
   width: 1px;
   height: 70px;
@@ -1432,15 +1515,36 @@ Body {
   display: flex;
   gap: 10px;
 }
-.internationalization_box {
-  border-radius: 10px;
+.internationalization_box{
+  border-radius: 15px;
   background: #fff;
   padding: 14px;
   width: 31%;
+  position:relative;
 }
-.internationalization_box:hover {
+.internationalization_inner{
+  position:relative;
+  z-index:1;
+}
+.internationalization_box::after{
+    background-color: #10467f;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0%;
+    width: 0%;
+    content: '';
+    transition-duration: 0.5s;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.internationalization_box:hover::after {
+    height: 100%;
+    width: 100%;
+}
+/* .internationalization_box:hover {
   background-color: #10467f;
-}
+} */
 .internationalization_box svg {
   max-height: 40px;
   margin: 0px 0px 14px 0px;
@@ -1467,15 +1571,20 @@ Body {
   flex-wrap: wrap;
   gap: 16px;
 }
-.internationalization_list {
-  display: flex;
-  gap: 15px;
-  padding: 17px;
+.internationalization_list{
+  position: relative;
   background: #fff;
   border-radius: 20px;
   box-shadow: 0px 5px 10px #0000000a;
+}
+.internationalization_listinner{
+  display: flex;
+  gap: 15px;
+  padding: 17px;  
   align-items: center;
   transition: all 0.3s ease;
+  position: relative;
+  z-index:1;
 }
 .internationalization_list svg path,
 .internationalization_list .svg_circle,
@@ -1483,9 +1592,29 @@ Body {
 .internationalization_list p {
   transition: all 0.5s ease;
 }
-.internationalization_list:hover {
-  background-color: #10467f;
+.internationalization_listinner{
+  position:relative;
+  z-index:1;
 }
+.internationalization_list::after{
+  background-color: #10467f;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0%;
+  width: 0%;
+  content: '';
+  transition-duration: 0.5s;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.internationalization_list:hover::after {
+  height: 100%;
+  width: 100%;
+}
+/* .internationalization_list:hover {
+  background-color: #10467f;
+} */
 .internationalization_list:hover path {
   fill: #fff;
 }
@@ -1696,7 +1825,33 @@ Body {
   text-align: center;
   padding: 50px 0px 0px 0px;
   line-height: 90px;
+  overflow: hidden;
+  position: relative;
 }
+.SITPUNE::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -120%;
+    width: 60%;
+    height: 100%;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255,255,255,.35),
+        transparent
+    );
+    transform: skewX(-25deg);
+    animation: shine 5s linear infinite;
+    will-change: transform;
+}
+@keyframes shine {
+    to{
+        transform: translateX(420%) skewX(-25deg);
+    }
+}
+
+ 
 .sit-footer {
   background: #f4f4f4;
   padding-top: 40px;
@@ -1808,6 +1963,8 @@ Body {
   flex-shrink: 1px;
   max-height: 16px;
   transition: 0.5s;
+  max-width: 15px;
+  min-width: 15px;
 }
 .footer-links ul li:hover svg {
   color: #c4161c !important;

@@ -199,8 +199,6 @@ const Overview = () => {
             </div>
           </div>
         </div>
-
-        {/* Highlights Start Here */}
         <div className="program_highlights_box">
           <div className="program_highlights_left">
             <div className="verticalScroll">
@@ -250,10 +248,7 @@ const Overview = () => {
             </div>
           </div>
         </div>
-
-        {/* International University Collaboration Start Here */}
-        <div
-          className="program_highlights_box grey_gradient"
+        <div className="program_highlights_box grey_gradient"
           style={{
             background:
               "linear-gradient(90deg,rgba(255, 255, 255, 1) 0%, rgba(232, 231, 231, 1) 100%);",
@@ -307,7 +302,6 @@ const Overview = () => {
               </div>
           </div>
         </div>
-
         <div className="computing_facility_section">
           <div className="computing_facility_inner">
             <div className="heading innerpageheading">
@@ -327,7 +321,6 @@ const Overview = () => {
             </ul>
           </div>
         </div>
-
         <div className="job_roles_recuiters">
           <div className="job_roles_recuitersinner">
             <div className="job_roles_recuitersleft">
@@ -405,7 +398,6 @@ const Overview = () => {
             </div>
           </div>
         </div>
-
         <div className="intake_main">
           <div className="row">
             <div className="col-md-7">
