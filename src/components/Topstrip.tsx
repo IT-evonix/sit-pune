@@ -13,7 +13,7 @@ const Topstrip = () => {
   const topLinks: TopLink[] = [
     {
       title: "Admission Registration 2026",
-      link: "/admission-registration-2026",
+      link: "/",
       highlight: true,
     },
     {

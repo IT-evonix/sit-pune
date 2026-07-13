@@ -9,9 +9,6 @@ import "@fancyapps/ui/dist/fancybox/fancybox.css";
 import StickyLinks from "@/components/StickyLinks";
 
 
-
-
-
 export const metadata: Metadata = {
   title: "SIT | Home Page",
   description: "SIT Pune is one of the best engineering colleges in Pune for B Tech programs. Explore top B Tech colleges in Pune, courses, infrastructure, and career growth.",

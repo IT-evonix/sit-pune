@@ -1,32 +1,86 @@
-import React from "react";
+"use client";
+
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import InternationalDualDegree from "./InternationalDualDegree";
 // import Link from "next/link";
+
 const Internationalization = () => {
+  const [counts, setCounts] = useState({
+    universities: 0,
+    countries: 0,
+    credit: 0,
+  });
+
+  useEffect(() => {
+    const duration = 2000; // Animation duration (2 seconds)
+    const interval = 20;
+    const steps = duration / interval;
+
+    const target = {
+      universities: 15,
+      countries: 8,
+      credit: 100,
+    };
+
+    let currentStep = 0;
+
+    const timer = setInterval(() => {
+      currentStep++;
+
+      setCounts({
+        universities: Math.min(
+          Math.round((target.universities * currentStep) / steps),
+          target.universities,
+        ),
+        countries: Math.min(
+          Math.round((target.countries * currentStep) / steps),
+          target.countries,
+        ),
+        credit: Math.min(
+          Math.round((target.credit * currentStep) / steps),
+          target.credit,
+        ),
+      });
+
+      if (currentStep >= steps) {
+        clearInterval(timer);
+      }
+    }, interval);
+
+    return () => clearInterval(timer);
+  }, []);
+
   return (
-    <div>
-      <div className="internationalization_section">
-        <div className="internationalization_top">
-          <div className="container">
-            <div className="internationalization_main">
-              <div className="internationalization_left">
-                <div className="div">
-                  {/* <div className="heading_small">Internationalization</div> */}
-                  <div className="heading"> <span>Internationalization</span></div>
-                  <div className="subheading">
-                    Global Exposure & Advanced{" "}
-                    <span> Academic Pathways for Future Leaders</span>
-                  </div>
-                  <p>
-                    Students gain access to international opportunities for
-                    academic progression and global employability.
-                  </p>
-                  <button className="Apply-Now-via-SITEEE customBtn">
-                    Apply Now <span>via SITEEE</span>
-                  </button>
+    <div className="internationalization_section">
+      <div className="internationalization_top">
+        <div className="container">
+          <div className="internationalization_main">
+            <div className="internationalization_left">
+              <div className="div">
+                {/* <div className="heading_small">Internationalization</div> */}
+                <div className="heading">
+                  <span>Internationalization</span>
                 </div>
-                <div className="internationalization_box_main">
-                  <div className="internationalization_box">
+
+                <div className="subheading">
+                  Global Exposure & Advanced{" "}
+                  <span>Academic Pathways for Future Leaders</span>
+                </div>
+
+                <p>
+                  Students gain access to international opportunities for
+                  academic progression and global employability.
+                </p>
+
+                <button className="Apply-Now-via-SITEEE customBtn">
+                  Apply Now <span>via SITEEE</span>
+                </button>
+              </div>
+
+              <div className="internationalization_box_main">
+                <div className="internationalization_box">
+                  <div className="internationalization_inner">
                     <div className="text-start">
                       <svg
                         width="42"
@@ -45,10 +99,15 @@ const Internationalization = () => {
                         />
                       </svg>
                     </div>
-                    <div className="internationalization_count">15+</div>
+                    <div className="internationalization_count">
+                      {counts.universities}+
+                    </div>
                     <div className="intetext">Partner Universities</div>
                   </div>
-                  <div className="internationalization_box">
+                </div>
+
+                <div className="internationalization_box">
+                  <div className="internationalization_inner">
                     <div className="text-start">
                       <svg
                         width="42"
@@ -63,12 +122,16 @@ const Internationalization = () => {
                         />
                       </svg>
                     </div>
-                    <div className="internationalization_count">8+</div>
+                    <div className="internationalization_count">
+                      {counts.countries}+
+                    </div>
                     <div className="intetext">Countries Worldwide</div>
                   </div>
-                  <div className="internationalization_box">
-                    <div className="text-start">
+                </div>
 
+                <div className="internationalization_box">
+                  <div className="internationalization_inner">
+                    <div className="text-start">
                       <svg
                         width="38"
                         height="41"
@@ -106,16 +169,20 @@ const Internationalization = () => {
                         />
                       </svg>
                     </div>
-                    <div className="internationalization_count">100%</div>
+                    <div className="internationalization_count">
+                      {counts.credit}%
+                    </div>
                     <div className="intetext">Credit Transfer Support</div>
                   </div>
                 </div>
               </div>
-              <div className="internationalization_right">
-                <div className="internationalization_lists">
-                  <div className="internationalization_list">
+            </div>
+
+            <div className="internationalization_right">
+              <div className="internationalization_lists">
+                <div className="internationalization_list">
+                  <div className="internationalization_listinner">
                     <div className="internationalization_list_left">
-                      
                       <svg
                         width="85"
                         height="85"
@@ -143,13 +210,15 @@ const Internationalization = () => {
                       </div>
                       <p>
                         Explore new cultures, study abroad, and widen your
-                        global perspective
+                        global perspective.
                       </p>
                     </div>
                   </div>
-                  <div className="internationalization_list">
+                </div>
+
+                <div className="internationalization_list">
+                  <div className="internationalization_listinner">
                     <div className="internationalization_list_left">
-                     
                       <svg
                         width="84"
                         height="85"
@@ -241,16 +310,18 @@ const Internationalization = () => {
                     </div>
                     <div className="internationalization_list_right">
                       <div className="listhead">Summer & Winter School:</div>
+
                       <p>
                         Attend short-term programmes at leading global
                         universities to strengthen your academic profile.
                       </p>
                     </div>
                   </div>
-                  <div className="internationalization_list">
-                    <div className="internationalization_list_left">
-                     
+                </div>
 
+                <div className="internationalization_list">
+                  <div className="internationalization_listinner">
+                    <div className="internationalization_list_left">
                       <svg
                         width="87"
                         height="87"
@@ -289,13 +360,14 @@ const Internationalization = () => {
                       <div className="listhead">International Study Tours:</div>
                       <p>
                         Visit countries like France, Germany, and the UK to
-                        engage with top universities and industries
+                        engage with top universities and industries.
                       </p>
                     </div>
                   </div>
-                  <div className="internationalization_list">
+                </div>
+                <div className="internationalization_list">
+                  <div className="internationalization_listinner">
                     <div className="internationalization_list_left">
-                    
                       <svg
                         width="87"
                         height="87"
@@ -351,19 +423,21 @@ const Internationalization = () => {
             </div>
           </div>
         </div>
-        <InternationalDualDegree />
-        <div className="internationalization_bottom d-none">
-          <div className="container">
-            <div className="international_inner">
-              <div className="International_leftbox">
-                <div className="International_heading">
-                  International Dual Degree Programmes
-                </div>
+      </div>
+
+      <InternationalDualDegree />
+      <div className="internationalization_bottom d-none">
+        <div className="container">
+          <div className="international_inner">
+            <div className="International_leftbox">
+              <div className="International_heading">
+                International Dual Degree Programmes
               </div>
-              <div className="International_rightbox">
-                <div className="academic_progression_heading">
-                  Academic Progression Programmes
-                </div>
+            </div>
+
+            <div className="International_rightbox">
+              <div className="academic_progression_heading">
+                Academic Progression Programmes
               </div>
             </div>
           </div>

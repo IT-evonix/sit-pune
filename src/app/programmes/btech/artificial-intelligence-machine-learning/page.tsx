@@ -114,7 +114,7 @@ const AIMLPage = () => {
           { label: "B Tech (Artificial Intelligence and Machine Learning)" },
         ]}
       />
-  
+
       <div className="container-fluid py-5">
         <TabbingSidebar heading="B.Tech AIML" tabs={tabs} />
       </div>
