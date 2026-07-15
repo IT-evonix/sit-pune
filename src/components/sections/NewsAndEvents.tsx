@@ -56,28 +56,22 @@ const NewsAndEvents = () => {
                   className="featured-image"
                 />
 
-                {/* <div className="overlay"></div> */}
-
                 <div className="featured-content">
                   <span className="heading_small onbg">CAMPUS NEWS</span>
-
                   <h3>
                     SIT Pune Ranked Among <br />
                     Top Emerging Engineering Institutes in India
                   </h3>
-
                   <p>
                     Recognized for academic excellence, innovation and industry
                     collaboration. Team Raacers from SIT Pune wins National
                     Level Robotics Championship
                   </p>
-
                   <div className="d-flex justify-content-between align-items-center flex-wrap gap-3 mt-4">
                     <div className="date-box">
                       <CalendarDays size={16} />
                       <span>20 May 2024</span>
                     </div>
-
                     <button className="read-more-btn">
                       Read More <ArrowRight size={16} />
                     </button>
@@ -96,8 +90,7 @@ const NewsAndEvents = () => {
                       index !== newsData.length - 1 ? "border-bottom-item" : ""
                     }`}
                   >
-                    <div className="d-flex gap-4">
-                      {/* IMAGE */}
+                    <div className="d-flex gap-4 position-relative z-1">
                       <div className="news-thumb">
                         <Image
                           src={item.image}
@@ -106,17 +99,13 @@ const NewsAndEvents = () => {
                           className="thumb-img"
                         />
                       </div>
-
-                      {/* CONTENT */}
-                      <div className="flex-grow-1">
+                     <div className="flex-grow-1">
                         <h5>{item.title}</h5>
-
                         <div className="d-flex justify-content-between align-items-center mt-3">
                           <div className="date-box small-date">
                             <CalendarDays size={16} />
                             <span>{item.date}</span>
                           </div>
-
                           <ArrowRight
                             size={16}
                             className="arrow-icon"

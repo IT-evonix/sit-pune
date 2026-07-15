@@ -1,9 +1,9 @@
-﻿"use client";
+"use client";
 
 import { useState, useRef, useEffect } from "react";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Autoplay } from "swiper/modules";
+import { Navigation } from "swiper/modules";
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -122,7 +122,7 @@ export function ProgramTabs({
     { label: "Undergraduate", value: "UG" },
     { label: "Postgraduate", value: "PG" },
     { label: "Dual Degree", value: "DualDegree" },
-    { label: "PhD", value: "DOCTORAL" },    
+    { label: "PhD", value: "DOCTORAL" },
   ];
 
   return (
@@ -173,7 +173,13 @@ export function ProgramSlider({ data }: { data: Program[] }) {
   const showNav = isMobile ? data.length > 2 : data.length > 4;
 
   useEffect(() => {
-    if (!swiperReady || !swiperRef.current || !prevRef.current || !nextRef.current) return;
+    if (
+      !swiperReady ||
+      !swiperRef.current ||
+      !prevRef.current ||
+      !nextRef.current
+    )
+      return;
 
     const swiper = swiperRef.current;
     const params = swiper.params as any;
@@ -197,12 +203,7 @@ export function ProgramSlider({ data }: { data: Program[] }) {
         spaceBetween={25}
         slidesPerView={1}
         loop={showNav}
-        autoplay={{
-          delay: 2000, // 2 seconds
-          disableOnInteraction: false,
-          pauseOnMouseEnter: true,
-        }}
-        speed={800} // Smooth transition
+
         onSwiper={(swiper) => {
           swiperRef.current = swiper;
           setSwiperReady(true);
@@ -221,7 +222,12 @@ export function ProgramSlider({ data }: { data: Program[] }) {
           <SwiperSlide key={program.id}>
             <div className="ProgramsCard">
               <div className="IconBox">
-                <Image src={program.icon} alt={program.name} width={90} height={90} />
+                <Image
+                  src={program.icon}
+                  alt={program.name}
+                  width={90}
+                  height={90}
+                />
               </div>
 
               <h5 className="Programshead">{program.name}</h5>
@@ -236,7 +242,12 @@ export function ProgramSlider({ data }: { data: Program[] }) {
 
               <a href="#" className="exploreMorelink">
                 Explore More
-                <Image src="/images/home/right-arrow.svg" alt="arrow" width={16} height={16} />
+                <Image
+                  src="/images/home/right-arrow.svg"
+                  alt="arrow"
+                  width={16}
+                  height={16}
+                />
               </a>
             </div>
           </SwiperSlide>
@@ -270,7 +281,7 @@ export default function AcademicPrograms() {
               <ProgramTabs activeTab={activeTab} setActiveTab={setActiveTab} />
             </div>
             <div className="col-lg-6 text-center">
-              <Image 
+              <Image
                 src="/images/home/student.webp"
                 alt="Students"
                 width={500}

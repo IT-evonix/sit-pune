@@ -43,7 +43,7 @@ const Footer = () => {
                     <div className="icon-box">
                       <Phone size={22} />
                     </div>
-                    <a href="tel:+91-20-61936300/6464/6419">+91-20-61936300</a>/ 
+                    <a href="tel:+91-20-61936300">+91-20-61936300</a>/ 
                     <a href="tel:+91-20-61936464">6464</a> /
                     <a href="tel:+91-20-61936419">6419</a>
                   </div>
@@ -144,7 +144,6 @@ const Footer = () => {
                   </ul>
                 </div>
               </div>
-
               <div className="col-lg-3">
                 <div className="footer-links">
                   <h3>
