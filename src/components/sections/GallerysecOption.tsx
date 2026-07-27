@@ -35,12 +35,18 @@ export default function GallerySec() {
     { id: 4, image: "/images/gallery/gallery1.webp" },
     { id: 5, image: "/images/gallery/gallery2.webp" },
     { id: 6, image: "/images/gallery/gallery3.webp" },
+    { id: 7, image: "/images/gallery/gallery1.webp" },
+    { id: 8, image: "/images/gallery/gallery2.webp" },
+    { id: 9, image: "/images/gallery/gallery3.webp" },
+    { id: 10, image: "/images/gallery/gallery1.webp" },
+    { id: 11, image: "/images/gallery/gallery2.webp" },
+    { id: 12, image: "/images/gallery/gallery3.webp" },
   ];
 
   return (
     <section className="gallery-section">
       <Container>
-        <div className="text-center mb-5">
+        <div className="text-center mb-4">
           <h2 className="heading text-white fw-bold">
             Campus <span className="text-warning">Life</span>
           </h2>
@@ -53,11 +59,11 @@ export default function GallerySec() {
 
         <div ref={containerRef}>
           <Swiper
-            // modules={[Autoplay]}
+            modules={[Autoplay]}
             loop={true}
             centeredSlides={true}
-            slidesPerView={2.2}
-            spaceBetween={-120}
+            slidesPerView={5}
+            spaceBetween={-180}
             speed={900}
             autoplay={{
               delay: 3000,
@@ -73,8 +79,8 @@ export default function GallerySec() {
                 spaceBetween: -80,
               },
               1200: {
-                slidesPerView: 2.2,
-                spaceBetween: -120,
+                slidesPerView: 5,
+                spaceBetween: -100,
               },
             }}
             className="gallerySwiper"
@@ -99,7 +105,7 @@ export default function GallerySec() {
           </Swiper>
         </div>
 
-        <div className="d-flex justify-content-center gap-4 mt-5 flex-wrap">
+        <div className="d-flex justify-content-center gap-4 mt-4 flex-wrap">
           <Button className="campustourBtn">
             Campus <span>Tour</span>
           </Button>

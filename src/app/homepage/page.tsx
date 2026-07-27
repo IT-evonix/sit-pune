@@ -5,12 +5,14 @@ import LatestUpdate from "@/components/sections/LatestUpdate";
 import AboutUs from "@/components/sections/AboutUs";
 import StatsSection from "@/components/sections/StatsSection";
 import AcademicPrograms from "@/components/sections/AcademicPrograms";
+// import AcademicPrograms2 from "@/components/sections/AcademicPrograms2";
 import Placements from "@/components/sections/Placements";
 import CompanySlider from "@/components/sections/CompanySlider";
-import GallerySec from "@/components/sections/GallerySec";
+// import GallerySec from "@/components/sections/GallerySec";
+import GallerysecNew from "@/components/sections/GallerysecNew";
+// import GallerysecOption from "@/components/sections/GallerysecOption";
 import NewsAndEvents from "@/components/sections/NewsAndEvents";
 import Internationalization from "@/components/sections/Internationalization";
-// import Herobannervideo from "@/components/sections/Herobannervideo";
 
 
 
@@ -25,9 +27,12 @@ export default function Home() {
       <AboutUs/>
       <StatsSection />
       <AcademicPrograms />
+      {/* <AcademicPrograms2 /> */}
       <Placements/>
       <CompanySlider/>
-      <GallerySec/>
+      {/* <GallerySec/> */}
+      <GallerysecNew/>
+      {/* <GallerysecOption/> */}
       <Internationalization/>
       <NewsAndEvents/>      
     </div>
