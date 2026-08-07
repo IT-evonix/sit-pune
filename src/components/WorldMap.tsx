@@ -10,24 +10,17 @@ const WorldMap = () => {
   return (
     <section className="world_map_section">
       <div className="container">
-
         {/* Heading */}
 
         <div className="section_heading text-center">
-
-          <span className="sub_heading">
-            INTERNATIONALIZATION
-          </span>
-
-          <h2>
+          <div className="heading">
             SIT Pune on the <span>World Map</span>
-          </h2>
+          </div>
 
           <p>
-            Hover over any country marker to explore our partnerships,
-            exchange programmes and research collaborations.
+            Hover over any country dot to explore our partnerships, exchange
+            programmes, <br /> and research collaborations.
           </p>
-
         </div>
 
         {/* =========================
@@ -35,9 +28,7 @@ const WorldMap = () => {
         ========================= */}
 
         <div className="world_map_desktop d-none d-lg-block">
-
           <div className="world_map_wrapper">
-
             <Image
               src="/images/home/map.webp"
               alt="World Map"
@@ -48,7 +39,6 @@ const WorldMap = () => {
             />
 
             {locations.map((item) => (
-
               <div
                 key={item.id}
                 className={`map_marker marker_${item.direction}`}
@@ -59,7 +49,6 @@ const WorldMap = () => {
                 onMouseEnter={() => setActiveLocation(item)}
                 onMouseLeave={() => setActiveLocation(null)}
               >
-
                 <Image
                   src="/images/home/location-pin.svg"
                   alt={item.title}
@@ -69,47 +58,27 @@ const WorldMap = () => {
                 />
 
                 {activeLocation?.id === item.id && (
-
                   <div className={`map_tooltip tooltip_${item.direction}`}>
+                    <h5>{item.title}</h5>
 
-                    <h5>
-                      {item.title}
-                    </h5>
-
-                    <h6>
-                      {item.university}
-                    </h6>
+                    <h6>{item.university}</h6>
 
                     <p className="tooltip_location">
                       {item.city}, {item.country}
                     </p>
 
                     <div className="tooltip_tags">
+                      <span>{item.programme}</span>
 
-                      <span>
-                        {item.programme}
-                      </span>
+                      <span>{item.collaboration}</span>
 
-                      <span>
-                        {item.collaboration}
-                      </span>
-
-                      <span>
-                        Est. {item.established}
-                      </span>
-
+                      <span>Est. {item.established}</span>
                     </div>
-
                   </div>
-
                 )}
-
               </div>
-
             ))}
-
           </div>
-
         </div>
 
         {/* =========================
@@ -117,18 +86,10 @@ const WorldMap = () => {
         ========================= */}
 
         <div className="world_map_mobile d-lg-none">
-
           <div className="row">
-
-                        {locations.map((item) => (
-
-              <div
-                className="col-12 col-md-6 mb-3"
-                key={item.id}
-              >
-
+            {locations.map((item) => (
+              <div className="col-12 col-md-6 mb-3" key={item.id}>
                 <div className="mobile_card">
-
                   <h5>{item.title}</h5>
 
                   <p>{item.university}</p>
@@ -138,25 +99,16 @@ const WorldMap = () => {
                   </small>
 
                   <div className="tooltip_tags">
-
                     <span>{item.programme}</span>
 
                     <span>{item.collaboration}</span>
-
                   </div>
-
                 </div>
-
               </div>
-
             ))}
-
           </div>
-
         </div>
-
       </div>
-
     </section>
   );
 };

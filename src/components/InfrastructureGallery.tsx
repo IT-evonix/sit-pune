@@ -9,9 +9,8 @@ export type MediaItem = {
   id: number;
   type: "image" | "video" | "youtube";
   src: string;
-  name: string;
+  name?: string;
 };
-
 type Props = {
   title: string;
   images: MediaItem[];
@@ -79,7 +78,7 @@ export default function InfrastructureGallery({
               >
                 <Image
                   src={item.src}
-                  alt={item.name}
+                  alt={item.name ?? "Gallery Image"}
                   width={700}
                   height={500}
                   className="img-fluid infrastructure_img"
@@ -120,12 +119,14 @@ export default function InfrastructureGallery({
                 data-caption={item.name}
               >
                 <div className="media-wrapper">
-                  <img
+                  <Image
                     src={`https://img.youtube.com/vi/${getYoutubeId(
                       item.src
                     )}/hqdefault.jpg`}
-                    alt={item.name}
+                    alt={item.name ?? "YouTube Thumbnail"}
                     className="infrastructure_img"
+                    width={700}
+                    height={500}
                   />
 
                   <span className="play-icon">

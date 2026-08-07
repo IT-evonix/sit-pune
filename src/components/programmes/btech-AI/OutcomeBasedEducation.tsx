@@ -5,15 +5,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {
   // Eye,
   // Target,
-  Brain,
-  Cpu,
-  Globe,
+  // Brain,
+  // Cpu,
+  // Globe,
   // GraduationCap,
   // ShieldCheck,
-  BookOpen,
-  Leaf,
+  // BookOpen,
+  // Leaf,
   // Users,
-  Briefcase,
+  // Briefcase,
 } from 'lucide-react';
 
 const Page = () => {
@@ -36,99 +36,98 @@ const Page = () => {
     },
   ];
 
-  const peos = [
-    {
-      title: 'PEO 1',
-      desc: 'Apply core and advanced AI & ML knowledge to solve real-world engineering problems.',
-      icon: <Brain size={35} strokeWidth={1.5}/>,
-    },
-    {
-      title: 'PEO 2',
-      desc: 'Apply analytical and innovation skills to design intelligent systems.',
-      icon: <Cpu size={35} strokeWidth={1.5}/>,
-    },
-    {
-      title: 'PEO 3',
-      desc: 'Apply ethical, leadership, and entrepreneurial skills effectively.',
-      icon: <Globe size={35} strokeWidth={1.5}/>,
-    },
-  ];
+  // const peos = [
+  //   {
+  //     title: 'PEO 1',
+  //     desc: 'Apply core and advanced AI & ML knowledge to solve real-world engineering problems.',
+  //     icon: <Brain size={35} strokeWidth={1.5}/>,
+  //   },
+  //   {
+  //     title: 'PEO 2',
+  //     desc: 'Apply analytical and innovation skills to design intelligent systems.',
+  //     icon: <Cpu size={35} strokeWidth={1.5}/>,
+  //   },
+  //   {
+  //     title: 'PEO 3',
+  //     desc: 'Apply ethical, leadership, and entrepreneurial skills effectively.',
+  //     icon: <Globe size={35} strokeWidth={1.5}/>,
+  //   },
+  // ];
 
-  const pos = [
-    {
-      no: 1,
-      title: 'Engineering Knowledge',
-      desc: 'Apply mathematics, science, and engineering fundamentals.',
-    },
-    {
-      no: 2,
-      title: 'Problem Analysis',
-      desc: 'Identify and analyze complex engineering problems.',
-    },
-    {
-      no: 3,
-      title: 'Design Solutions',
-      desc: 'Design system components for societal needs.',
-    },
-    {
-      no: 4,
-      title: 'Research Methods',
-      desc: 'Use research-based knowledge and experiments.',
-    },
-    {
-      no: 5,
-      title: 'Modern Tool Usage',
-      desc: 'Apply modern engineering and IT tools.',
-    },
-    {
-      no: 6,
-      title: 'Engineer & Society',
-      desc: 'Understand societal and cultural responsibilities.',
-    },
-  ];
+  // const pos = [
+  //   {
+  //     no: 1,
+  //     title: 'Engineering Knowledge',
+  //     desc: 'Apply mathematics, science, and engineering fundamentals.',
+  //   },
+  //   {
+  //     no: 2,
+  //     title: 'Problem Analysis',
+  //     desc: 'Identify and analyze complex engineering problems.',
+  //   },
+  //   {
+  //     no: 3,
+  //     title: 'Design Solutions',
+  //     desc: 'Design system components for societal needs.',
+  //   },
+  //   {
+  //     no: 4,
+  //     title: 'Research Methods',
+  //     desc: 'Use research-based knowledge and experiments.',
+  //   },
+  //   {
+  //     no: 5,
+  //     title: 'Modern Tool Usage',
+  //     desc: 'Apply modern engineering and IT tools.',
+  //   },
+  //   {
+  //     no: 6,
+  //     title: 'Engineer & Society',
+  //     desc: 'Understand societal and cultural responsibilities.',
+  //   },
+  // ];
 
-  const psos = [
-    {
-      title: 'PSO 1',
-      desc: 'Deploy AI & ML techniques to solve industry and societal problems.',
-      icon: <Cpu size={35} strokeWidth={1.5}/>,
-    },
-    {
-      title: 'PSO 2',
-      desc: 'Implement advanced AI solutions like NLP, CV, RL, IoT and Generative AI.',
-      icon: <Brain size={35} strokeWidth={1.5}/>,
-    },
-  ];
+  // const psos = [
+  //   {
+  //     title: 'PSO 1',
+  //     desc: 'Deploy AI & ML techniques to solve industry and societal problems.',
+  //     icon: <Cpu size={35} strokeWidth={1.5}/>,
+  //   },
+  //   {
+  //     title: 'PSO 2',
+  //     desc: 'Implement advanced AI solutions like NLP, CV, RL, IoT and Generative AI.',
+  //     icon: <Brain size={35} strokeWidth={1.5}/>,
+  //   },
+  // ];
 
-  const graduateAttributes = [
-    {
-      title: 'GA 1',
-      subtitle: 'Scholarship',
-      icon: <BookOpen size={35} strokeWidth={1.5}/>,
-    },
-    {
-      title: 'GA 2',
-      subtitle: 'Global Citizenship',
-      icon: <Globe size={35} strokeWidth={1.5}/>,
-    },
-    {
-      title: 'GA 3',
-      subtitle: 'Eco-literate',
-      icon: <Leaf size={35} strokeWidth={1.5} />,
-    },
-    {
-      title: 'GA 4',
-      subtitle: 'Employability',
-      icon: <Briefcase size={34} strokeWidth={1.5}/>,
-    },
-  ];
+  // const graduateAttributes = [
+  //   {
+  //     title: 'GA 1',
+  //     subtitle: 'Scholarship',
+  //     icon: <BookOpen size={35} strokeWidth={1.5}/>,
+  //   },
+  //   {
+  //     title: 'GA 2',
+  //     subtitle: 'Global Citizenship',
+  //     icon: <Globe size={35} strokeWidth={1.5}/>,
+  //   },
+  //   {
+  //     title: 'GA 3',
+  //     subtitle: 'Eco-literate',
+  //     icon: <Leaf size={35} strokeWidth={1.5} />,
+  //   },
+  //   {
+  //     title: 'GA 4',
+  //     subtitle: 'Employability',
+  //     icon: <Briefcase size={34} strokeWidth={1.5}/>,
+  //   },
+  // ];
 
   return (
-    <div className="main_content">
+    <div className="main_content1">
       <div className="outcome_based_education_main">
-      <div className="container">
+      <div className="container1">
         <div className="heading innerpageheading">Outcome Based Education</div>
-        {/* Vision */}
         <div className="card provisionbox">
           <div className="d-flex align-items-start gap-3">
             <div className="visiontextleft">
@@ -141,12 +140,8 @@ const Page = () => {
             </div>
           </div>
         </div>
-        {/* Mission */}
         <div className="card padding30">
           <div className="d-flex align-items-center gap-3 mb-3">
-            {/* <div className="icon-box bg-info text-white">
-              <Target size={35} />
-            </div> */}
             <div className="subheading">Mission</div>
           </div>
           <div className="row g-4">
@@ -162,11 +157,8 @@ const Page = () => {
           </div>
         </div>
         {/* PEO */}
-        <div className="card padding30">
+        {/* <div className="card padding30">
           <div className="d-flex align-items-center gap-3 mb-3">
-            {/* <div className="icon-box bg-success text-white">
-              <GraduationCap size={35} />
-            </div> */}
             <div className="subheading">
               Program Educational <span>Objectives (PEOs)</span>
             </div>
@@ -182,13 +174,10 @@ const Page = () => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
         {/* PO */}
-        <div className="card padding30">
+        {/* <div className="card padding30">
           <div className="d-flex align-items-center gap-3 mb-3">
-            {/* <div className="icon-box bg-secondary text-white">
-              <ShieldCheck size={35} />
-            </div> */}
             <div className="subheading">
                 Program <span>Outcomes (POs)</span>
             </div>
@@ -206,13 +195,10 @@ const Page = () => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
         {/* PSO */}
-        <div className="card padding30">
+        {/* <div className="card padding30">
           <div className="d-flex align-items-center gap-3 mb-3">
-            {/* <div className="icon-box bg-primary text-white">
-              <Cpu size={35} />
-            </div> */}
             <div className="subheading">
               Program Specific <span>Outcomes (PSOs)</span>
             </div>
@@ -228,13 +214,11 @@ const Page = () => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
         {/* Graduate Attributes */}
-        <div className="card padding30">
+        {/* <div className="card padding30">
           <div className="d-flex align-items-center gap-3 mb-3">
-            {/* <div className="icon-box bg-dark text-white">
-              <Users size={35} />
-            </div> */}
+
             <div className="subheading">
               Graduate <span>Attributes</span>
             </div>
@@ -250,7 +234,7 @@ const Page = () => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>      
     </div>
     </div>

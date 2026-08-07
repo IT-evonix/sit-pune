@@ -4,119 +4,130 @@
 import TabbingSidebar from "@/components/TabbingSidebar";
 import InnerpageBanner from "@/components/InnerpageBanner";
 import Overview from "@/components/programmes/btech-AI/Overview";
-import LabsandInfrastructure from "@/components/programmes/btech-AI/LabsandInfrastructure";
-import Eligibility from "@/components/programmes/btech-AI/Eligibility";
-import ProgrammeStructure from "@/components/programmes/btech-AI/ProgrammeStructure";
-import OutcomeBasedEducation from "@/components/programmes/btech-AI/OutcomeBasedEducation";
-import AchievementsandPlacement from "@/components/programmes/btech-AI/AchievementsandPlacement";
-import StakeholderFeedback from "@/components/programmes/btech-AI/StakeholderFeedback";
-import FAQ from "@/components/programmes/btech-AI/FAQ";
-import Newsletter from "@/components/programmes/btech-AI/Newsletter";
-import StudentTestimonials from "@/components/programmes/btech-AI/StudentTestimonials";
-
+import Curriculum from "@/components/programmes/btech-AI/Curriculum";
+import Faculty from "@/components/programmes/btech-AI/Faculty";
+import AlumniAchievements from "@/components/programmes/btech-AI/department-highlights/AlumniAchievements";
+import FacultyAchievements from "@/components/programmes/btech-AI/department-highlights/FacultyAchievements";
+import IndustryInsightSeries from "@/components/programmes/btech-AI/department-highlights/IndustryInsightSeries";
+import InternationalInitiatives from "@/components/programmes/btech-AI/department-highlights/InternationalInitiatives";
+import OurlabsandSpaces from "@/components/programmes/btech-AI/department-highlights/OurlabsandSpaces";
+import StudentAchievements from "@/components/programmes/btech-AI/department-highlights/StudentAchievements";
+import StudentProjects from "@/components/programmes/btech-AI/department-highlights/StudentProjects";
+import HearFromourStudents from "@/components/programmes/btech-AI/HearFromourStudents";
+import MajorsandMinors from "@/components/programmes/btech-AI/MajorsandMinors";
+import Placements from "@/components/programmes/btech-AI/Placements";
+import AIMLDispatch from "@/components/programmes/btech-AI/AIMLDispatch";
 const AIMLPage = () => {
   const tabs = [
     {
       id: "overview",
-      title: "Overview",
+      title: "About the Department",
       content: <Overview />,
     },
-
-    // {
-    //   id: "faculty",
-    //   title: "Faculty Profile",
-    //   content: <FacultyProfile />,
-    // },
-
     {
-      id: "labs",
-      title: "Labs & Infrastructure",
-      content: <LabsandInfrastructure />,
+      id: "Curriculum",
+      title: "Curriculum",
+      content: <Curriculum />,
     },
-
     {
-      id: "eligibility",
-      title: "Eligibility",
-      content: <Eligibility />,
-    },
-
-    {
-      id: "programme-structure",
-      title: "Programme Structure",
-      content: <ProgrammeStructure />,
-    },
-
-    {
-      id: "outcome-based-education",
-      title: "Outcome Based Education",
-      content: <OutcomeBasedEducation />,
-    },
-
-    // SUB TABS EXAMPLE
-    {
-      id: "achievements-and-placement",
-      title: "Recent Achievements & Placement Highlights",
-
+      id: "department-highlights",
+      title: "Department Highlights",
       subTabs: [
+        {
+          id: "alumni-achievments",
+          title: "Alumni Achievements",
+          content: <AlumniAchievements/>,
+        },
+
+        {
+          id: "faculty-achievements",
+          title: "Faculty Achievements",
+          content:<FacultyAchievements/>,
+        },
+
+        {
+          id: "industry-insight-series",
+          title: "Industry Insight Series",
+          content: <IndustryInsightSeries />,
+        },
+        
+        {
+          id: "international-initiatives",
+          title: "International Initiatives",
+          content: <InternationalInitiatives/>,
+        },
+
+        {
+          id: "our-labs-spaces",
+          title: "Our Labs & Spaces",
+          content: <OurlabsandSpaces/>,
+        },
+
         {
           id: "student-achievements",
           title: "Student Achievements",
-          content: <div>Coming Soon</div>,
+          content: <StudentAchievements />,
         },
 
         {
-          id: "placements",
-          title: "Placements",
-          content: <div>Coming Soon</div>,
+          id: "student-projects",
+          title: "Student Projects",
+          content: <StudentProjects/>,
         },
 
         {
-          id: "higher-studies",
-          title: "Higher Studies",
+          id: "upcoming-events",
+          title: "Upcoming Events",
           content: <div>Coming Soon</div>,
         },
       ],
     },
 
     {
-      id: "stakeholder-feedback",
-      title: "Stakeholder Feedback",
-      content: <StakeholderFeedback />,
+      id: "faculty",
+      title: "Faculty",
+      content:<Faculty />,
     },
 
     {
-      id: "student-testimonials",
-      title: "Student Testimonials",
-      content: <StudentTestimonials />,
+      id: "hear-from-our-students",
+      title: "Hear from our Students",
+      content: <HearFromourStudents />,
     },
 
     {
-      id: "faq",
-      title: "FAQ",
-      content: <FAQ />,
+      id: "MajorsandMinors",
+      title: "Majors and Minors",
+      content: <MajorsandMinors />,
     },
 
     {
-      id: "newsletter",
-      title: "Newsletter",
-      content: <Newsletter />,
+      id: "placements",
+      title: "Placements",
+      content: <Placements />,
+    },
+
+    {
+      id: "AIMLDispatch",
+      title: "The AIML Dispatch",
+      content: <AIMLDispatch />,
     },
   ];
 
   return (
     <div className="mainpage-wrapper">
       <InnerpageBanner
-        title={`B.Tech in Artificial Intelligence \n & Machine Learning`}
+        title={`Artificial Intelligence \n & Machine Learning`}
         breadcrumbs={[
           // { label: "Programmes", href: "/programmes" },
           { label: "Programmes" },
 
-          { label: "B Tech (Artificial Intelligence and Machine Learning)" },
+          { label: "AIML" },
         ]}
       />
 
       <div className="container-fluid py-5">
-        <TabbingSidebar heading="B.Tech AIML" tabs={tabs} />
+        <TabbingSidebar heading="AIML" tabs={tabs} />
       </div>
     </div>
   );
