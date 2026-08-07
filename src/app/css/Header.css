@@ -114,7 +114,7 @@ body.menu-open {
     top: 100%;
     left: 50%;
     transform: translateX(-50%) translateY(15px);
-    min-width: 500px;
+    min-width: 230px;
     max-width: 1366;
     width: max-content;
     background: #fff;
@@ -244,14 +244,14 @@ ul {
   padding: 0;
 }
 .site-header {
-  /* position: sticky; */
+  position: sticky;
   top: 0;
   left: 0;
   width: 100%;
   background: #fff;
   z-index: 999;
   border-bottom: 1px solid #ececec;
-  position: relative;
+  /* position: relative; */
 }
 .logo {
   display: flex;

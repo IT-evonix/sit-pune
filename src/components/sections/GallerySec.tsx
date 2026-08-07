@@ -31,15 +31,15 @@ export default function GallerySec() {
   const galleryImages = [
     {
       id: 1,
-      image: "/images/gallery/gallery1.webp",
+      image: "/images/gallery/campus2.webp",
     },
     {
       id: 2,
-      image: "/images/gallery/gallery2.webp",
+      image: "/images/gallery/campus1.webp",
     },
     {
       id: 3,
-      image: "/images/gallery/gallery3.webp",
+      image: "/images/gallery/campus3.webp",
     },
   ];
 

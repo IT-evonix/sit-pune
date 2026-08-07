@@ -1,32 +1,47 @@
 import React from "react";
-
 import Image from "next/image";
+// import OutcomeBasedEducation from "./OutcomeBasedEducation";
 
 const Overview = () => {
+  const missionData = [
+    {
+      title: "1",
+      desc: "To empower students with comprehensive foundations in Artificial Intelligence and Machine Learning, by enabling technical, analytical, and leadership skills to excel in multidisciplinary domains.",
+    },
+    {
+      title: "2",
+      desc: "To promote innovation and applied research through collaborative partnerships with academia, industry, and government bodies.",
+    },
+    {
+      title: "3",
+      desc: "To nurture ethically responsible AI professionals committed to lifelong learning and the development of sustainable and inclusive intelligent solutions.",
+    },
+    {
+      title: "4",
+      desc: "To develop global competence through interdisciplinary learning and active collaboration with international research and industry partners.",
+    },
+  ];
   return (
     <div>
       <div className="main_content">
         <div className="profilemain">
           <div className="profilecontent">
-            {/* <div className="heading innerpageheading">B.Tech <span>(Artificial Intelligence and Machine Learning)</span></div> */}
+            <div className="heading innerpageheading">About the Department </div>
             <p className="m-0 p-0">
-              The technology of Artificial Intelligence and Machine learning is
-              at the forefront of developing intelligent solutions to real-life
-              problems. As our technology-laden society increasingly relies on
-              digital data, machine learning is crucial for most of our current
-              and future applications. Engineers with AI expertise would be
-              needed in all the crucial domains such as Healthcare, Industry
-              4.0, Finance, Agriculture, Security, Law, and Environment
-              Management in the near future. The Department of Artificial
-              Intelligence and Machine Learning is established at SIT, Pune in
-              2021 to spearhead the development of globally competent engineers
-              with AI knowledge and expertise in applying AI to challenging
-              projects. The department, in collaboration with Symbiosis Centre
-              for Applied AI (SCAAI), offers, programs in B.Tech (AI&ML) with an
-              intake of 180 and M.Tech (AI&ML) with an intake of 30 students. A
-              degree in this program is valuable and will make the student
-              industry-relevant with apt knowledge and effectual interpersonal
-              skills and communication skills.
+              The Department of Artificial Intelligence & Machine Learning at
+              Symbiosis Institute of Technology, Pune, stands at the forefront
+              of AI education, empowering students to shape the future through
+              intelligent technologies. Established in 2021, the department
+              combines a strong Computer Science foundation with emerging
+              domains including Generative AI, Agentic AI, Large Language
+              Models, Computer Vision, Data Science, Intelligent Systems,
+              Quantum Computing, and Responsible AI. Supported by advanced
+              laboratories, global academic collaborations, industry-integrated
+              learning, and flexible Majors & Minors, the department cultivates
+              innovation, research excellence, and leadership—preparing
+              graduates to excel as AI professionals, researchers,
+              entrepreneurs, and changemakers in an increasingly AI-driven
+              world.
             </p>
           </div>
           <div className="profileImage">
@@ -39,12 +54,47 @@ const Overview = () => {
             <div className="profileDescription">
               <div className="profileName">Dr. Sumit Kumar</div>
               <div className="profileDepartment">
-                Professor, Head (Department of AI&ML),PhD. (Jamia Millia
-                Islamia), M.Tech , B.Tech
+                <b>Head of Department</b>
+                <div>
+                  <span>Professor</span>
+                </div>
+                <span>PhD (Jamia Millia Islamia), M.Tech, B.Tech</span>
               </div>
             </div>
           </div>
         </div>
+
+        {/* <OutcomeBasedEducation/> */}
+
+        <div className="visionandmision">
+          <div className="card provisionbox">
+            <div className="d-flex align-items-start gap-3">
+              <div className="visiontextleft">
+                <div className="subheading">Vision</div>
+                <p className="section-text">
+                  To evolve as a centre of excellence in Artificial Intelligence and Machine Learning by fostering quality education, research, and industry collaboration to develop globally competent professionals contributing to societal enrichment.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="card">
+            <div className="d-flex align-items-center gap-3 mb-3">
+              <div className="subheading">Mission</div>
+            </div>
+            <div className="row g-4">
+              {missionData.map((item, index) => (
+                <div className="col-lg-3 col-md-6" key={index}>
+                  <div className="mission-card h-100">
+                    <span className="badge mission-badge">{item.title}</span>
+
+                    <p className="mt-3 mb-0">{item.desc}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+
         <div className="program_countrow">
           <div className="program_count_databox">
             <div className="program_count_img">
@@ -94,8 +144,8 @@ const Overview = () => {
               </svg>
             </div>
             <div className="program_count_data">
-              <div className="count">30+</div>
-              <span>Student Intake</span>
+              <div className="count">180 seats</div>
+              <span>B.Tech AIML</span>
             </div>
           </div>
           <div className="verticalline"></div>
@@ -146,8 +196,8 @@ const Overview = () => {
               </svg>
             </div>
             <div className="program_count_data">
-              <div className="count">14+</div>
-              <span>Global University Collaboration</span>
+              <div className="count">30 seats</div>
+              <span>M.Tech AIML</span>
             </div>
           </div>
           <div className="verticalline"></div>
@@ -194,61 +244,119 @@ const Overview = () => {
               </svg>
             </div>
             <div className="program_count_data">
-              <div className="count">Expert</div>
-              <span>Faculty & Industry Mentors</span>
+              <div className="count">-</div>
+              <span>Ph.D. AIML</span>
             </div>
           </div>
         </div>
-        <div className="program_highlights_box">
+
+        {/* <div className="program_highlights_box">
           <div className="program_highlights_left">
             <div className="verticalScroll">
-                <div className="heading innerpageheading">Program Highlights</div>
-                <ul className="listingbox">
-                  <li>Flexi credit Courses</li>
-                  <li>Six-month industry internship</li>
-                  <li>Industry collaboration</li>
-                  <li>
-                    International University exchange programs, summer schools, and
-                    international internships
-                  </li>
-                  <li>Special Diploma in Business management</li>
-                  <li>Mentor- Mentee System and remedial teaching</li>
-                  <li>
-                    Academic Curricula benchmarked with International Universities
-                  </li>
-                  <li>Service learning activities</li>
-                  <li>
-                    Industrial visits, Workshops, Technical events, Guest lectures
-                  </li>
-                  <li>Learn Foreign languages and liberal arts subjects</li>
-                  <li>Tinker Lab</li>
-                  <li>Best in class infrastructural facilities</li>
-                  <li>Specialized Lab in AI, ML and data Science</li>
-                  <li>
-                    Creative Thinking, Critical Thinking, Design Thinking,
-                    Entrepreneurship courses
-                  </li>
-                </ul>
+              <div className="heading innerpageheading">Program Highlights</div>
+              <ul className="listingbox">
+                <li>Flexi credit Courses</li>
+                <li>Six-month industry internship</li>
+                <li>Industry collaboration</li>
+                <li>
+                  International University exchange programs, summer schools,
+                  and international internships
+                </li>
+                <li>Special Diploma in Business management</li>
+                <li>Mentor- Mentee System and remedial teaching</li>
+                <li>
+                  Academic Curricula benchmarked with International Universities
+                </li>
+                <li>Service learning activities</li>
+                <li>
+                  Industrial visits, Workshops, Technical events, Guest lectures
+                </li>
+                <li>Learn Foreign languages and liberal arts subjects</li>
+                <li>Tinker Lab</li>
+                <li>Best in class infrastructural facilities</li>
+                <li>Specialized Lab in AI, ML and data Science</li>
+                <li>
+                  Creative Thinking, Critical Thinking, Design Thinking,
+                  Entrepreneurship courses
+                </li>
+              </ul>
             </div>
           </div>
           <div className="program_highlights_right">
             <div className="verticalScroll redscroll">
-                <div className="headingbg">Department Best Practices</div>
-                <ul className="listingbox">
-                  <li>Courses are skill-based and Industry Oriented</li>
-                  <li>Immense Domain Exposure</li>
-                  <li>Multidisciplinary Application Knowledge</li>
-                  <li>Major Thrust on Hands-on Training</li>
-                  <li>
-                    Involving stakeholders in the practices of curriculum design
-                  </li>
-                  <li>Courses for Holistic Development</li>
-                  <li>Latest technology skill development</li>
-                </ul>
+              <div className="headingbg">Department Best Practices</div>
+              <ul className="listingbox">
+                <li>Courses are skill-based and Industry Oriented</li>
+                <li>Immense Domain Exposure</li>
+                <li>Multidisciplinary Application Knowledge</li>
+                <li>Major Thrust on Hands-on Training</li>
+                <li>
+                  Involving stakeholders in the practices of curriculum design
+                </li>
+                <li>Courses for Holistic Development</li>
+                <li>Latest technology skill development</li>
+              </ul>
+            </div>
+          </div>
+        </div> */}
+        <div className="program_highlights_box">
+          <div className="program_highlights_left">
+            <div className="verticalScroll">
+              <div className="heading innerpageheading">
+                Honours and Minors (Optional)
+              </div>
+              <ul className="listingbox">
+                <li>
+                  B.Tech in AI & Machine Learning with Honours in Generative AI
+                </li>
+                <li>
+                  B.Tech in AI & Machine Learning with Honours in Cloud
+                  Operations & Analytics
+                </li>
+                <li>
+                  B.Tech in AI & Machine Learning with Honours in Digital
+                  Security & Forensics
+                </li>
+                <li>
+                  B.Tech in AI & Machine Learning with Honours in Business
+                  Management & Analytics
+                </li>
+                <li>
+                  B.Tech in AI & Machine Learning with Honours in Quantum
+                  Computing
+                </li>
+                <li>
+                  B.Tech in AI & Machine Learning with Minors in IoT & Embedded
+                  AI
+                </li>
+                <li>
+                  B.Tech in AI & Machine Learning with Minors in Smart
+                  Manufacturing & Intelligent Systems
+                </li>
+                <li>
+                  B.Tech in AI & Machine Learning with Minors in Quantum
+                  Technologies
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="program_highlights_right">
+            <div className="verticalScroll redscroll">
+              <div className="headingbg">Key Infrastructure</div>
+              <ul className="listingbox">
+                <li>Intel Generative AI Lab</li>
+                <li>GPU Workstation Lab</li>
+                <li>Apple Authorized Training Centre</li>
+                <li>Rubiscape Centre of Excellence</li>
+                <li>Data Science & Analytics Lab</li>
+                <li>Computer Vision & NLP Lab</li>
+              </ul>
             </div>
           </div>
         </div>
-        <div className="program_highlights_box grey_gradient"
+
+        {/* <div
+          className="program_highlights_box grey_gradient"
           style={{
             background:
               "linear-gradient(90deg,rgba(255, 255, 255, 1) 0%, rgba(232, 231, 231, 1) 100%);",
@@ -260,11 +368,13 @@ const Overview = () => {
           >
             <div className="verticalScroll">
               <div className="heading innerpageheading">
-                  International University Collaboration and MoU’s
+                International University Collaboration and MoU’s
               </div>
               <ul className="listingbox">
                 <li>Ingolstadt University, Germany</li>
-                <li>Indiana University Purdue University, Indianapolis, U.S.A</li>
+                <li>
+                  Indiana University Purdue University, Indianapolis, U.S.A
+                </li>
                 <li>Nanyang Technological University,Singapore</li>
                 <li>Leibniz University,Germany</li>
                 <li>Berlin School of Law andEconomics</li>
@@ -282,27 +392,29 @@ const Overview = () => {
           </div>
           <div
             className="program_highlights_right"
-            style={{ backgroundColor: "#10467F" }}>
-              <div className="verticalScroll bluescroll">
-                <div className="headingbg">Department Best Practices</div>
-                <ul className="listingbox">
-                  <li>Industry co-teaching</li>
-                  <li>Buddy sessions</li>
-                  <li>Exposure to open source tools</li>
-                  <li>Innovative teaching-learning pedagogy</li>
-                  <li>Project-based learning</li>
-                  <li>Skill enhancement via technical clubs</li>
-                  <li>International teaching and research collaborations</li>
-                  <li>Access to e-resources and research databases</li>
-                  <li>
-                    Enhancing self-learning attitude via experiential learning
-                  </li>
-                  <li>Advance ICT tools for effectual knowledge transfer</li>
-                </ul>
-              </div>
+            style={{ backgroundColor: "#10467F" }}
+          >
+            <div className="verticalScroll bluescroll">
+              <div className="headingbg">Department Best Practices</div>
+              <ul className="listingbox">
+                <li>Industry co-teaching</li>
+                <li>Buddy sessions</li>
+                <li>Exposure to open source tools</li>
+                <li>Innovative teaching-learning pedagogy</li>
+                <li>Project-based learning</li>
+                <li>Skill enhancement via technical clubs</li>
+                <li>International teaching and research collaborations</li>
+                <li>Access to e-resources and research databases</li>
+                <li>
+                  Enhancing self-learning attitude via experiential learning
+                </li>
+                <li>Advance ICT tools for effectual knowledge transfer</li>
+              </ul>
+            </div>
           </div>
-        </div>
-        <div className="computing_facility_section">
+        </div> */}
+
+        {/* <div className="computing_facility_section">
           <div className="computing_facility_inner">
             <div className="heading innerpageheading">
               The department has state of art computing facility as
@@ -320,85 +432,101 @@ const Overview = () => {
               </li>
             </ul>
           </div>
-        </div>
+        </div> */}
+
         <div className="job_roles_recuiters">
           <div className="job_roles_recuitersinner">
             <div className="job_roles_recuitersleft">
-              <div className="heading innerpageheading">Expected Job Roles</div>
-              <div className="listingboxmain">
-                <ul className="listingbox">
-                  <li>Machine Learning Engineer</li>
-                  <li>Data Scientist</li>
-                  <li>Business Intelligence Developer</li>
-                  <li>Research Scientist</li>
-                  <li>Big Data Engineer/Architect</li>
-                  <li>Software Engineer</li>
-                </ul>
-                <ul className="listingbox">
-                  <li>Software Architect</li>
-                  <li>Data Analyst</li>
-                  <li>NLP Engineer</li>
-                  <li>AI Engineer</li>
-                  <li>Product Manager</li>
-                </ul>
+              <div className="heading innerpageheading">
+                International collaborations
+              </div>
+              <div className="collaborations_box">
+                <div className="collaborations_list">
+                  <div className="subheading18">Dual Degree (2+2)</div>
+                  <div className="international_collaborations">
+                    <span>Macquarie University, Australia</span>
+                  </div>
+                </div>
+                <div className="collaborations_list">
+                  <div className="subheading18">Academic Progression</div>
+                  <div className="international_collaborations">
+                    <span>Aston University, UK</span>
+                    <span>Loughborough University, UK</span>
+                    <span>Northeastern University, USA</span>
+                  </div>
+                </div>
+                <div className="collaborations_list">
+                  <div className="subheading18">
+                    Global Immersion / Semester Abroad / Summer-Winter Schools
+                  </div>
+                  <div className="international_collaborations">
+                    <span>Ingolstadt University, Germany</span>
+                    <span>IUPUI, USA</span>
+                    <span>AIT, Thailand and more</span>
+                  </div>
+                </div>
               </div>
             </div>
             <div className="job_roles_recuitersright">
-              <div className="heading innerpageheading">Top Recuiters</div>
+              <div className="heading innerpageheading text-center">
+                Top Recuiters
+              </div>
               <div className="recuiterslogo">
                 <Image
                   src="/images/innerpages/programe/logo1.webp"
                   alt="arrow"
-                  width={150}
-                  height={70}
+                  width={100}
+                  height={50}
                 />
                 <Image
-                  src="/images/innerpages/programe/logo8.webp"
+                  src="/images/innerpages/programe/logo2.webp"
                   alt="arrow"
-                  width={180}
-                  height={70}
+                  width={100}
+                  height={50}
                 />
+
                 <Image
                   src="/images/innerpages/programe/logo3.webp"
                   alt="arrow"
-                  width={150}
-                  height={70}
+                  width={100}
+                  height={50}
                 />
                 <Image
                   src="/images/innerpages/programe/logo4.webp"
                   alt="arrow"
-                  width={150}
+                  width={100}
                   height={70}
                 />
                 <Image
                   src="/images/innerpages/programe/logo5.webp"
                   alt="arrow"
-                  width={150}
-                  height={70}
+                  width={100}
+                  height={50}
                 />
                 <Image
                   src="/images/innerpages/programe/logo6.webp"
                   alt="arrow"
-                  width={200}
-                  height={70}
+                  width={100}
+                  height={50}
                 />
                 <Image
                   src="/images/innerpages/programe/logo7.webp"
                   alt="arrow"
-                  width={150}
-                  height={70}
+                  width={100}
+                  height={50}
                 />
                 <Image
-                  src="/images/innerpages/programe/logo2.webp"
+                  src="/images/innerpages/programe/logo8.webp"
                   alt="arrow"
-                  width={70}
-                  height={70}
+                  width={100}
+                  height={50}
                 />
               </div>
             </div>
           </div>
         </div>
-        <div className="intake_main">
+
+        {/* <div className="intake_main">
           <div className="row">
             <div className="col-md-7">
               <div className="intake_left">
@@ -420,22 +548,26 @@ const Overview = () => {
                   </div>
                 </div>
                 <div className="intakerow">
-                  <div className="intakeleft">BTech Program Intake :</div>
+                  <div className="intakeleft">B.Tech AIML</div>
                   <div className="intakeright">180</div>
                 </div>
                 <div className="intakerow">
-                  <div className="intakeleft">BTech Program Intake :</div>
-                  <div className="intakeright">12</div>
+                  <div className="intakeleft">M.Tech AIML</div>
+                  <div className="intakeright">30</div>
                 </div>
                 <div className="intakerow">
-                  <div className="intakeleft">Lateral Entry A.Y. 2025-26:</div>
-                  <div className="intakeright">18</div>
+                  <div className="intakeleft">Ph.D. AIML</div>
+                  <div className="intakeright">-</div>
                 </div>
               </div>
             </div>
             <div className="col-md-5">
-              <a target="_blank" className="overviewtestimonials" href="https://www.youtube.com/watch?v=DPIO8LYm-jk&feature=youtu.be">
-                <div className="intake_right" >
+              <a
+                target="_blank"
+                className="overviewtestimonials"
+                href="https://www.youtube.com/watch?v=DPIO8LYm-jk&feature=youtu.be"
+              >
+                <div className="intake_right">
                   <div className="heading innerpageheading text-white">
                     Student <br /> Testimonials
                   </div>
@@ -448,7 +580,7 @@ const Overview = () => {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

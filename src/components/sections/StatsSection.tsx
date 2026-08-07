@@ -18,14 +18,14 @@ export default function StatsSection() {
       icon: "/images/home/Students-Enrolled.svg",
     },
     {
-      number: 95,
+      number: 85,
       suffix: "%",
       title: "Placement Rate",
       color: "text-primary",
       icon: "/images/home/Placement-Rate.svg",
     },
     {
-      number: 300,
+      number: 200,
       suffix: "+",
       title: "Top Recruiters",
       color: "text-danger",

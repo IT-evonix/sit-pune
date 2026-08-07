@@ -58,7 +58,7 @@ const HeroSlider = () => {
             </ul>
           </div>
           <video className="w-100" autoPlay muted loop playsInline>
-            <source src="/videos/homepage-banner-video.mp4" type="video/mp4" />
+            <source src="/videos/SIT-Hero.mp4" type="video/mp4" />
           </video>
         </SwiperSlide>
         <SwiperSlide className="herofirstslide d-none">

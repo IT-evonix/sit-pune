@@ -239,9 +239,33 @@ export const menuData: NavMenu[] = [
     href: "/",
   },
 
+  // {
+  //   id: 9,
+  //   title: "Career",
+  //   href: "/",
+  // },
+
   {
     id: 9,
     title: "Career",
-    href: "/",
+    hasMegaMenu: true,
+    columns: [
+      {
+        id: 1,
+        heading: "Career",
+        links: [
+          {
+            id: 1,
+            title: "Non-Teaching",
+            href: "https://forms.gle/YZiLsuAv7pkjMXtz7",
+          },
+          {
+            id: 2,
+            title: "Teaching",
+            href: "https://forms.gle/SykENLbTAgR7yVuA6",
+          },
+        ],
+      },      
+    ],
   },
 ];

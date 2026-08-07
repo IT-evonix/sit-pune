@@ -39,7 +39,7 @@ const Placements = () => {
               <div className="heading">                
                 <span>Placements</span>
               </div>
-              <div className="subheading">Excellent Opportunities Extraordinary Outcomes</div>
+              <div className="subheading">Empowering Careers with Excellent Opportunities and Extraordinary Outcomes. </div>
             </div>
 
             <div className="col-md-6">
@@ -50,7 +50,7 @@ const Placements = () => {
                   <div className="Numhead">
                     ₹
                     {startCount ? (
-                      <CountUp end={48} duration={3} />
+                      <CountUp end={27} duration={3} />
                     ) : (
                       0
                     )} LPA
@@ -84,7 +84,7 @@ const Placements = () => {
                 <div className="placementNum border-none">
                   <div className="Numhead">
                     {startCount ? (
-                      <CountUp end={95} duration={3} />
+                      <CountUp end={85} duration={3} />
                     ) : (
                       0
                     )}
