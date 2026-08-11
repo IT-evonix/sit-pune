@@ -52,8 +52,8 @@ const WorldMap = () => {
                 <Image
                   src="/images/home/location-pin.svg"
                   alt={item.title}
-                  width={30}
-                  height={38}
+                  width={15}
+                  height={20}
                   className="location_pin"
                 />
 
@@ -63,17 +63,14 @@ const WorldMap = () => {
 
                     <h6>{item.university}</h6>
 
-                    <p className="tooltip_location">
-                      {item.city}, {item.country}
-                    </p>
-
                     <div className="tooltip_tags">
-                      <span>{item.programme}</span>
-
-                      <span>{item.collaboration}</span>
-
-                      <span>Est. {item.established}</span>
-                    </div>
+  {item.programme1 && <span>{item.programme1}</span>}
+  {item.programme2 && <span>{item.programme2}</span>}
+  {item.programme3 && <span>{item.programme3}</span>}
+  {item.programme4 && <span>{item.programme4}</span>}
+  {item.programme5 && <span>{item.programme5}</span>}
+  {item.programme6 && <span>{item.programme6}</span>}
+</div>
                   </div>
                 )}
               </div>
@@ -93,15 +90,15 @@ const WorldMap = () => {
                   <h5>{item.title}</h5>
 
                   <p>{item.university}</p>
-
                   <small>
-                    {item.city}, {item.country}
+                    {item.programme1}, {item.programme2}
                   </small>
 
                   <div className="tooltip_tags">
-                    <span>{item.programme}</span>
-
-                    <span>{item.collaboration}</span>
+                    <span>{item.programme3}</span>
+                    <span>{item.programme4}</span>
+                    <span>{item.programme5}</span>
+                    <span>{item.programme6}</span>
                   </div>
                 </div>
               </div>

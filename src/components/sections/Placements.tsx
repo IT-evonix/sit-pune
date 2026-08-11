@@ -48,6 +48,26 @@ const Placements = () => {
                 {/* Highest Package */}
                 <div className="placementNum">
                   <div className="Numhead">
+                    
+                    {startCount ? (
+                      <CountUp end={85} duration={3} />
+                    ) : (
+                      0
+                    )} 
+                    %
+                  </div>
+
+                  <p>Placement Rate</p>
+                </div>
+
+                <div className="verticalline"></div>
+
+                {/* Average Package */}
+                <div className="placementNum">
+                  <div
+                    className="Numhead"
+                    style={{ color: "#C4161C" }}
+                  >
                     ₹
                     {startCount ? (
                       <CountUp end={27} duration={3} />
@@ -61,36 +81,16 @@ const Placements = () => {
 
                 <div className="verticalline"></div>
 
-                {/* Average Package */}
-                <div className="placementNum">
-                  <div
-                    className="Numhead"
-                    style={{ color: "#C4161C" }}
-                  >
-                    ₹
-                    {startCount ? (
-                      <CountUp end={12} duration={3} />
-                    ) : (
-                      0
-                    )} LPA
-                  </div>
-
-                  <p>Average Package</p>
-                </div>
-
-                <div className="verticalline"></div>
-
                 {/* Placement Rate */}
                 <div className="placementNum border-none">
                   <div className="Numhead">
                     {startCount ? (
-                      <CountUp end={85} duration={3} />
+                      <CountUp end={200} duration={3} />
                     ) : (
                       0
-                    )}
-                    %
+                    )}  
+                    +                  
                   </div>
-
                   <p>Placement Rate</p>
                 </div>
 

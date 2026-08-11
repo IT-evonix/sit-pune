@@ -2905,10 +2905,11 @@ height:260px;
   min-height: 320px;
 }
 .collaborations_list {
-  border: 1px solid #ccc;
-  padding: 10px;
+  border: 1px solid #c5181b0f;
   border-radius: 10px;
-  margin: 20px 0 0px 0;
+  margin: 20px 0 0;
+  padding: 14px 13px;
+  background: #ffffff;
 }
 .international_collaborations {
   display: flex;
@@ -2926,7 +2927,7 @@ height:260px;
   line-height: normal;
   display: flex;
   align-items: center;
-  padding: 6px 13px;
+  padding: 6px 11px;
   border-radius: 20px;
 }
 .international_collaborations span:first-child {
@@ -3497,7 +3498,7 @@ table {
   padding-left: 18px;
 }
 .faculty-section .info-box li {
-  margin-bottom: 8px;
+  margin-bottom: 6px;
   color: #000;
   font-size: 14px;
   line-height: normal;

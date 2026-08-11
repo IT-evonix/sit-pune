@@ -86,7 +86,7 @@ export const facultyData: Record<
         qualification: "Ph.D., M. Tech., B.E.",
         email: ["anupkumar.bongale@sitpune.edu.in"],
         image:
-          "/images/innerpages/programe/aiml/faculty/B.tech.webp",
+          "/images/innerpages/programe/aiml/faculty/Dr-Anup-Kumar-Bongale.webp",
 
         linkedin: "https://www.linkedin.com/in/dr-anupkumar-bongale-3002ba162/",
         googleScholar:
@@ -96,7 +96,104 @@ export const facultyData: Record<
         orcid: "https://orcid.org/0000-0002-5897-028",
       },
 
-      // Add more AIML faculty here
+      {
+        id: 4,
+        name: "Dr.Anjali Dalvi",
+        designation: "Associate Professor",
+        qualification: "Ph.D, M.E., B.E",
+        email: ["anjali.dalvi@sitpune.edu.in"],
+        image: "/images/innerpages/programe/aiml/faculty/Dr-Anjali-Dalvi.webp",
+
+        linkedin: "https://www.linkedin.com/in/anjali-dalvi-245a68330/",
+        googleScholar:
+          "https://scholar.google.co.in/citations?user=wHCYRVsAAAAJ&hl=en",
+        orcid:
+          "https://orcid.org/my-orcid?emailVerified=true&orcid=0009-0009-7268-8346",
+      },
+      {
+        id: 5,
+        name: "Dr. Sangeeta Pant",
+        designation: "Associate Professor",
+        qualification: "Ph.D (Applied Mathematics)",
+        email: ["sangeeta.pant@sitpune.edu.in"],
+        image: "/images/innerpages/programe/aiml/faculty/Dr-Sangeeta-Pant.webp",
+
+        linkedin: "https://www.linkedin.com/in/sangeeta-pant-phd-22695613/",
+        googleScholar:
+          "https://scholar.google.com/citations?user=Po1YUX4AAAAJ&hl=en",
+        orcid: "https://orcid.org/0000-0001-6531-1561",
+      },
+      {
+        id: 6,
+        name: "Dr. Pooja Vinayak Kamat",
+        designation: "Associate Professor",
+        qualification: "Ph.D (AI & ML)., M.E., B.E",
+        email: ["pooja.kamat@sitpune.edu.in"],
+        image: "/images/innerpages/programe/aiml/faculty/Dr-Pooja-Vinayak-Kamat.webp",
+
+        linkedin: "https://www.linkedin.com/in/pooja-kamat-19603158/",
+        googleScholar:
+          "https://scholar.google.com/citations?user=gJoZDOUAAAAJ&hl=en",
+        scopus: "scopus.com/pages/authors/56828931000",
+        orcid: "https://orcid.org/0000-0002-7597-0197",
+      },
+      {
+        id: 7,
+        name: "Dr. Sucheta V Kolekar",
+        designation: "Associate Professor",
+        qualification: "Ph.D (Adaptive E-learning), M.Tech (IT), B.E (IT)",
+        email: ["sucheta.kolekar@sitpune.edu.in"],
+        image: "/images/innerpages/programe/aiml/faculty/Dr-Sucheta V-Kolekar.webp",
+
+        linkedin: "https://www.linkedin.com/in/sucheta-kolekar-74920415/",
+        googleScholar:
+          "https://scholar.google.co.in/citations?user=okqYYHUAAAAJ&hl=en",
+        orcid: "https://orcid.org/0000-0003-2642-6088",
+      },
+
+      {
+        id: 8,
+        name: "Dr. Sagar Dhanraj Pande",
+        designation: "Associate Professor",
+        qualification: "Ph.D (CSE). M.E(CSE), B.E. (CSE)",
+        email: ["sagar.pande@sitpune.edu.in"],
+        image: "/images/innerpages/programe/aiml/faculty/Dr-Sagar-Dhanraj-Pande.webp",
+
+        linkedin: "https://www.linkedin.com/in/dr-sagar-dhanraj-pande-b8161392/",
+        googleScholar:
+          "https://scholar.google.com/citations?user=Uh4x-ZsAAAAJ&hl=en&oi=ao",
+        scopus: "https://www.scopus.com/authid/detail.uri?authorId=57213160540",
+        orcid: "https://orcid.org/0000-0003-4506-6997",
+      },
+
+      {
+        id: 9,
+        name: "Dr.Tanveer Ahmed",
+        designation: "Associate Professor",
+        qualification: "Ph.D.",
+        email: ["tanveer.ahmed@sitpune.edu.in"],
+        image: "/images/innerpages/programe/aiml/faculty/Dr-Tanveer-Ahmed.webp",
+
+        linkedin: "https://www.linkedin.com/in/tanveer-ahmed-2882a22b/",
+        googleScholar:
+          "https://scholar.google.com/citations?user=kTIGxhUAAAAJ&hl=en&oi=ao",
+        orcid: "https://orcid.org/",
+      },
+      {
+        id: 10,
+        name: "Dr. Archana Y. Chaudhari",
+        designation: "Senior Assistant Professor",
+        qualification: "Ph.D, M.E., B.E",
+        email: ["archana.chaudhari@sitpune.edu.in"],
+        image: "/images/innerpages/programe/aiml/faculty/Dr-Archana-Y-Chaudhari.webp",
+
+        linkedin: "https://www.linkedin.com/in/archanachaudhari/",
+        googleScholar:
+          "https://scholar.google.co.in/citations?user=WHkirXUAAAAJ&hl=en",
+        scopus: "https://www.scopus.com/pages/authors/57210323135",
+        orcid: "https://orcid.org/0000-0002-4423-8921",
+      },
+      // Add More AIML Faculty Here
     ],
 
     civil: [
