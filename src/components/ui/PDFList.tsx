@@ -3,19 +3,15 @@
 import React from "react";
 import { Row, Col, Badge } from "react-bootstrap";
 import { FileText, Hourglass, ChevronRight } from "lucide-react";
+
 import { PDFItem } from "@/data/pdfData";
 
 interface PDFListProps {
   data: PDFItem[];
-
   heading?: string;
 }
 
-const PDFList: React.FC<PDFListProps> = ({
-  data,
-
-  heading,
-}) => {
+const PDFList: React.FC<PDFListProps> = ({ data, heading }) => {
   const handleOpenPDF = (url?: string) => {
     if (!url) return;
 

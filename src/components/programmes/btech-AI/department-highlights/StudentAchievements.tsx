@@ -40,7 +40,7 @@ const AIMLImages: MediaItem[] = [
     {
     id: 8,
     type: "image",
-    src: "/images/innerpages/programe/aiml/student-achievements/Intel-Unnati-Scholarship.webp",
+    src: "/images/innerpages/programe/aiml/student-achievements/Scholarship.webp",
   }, 
     {
     id:9,

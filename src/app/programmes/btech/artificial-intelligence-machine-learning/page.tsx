@@ -25,80 +25,19 @@ const AIMLPage = () => {
       content: <Overview />,
     },
     {
-      id: "Curriculum",
-      title: "Curriculum",
-      content: <Curriculum />,
+      id: "Majors and Minors",
+      title: "Majors and Minors",
+      content: <MajorsandMinors />,
     },
-    {
-      id: "department-highlights",
-      title: "Department Highlights",
-      subTabs: [
-        {
-          id: "alumni-achievments",
-          title: "Alumni Achievements",
-          content: <AlumniAchievements/>,
-        },
-
-        {
-          id: "faculty-achievements",
-          title: "Faculty Achievements",
-          content:<FacultyAchievements/>,
-        },
-
-        {
-          id: "industry-insight-series",
-          title: "Industry Insight Series",
-          content: <IndustryInsightSeries />,
-        },
-        
-        {
-          id: "international-initiatives",
-          title: "International Initiatives",
-          content: <InternationalInitiatives/>,
-        },
-
-        {
-          id: "our-labs-spaces",
-          title: "Our Labs & Spaces",
-          content: <OurlabsandSpaces/>,
-        },
-
-        {
-          id: "student-achievements",
-          title: "Student Achievements",
-          content: <StudentAchievements />,
-        },
-
-        {
-          id: "student-projects",
-          title: "Student Projects",
-          content: <StudentProjects/>,
-        },
-
-        {
-          id: "upcoming-events",
-          title: "Upcoming Events",
-          content: <div>Coming Soon</div>,
-        },
-      ],
-    },
-
     {
       id: "faculty",
       title: "Faculty",
       content:<Faculty />,
     },
-
     {
-      id: "hear-from-our-students",
-      title: "Hear from our Students",
-      content: <HearFromourStudents />,
-    },
-
-    {
-      id: "MajorsandMinors",
-      title: "Majors and Minors",
-      content: <MajorsandMinors />,
+      id: "Curriculum",
+      title: "Curriculum",
+      content: <Curriculum />,
     },
 
     {
@@ -107,6 +46,59 @@ const AIMLPage = () => {
       content: <Placements />,
     },
 
+    {
+      id: "department-highlights",
+      title: "Department Highlights",
+      subTabs: [
+
+        {
+          id: "our-labs-spaces",
+          title: "Our Labs & Spaces",
+          content: <OurlabsandSpaces/>,
+        },
+        {
+          id: "international-initiatives",
+          title: "International Initiatives",
+          content: <InternationalInitiatives/>,
+        },
+        {
+          id: "industry-insight-series",
+          title: "Industry Insight Series",
+          content: <IndustryInsightSeries />,
+        },
+        {
+          id: "student-projects",
+          title: "Student Projects",
+          content: <StudentProjects/>,
+        },
+        {
+          id: "student-achievements",
+          title: "Student Achievements",
+          content: <StudentAchievements />,
+        },
+        {
+          id: "faculty-achievements",
+          title: "Faculty Achievements",
+          content:<FacultyAchievements/>,
+        },
+        {
+          id: "alumni-achievments",
+          title: "Alumni Achievements",
+          content: <AlumniAchievements/>,
+        },
+        {
+          id: "upcoming-events",
+          title: "Upcoming Events",
+          content: <div>Coming Soon</div>,
+        },
+      ],
+    },
+    
+    {
+      id: "hear-from-our-students",
+      title: "Hear from our Students",
+      content: <HearFromourStudents />,
+    },
     {
       id: "AIMLDispatch",
       title: "The AIML Dispatch",

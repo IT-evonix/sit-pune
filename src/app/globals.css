@@ -357,7 +357,7 @@ body.menu-open {
   transform: translateY(-50%);
   background: #222;
   color: #fff;
-  padding: 8px 12px;
+  padding: 7px 12px;
   border-radius: 6px;
   font-size: 12px;
   white-space: nowrap;
@@ -1053,7 +1053,7 @@ body.menu-open {
   }
 }
 .Programshead {
-  min-height: 50px;
+  min-height: 65px;
   font-family: "Metropolis-Bold";
   font-size: 18px;
 }
@@ -1239,6 +1239,29 @@ body.menu-open {
   font-size: 14px;
   margin: 0px;
   font-family: "Metropolis-Light";
+}
+.testimonial_text {
+  overflow: hidden;
+  max-height: 100px;
+  padding: 0 10px 0 0;
+  overflow-y: auto;
+  /* Firefox */
+  scrollbar-width: thin;
+  scrollbar-color: #ccc transparent;
+}
+/* Chrome, Edge, Safari */
+.testimonial_text::-webkit-scrollbar {
+  width: 4px;
+}
+.testimonial_text::-webkit-scrollbar-track {
+  background: transparent;
+}
+.testimonial_text::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 10px;
+}
+.testimonial_text::-webkit-scrollbar-thumb:hover {
+  background: #ccc;
 }
 /*---------------- Placements End Here  ----------------*/
 /*---------------- Company Logo Start Here ----------------*/
@@ -3066,15 +3089,6 @@ table {
 .padding30 {
   padding: 30px 0px 30px 0px;
 }
-.main-title {
-  font-size: 2.2rem;
-  font-weight: 700;
-  color: #0f172a;
-}
-.sub-text {
-  font-size: 1.1rem;
-  color: #64748b;
-}
 .programme-list {
   display: flex;
   flex-wrap: wrap;
@@ -3133,6 +3147,178 @@ table {
 }
 .programme-wrapper .arrow-icon {
   color: #c4161c;
+}
+/* PDF Preview New Design Start Here */
+/* =========================================
+   PDF PREVIEW SECTION
+========================================= */
+.pdf-preview-section {
+  width: 100%;
+  margin-top: 10px;
+}
+/* =========================================
+   HEADING
+========================================= */
+.pdf-preview-heading {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #1f2937;
+}
+/* =========================================
+   GRID
+========================================= */
+.pdf-preview-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 28px;
+}
+/* =========================================
+   CARD
+========================================= */
+.pdf-preview-card {
+  background: #ffffff;
+  border: 1px solid #e8e8e8;
+  border-radius: 14px;
+  overflow: hidden;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    border-color 0.3s ease;
+    position: relative;
+}
+.pdf-preview-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.09);
+  border-color: #c4161c;
+}
+.pdf-preview-image-wrapper {
+  width: 100%;
+  height: 277px;
+  background: #f5f6f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  
+}
+.pdf-preview-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  transition: transform 0.4s ease;
+}
+.pdf-preview-card:hover .pdf-preview-image {
+  transform: scale(1.02);
+}
+/* ============ NO IMAGE ============ */
+.pdf-preview-no-image {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  color: #8a8a8a;
+}
+/* ============ CONTENT ============ */
+.pdf-preview-content {
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    background: #fff;
+    width: 100%;
+}
+/* ============ INFO ============ */
+
+.pdf-preview-info {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  margin-bottom: 20px;
+}
+.pdf-preview-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(196, 22, 28, 0.08);
+  color: #c4161c;
+  flex-shrink: 0;
+  display:none;
+}
+.pdf-preview-title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+}
+.pdf-preview-year {
+  display: block;
+  margin-top: 4px;
+  font-size: 14px;
+  color: #777;
+}
+.pdf-view-button {
+  width:auto;
+  border: none;
+  border-radius: 48px;
+  padding: 6px 17px;
+  background: #c4161c;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+  line-height:normal;
+  transition:
+    background 0.3s ease,
+    transform 0.2s ease;
+    margin: 0 auto;
+}
+.pdf-view-button:hover {
+  background: #a80f14;
+  transform: translateY(-1px);
+}
+/* =========================================
+   EMPTY / COMING SOON
+========================================= */
+
+.pdf-preview-empty {
+  min-height: 250px;
+  border: 1px dashed #d8d8d8;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #fafafa;
+}
+
+.pdf-preview-empty-icon {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(196, 22, 28, 0.08);
+  color: #c4161c;
+  margin-bottom: 15px;
+}
+.pdf-preview-empty h5 {
+  margin: 0;
+  color: #777;
+  font-size: 16px;
+  font-weight: 600;
 }
 /* Infrastructure Tab Start Here */
 .infrastructure_images {
@@ -3214,7 +3400,7 @@ table {
   background: #f8fbff;
   border: 1px solid #e9eef5;
   border-radius: 20px;
-  padding: 25px;
+  padding: 20px;
   transition: 0.3s;
 }
 .mission-card:hover {
@@ -3592,8 +3778,8 @@ table {
   padding: 20px;
   border-radius: 10px;
   border: 1px solid #e5e7eb;
-  display:flex;
-  gap:20px;
+  display: flex;
+  gap: 20px;
 }
 .customTabs__button {
   padding: 8px 24px;
@@ -3607,7 +3793,7 @@ table {
   background-color: rgb(255, 255, 255);
   color: rgb(107, 114, 128);
   cursor: pointer;
-  transition-duration:0.5s;
+  transition-duration: 0.5s;
 }
 .customTabs__button:hover {
   color: #fff;
@@ -3616,19 +3802,17 @@ table {
 .customTabs__button.active {
   background-color: rgb(196, 22, 28);
   color: #fff;
-  box-shadow: 0 6px 18px rgba(16,70,127,0.25);
+  box-shadow: 0 6px 18px rgba(16, 70, 127, 0.25);
 }
 @keyframes tabAnimation {
-
   from {
-    opacity:0;
-    transform:translateY(10px);
+    opacity: 0;
+    transform: translateY(10px);
   }
   to {
-    opacity:1;
-    transform:translateY(0);
+    opacity: 1;
+    transform: translateY(0);
   }
-
 }
 /* Tabbing Design End Here */
 /* Event Page Start Here */
@@ -3966,9 +4150,13 @@ table {
 .mtech_section .innerpageheading {
   margin: 0px 0px 60px 0px;
 }
-
-
-
+.SITMap{
+  background-color:#fff;
+}
+.SITMap iframe{
+  border-radius:30px;
+  margin:-60px 0px 60px 0px;
+}
 /* ========== Rahul Normal CSS ends ========== */
 /* Media Queries Start Here */
 @media (min-width: 1599.98px) {
