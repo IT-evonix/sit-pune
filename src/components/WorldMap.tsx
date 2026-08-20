@@ -30,7 +30,7 @@ const WorldMap = () => {
         <div className="world_map_desktop d-none d-lg-block">
           <div className="world_map_wrapper">
             <Image
-              src="/images/home/map.webp"
+              src="/images/home/homemap.webp"
               alt="World Map"
               width={1400}
               height={700}
