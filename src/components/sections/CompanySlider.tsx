@@ -21,11 +21,11 @@ const companies = [
   },
   {
     name: "Infosys",
-    logo: "/images/home/logos/logo3.webp",
+    logo: "/images/home/logos/logo26.webp",
   },
   {
     name: "Accenture",
-    logo: "/images/home/logos/logo4.webp",
+    logo: "/images/home/logos/logo7.webp",
   },
   {
     name: "Deloitte",
@@ -37,7 +37,7 @@ const companies = [
   },
   {
     name: "IBM",
-    logo: "/images/home/logos/logo7.webp",
+    logo: "/images/home/logos/logo4.webp",
   },
   {
     name: "Capgemini",
@@ -113,7 +113,7 @@ const companies = [
   },
   {
     name: "TCS",
-    logo: "/images/home/logos/logo26.webp",
+    logo: "/images/home/logos/logo3.webp",
   },  
   
 ];

@@ -64,13 +64,13 @@ const WorldMap = () => {
                     <h6>{item.university}</h6>
 
                     <div className="tooltip_tags">
-  {item.programme1 && <span>{item.programme1}</span>}
-  {item.programme2 && <span>{item.programme2}</span>}
-  {item.programme3 && <span>{item.programme3}</span>}
-  {item.programme4 && <span>{item.programme4}</span>}
-  {item.programme5 && <span>{item.programme5}</span>}
-  {item.programme6 && <span>{item.programme6}</span>}
-</div>
+                      {item.programme1 && <span>{item.programme1}</span>}
+                      {item.programme2 && <span>{item.programme2}</span>}
+                      {item.programme3 && <span>{item.programme3}</span>}
+                      {item.programme4 && <span>{item.programme4}</span>}
+                      {item.programme5 && <span>{item.programme5}</span>}
+                      {item.programme6 && <span>{item.programme6}</span>}
+                    </div>
                   </div>
                 )}
               </div>
