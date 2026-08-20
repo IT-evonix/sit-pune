@@ -13,52 +13,108 @@ import "swiper/css/navigation";
 const companies = [
   {
     name: "IBM",
-    logo: "/images/home/ibm.webp",
+    logo: "/images/home/logos/logo1.webp",
   },
   {
     name: "Capgemini",
-    logo: "/images/home/capg.webp",
+    logo: "/images/home/logos/logo2.webp",
   },
   {
     name: "Infosys",
-    logo: "/images/home/infosys.webp",
+    logo: "/images/home/logos/logo3.webp",
   },
   {
     name: "Accenture",
-    logo: "/images/home/accenture.webp",
+    logo: "/images/home/logos/logo4.webp",
   },
   {
     name: "Deloitte",
-    logo: "/images/home/deloitte.webp",
+    logo: "/images/home/logos/logo5.webp",
   },
   {
     name: "TCS",
-    logo: "/images/home/tcs.webp",
+    logo: "/images/home/logos/logo6.webp",
   },
   {
     name: "IBM",
-    logo: "/images/home/ibm.webp",
+    logo: "/images/home/logos/logo7.webp",
   },
   {
     name: "Capgemini",
-    logo: "/images/home/capg.webp",
+    logo: "/images/home/logos/logo8.webp",
   },
   {
     name: "Infosys",
-    logo: "/images/home/infosys.webp",
+    logo: "/images/home/logos/logo10.webp",
   },
   {
     name: "Accenture",
-    logo: "/images/home/accenture.webp",
+    logo: "/images/home/logos/logo9.webp",
   },
   {
     name: "Deloitte",
-    logo: "/images/home/deloitte.webp",
+    logo: "/images/home/logos/logo11.webp",
   },
   {
     name: "TCS",
-    logo: "/images/home/tcs.webp",
+    logo: "/images/home/logos/logo12.webp",
   },
+  {
+    name: "TCS",
+    logo: "/images/home/logos/logo13.webp",
+  },
+  {
+    name: "TCS",
+    logo: "/images/home/logos/logo14.webp",
+  },
+  {
+    name: "TCS",
+    logo: "/images/home/logos/logo15.webp",
+  },
+  {
+    name: "TCS",
+    logo: "/images/home/logos/logo16.webp",
+  },
+  {
+    name: "TCS",
+    logo: "/images/home/logos/logo17.webp",
+  },
+  {
+    name: "TCS",
+    logo: "/images/home/logos/logo18.webp",
+  },
+  {
+    name: "TCS",
+    logo: "/images/home/logos/logo19.webp",
+  },
+  {
+    name: "TCS",
+    logo: "/images/home/logos/logo20.webp",
+  },
+  {
+    name: "TCS",
+    logo: "/images/home/logos/logo21.webp",
+  },
+  {
+    name: "TCS",
+    logo: "/images/home/logos/logo22.webp",
+  },
+  {
+    name: "TCS",
+    logo: "/images/home/logos/logo23.webp",
+  },
+  {
+    name: "TCS",
+    logo: "/images/home/logos/logo24.webp",
+  },
+  {
+    name: "TCS",
+    logo: "/images/home/logos/logo25.webp",
+  },
+  {
+    name: "TCS",
+    logo: "/images/home/logos/logo26.webp",
+  },  
   
 ];
 
@@ -69,7 +125,7 @@ export default function CompanySlider() {
         <div className="Companylogosinner">
           <Swiper
             modules={[Autoplay, Navigation]}
-            spaceBetween={30}
+            spaceBetween={20}
             loop={true}
             autoplay={{
               delay: 2000,

@@ -41,7 +41,7 @@ export const programData = {
     },
     {
       id: 4,
-      name: "Electronics & Telecommunication",
+      name: "Electronics and Telecommunication Engineering",
       // icon: "/images/home/Electronics.svg",
       icon: "/images/home/programs-icons/E&TC.webp",
       levels: ["B.Tech", "M.Tech", "PhD"],

@@ -31,7 +31,7 @@ export default function GallerySec() {
   const galleryImages = [
     {
       id: 1,
-      image: "/images/gallery/campus2.webp",
+      image: "/images/gallery/AI-Club.webp",
     },
     {
       id: 2,

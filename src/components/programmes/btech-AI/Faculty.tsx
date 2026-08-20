@@ -1,15 +1,35 @@
-import FacultyMain from '@/components/FacultyMain'
-import React from 'react'
+// import FacultyMain from '@/components/FacultyMain'
+// import React from 'react'
 
-const faculty = () => {
+// const faculty = () => {
+//   return (
+//     <div>
+//         <FacultyMain
+//             category="undergraduate"
+//             department="aiml"
+//         />
+//     </div>
+//   )
+// }
+
+// export default faculty
+
+import React from "react";
+import FacultyCard from "@/components/ui/FacultyCard";
+import { facultyData } from "@/data/FacultyNew";
+
+const FacultyPage = () => {
   return (
-    <div>
-        <FacultyMain
-            category="undergraduate"
-            department="aiml"
-        />
-    </div>
-  )
-}
+    <main className="faculty-page">
+      <section className="faculty-section">
+        <div className="faculty-grid">
+            {facultyData.map((faculty) => (
+              <FacultyCard key={faculty.id} faculty={faculty} />
+            ))}
+          </div>
+      </section>
+    </main>
+  );
+};
 
-export default faculty
+export default FacultyPage;

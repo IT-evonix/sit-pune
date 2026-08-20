@@ -85,7 +85,7 @@ const Topstrip = () => {
           {/* Contact Us Button */}
           <div className="ms-3 flex-shrink-0">
             <Link
-              href="/"
+              href="/contactus"
               className="contact_btnheader"
             >
               Contact Us
