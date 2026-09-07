@@ -45,21 +45,21 @@ const PDFPreview: React.FC<PDFPreviewProps> = ({
               {/* PDF Preview */}
 
               <div className="pdf-preview-image-wrapper">
-  {item.previewImage ? (
-    <Image
-      src={item.previewImage}
-      alt={`${item.title} preview`}
-      width={400}
-      height={300}
-      className="pdf-preview-image"
-    />
-  ) : (
-    <div className="pdf-preview-no-image">
-      <FileText size={50} />
-      <span>PDF Preview</span>
-    </div>
-  )}
-</div>
+                {item.previewImage ? (
+                  <Image
+                    src={item.previewImage}
+                    alt={`${item.title} preview`}
+                    width={400}
+                    height={300}
+                    className="pdf-preview-image"
+                  />
+                ) : (
+                  <div className="pdf-preview-no-image">
+                    <FileText size={50} />
+                    <span>PDF Preview</span>
+                  </div>
+                )}
+              </div>
 
               {/* Content */}
 

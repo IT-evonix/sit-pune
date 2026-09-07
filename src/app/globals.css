@@ -2104,9 +2104,6 @@ height:260px;
   height: 100%;
   width: 100%;
 }
-/* .internationalization_list:hover {
-  background-color: #10467f;
-} */
 .internationalization_list:hover path {
   fill: #fff;
 }
@@ -2915,30 +2912,41 @@ height:260px;
   justify-content: space-between;
   margin: 60px 0 30px 0;
   border-radius: 30px;
+  flex-wrap: wrap;
 }
 .job_roles_recuitersleft {
-  width: 57%;
+  width: 100%;
 }
 .job_roles_recuitersright {
-  width: 39%;
+  width: 100%;
   padding: 30px;
   background: #fff;
   border-radius: 20px;
-  border: 1px solid #10467f;
-  min-height: 320px;
+  border: 1px solid #10467f1f;
+  min-height: 250px;
+  margin-bottom: 30px;
 }
 .collaborations_list {
   border: 1px solid #c5181b0f;
   border-radius: 10px;
-  margin: 20px 0 0;
+  margin: 0px 0 0;
   padding: 14px 13px;
   background: #ffffff;
 }
+.collaborations_list:last-child {
+  width: 100%;
+}
 .international_collaborations {
   display: flex;
-  gap: 8px;
+  gap: 15px;
   border-top: 1px solid #ccc;
   padding: 12px 0 0 0;
+}
+.collaborations_box {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: start;
 }
 .collaborations_list .subheading18 {
   margin: 0 0 4px 0;
@@ -2950,8 +2958,13 @@ height:260px;
   line-height: normal;
   display: flex;
   align-items: center;
-  padding: 6px 11px;
-  border-radius: 20px;
+  padding: 15px 20px;
+  border-radius: 12px;
+}
+.international_collaborations span img {
+  width: 100%;
+  margin-bottom: 0px;
+  max-height: 48px;
 }
 .international_collaborations span:first-child {
   background: #c5151c12;
@@ -3185,7 +3198,7 @@ table {
     transform 0.3s ease,
     box-shadow 0.3s ease,
     border-color 0.3s ease;
-    position: relative;
+  position: relative;
 }
 .pdf-preview-card:hover {
   transform: translateY(-5px);
@@ -3194,20 +3207,20 @@ table {
 }
 .pdf-preview-image-wrapper {
   width: 100%;
-  height: 277px;
+  height: 280px;
   background: #f5f6f8;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  
 }
 .pdf-preview-image {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
   display: block;
   transition: transform 0.4s ease;
+  object-position: top;
 }
 .pdf-preview-card:hover .pdf-preview-image {
   transform: scale(1.02);
@@ -3225,12 +3238,12 @@ table {
 }
 /* ============ CONTENT ============ */
 .pdf-preview-content {
-    padding: 15px;
-    position: absolute;
-    z-index: 1;
-    bottom: 0;
-    background: #fff;
-    width: 100%;
+  padding: 15px;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  background: #fff;
+  width: 100%;
 }
 /* ============ INFO ============ */
 
@@ -3250,7 +3263,7 @@ table {
   background: rgba(196, 22, 28, 0.08);
   color: #c4161c;
   flex-shrink: 0;
-  display:none;
+  display: none;
 }
 .pdf-preview-title {
   margin: 0;
@@ -3265,7 +3278,7 @@ table {
   color: #777;
 }
 .pdf-view-button {
-  width:auto;
+  width: auto;
   border: none;
   border-radius: 48px;
   padding: 6px 17px;
@@ -3278,11 +3291,11 @@ table {
   justify-content: center;
   gap: 8px;
   cursor: pointer;
-  line-height:normal;
+  line-height: normal;
   transition:
     background 0.3s ease,
     transform 0.2s ease;
-    margin: 0 auto;
+  margin: 0 auto;
 }
 .pdf-view-button:hover {
   background: #a80f14;
@@ -3384,18 +3397,6 @@ table {
   font-size: 14px;
   color: #000;
 }
-/* .icon-box {
-  width: 60px;
-  height: 60px;
-  min-width: 60px;
-  border-radius: 18px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.icon-box svg {
-    max-height: inherit;
-} */
 .mission-card {
   background: #f8fbff;
   border: 1px solid #e9eef5;
@@ -3722,13 +3723,82 @@ table {
   line-height: normal;
   font-size: 14px;
 } */
-
-
+/*----------- Students Projects Start Here -----------*/
+.student_projects_main .main_content {
+  padding: 0px 0px 0px 0px;
+}
+.student_project_list_section {
+  width: 100%;
+  margin-top: 20px;
+}
+.student_project_table thead th:first-child {
+    border-top-left-radius: 18px;
+}
+.student_project_table thead th:last-child {
+    border-top-right-radius: 18px;
+}
+.student_project_table tbody tr:last-child td {
+    border-bottom: none;
+}
+.student_project_table tbody tr:last-child td {
+    border-right: none;
+}
+.student_project_year_block .table-responsive{
+  border-radius: 18px;
+}
+.student_project_select:focus {
+  border-color: #c4161c;
+  box-shadow: 0 0 0 2px rgba(196, 22, 28, 0.08) !important;
+}
+.student_project_year_block {
+  width: 100%;
+  margin-bottom: 60px;
+}
+.student_project_table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #d9e1e8;
+  table-layout: fixed;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 18px;
+  overflow: hidden;
+}
+.student_project_table th {
+  padding: 9px 10px;
+  font-family: "Metropolis-SemiBold";
+  background: #10467f;
+  color: #fff;
+  border: 1px solid #ffffff38;
+  font-size: 16px;
+  text-align: left;
+  padding: 10px 15px;
+}
+.student_project_table td {
+  padding: 12px 15px;
+  background: #fff;
+  color: #222;
+  font-size: 14px;
+  vertical-align: middle;
+  border-bottom: 1px solid #edf3fb;
+  border-right: 1px solid #edf3fb;
+}
+.student_project_sr {
+  width: 100px;
+  text-align: center !important;
+  font-family: "Metropolis-SemiBold";
+}
+.student_project_table tbody tr {
+  transition: background-color 0.2s ease;
+}
+.student_project_table tbody tr:hover td {
+  background: #fff7f7;
+}
+/*----------- Students Projects Start Here -----------*/
 /* New Faculty Design Start Here*/
 .faculty-grid {
   display: grid;
-  grid-template-columns:
-    repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   column-gap: 28px;
   row-gap: 70px;
 }
@@ -3743,11 +3813,9 @@ table {
   width: 100%;
   height: 100%;
   transform-style: preserve-3d;
-  transition:
-    transform 0.75s cubic-bezier(0.4, 0.2, 0.2, 1);
+  transition: transform 0.75s cubic-bezier(0.4, 0.2, 0.2, 1);
 }
-.faculty-card-wrapper:hover
-.faculty-card-inner {
+.faculty-card-wrapper:hover .faculty-card-inner {
   transform: rotateY(180deg);
 }
 .faculty-card-face {
@@ -3776,12 +3844,16 @@ table {
   /* border: 1px solid #eeeeee;
   box-shadow:
     0 10px 30px rgba(0, 0, 0, 0.04); */
-  background: linear-gradient(180deg, rgba(255, 228, 229, 1) 0%, rgba(255, 255, 255, 1) 85%);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 228, 229, 1) 0%,
+    rgba(255, 255, 255, 1) 85%
+  );
   text-align: center;
 }
 .faculty-photo-wrapper {
   position: absolute;
-  top:-40px;
+  top: -40px;
   left: 50%;
   transform: translateX(-50%);
   width: 120px;
@@ -3789,8 +3861,7 @@ table {
   padding: 3px;
   border-radius: 50%;
   background: #ffffff;
-  box-shadow:
-    0 5px 25px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.12);
   z-index: 10;
 }
 .faculty-photo {
@@ -3811,14 +3882,14 @@ table {
   margin: 0 0 10px;
   color: #000;
   font-size: 18px;
-  font-family: 'Metropolis-SemiBold';
+  font-family: "Metropolis-SemiBold";
 }
 .faculty-designation {
   margin: 0;
   color: #000;
   font-size: 14px;
   line-height: 1.3;
-  font-family: 'Metropolis-Light';
+  font-family: "Metropolis-Light";
 }
 .faculty-social-links {
   display: flex;
@@ -3866,10 +3937,13 @@ table {
   justify-content: center;
   padding: 25px 20px;
   text-align: center;
-  background: linear-gradient(180deg, rgba(190, 24, 31, 1) 0%, rgba(23, 68, 123, 1) 85%);
+  background: linear-gradient(
+    180deg,
+    rgba(190, 24, 31, 1) 0%,
+    rgba(23, 68, 123, 1) 85%
+  );
   border: 1px solid rgba(255, 255, 255, 0.3);
-  box-shadow:
-    0 15px 35px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
 }
 
 .faculty-back-content {
@@ -3897,21 +3971,21 @@ table {
   line-height: 1.45;
 }
 .faculty-back-detail {
-    margin-bottom: 18px;
-    border: 1px solid #ffffff36;
-    width: 100%;
-    padding: 10px;
-    border-radius: 13px;
+  margin-bottom: 18px;
+  border: 1px solid #ffffff36;
+  width: 100%;
+  padding: 10px;
+  border-radius: 13px;
 }
 .faculty-back-detail h4 {
   color: #ffffff;
   font-size: 14px;
-  background: #C4161C;
+  background: #c4161c;
   width: fit-content;
   padding: 5px 20px;
   line-height: normal;
   border-radius: 20px;
-  margin:-22px auto 10px auto;
+  margin: -22px auto 10px auto;
 }
 .faculty-back-detail p {
   margin: 0;
@@ -3936,8 +4010,6 @@ table {
   opacity: 0.8;
   text-decoration: underline;
 }
-
-
 /* ----- Faculty Page End Here ----- */
 /* FAQ Tab Start Here */
 .faq_section .collapse {
@@ -3976,8 +4048,8 @@ table {
   border-radius: 35px;
 }
 .MajorsandMinors_box img {
-  width: 100%;
-  border-radius: 30px;
+  /* width: 100%; */
+  border-radius: 20px;
 }
 /* Majors and Minors End Here */
 /* Tabbing Design Start Here */
@@ -4362,12 +4434,12 @@ table {
 .mtech_section .innerpageheading {
   margin: 0px 0px 60px 0px;
 }
-.SITMap{
-  background-color:#fff;
+.SITMap {
+  background-color: #fff;
 }
-.SITMap iframe{
-  border-radius:30px;
-  margin:-60px 0px 60px 0px;
+.SITMap iframe {
+  border-radius: 30px;
+  margin: -60px 0px 60px 0px;
 }
 /* ========== Rahul Normal CSS ends ========== */
 /* Media Queries Start Here */
@@ -4388,6 +4460,11 @@ table {
     top: 12%;
   }
   /*---------- Hero Video End Here ----------*/
+  /*------- Programe AIML Start Here -------*/
+  .international_collaborations span img {
+    max-height: 29px !important;
+  }
+  /*------- Programe AIML End Here -------*/
 }
 @media (min-width: 1399.98px) {
   /* Header Start Here*/
@@ -4410,6 +4487,26 @@ table {
     height: 496px;
     top: 55%;
   }
+  /*------- Programe AIML Start Here -------*/
+  .collaborations_list:last-child {
+    width: auto;
+  }
+  .international_collaborations span img {
+    width: 100%;
+    margin-bottom: 0px;
+    max-height: 24px;
+  }
+  .international_collaborations span {
+    padding: 13px 10px;
+    border-radius: 10px;
+  }
+  .collaborations_box {
+    gap: 13px;
+  }
+  .international_collaborations {
+    gap: 10px;
+  }
+  /*------- Programe AIML End Here -------*/
 }
 @media (max-width: 1199.98px) {
   /* ========== Rahul 1198.98 CSS start ==========  */
@@ -4513,6 +4610,25 @@ table {
   /* ========== Rahul 991.98 CSS ends ========== */
 }
 @media (max-width: 767.98px) {
+  /*----------- Programe Tab Start Here -----------*/
+  /*----------- Students Projects Start Here -----------*/
+  .student_project_table th,
+  .student_project_table td {
+    font-size: 14px;
+    padding: 6px 7px;
+  }
+  .student_project_sr {
+    width: 55px;
+  }
+  .student_project_year_block {
+    margin-bottom: 25px;
+  }
+  .student_project_select {
+    width: 100%;
+    max-width: 100%;
+  }
+  /*----------- Students Projects End Here -----------*/
+  /*/*----------- Programe Tab End Here /*-----------*/
 }
 @media (max-width: 575.98px) {
   /* LeftSideBar Start Here */

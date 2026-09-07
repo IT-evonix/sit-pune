@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import RecruitersSlider from "@/components/ui/RecruitersSlider";
 // import OutcomeBasedEducation from "./OutcomeBasedEducation";
 
 const Overview = () => {
@@ -26,7 +27,9 @@ const Overview = () => {
       <div className="main_content">
         <div className="profilemain">
           <div className="profilecontent">
-            <div className="heading innerpageheading">About the Department </div>
+            <div className="heading innerpageheading">
+              About the Department{" "}
+            </div>
             <p className="m-0 p-0">
               The Department of Artificial Intelligence & Machine Learning at
               Symbiosis Institute of Technology, Pune, stands at the forefront
@@ -72,7 +75,10 @@ const Overview = () => {
               <div className="visiontextleft">
                 <div className="subheading">Vision</div>
                 <p className="section-text">
-                  To evolve as a centre of excellence in Artificial Intelligence and Machine Learning by fostering quality education, research, and industry collaboration to develop globally competent professionals contributing to societal enrichment.
+                  To evolve as a centre of excellence in Artificial Intelligence
+                  and Machine Learning by fostering quality education, research,
+                  and industry collaboration to develop globally competent
+                  professionals contributing to societal enrichment.
                 </p>
               </div>
             </div>
@@ -362,10 +368,8 @@ const Overview = () => {
               "linear-gradient(90deg,rgba(255, 255, 255, 1) 0%, rgba(232, 231, 231, 1) 100%);",
           }}
         >
-          <div
-            className="program_highlights_left"
-            style={{ border: "none", backgroundColor: "#fff" }}
-          >
+          <div className="program_highlights_left"
+            style={{ border: "none", backgroundColor: "#fff" }} >
             <div className="verticalScroll">
               <div className="heading innerpageheading">
                 International University Collaboration and MoU’s
@@ -436,38 +440,7 @@ const Overview = () => {
 
         <div className="job_roles_recuiters">
           <div className="job_roles_recuitersinner">
-            <div className="job_roles_recuitersleft">
-              <div className="heading innerpageheading">
-                International collaborations
-              </div>
-              <div className="collaborations_box">
-                <div className="collaborations_list">
-                  <div className="subheading18">Dual Degree (2+2)</div>
-                  <div className="international_collaborations">
-                    <span>Macquarie University, Australia</span>
-                  </div>
-                </div>
-                <div className="collaborations_list">
-                  <div className="subheading18">Academic Progression</div>
-                  <div className="international_collaborations">
-                    <span>Aston University, UK</span>
-                    <span>Loughborough University, UK</span>
-                    <span>Northeastern University, USA</span>
-                  </div>
-                </div>
-                <div className="collaborations_list">
-                  <div className="subheading18">
-                    Global Immersion / Semester Abroad / Summer-Winter Schools
-                  </div>
-                  <div className="international_collaborations">
-                    <span>Ingolstadt University, Germany</span>
-                    <span>IUPUI, USA</span>
-                    <span>AIT, Thailand and more</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="job_roles_recuitersright">
+            {/* <div className="job_roles_recuitersright">
               <div className="heading innerpageheading text-center">
                 Top Recuiters
               </div>
@@ -521,6 +494,112 @@ const Overview = () => {
                   width={100}
                   height={50}
                 />
+              </div>
+            </div> */}
+
+            <div className="w-100">
+              <RecruitersSlider program="aiml" />
+            </div>
+
+            <div className="job_roles_recuitersleft">
+              <div className="heading innerpageheading">
+                International collaborations
+              </div>
+              <div className="collaborations_box">
+                <div className="collaborations_list">
+                  <div className="subheading18">Dual Degree (2+2)</div>
+                  <div className="international_collaborations">
+                    <span>
+                      <Image
+                        className="img-fluid"
+                        src="/images/innerpages/programe/Macquarie_University.webp"
+                        alt="Logo"
+                        width={350}
+                        height={65}
+                        priority
+                      />
+                      {/* Macquarie University, Australia */}
+                    </span>
+                  </div>
+                </div>
+                <div className="collaborations_list">
+                  <div className="subheading18">Academic Progression</div>
+                  <div className="international_collaborations">
+                    <span>
+                      <Image
+                        className="img-fluid"
+                        src="/images/innerpages/programe/aston-university.webp"
+                        alt="Logo"
+                        width={350}
+                        height={65}
+                        priority
+                      />
+                      {/* Aston University, UK */}
+                      </span>
+                    <span>
+                      <Image
+                        className="img-fluid"
+                        src="/images/innerpages/programe/Loughborough-University.webp"
+                        alt="Logo"
+                        width={350}
+                        height={65}
+                        priority
+                      />
+                      {/* Loughborough University, UK */}
+                      </span>
+                    <span>
+                      <Image
+                        className="img-fluid"
+                        src="/images/innerpages/programe/Northeastern-University-Logo.webp"
+                        alt="Logo"
+                        width={350}
+                        height={65}
+                        priority
+                      />
+                      {/* Northeastern University, USA */}
+                      </span>
+                  </div>
+                </div>
+                <div className="collaborations_list">
+                  <div className="subheading18">
+                    Global Immersion / Semester Abroad / Summer-Winter Schools
+                  </div>
+                  <div className="international_collaborations">
+                    <span>
+                      <Image
+                        className="img-fluid"
+                        src="/images/innerpages/programe/Ingolstadt-university.webp"
+                        alt="Logo"
+                        width={350}
+                        height={65}
+                        priority
+                      />
+                      {/* Ingolstadt University, Germany */}
+                      </span>
+                    <span>
+                      <Image
+                        className="img-fluid"
+                        src="/images/innerpages/programe/IUPUI.webp"
+                        alt="Logo"
+                        width={350}
+                        height={65}
+                        priority
+                      />
+                      {/* IUPUI, USA */}
+                      </span>
+                    <span>
+                      <Image
+                        className="img-fluid"
+                        src="/images/innerpages/programe/AIT-thailand.webp"
+                        alt="Logo"
+                        width={350}
+                        height={65}
+                        priority
+                      />
+                      {/* AIT, Thailand */}
+                      </span>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

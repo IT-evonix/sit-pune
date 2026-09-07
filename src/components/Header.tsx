@@ -29,9 +29,7 @@ const Header = () => {
     };
   }, [mobileMenuOpen]);
 
-  /* ===============================
-      ESC Close
-  =============================== */
+  /* ========= ESC Close ========= */
 
   useEffect(() => {
     const handleEsc = (e: KeyboardEvent) => {
@@ -47,9 +45,7 @@ const Header = () => {
     return () => window.removeEventListener("keydown", handleEsc);
   }, []);
 
-  /* ===============================
-      Outside Click Close
-  =============================== */
+  /* ========= Outside Click Close ========= */
 
   useEffect(() => {
     const handleOutside = (e: MouseEvent) => {
@@ -65,9 +61,7 @@ const Header = () => {
     return () => document.removeEventListener("mousedown", handleOutside);
   }, []);
 
-  /* ===============================
-      Accordion
-  =============================== */
+  /* ========= Accordion ========= */
 
   const toggleAccordion = (id: number) => {
     setActiveMobileMenu((prev) =>
