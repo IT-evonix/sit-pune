@@ -38,7 +38,6 @@ export interface PDFItem {
 }
 
 // ========== AIML BROCHURE ========== //
-
 export const AIMLBrochurePDF: PDFItem[] = [
   {
     id: 1,
@@ -90,5 +89,7 @@ export const AIMLNewsletterPDF: PDFItem[] = [
     batch: "2025",
     pdfUrl:
       "/pdf/programmes/btech-AI/AIML-Dispatch/Newsletter/AIML_JULY_DEC_2025_NEWSLETTER.pdf",
+    previewImage:
+      "/images/innerpages/programe/aiml/aimldispatch/AIML-July-Dec.webp",
   },
 ];

@@ -160,7 +160,7 @@ export const menuData: NavMenu[] = [
       },
 
       {
-        id: 2,
+        id: 3,
         heading: "Other",
         links: [
           {
@@ -206,7 +206,72 @@ export const menuData: NavMenu[] = [
   {
     id: 3,
     title: "Admissions",
-    href: "/admissions",
+    hasMegaMenu: true,
+    columns: [
+      {
+        id: 1,
+        heading: "Apply",
+        links: [
+          {
+            id: 1,
+            title: "Admission Procedure",
+            href: "/",
+          },
+          {
+            id: 2,
+            title: "Undergraduate Admissions",
+            href: "/",
+          },
+          {
+            id: 3,
+            title: "Lateral Entry admissions",
+            href: "/",
+          },
+          {
+            id: 4,
+            title: "Postgraduate Admissions",
+            href: "/",
+          },
+          {
+            id: 5,
+            title: "Doctoral Admissions",
+            href: "/",
+          },
+          {
+            id: 6,
+            title: "International Admissions",
+            href: "/",
+          },
+
+        ],
+      },
+
+
+
+      {
+        id: 2,
+        heading: "Resources",
+        links: [
+          {
+            id: 1,
+            title: "Fees & Financial Aid",
+            href: "/",
+          },
+          {
+            id: 2,
+            title: "Scholarships",
+            href: "/",
+          },
+          {
+            id: 3,
+            title: "Uniform Information ",
+            href: "/",
+          },
+           
+        ],
+      },
+
+    ],
   },
 
   {
@@ -215,10 +280,76 @@ export const menuData: NavMenu[] = [
     href: "/",
   },
 
+  // {
+  //   id: 5,
+  //   title: "Campus Life",
+  //   href: "/",
+  // },
+
   {
     id: 5,
     title: "Campus Life",
-    href: "/",
+    hasMegaMenu: true,
+    columns: [
+      {
+        id: 1,
+        heading: "Life at SIT",
+        links: [
+          {
+            id: 1,
+            title: "Labs and Spaces",
+            href: "/",
+          },
+          {
+            id: 2,
+            title: "Student Clubs",
+            href: "/",
+          },
+          {
+            id: 3,
+            title: "Sports & Recreation",
+            href: "/",
+          },
+          {
+            id: 4,
+            title: "Hostel/Accommodation",
+            href: "/",
+          },
+          {
+            id: 5,
+            title: "Events & Engagement",
+            href: "/",
+          },
+          {
+            id: 6,
+            title: "The SIT Pune Experience",
+            href: "/",
+          },
+
+        ],
+      },
+
+
+
+      {
+        id: 2,
+        heading: "The SIT Pune Experience",
+        links: [
+          {
+            id: 1,
+            title: "Gender Equality / ISR Activities",
+            href: "/",
+          },
+          {
+            id: 2,
+            title: "Mentoring",
+            href: "/",
+          },
+           
+        ],
+      },
+
+    ],
   },
 
   {

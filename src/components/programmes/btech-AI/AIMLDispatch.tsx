@@ -42,7 +42,7 @@
 "use client";
 
 import Tabs, { TabItem } from "@/components/ui/Tabs";
-import PDFList from "@/components/ui/PDFList";
+// import PDFList from "@/components/ui/PDFList";
 import PDFPreview from "@/components/ui/PDFPreview";
 
 import { AIMLBrochurePDF, AIMLNewsletterPDF } from "@/data/pdfData";
@@ -64,7 +64,7 @@ const AIMLDispatch = () => {
     {
       id: "Newsletter",
       title: "Newsletter",
-      content: <PDFList data={AIMLNewsletterPDF} heading="" />,
+      content: <PDFPreview data={AIMLNewsletterPDF} heading="" />,
     },
   ];
 
