@@ -2923,7 +2923,7 @@ height:260px;
   background: #fff;
   border-radius: 20px;
   border: 1px solid #10467f1f;
-  min-height: 250px;
+  min-height: 230px;
   margin-bottom: 30px;
 }
 .collaborations_list {
@@ -4442,6 +4442,91 @@ table {
   margin: -60px 0px 60px 0px;
 }
 /* ========== Rahul Normal CSS ends ========== */
+
+/*-------- Founder Story Tab Start Here --------*/
+.Innerpage_main{
+  padding:60px 0px;
+}
+.career_opportunities_images {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+}
+.career_opportunities_img {
+  width: 100%;
+  border-radius: 20px;
+}
+.career_opportunities_img img {
+  width: 100%;
+  border-radius: 20px;
+}
+.logobox_img {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px 15px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 300px;
+  margin: 0 auto;
+}
+.logobox_img img {
+  width: 100%;
+}
+.careerimages_sticky {
+  position: sticky;
+  top: 100px;
+}
+.aicte_leadership{
+  background: #10467f0f;
+  padding: 15px;
+  border-radius: 10px;
+}
+.profile_card {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  background: #fff;
+  box-shadow: 0px 5px 10px #00000012;
+  border-radius: 10px;
+}
+.profile_photo{
+  width:33%;
+}
+.profile_photo img{
+  border-radius: 10px 0px 0px 10px;
+  min-height: 120px;
+  overflow: hidden;
+  object-fit: cover;
+  width:100%;
+}
+.profile_details{
+  width:55%;
+}
+.profiletag{
+  font-size: 12px;
+  color: #c4161c;
+  margin: 0 0 10px 0;
+  background: #c4161c0f;
+  width: fit-content;
+  padding: 4px 10px;
+  border-radius: 20px;
+  line-height: normal;
+}
+.profile_card .subheading{
+  font-size:16px;
+  line-height: normal;
+}
+.profiledesignation{
+  font-size:14px;
+  line-height: normal;
+  color:#2c2c2c;
+}
+/*-------- Founder Story Tab End Here --------*/
+
+
 /* Media Queries Start Here */
 @media (min-width: 1599.98px) {
   /* Header Start Here*/
