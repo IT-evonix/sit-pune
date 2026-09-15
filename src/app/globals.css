@@ -4529,6 +4529,9 @@ table {
 
 /* Media Queries Start Here */
 @media (min-width: 1599.98px) {
+  .container-fluid{
+    max-width: 1600px;
+  }
   /* Header Start Here*/
   .mainmenu .nav-item .nav-link {
     padding: 5px 9px !important;
