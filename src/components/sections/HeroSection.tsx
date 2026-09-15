@@ -18,7 +18,7 @@ const HeroSection = () => {
                 </p>
 
                 <div className="mt-2 d-flex gap-3">
-                        <Rounded_CTA label="Apply Now" link="/apply" bgColor = "#fff" textColor="#C4161C" borderColor="transparent" />
+                        <Rounded_CTA label="Apply Now" link="/" bgColor = "#fff" textColor="#C4161C" borderColor="transparent" />
                         <Rounded_CTA label="Explore More" link="/programme" bgColor = "#transparent" textColor="#fff" borderColor="#fff" />
                 </div>
 

@@ -30,7 +30,7 @@ export default function CentreOfExcellence() {
             </p>
             <Rounded_CTA
               label="Explore Research"
-              link="/apply"
+              link="/"
               bgColor="#fff"
               textColor="#10467F"
               borderColor="transparent"

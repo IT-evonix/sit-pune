@@ -14,7 +14,7 @@ const Footer = () => {
     <footer>
         <Blussitpune/>
         <footer className="sit-footer">
-          <div className="container">
+          <div className="container-fluid">
             <div className="row gy-5">
               <div className="col-lg-4">
                 <div className="footer-logo mb-4">

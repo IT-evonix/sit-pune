@@ -38,7 +38,7 @@ const HeroSlider = () => {
             <div className="mt-2 d-flex gap-3">
               <Rounded_CTA
                 label="Apply Now"
-                link="/apply"
+                link="/"
                 bgColor="#fff"
                 textColor="#C4161C"
                 borderColor="transparent"
@@ -80,7 +80,7 @@ const HeroSlider = () => {
                     <div className="mt-3 d-flex gap-3">
                       <Rounded_CTA
                         label="Apply Now"
-                        link="/apply"
+                        link="/"
                         bgColor="#fff"
                         textColor="#C4161C"
                         borderColor="transparent"
@@ -127,7 +127,7 @@ const HeroSlider = () => {
                     <div className="mt-3 d-flex gap-3">
                       <Rounded_CTA
                         label="Apply Now"
-                        link="/apply"
+                        link="/"
                         bgColor="#fff"
                         textColor="#C4161C"
                         borderColor="transparent"
@@ -172,7 +172,7 @@ const HeroSlider = () => {
                     <div className="mt-3 d-flex gap-3">
                       <Rounded_CTA
                         label="Apply Now"
-                        link="/apply"
+                        link="/"
                         bgColor="#fff"
                         textColor="#C4161C"
                         borderColor="transparent"

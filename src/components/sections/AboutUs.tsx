@@ -12,7 +12,7 @@ const aboutus = () => {
                         <div className="heading">Why <span>Choose SIT</span></div>
                         <div className="subheading">Where Excellence Meets Opportunity</div>
                         <p className="p-0 m-0">At SIT Pune, we blend rigorous academics with cutting-edge research and  unmatched industry connections to prepare you for a future without  limits.</p>
-                        <Rounded_CTA label="Explore More" link="/apply" bgColor = "transparent" textColor="#10467F" borderColor="#10467F" />
+                        <Rounded_CTA label="Explore More" link="/" bgColor = "transparent" textColor="#10467F" borderColor="#10467F" />
                     </div>
                 </div>
             </div>
