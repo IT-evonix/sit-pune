@@ -64,20 +64,20 @@ export const programData = {
   PG: [
     {
       id: 1,
-      name: "M.Tech - Data Science & AI",
-      icon: "/images/home/ai.svg",
+      name: "Artificial Intelligence and Machine Learning",
+      icon: "/images/home/programs-icons/M-tech-AIML.webp",
       levels: ["M.Tech", "PhD"],
     },
     {
       id: 2,
-      name: "M.Tech - Cloud Computing",
-      icon: "/images/home/ai.svg",
+      name: "Automotive Technology",
+      icon: "/images/home/programs-icons/Automotive-Technology.webp",
       levels: ["M.Tech", "PhD"],
     },
     {
       id: 3,
-      name: "M.Tech - Cybersecurity",
-      icon: "/images/home/ai.svg",
+      name: "Robotics and Artificial Intelligence",
+      icon: "/images/home/programs-icons/Robotics-and-AI.webp",
       levels: ["M.Tech", "PhD"],
     },
   ],

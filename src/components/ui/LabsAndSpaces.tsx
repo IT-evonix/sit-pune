@@ -106,14 +106,11 @@ function LabCard({ image, labTitle, index, galleryName }: LabCardProps) {
 
 export default function LabsAndSpaces({ departments }: LabsAndSpacesProps) {
   useEffect(() => {
-    Fancybox.bind("[data-fancybox]", {
-      animated: true,
+  Fancybox.bind("[data-fancybox]", {
+    dragToClose: true,
 
-      dragToClose: true,
-
-      Carousel: {
-        infinite: false,
-      },
+    Carousel: {
+      infinite: false,
 
       Toolbar: {
         display: {
@@ -126,13 +123,14 @@ export default function LabsAndSpaces({ departments }: LabsAndSpacesProps) {
       Thumbs: {
         type: "classic",
       },
-    });
+    },
+  });
 
-    return () => {
-      Fancybox.unbind("[data-fancybox]");
-      Fancybox.close();
-    };
-  }, []);
+  return () => {
+    Fancybox.unbind("[data-fancybox]");
+    Fancybox.close();
+  };
+}, []);
 
   return (
     <section className="labs-spaces">
