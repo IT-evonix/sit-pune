@@ -189,7 +189,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="footer-bottom">
-            <div className="container">
+            <div className="container-fluid">
               <div className="d-flex justify-content-between align-items-center flex-wrap gap-3">
                 <p>
                   Copyright ©2026{" "}

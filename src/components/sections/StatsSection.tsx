@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import CountUp from "react-countup";
 import Image from "next/image";
-import { Container, Row, Col } from "react-bootstrap";
+import { Col } from "react-bootstrap";
 
 export default function StatsSection() {
   const [startCount, setStartCount] = useState(false);
@@ -60,9 +60,9 @@ export default function StatsSection() {
 
   return (
     <section className="stats-section" ref={sectionRef}>
-      <Container>
+      <div className="container-fluid">
         <div className="stateinner">
-          <Row>
+          <div className="row">
             {stats.map((item, index) => (
               <Col lg={3} md={6} key={index}>
                 <div className="stat-box d-flex align-items-center gap-3">
@@ -87,9 +87,9 @@ export default function StatsSection() {
                 </div>
               </Col>
             ))}
-          </Row>
+          </div>
         </div>
-      </Container>
+      </div>
     </section>
   );
 }

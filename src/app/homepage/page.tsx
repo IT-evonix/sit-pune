@@ -19,7 +19,7 @@ import Internationalization from "@/components/sections/Internationalization";
 
 export default function Home() {
   return (
-    <div>
+    <div className="">
       {/* <HeroSection/> */}
       <HeroSlider/>
       {/* <Herobannervideo/> */}

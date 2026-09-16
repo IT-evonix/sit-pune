@@ -134,7 +134,7 @@ export function ProgramTabs({
           className="btn"
           style={{
             padding: "8px 18px",
-            fontSize: "15px",
+            fontSize: "16px",
             fontWeight: "600",
             borderRadius: "6px",
             border: "none",
@@ -260,7 +260,7 @@ export default function AcademicPrograms() {
   return (
     <>
       <section className="academic_programs_section">
-        <div className="container">
+        <div className="container-fluid">
           <div className="row align-items-center">
             <div className="col-lg-6">
               {/* <span className="heading_small">Programs Offered</span> */}
@@ -282,7 +282,7 @@ export default function AcademicPrograms() {
         </div>
       </section>
       <section className="academic_programs_blue">
-        <div className="container">
+        <div className="container-fluid">
           <ProgramSlider data={data} />
         </div>
       </section>

@@ -211,7 +211,7 @@ body.menu-open {
 } */
 .videobanner_content {
   position: absolute;
-  left: 6%;
+  left: 4%;
   bottom: 0;
   top: 8%;
   z-index: 999;
@@ -1174,7 +1174,7 @@ body.menu-open {
   line-height: normal;
 }
 .placementnumber p {
-  font-size: 14px;
+  font-size: 15px;
   margin: 0px;
 }
 /*----------------- Testimonials Start Here --------------------*/
@@ -1231,12 +1231,12 @@ body.menu-open {
 }
 .student_info p {
   font-family: "Metropolis-Thin";
-  font-size: 14px;
+  font-size: 15px;
   line-height: normal;
   margin: 0px;
 }
 .testimonial_text p {
-  font-size: 14px;
+  font-size: 1415pxpx;
   margin: 0px;
   font-family: "Metropolis-Light";
 }
@@ -2404,7 +2404,7 @@ height:260px;
   font-size: 14px;
   font-family: "Metropolis-Regular";
 }
-.sit-footer::before {
+/* .sit-footer::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -2421,7 +2421,7 @@ height:260px;
     );
   opacity: 0.7;
   pointer-events: none;
-}
+} */
 .sit-footer .container {
   position: relative;
   z-index: 2;
@@ -2964,7 +2964,7 @@ height:260px;
 .international_collaborations span img {
   width: 100%;
   margin-bottom: 0px;
-  max-height: 48px;
+  max-height: 50px;
 }
 .international_collaborations span:first-child {
   background: #c5151c12;
@@ -4526,10 +4526,22 @@ table {
 }
 /*-------- Founder Story Tab End Here --------*/
 
+.homepage_main .container-fluid{
+  max-width: 96%;
+}
+.container-fluid{
+  max-width: 96%;
+}
+.homepage_main .container{
+  max-width: 96%;
+}
 
 /* Media Queries Start Here */
 @media (min-width: 1599.98px) {
   .container-fluid{
+    max-width: 1600px;
+  }
+  .homepage_main .container-fluid{
     max-width: 1600px;
   }
   /* Header Start Here*/
@@ -4541,7 +4553,9 @@ table {
   }
   /* Header End Here */
   /*---------- Hero Video Start Here ----------*/
-
+  .videobanner_content {
+    left: 9%;
+  }
   /* .firstslide h1{} */
   .videobanner_content {
     position: absolute;
@@ -4549,9 +4563,9 @@ table {
   }
   /*---------- Hero Video End Here ----------*/
   /*------- Programe AIML Start Here -------*/
-  .international_collaborations span img {
+  /* .international_collaborations span img {
     max-height: 29px !important;
-  }
+  } */
   /*------- Programe AIML End Here -------*/
 }
 @media (min-width: 1399.98px) {
@@ -4565,9 +4579,9 @@ table {
   }
   /* Header End Here */
   /*---------- Hero Video Start Here ----------*/
-
   .videobanner_content {
     top: 12%;
+    left: 5%;
   }
   /*---------- Hero Video End Here ----------*/
   /* About Section Start */
@@ -4582,7 +4596,7 @@ table {
   .international_collaborations span img {
     width: 100%;
     margin-bottom: 0px;
-    max-height: 24px;
+    max-height: 55px;
   }
   .international_collaborations span {
     padding: 13px 10px;

@@ -19,7 +19,7 @@ import CentreofExcellences from "@/components/sections/CentreofExcellences";
 
 export default function Home() {
   return (
-    <div>
+    <div className="homepage_main">
       {/* <HeroSection/> */}
       <HeroSlider />
       {/* <Herobannervideo/> */}

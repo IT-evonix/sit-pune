@@ -17,7 +17,7 @@ export default function CentreOfExcellence() {
 
   return (
     <section className="coe-section centreofexcellences">
-      <div className="container">
+      <div className="container-fluid">
         <div className="coe-inner">
           <div className="coe-left">
             <div className="heading">

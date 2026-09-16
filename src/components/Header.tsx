@@ -91,8 +91,8 @@ const Header = () => {
               className="mainlogo"
               src="/images/common/Logo.webp"
               alt="Logo"
-              width={350}
-              height={65}
+              width={330}
+              height={60}
               priority
             />
           </Link>
