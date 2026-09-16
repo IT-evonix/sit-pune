@@ -81,7 +81,7 @@ export const menuData: NavMenu[] = [
           {
             id: 1,
             title: "Artificial Intelligence and Machine Learning ",
-            href: "/",
+            href: "/programmes/btech/artificial-intelligence-machine-learning",
           },
           {
             id: 2,
@@ -96,7 +96,7 @@ export const menuData: NavMenu[] = [
           {
             id: 4,
             title: "Electronics and Telecommunication Engineering ",
-            href: "/",
+            href: "/programmes/btech/btech-electronic-telecommunications",
           },
           {
             id: 5,
@@ -106,12 +106,12 @@ export const menuData: NavMenu[] = [
           {
             id: 6,
             title: "Robotics and Automation ",
-            href: "/",
+            href: "/programmes/btech/btech-robotics-automation",
           },
           {
             id: 7,
             title: "Robotics and Artificial Intelligence ",
-            href: "/",
+            href: "/programmes/btech/btech-robotics-artificial-intelligence",
           },
 
         ],

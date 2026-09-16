@@ -121,7 +121,7 @@ const companies = [
 export default function CompanySlider() {
   return (
     <section className="Companylogos">
-      <div className="container">
+      <div className="container-fluid">
         <div className="Companylogosinner">
           <Swiper
             modules={[Autoplay, Navigation]}

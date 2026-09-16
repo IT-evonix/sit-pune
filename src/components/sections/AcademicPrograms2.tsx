@@ -134,7 +134,7 @@ export function ProgramTabs({
           className="btn"
           style={{
             padding: "8px 18px",
-            fontSize: "15px",
+            fontSize: "16px",
             fontWeight: "600",
             borderRadius: "6px",
             border: "none",

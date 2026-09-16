@@ -50,7 +50,7 @@ export default function GallerySec() {
         {/* Overlay */}
         {/* <div className="gallery-overlay"></div> */}
 
-        <Container className="position-relative z-2">
+        <div className="position-relative z-2 container-fluid">
 
           {/* Heading */}
           <div className="text-center mb-5">
@@ -132,7 +132,7 @@ export default function GallerySec() {
               Explore <span>Gallery</span>
             </Button>
           </div>
-        </Container>
+        </div>
       </section>
     </>
   );

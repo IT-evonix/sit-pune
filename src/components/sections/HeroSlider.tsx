@@ -32,8 +32,8 @@ const HeroSlider = () => {
               <span className="sitpunetext">SIT Pune</span>
             </h1>
             <p className="mt-2 text-white m-0">
-              Welcome to Symbiosis Institute of Technology — where innovation
-              meets excellence in engineering education.
+              Welcome to Symbiosis Institute of Technology Pune — where innovation
+              meets excellence.
             </p>
             <div className="mt-2 d-flex gap-3">
               <Rounded_CTA

@@ -18,7 +18,7 @@ const Placements = () => {
       },
       {
         threshold: 0.3,
-      }
+      },
     );
 
     if (sectionRef.current) {
@@ -29,81 +29,60 @@ const Placements = () => {
   }, []);
 
   return (
-    <div>
-      <div className="Placements_section" ref={sectionRef}>
-        <div className="container">
-          <div className="row">
-            
-            <div className="col-md-6">
-              {/* <div className="heading_small">Placements</div> */}
-              <div className="heading">                
-                <span>Placements</span>
-              </div>
-              <div className="subheading">Empowering Careers with Excellent Opportunities and Extraordinary Outcomes. </div>
+    <div className="Placements_section" ref={sectionRef}>
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-md-6">
+            {/* <div className="heading_small">Placements</div> */}
+            <div className="heading">
+              <span>Placements</span>
             </div>
-
-            <div className="col-md-6">
-              <div className="placementnumber">
-
-                {/* Highest Package */}
-                <div className="placementNum">
-                  <div className="Numhead">
-                    
-                    {startCount ? (
-                      <CountUp end={85} duration={3} />
-                    ) : (
-                      0
-                    )} 
-                    %
-                  </div>
-
-                  <p>Placement Rate</p>
-                </div>
-
-                <div className="verticalline"></div>
-
-                {/* Average Package */}
-                <div className="placementNum">
-                  <div
-                    className="Numhead"
-                    style={{ color: "#C4161C" }}
-                  >
-                    ₹
-                    {startCount ? (
-                      <CountUp end={27} duration={3} />
-                    ) : (
-                      0
-                    )} LPA
-                  </div>
-
-                  <p>Highest Package</p>
-                </div>
-
-                <div className="verticalline"></div>
-
-                {/* Placement Rate */}
-                <div className="placementNum border-none">
-                  <div className="Numhead">
-                    {startCount ? (
-                      <CountUp end={200} duration={3} />
-                    ) : (
-                      0
-                    )}  
-                    +                  
-                  </div>
-                  <p>Placement Rate</p>
-                </div>
-
-              </div>
+            <div className="subheading">
+              Empowering Careers with Excellent Opportunities and Extraordinary
+              Outcomes.{" "}
             </div>
           </div>
 
-          <div className="row">
-            <div className="col-md-6"></div>
+          <div className="col-md-6">
+            <div className="placementnumber">
+              {/* Highest Package */}
+              <div className="placementNum">
+                <div className="Numhead">
+                  {startCount ? <CountUp end={85} duration={3} /> : 0}%
+                </div>
 
-            <div className="col-md-6">
-              <Testimonial />
+                <p>Placement Rate</p>
+              </div>
+
+              <div className="verticalline"></div>
+
+              {/* Average Package */}
+              <div className="placementNum">
+                <div className="Numhead" style={{ color: "#C4161C" }}>
+                  ₹{startCount ? <CountUp end={27} duration={3} /> : 0} LPA
+                </div>
+
+                <p>Highest Package</p>
+              </div>
+
+              <div className="verticalline"></div>
+
+              {/* Placement Rate */}
+              <div className="placementNum border-none">
+                <div className="Numhead">
+                  {startCount ? <CountUp end={200} duration={3} /> : 0}+
+                </div>
+                <p>Placement Rate</p>
+              </div>
             </div>
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col-md-6"></div>
+
+          <div className="col-md-6">
+            <Testimonial />
           </div>
         </div>
       </div>

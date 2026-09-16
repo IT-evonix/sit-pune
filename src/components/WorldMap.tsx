@@ -9,7 +9,7 @@ const WorldMap = () => {
 
   return (
     <section className="world_map_section">
-      <div className="container">
+      <div className="container-fluid">
         {/* Heading */}
 
         <div className="section_heading text-center">

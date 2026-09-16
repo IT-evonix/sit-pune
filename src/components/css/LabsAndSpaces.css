@@ -1,0 +1,455 @@
+/* =========================================
+   LABS & SPACES
+========================================= */
+
+.labs-spaces {
+  width: 100%;
+  padding: 0px 0;
+}
+/* =========================================
+   DEPARTMENT
+========================================= */
+
+.labs-department {
+  width: 100%;
+}
+.labs-department__title {
+  margin-bottom: 30px;
+}
+
+.labs-department__title h2 {
+  margin: 0;
+  font-size: 30px;
+  line-height: 1.3;
+  font-weight: 600;
+  color: #111;
+}
+
+/* =========================================
+   LAB
+========================================= */
+
+.labs-lab {
+  width: 100%;
+}
+.labs-lab__title {
+  margin-bottom: 20px;
+}
+.labs-lab__title h3 {
+  margin: 0;
+  font-size: 24px;
+  line-height: 1.3;
+  font-weight: 600;
+  color: #111;
+}
+/* =========================================
+   MAIN 6 IMAGE GRID
+========================================= */
+.labs-grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  /*
+   * Screenshot proportion:
+   *
+   * Row 1 = 263px
+   * Row 2 = 109px
+   * Row 3 = 263px
+   *
+   * Tall card:
+   * 263 + 16 + 109 = 388px
+   *
+   * Center tall:
+   * 109 + 16 + 263 = 388px
+   */
+  grid-template-rows: 263px 109px 263px;
+  gap: 16px;
+}
+/* =========================================
+   COMMON CARD
+========================================= */
+
+.labs-card {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 17px;
+  background: #ddd;
+  text-decoration: none;
+  cursor: pointer;
+  isolation: isolate;
+}
+/* =========================================
+   EXACT FIRST 6 POSITIONS
+========================================= */
+
+/* IMAGE 1 - TALL */
+.labs-card--1 {
+  grid-column: 1;
+  grid-row: 1 / 3;
+}
+/* IMAGE 2 - NORMAL */
+.labs-card--2 {
+  grid-column: 2;
+  grid-row: 1;
+}
+/* IMAGE 3 - TALL */
+.labs-card--3 {
+  grid-column: 3;
+  grid-row: 1 / 3;
+}
+
+/* IMAGE 4 - NORMAL */
+
+.labs-card--4 {
+  grid-column: 1;
+  grid-row: 3;
+}
+
+/* IMAGE 5 - TALL */
+
+.labs-card--5 {
+  grid-column: 2;
+  grid-row: 2 / 4;
+}
+
+/* IMAGE 6 - NORMAL */
+
+.labs-card--6 {
+  grid-column: 3;
+  grid-row: 3;
+}
+
+/* =========================================
+   7TH IMAGE ONWARDS
+   NORMAL 3 COLUMN GRID
+========================================= */
+
+.labs-card--normal {
+  height: 260px;
+
+  grid-column: auto;
+  grid-row: auto;
+}
+
+/*
+ * Because the first six cards occupy
+ * the first three rows, additional cards
+ * start naturally after them.
+ */
+
+.labs-grid .labs-card--normal:nth-child(7) {
+  grid-column: 1;
+  grid-row: 4;
+}
+
+.labs-grid .labs-card--normal:nth-child(8) {
+  grid-column: 2;
+  grid-row: 4;
+}
+
+.labs-grid .labs-card--normal:nth-child(9) {
+  grid-column: 3;
+  grid-row: 4;
+}
+
+.labs-grid .labs-card--normal:nth-child(10) {
+  grid-column: 1;
+  grid-row: 5;
+}
+
+.labs-grid .labs-card--normal:nth-child(11) {
+  grid-column: 2;
+  grid-row: 5;
+}
+
+.labs-grid .labs-card--normal:nth-child(12) {
+  grid-column: 3;
+  grid-row: 5;
+}
+
+/* =========================================
+   IMAGE WRAPPER
+========================================= */
+
+.labs-card__image {
+  position: absolute;
+
+  inset: 0;
+
+  width: 100%;
+  height: 100%;
+
+  overflow: hidden;
+}
+
+/* =========================================
+   IMAGE
+========================================= */
+
+.labs-card__img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+  transition: transform 0.6s ease;
+}
+
+/* =========================================
+   DARK BOTTOM GRADIENT
+========================================= */
+
+.labs-card__overlay {
+  position: absolute;
+
+  inset: 0;
+
+  z-index: 1;
+
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 35%,
+    rgba(0, 0, 0, 0.08) 55%,
+    rgba(0, 0, 0, 0.92) 100%
+  );
+
+  pointer-events: none;
+
+  transition: background 0.4s ease;
+}
+
+/* =========================================
+   PLUS / ZOOM ICON
+========================================= */
+
+.labs-card__zoom {
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+
+  z-index: 3;
+
+  width: 46px;
+  height: 46px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  color: #fff;
+
+  border: 1px solid rgba(255, 255, 255, 0.95);
+
+  border-radius: 50%;
+
+  transform: translate(-50%, -50%) scale(0.65);
+
+  opacity: 0;
+
+  transition:
+    opacity 0.35s ease,
+    transform 0.35s ease;
+
+  pointer-events: none;
+}
+
+/* =========================================
+   LAB NAME
+========================================= */
+
+.labs-card__content {
+  position: absolute;
+
+  left: 25px;
+  right: 20px;
+  bottom: 21px;
+
+  z-index: 3;
+
+  transform: translateY(8px);
+
+  transition: transform 0.35s ease;
+}
+
+.labs-card__content h3 {
+  margin: 0;
+
+  color: #fff;
+
+  font-size: 16px;
+
+  line-height: 1.3;
+
+  font-weight: 500;
+
+  text-align: left;
+
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.55);
+}
+
+/* =========================================
+   HOVER
+========================================= */
+
+.labs-card:hover .labs-card__img {
+  transform: scale(1.07);
+}
+
+.labs-card:hover .labs-card__zoom {
+  opacity: 1;
+
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.labs-card:hover .labs-card__content {
+  transform: translateY(0);
+}
+
+.labs-card:hover .labs-card__overlay {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.08) 20%,
+    rgba(0, 0, 0, 0.18) 50%,
+    rgba(0, 0, 0, 0.94) 100%
+  );
+}
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 991px) {
+  .labs-spaces {
+    padding: 50px 0;
+  }
+
+  .labs-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    grid-template-rows: auto;
+
+    gap: 14px;
+  }
+
+  .labs-card--1,
+  .labs-card--2,
+  .labs-card--3,
+  .labs-card--4,
+  .labs-card--5,
+  .labs-card--6,
+  .labs-card--normal {
+    grid-column: auto !important;
+    grid-row: auto !important;
+
+    height: 270px;
+  }
+
+  .labs-department__title h2 {
+    font-size: 27px;
+  }
+
+  .labs-lab__title h3 {
+    font-size: 22px;
+  }
+}
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 767px) {
+  .labs-spaces {
+    padding: 40px 0;
+  }
+
+  .labs-department__title {
+    margin-bottom: 20px;
+  }
+
+  .labs-department__title h2 {
+    font-size: 23px;
+  }
+
+  .labs-lab__title {
+    margin-bottom: 16px;
+  }
+
+  .labs-lab__title h3 {
+    font-size: 20px;
+  }
+
+  .labs-grid {
+    grid-template-columns: 1fr;
+
+    grid-template-rows: auto;
+
+    gap: 14px;
+  }
+
+  .labs-card--1,
+  .labs-card--2,
+  .labs-card--3,
+  .labs-card--4,
+  .labs-card--5,
+  .labs-card--6,
+  .labs-card--normal {
+    grid-column: auto !important;
+    grid-row: auto !important;
+
+    height: 270px;
+  }
+
+  .labs-card {
+    border-radius: 15px;
+  }
+
+  .labs-card__content {
+    left: 18px;
+    right: 15px;
+    bottom: 18px;
+  }
+
+  .labs-card__content h3 {
+    font-size: 15px;
+  }
+}
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 480px) {
+  .labs-grid {
+    gap: 12px;
+  }
+
+  .labs-card--1,
+  .labs-card--2,
+  .labs-card--3,
+  .labs-card--4,
+  .labs-card--5,
+  .labs-card--6,
+  .labs-card--normal {
+    height: 235px;
+  }
+
+  .labs-card__content {
+    left: 16px;
+    right: 14px;
+    bottom: 15px;
+  }
+
+  .labs-card__content h3 {
+    font-size: 14px;
+  }
+
+  .labs-card__zoom {
+    width: 42px;
+    height: 42px;
+  }
+}
