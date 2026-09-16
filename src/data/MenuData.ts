@@ -133,7 +133,7 @@ export const menuData: NavMenu[] = [
           },
           {
             id: 3,
-            title: "Embedded Systems ",
+            title: "Robotics and Artificial Intelligence",
             href: "/",
           },
            {
