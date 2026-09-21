@@ -1,0 +1,41 @@
+// import Image from "next/image";
+// import HeroSection from "@/components/sections/HeroSection";
+import HeroSlider from "@/components/sections/HeroSlider";
+import LatestUpdate from "@/components/sections/LatestUpdate";
+import AboutUs from "@/components/sections/AboutUs";
+import StatsSection from "@/components/sections/StatsSection";
+import AcademicPrograms from "@/components/sections/AcademicPrograms";
+import Placements from "@/components/sections/Placements";
+import CompanySlider from "@/components/sections/CompanySlider";
+import GallerySec from "@/components/sections/GallerySec";
+// import GallerySec from "@/components/sections/GallerysecNew";
+// import NewsAndEvents from "@/components/sections/NewsAndEvents";
+// import Internationalization from "@/components/sections/Internationalization";
+// import GallerysecOption from "@/components/sections/GallerysecOption";
+import WorldMap from "@/components/WorldMap";
+import CentreofExcellences from "@/components/sections/CentreofExcellences";
+// import AcademicPrograms2 from "@/components/sections/AcademicPrograms2";
+// import Herobannervideo from "@/components/sections/Herobannervideo";
+
+export default function Home() {
+  return (
+    <div className="homepage_main">
+      {/* <HeroSection/> */}
+      <HeroSlider />
+      {/* <Herobannervideo/> */}
+      <LatestUpdate />
+      <AboutUs />
+      <StatsSection />
+      <AcademicPrograms />
+      <Placements />
+      <CompanySlider />
+      <GallerySec/>
+      {/* <GallerysecNew/> */}
+      {/* <GallerysecOption/> */}
+      {/* <Internationalization /> */}
+      <WorldMap/>
+      <CentreofExcellences />
+      {/* <NewsAndEvents /> */}
+    </div>
+  );
+}

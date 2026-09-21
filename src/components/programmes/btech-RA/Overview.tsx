@@ -398,9 +398,9 @@ const Overview = () => {
             </ul>
           </div>
         </div> */}
-
+{/* 
         <div className="job_roles_recuiters">
-          <div className="job_roles_recuitersinner">
+          <div className="job_roles_recuitersinner"> */}
             {/* <div className="job_roles_recuitersright">
               <div className="heading innerpageheading text-center">
                 Top Recuiters
@@ -532,8 +532,8 @@ const Overview = () => {
                 </div>
               </div>
             </div> */}
-          </div>
-        </div>
+          {/* </div>
+        </div> */}
 
         {/* <div className="intake_main">
           <div className="row">
