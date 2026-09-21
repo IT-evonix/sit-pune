@@ -1,0 +1,291 @@
+﻿"use client";
+
+import { useState, useRef, useEffect } from "react";
+import Image from "next/image";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Autoplay } from "swiper/modules";
+
+import "swiper/css";
+import "swiper/css/navigation";
+import NextPrev from "../ui/NextPrev";
+
+export type Program = {
+  id: number;
+  name: string;
+  icon: string;
+  levels: string[];
+};
+
+export const programData = {
+  UG: [
+    {
+      id: 1,
+      name: "Artificial Intelligence and Machine Learning",
+      // icon: "/images/home/ai.svg",
+      icon: "/images/home/programs-icons/AIML-2.webp",
+      levels: ["B.Tech", "M.Tech", "PhD"],
+    },
+    {
+      id: 2,
+      name: "Civil Engineering",
+      // icon: "/images/home/Civil-Engineering.svg",
+      icon: "/images/home/programs-icons/CIVIL.webp",
+      levels: ["B.Tech", "M.Tech", "PhD"],
+    },
+    {
+      id: 3,
+      name: "Computer Science and Engineering",
+      // icon: "/images/home/Computer-Science.svg",
+      icon: "/images/home/programs-icons/CSE.webp",
+      levels: ["B.Tech", "M.Tech", "PhD"],
+    },
+    {
+      id: 4,
+      name: "Electronics and Telecommunication Engineering",
+      // icon: "/images/home/Electronics.svg",
+      icon: "/images/home/programs-icons/E&TC.webp",
+      levels: ["B.Tech", "M.Tech", "PhD"],
+    },
+    {
+      id: 5,
+      name: "Computer Science and Engineering",
+      // icon: "/images/home/Computer-Science.svg",
+      icon: "/images/home/programs-icons/Mechanical-Engineering.webp",
+      levels: ["B.Tech", "M.Tech", "PhD"],
+    },
+    {
+      id: 6,
+      name: "Electronics & Telecommunication",
+      // icon: "/images/home/Electronics.svg",
+      icon: "/images/home/programs-icons/Roboticsan-artificial-Intelligence.webp",
+      levels: ["B.Tech", "M.Tech", "PhD"],
+    },
+  ],
+  PG: [
+    {
+      id: 1,
+      name: "Artificial Intelligence and Machine Learning",
+      icon: "/images/home/programs-icons/M-tech-AIML.webp",
+      levels: ["M.Tech", "PhD"],
+    },
+    {
+      id: 2,
+      name: "Automotive Technology",
+      icon: "/images/home/programs-icons/Automotive-Technology.webp",
+      levels: ["M.Tech", "PhD"],
+    },
+    {
+      id: 3,
+      name: "Robotics and Artificial Intelligence",
+      icon: "/images/home/programs-icons/Robotics-and-AI.webp",
+      levels: ["M.Tech", "PhD"],
+    },
+  ],
+  DualDegree: [
+    {
+      id: 1,
+      name: "B.Tech + M.Tech (Computer Science)",
+      icon: "/images/home/ai.svg",
+      levels: ["DualDegree"],
+    },
+    {
+      id: 2,
+      name: "B.Tech + M.Tech (Artificial Intelligence)",
+      icon: "/images/home/ai.svg",
+      levels: ["DualDegree"],
+    },
+  ],
+  DOCTORAL: [
+    {
+      id: 1,
+      name: "PhD - Computer Science",
+      icon: "/images/home/ai.svg",
+      levels: ["PhD"],
+    },
+    {
+      id: 2,
+      name: "PhD - Electronics & Communication",
+      icon: "/images/home/ai.svg",
+      levels: ["PhD"],
+    },
+  ],
+};
+
+export function ProgramTabs({
+  activeTab,
+  setActiveTab,
+}: {
+  activeTab: string;
+  setActiveTab: (tab: string) => void;
+}) {
+  const tabs = [
+    { label: "Undergraduate", value: "UG" },
+    { label: "Postgraduate", value: "PG" },
+    { label: "Dual Degree", value: "DualDegree" },
+    { label: "PhD", value: "DOCTORAL" },    
+  ];
+
+  return (
+    <div className="d-flex gap-2 flex-wrap ProgramsTabbing">
+      {tabs.map((tab) => (
+        <button
+          key={tab.value}
+          onClick={() => setActiveTab(tab.value)}
+          className="btn"
+          style={{
+            padding: "8px 18px",
+            fontSize: "16px",
+            fontWeight: "600",
+            borderRadius: "6px",
+            border: "none",
+            backgroundColor: activeTab === tab.value ? "#C4161C" : "#fff",
+            color: activeTab === tab.value ? "#fff" : "#6B7280",
+            cursor: "pointer",
+          }}
+        >
+          {tab.label}
+        </button>
+      ))}
+    </div>
+  );
+}
+
+export function ProgramSlider({ data }: { data: Program[] }) {
+  const prevRef = useRef<HTMLButtonElement | null>(null);
+  const nextRef = useRef<HTMLButtonElement | null>(null);
+  const swiperRef = useRef<any>(null);
+  const [swiperReady, setSwiperReady] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 992);
+    };
+
+    handleResize();
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+  const showNav = isMobile ? data.length > 2 : data.length > 4;
+
+  useEffect(() => {
+    if (!swiperReady || !swiperRef.current || !prevRef.current || !nextRef.current) return;
+
+    const swiper = swiperRef.current;
+    const params = swiper.params as any;
+    if (!params) return;
+
+    params.navigation = params.navigation || {};
+    params.navigation.prevEl = prevRef.current;
+    params.navigation.nextEl = nextRef.current;
+
+    if (swiper.navigation) {
+      swiper.navigation.destroy();
+      swiper.navigation.init();
+      swiper.navigation.update();
+    }
+  }, [swiperReady, data, showNav]);
+
+  return (
+    <div className="mt-5">
+      <Swiper
+        modules={[Navigation]}
+        spaceBetween={25}
+        slidesPerView={1}
+        loop={showNav}
+        autoplay={{
+          delay: 2000, // 2 seconds
+          disableOnInteraction: false,
+          pauseOnMouseEnter: true,
+        }}
+        speed={800} // Smooth transition
+        onSwiper={(swiper) => {
+          swiperRef.current = swiper;
+          setSwiperReady(true);
+        }}
+        navigation={{
+          prevEl: prevRef.current,
+          nextEl: nextRef.current,
+        }}
+        breakpoints={{
+          640: { slidesPerView: 2 },
+          1024: { slidesPerView: 3 },
+          1200: { slidesPerView: 4 },
+        }}
+      >
+        {data.map((program) => (
+          <SwiperSlide key={program.id}>
+            <div className="ProgramsCard">
+              <div className="IconBox">
+                <Image src={program.icon} alt={program.name} width={90} height={90} />
+              </div>
+
+              <h5 className="Programshead">{program.name}</h5>
+
+              <div className="program_availablebagde">
+                {program.levels.map((level) => (
+                  <span key={level} className="badge">
+                    {level}
+                  </span>
+                ))}
+              </div>
+
+              <a href="#" className="exploreMorelink">
+                Explore More
+                <Image src="/images/home/right-arrow.svg" alt="arrow" width={16} height={16} />
+              </a>
+            </div>
+          </SwiperSlide>
+        ))}
+      </Swiper>
+
+      {showNav && (
+        <div className="d-flex justify-content-center gap-3 mt-4">
+          <NextPrev prevRef={prevRef} nextRef={nextRef} />
+        </div>
+      )}
+    </div>
+  );
+}
+
+export default function AcademicPrograms() {
+  const [activeTab, setActiveTab] = useState("UG");
+
+  const data = programData[activeTab as keyof typeof programData];
+
+  return (
+    <>
+      <section className="academic_programs_section">
+        <div className="container-fluid">
+          <div className="row align-items-center">
+            <div className="col-lg-6">
+              {/* <span className="heading_small">Programs Offered</span> */}
+              <h2 className="heading">
+                Programs <span>Offered</span>
+              </h2>
+              <ProgramTabs activeTab={activeTab} setActiveTab={setActiveTab} />
+            </div>
+            <div className="col-lg-6 text-center">
+              <Image 
+                src="/images/home/student.webp"
+                alt="Students"
+                width={500}
+                height={400}
+                className="img-fluid academicStudentImage"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="academic_programs_blue">
+        <div className="container-fluid">
+          <ProgramSlider data={data} />
+        </div>
+      </section>
+    </>
+  );
+}
