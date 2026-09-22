@@ -70,7 +70,7 @@ export const facultyData: Record<
         designation: "Professor and Head AI&ML",
         qualification: "PhD(Jamia Millia Islamia), M. Tech., B. Tech.",
         email: ["headaiml@sitpune.edu.in", "kumar.sumit@sitpune.edu.in"],
-        image: "/images/innerpages/programe/aiml/faculty/Dr-Sumit-Kumar.webp",
+        image: "/images/innerpages/programe/aiml/faculty/Dr-Sumit-Kumarv2.webp",
 
         linkedin: "https://www.linkedin.com/in/sumit-kumar-09524b4a/",
         googleScholar:
@@ -86,7 +86,7 @@ export const facultyData: Record<
         qualification: "Ph.D., M. Tech., B.E.",
         email: ["anupkumar.bongale@sitpune.edu.in"],
         image:
-          "/images/innerpages/programe/aiml/faculty/Dr-Anup-Kumar-Bongale.webp",
+          "/images/innerpages/programe/aiml/faculty/Dr-Anup-Kumar-Bongalev2.webp",
 
         linkedin: "https://www.linkedin.com/in/dr-anupkumar-bongale-3002ba162/",
         googleScholar:
@@ -102,7 +102,7 @@ export const facultyData: Record<
         designation: "Associate Professor",
         qualification: "Ph.D, M.E., B.E",
         email: ["anjali.dalvi@sitpune.edu.in"],
-        image: "/images/innerpages/programe/aiml/faculty/Dr-Anjali-Dalvi.webp",
+        image: "/images/innerpages/programe/aiml/faculty/Dr-Anjali-Dalviv2.webp",
 
         linkedin: "https://www.linkedin.com/in/anjali-dalvi-245a68330/",
         googleScholar:
@@ -116,7 +116,7 @@ export const facultyData: Record<
         designation: "Associate Professor",
         qualification: "Ph.D (Applied Mathematics)",
         email: ["sangeeta.pant@sitpune.edu.in"],
-        image: "/images/innerpages/programe/aiml/faculty/Dr-Sangeeta-Pant.webp",
+        image: "/images/innerpages/programe/aiml/faculty/Dr-Sangeeta-Pantv2.webp",
 
         linkedin: "https://www.linkedin.com/in/sangeeta-pant-phd-22695613/",
         googleScholar:
@@ -129,7 +129,7 @@ export const facultyData: Record<
         designation: "Associate Professor",
         qualification: "Ph.D (AI & ML)., M.E., B.E",
         email: ["pooja.kamat@sitpune.edu.in"],
-        image: "/images/innerpages/programe/aiml/faculty/Dr-Pooja-Vinayak-Kamat.webp",
+        image: "/images/innerpages/programe/aiml/faculty/Dr-Pooja-Vinayak-Kamatv2.webp",
 
         linkedin: "https://www.linkedin.com/in/pooja-kamat-19603158/",
         googleScholar:
@@ -143,7 +143,7 @@ export const facultyData: Record<
         designation: "Associate Professor",
         qualification: "Ph.D (Adaptive E-learning), M.Tech (IT), B.E (IT)",
         email: ["sucheta.kolekar@sitpune.edu.in"],
-        image: "/images/innerpages/programe/aiml/faculty/Dr-Sucheta V-Kolekar.webp",
+        image: "/images/innerpages/programe/aiml/faculty/Dr-Sucheta-V-Kolekar.webp",
 
         linkedin: "https://www.linkedin.com/in/sucheta-kolekar-74920415/",
         googleScholar:
