@@ -2,8 +2,6 @@
 
 import { studentProjectsData } from "@/data/studentProjectList";
 
-// import "@/css/StudentProjectList.css";
-
 interface StudentProjectListProps {
   department: string;
 }

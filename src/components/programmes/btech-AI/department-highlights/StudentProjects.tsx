@@ -68,13 +68,13 @@ const tabsData: TabItem[] = [
       </>
     ),
   },
-  {
-    id: "studentProjectList",
-    title: "Student Project List",
-    content: <>
-        <StudentProjectList department="AIML" />
-      </>,
-  },
+  // {
+  //   id: "studentProjectList",
+  //   title: "Student Project List",
+  //   content: <>
+  //       <StudentProjectList department="AIML" />
+  //     </>,
+  // },
 ];
 
 export default function Page() {

@@ -44,7 +44,7 @@ export default function LabsAndSpacesPage() {
     );
 
   return (
-    <main>
+    <div className="main_content">
       {aimlDepartment && machineLearningLab && (
         <LabsAndSpaces
           departments={[
@@ -55,6 +55,6 @@ export default function LabsAndSpacesPage() {
           ]}
         />
       )}
-    </main>
+    </div>
   );
 }

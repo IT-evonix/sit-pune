@@ -17,6 +17,7 @@ import HearFromourStudents from "@/components/programmes/btech-AI/HearFromourStu
 import MajorsandMinors from "@/components/programmes/btech-AI/MajorsandMinors";
 import Placements from "@/components/programmes/btech-AI/Placements";
 import AIMLDispatch from "@/components/programmes/btech-AI/AIMLDispatch";
+import UpcomingEvents from "@/components/programmes/btech-AI/department-highlights/UpcomingEvents";
 const AIMLPage = () => {
   const tabs = [
     {
@@ -89,7 +90,7 @@ const AIMLPage = () => {
         {
           id: "upcoming-events",
           title: "Upcoming Events",
-          content: <div>Coming Soon</div>,
+          content: <UpcomingEvents />,
         },
       ],
     },

@@ -106,73 +106,69 @@ function LabCard({ image, labTitle, index, galleryName }: LabCardProps) {
 
 export default function LabsAndSpaces({ departments }: LabsAndSpacesProps) {
   useEffect(() => {
-  Fancybox.bind("[data-fancybox]", {
-    dragToClose: true,
+    Fancybox.bind("[data-fancybox]", {
+      dragToClose: true,
 
-    Carousel: {
-      infinite: false,
+      Carousel: {
+        infinite: false,
 
-      Toolbar: {
-        display: {
-          left: [],
-          middle: [],
-          right: ["close"],
+        Toolbar: {
+          display: {
+            left: [],
+            middle: [],
+            right: ["close"],
+          },
+        },
+
+        Thumbs: {
+          type: "classic",
         },
       },
+    });
 
-      Thumbs: {
-        type: "classic",
-      },
-    },
-  });
-
-  return () => {
-    Fancybox.unbind("[data-fancybox]");
-    Fancybox.close();
-  };
-}, []);
+    return () => {
+      Fancybox.unbind("[data-fancybox]");
+      Fancybox.close();
+    };
+  }, []);
 
   return (
     <section className="labs-spaces">
-      <div className="container">
-        {departments.map((department) => {
-          if (!department.labs?.length) {
-            return null;
-          }
+      {departments.map((department) => {
+        if (!department.labs?.length) {
+          return null;
+        }
 
-          return (
-            <div className="labs-department" key={department.id}>
-              {/* <div className="labs-department__title">
+        return (
+          <div className="labs-department" key={department.id}>
+            {/* <div className="labs-department__title">
                 <h2>{department.department}</h2>
               </div> */}
 
-              {department.labs.map((lab) => {
-                const galleryName = `lab-${department.id}-${lab.id}`;
+            {department.labs.map((lab) => {
+              const galleryName = `lab-${department.id}-${lab.id}`;
 
-                return (
-                  <div className="labs-lab" key={lab.id}>
-                    <div className="labs-lab__title">
-                      <h3>{lab.title}</h3>
-                    </div>
+              return (
+                <div className="labs-lab" key={lab.id}>
+                  <div className="heading innerpageheading">{lab.title}</div>
 
-                    <div className="labs-grid">
-                      {lab.gallery.map((image, index) => (
-                        <LabCard
-                          key={image.id}
-                          image={image}
-                          labTitle={lab.title}
-                          index={index}
-                          galleryName={galleryName}
-                        />
-                      ))}
-                    </div>
+                  <div className="labs-grid">
+                    {lab.gallery.map((image, index) => (
+                      <LabCard
+                        key={image.id}
+                        image={image}
+                        labTitle={lab.title}
+                        index={index}
+                        galleryName={galleryName}
+                      />
+                    ))}
                   </div>
-                );
-              })}
-            </div>
-          );
-        })}
-      </div>
+                </div>
+              );
+            })}
+          </div>
+        );
+      })}
     </section>
   );
 }

@@ -210,8 +210,6 @@ export const studentProjectsData: DepartmentProjectData[] = [
             title:
               "AI-Based Multimodal Infrastructure and Crowd Analytics Engine using Stationary Sensors and Simulated Feeds"
           },
-
-
         ],
       },
 

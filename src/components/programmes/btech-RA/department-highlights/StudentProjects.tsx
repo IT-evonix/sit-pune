@@ -41,7 +41,7 @@ export default function Page() {
         {/* <div className="div">
           <Tabs tabs={tabsData} />
         </div> */}
-        <div className="sub-heading">Coming soon</div>
+        <div className="subheading">Coming soon</div>
       </div>
     </div>
   );

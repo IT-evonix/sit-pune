@@ -36,7 +36,7 @@ export const facultyData: FacultyMember[] = [
     id: 2,
     name: "Dr. Sumit Kumar",
     designation: "Professor and Head AI&ML",
-    photo: "/images/innerpages/programe/aiml/faculty/Dr-Sumit-Kumar.webp",
+    photo: "/images/innerpages/programe/aiml/faculty/Dr-Sumit-Kumar-aiml.webp",
     emails: ["headaiml@sitpune.edu.in, kumar.sumit@sitpune.edu.in"],
     qualification: "PhD(Jamia Millia Islamia), M. Tech., B. Tech.",
     links: {
@@ -52,7 +52,7 @@ export const facultyData: FacultyMember[] = [
     id: 3,
     name: "Dr. Anupkumar M Bongale",
     designation:"Professor",
-    photo: "/images/innerpages/programe/aiml/faculty/Dr-Anup-Kumar-Bongale.webp",
+    photo: "/images/innerpages/programe/aiml/faculty/DrAnupKumarBongale-aiml.webp",
     emails: ["anupkumar.bongale@sitpune.edu.in"],
     qualification: "Ph.D., M. Tech., B.E.",
     links: {
@@ -67,7 +67,7 @@ export const facultyData: FacultyMember[] = [
     id: 4,
     name: "Dr.Anjali Dalvi",
     designation:"Associate Professor",
-    photo: "/images/innerpages/programe/aiml/faculty/Dr-Anjali-Dalvi.webp",
+    photo: "/images/innerpages/programe/aiml/faculty/Dr-Anjali-Dalvi-aiml.webp",
     emails: ["anjali.dalvi@sitpune.edu.in"],
     qualification: "Ph.D, M.E., B.E",
     links: {
@@ -81,7 +81,7 @@ export const facultyData: FacultyMember[] = [
     id: 5,
     name: "Dr. Sangeeta Pant",
     designation: "Associate Professor",
-    photo: "/images/innerpages/programe/aiml/faculty/Dr-Sangeeta-Pant.webp",
+    photo: "/images/innerpages/programe/aiml/faculty/DrSangeetaPant-aiml.webp",
     emails: ["sangeeta.pant@sitpune.edu.in"],
     qualification: "Ph.D (Applied Mathematics)",
     links: {
@@ -94,7 +94,7 @@ export const facultyData: FacultyMember[] = [
     id: 6,
     name: "Dr. Pooja Vinayak Kamat",
     designation:"Associate Professor",
-    photo: "/images/innerpages/programe/aiml/faculty/Dr-Pooja-Vinayak-Kamat.webp",
+    photo: "/images/innerpages/programe/aiml/faculty/DrPoojaVinayakKamat-aiml.webp",
     emails: ["pooja.kamat@sitpune.edu.in"],
     qualification: "Ph.D (AI & ML)., M.E., B.E",
     links: {
@@ -409,7 +409,7 @@ orcid: "https://orcid.org/0000-0002-3790-8659",
   id: 26,
   name: "Prof. Shruti Sunnad",
   designation: "Teaching Associate, AIML",
-  photo: "/images/innerpages/programe/aiml/faculty/Prof-Shruti-Sunnad.webp",
+  photo: "/images/innerpages/programe/aiml/faculty/women-photo.webp",
   emails: ["shruti.sunnad@sitpune.edu.in"],
   qualification: "M.E., B.E",
   links: {

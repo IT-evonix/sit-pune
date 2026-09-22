@@ -55,7 +55,7 @@ export const facultyData: Record<
           "Professor & Director SIT  Pune,Dean, Faculty of Engineering, Head, Symbiosis Centre for Applied Artificial Intelligence",
         qualification: "Ph.D (IIT Bombay)",
         email: ["director@sitpune.edu.in"],
-        image: "/images/innerpages/programe/aiml/faculty/Dr-Ketan-Kotecha.webp",
+        image: "/images/innerpages/programe/aiml/faculty/Dr-Ketan-Kotecha-aiml.webp",
 
         linkedin: "https://www.linkedin.com/in/ketankotecha/",
         googleScholar:
@@ -70,7 +70,7 @@ export const facultyData: Record<
         designation: "Professor and Head AI&ML",
         qualification: "PhD(Jamia Millia Islamia), M. Tech., B. Tech.",
         email: ["headaiml@sitpune.edu.in", "kumar.sumit@sitpune.edu.in"],
-        image: "/images/innerpages/programe/aiml/faculty/Dr-Sumit-Kumarnew.webp",
+        image: "/images/innerpages/programe/aiml/faculty/Dr-Sumit-Kumar-aiml.webp",
 
         linkedin: "https://www.linkedin.com/in/sumit-kumar-09524b4a/",
         googleScholar:
@@ -81,12 +81,12 @@ export const facultyData: Record<
       },
       {
         id: 3,
-        name: "Dr. Anupkumar M Bongale",
+        name: "Dr. Anupkumar M Bongale 111",
         designation: "Professor",
         qualification: "Ph.D., M. Tech., B.E.",
         email: ["anupkumar.bongale@sitpune.edu.in"],
         image:
-          "/images/innerpages/programe/aiml/faculty/DrAnupKumarBongale2.webp",
+          "/images/innerpages/programe/aiml/faculty/DrAnupKumarBongale-aiml.webp",
 
         linkedin: "https://www.linkedin.com/in/dr-anupkumar-bongale-3002ba162/",
         googleScholar:
@@ -102,7 +102,7 @@ export const facultyData: Record<
         designation: "Associate Professor",
         qualification: "Ph.D, M.E., B.E",
         email: ["anjali.dalvi@sitpune.edu.in"],
-        image: "/images/innerpages/programe/aiml/faculty/Dr-Anjali-Dalvinew.webp",
+        image: "/images/innerpages/programe/aiml/faculty/Dr-Anjali-Dalvi-aiml.webp",
 
         linkedin: "https://www.linkedin.com/in/anjali-dalvi-245a68330/",
         googleScholar:
@@ -116,7 +116,7 @@ export const facultyData: Record<
         designation: "Associate Professor",
         qualification: "Ph.D (Applied Mathematics)",
         email: ["sangeeta.pant@sitpune.edu.in"],
-        image: "/images/innerpages/programe/aiml/faculty/DrSangeetaPant2.webp",
+        image: "/images/innerpages/programe/aiml/faculty/DrSangeetaPant-aiml.webp",
 
         linkedin: "https://www.linkedin.com/in/sangeeta-pant-phd-22695613/",
         googleScholar:
@@ -129,7 +129,7 @@ export const facultyData: Record<
         designation: "Associate Professor",
         qualification: "Ph.D (AI & ML)., M.E., B.E",
         email: ["pooja.kamat@sitpune.edu.in"],
-        image: "/images/innerpages/programe/aiml/faculty/DrPoojaVinayakKamatnew2.webp",
+        image: "/images/innerpages/programe/aiml/faculty/DrPoojaVinayakKamat-aiml.webp",
 
         linkedin: "https://www.linkedin.com/in/pooja-kamat-19603158/",
         googleScholar:
