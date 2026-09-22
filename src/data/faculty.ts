@@ -86,7 +86,7 @@ export const facultyData: Record<
         qualification: "Ph.D., M. Tech., B.E.",
         email: ["anupkumar.bongale@sitpune.edu.in"],
         image:
-          "/images/innerpages/programe/aiml/faculty/Dr-Anup-Kumar-Bongalenew.webp",
+          "/images/innerpages/programe/aiml/faculty/DrAnupKumarBongale2.webp",
 
         linkedin: "https://www.linkedin.com/in/dr-anupkumar-bongale-3002ba162/",
         googleScholar:
@@ -116,7 +116,7 @@ export const facultyData: Record<
         designation: "Associate Professor",
         qualification: "Ph.D (Applied Mathematics)",
         email: ["sangeeta.pant@sitpune.edu.in"],
-        image: "/images/innerpages/programe/aiml/faculty/Dr-Sangeeta-Pantnew.webp",
+        image: "/images/innerpages/programe/aiml/faculty/DrSangeetaPant2.webp",
 
         linkedin: "https://www.linkedin.com/in/sangeeta-pant-phd-22695613/",
         googleScholar:
@@ -129,7 +129,7 @@ export const facultyData: Record<
         designation: "Associate Professor",
         qualification: "Ph.D (AI & ML)., M.E., B.E",
         email: ["pooja.kamat@sitpune.edu.in"],
-        image: "/images/innerpages/programe/aiml/faculty/Dr-Pooja-Vinayak-Kamatnew.webp",
+        image: "/images/innerpages/programe/aiml/faculty/DrPoojaVinayakKamatnew2.webp",
 
         linkedin: "https://www.linkedin.com/in/pooja-kamat-19603158/",
         googleScholar:
