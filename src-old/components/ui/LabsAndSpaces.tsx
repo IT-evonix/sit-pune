@@ -151,8 +151,8 @@ export default function LabsAndSpaces({ departments }: LabsAndSpacesProps) {
 
                 return (
                   <div className="labs-lab" key={lab.id}>
-                    <div className="labs-lab__title">
-                      <h3>{lab.title}</h3>
+                    <div className="heading innerpageheading">
+                      {lab.title}
                     </div>
 
                     <div className="labs-grid">
