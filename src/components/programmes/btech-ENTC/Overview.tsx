@@ -55,7 +55,7 @@ const Overview = () => {
           </div>
           <div className="profileImage">
             <Image
-              src="/images/innerpages/programe/Suman-lata.webp"
+              src="/images/innerpages/programe/entc/suman.webp"
               alt="Sumit Kumar"
               width={320}
               height={450}
@@ -75,7 +75,7 @@ const Overview = () => {
 
         {/* <OutcomeBasedEducation/> */}
 
-        <div className="visionandmision">
+        <div className="visionandmision main_content">
           <div className="card provisionbox">
             <div className="d-flex align-items-start gap-3">
               <div className="visiontextleft">

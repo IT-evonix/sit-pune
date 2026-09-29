@@ -37,7 +37,7 @@ const Overview = () => {
           </div>
           <div className="profileImage">
             <Image
-              src="/images/innerpages/programe/robot-automation/arunkumar-bongale.webp"
+              src="/images/innerpages/programe/robot-automation/arunkumar-bongale-newimg.webp"
               alt="Arunkumar Bongale"
               width={320}
               height={380}
