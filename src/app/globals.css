@@ -3047,7 +3047,8 @@ height:260px;
 .profilemain {
   display: flex;
   gap: 25px;
-  align-items: center;
+  /* align-items: center; */
+  align-items: flex-start;
 }
 .profilecontent {
   width: 66%;
@@ -3057,6 +3058,9 @@ height:260px;
   position: relative;
   box-shadow: 0px 2px 8px #0000000d;
   border-radius: 20px;
+  position: sticky;
+  top: 120px;
+  align-self: flex-start;
 }
 .profileImage img {
   border-radius: 20px;
@@ -4166,6 +4170,7 @@ table {
   transform: scale(1.1);
 }
 /* Event Page End Here */
+/*------------ ABout Us Tab Start Here ------------*/
 /* Leadership Page Start Here */
 .leadership_page {
   position: relative;
@@ -4220,6 +4225,13 @@ table {
   position: relative;
 }
 /* Leadership Page End Here */
+/* Vision Mission Page Start Here */
+.about_vision_mision{
+  padding:20px 0px 30px 0px;
+}
+/* Vision Mission Page End Here */
+
+/*------------ ABout Us Tab End Here ------------*/
 
 /* ========== Rahul Normal CSS start ==========  */
 .adderess_form_mainbox {
@@ -4604,9 +4616,10 @@ table {
 .major-minor-card-header h2 {
     margin: 0;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 18px;
     line-height: normal;
     font-family: Metropolis-SemiBold;
+    padding: 9px 0;
 }
 .major-minor-programme-list {
   padding: 10px 20px 28px;
@@ -4677,7 +4690,7 @@ table {
   margin-right: 16px;
 }
 .major-minor-programme-title {
-  padding: 5px 10px 5px 0;
+  padding: 10px 10px 10px 0;
   color: #000;
   font-size: 16px;
   line-height: normal;

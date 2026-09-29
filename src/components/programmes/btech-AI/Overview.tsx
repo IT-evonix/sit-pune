@@ -49,7 +49,7 @@ const Overview = () => {
           </div>
           <div className="profileImage">
             <Image
-              src="/images/innerpages/programe/Sumit-Kumar.png"
+              src="/images/innerpages/programe/aiml/Sumit-Kumarnew.webp"
               alt="Sumit Kumar"
               width={320}
               height={380}

@@ -29,15 +29,11 @@ export const majorMinorProgrammesData: ProgrammeDepartment[] = [
     id: "aiml",
     shortTitle: "AIML",
     title: "AIML Major & Minor Programmes",
-    subtitle:
-      "Explore our specialised AI & ML programmes designed to build industry-ready skills and future-proof your career.",
-
+    subtitle:"Explore our specialised AI & ML programmes designed to build industry-ready skills and future-proof your career.",
     description: "",
-
     major: {
       title: "AIML Major Programmes",
       // description: "Advanced specialisations to lead in the AI-driven future.",
-
       items: [
         {
           id: "generative-ai",
@@ -66,11 +62,9 @@ export const majorMinorProgrammesData: ProgrammeDepartment[] = [
         },
       ],
     },
-
     minor: {
       title: "AIML Minor Programmes",
       // description: "Focused areas to enhance your core expertise.",
-
       items: [
         {
           id: "iot-embedded-ai",
@@ -87,6 +81,114 @@ export const majorMinorProgrammesData: ProgrammeDepartment[] = [
           title: "Quantum Technologies",
           icon: "atom",
         },
+      ],
+    },
+  },
+
+
+  {
+    id: "entc",
+    shortTitle: "ENTC",
+    title: "ENTC Major & Minor Programmes",
+    subtitle:"Explore our specialised AI & ML programmes designed to build industry-ready skills and future-proof your career.",
+    description: "",
+    major: {
+      title: "ENTC Honors Programmes",
+      // description: "Advanced specialisations to lead in the AI-driven future.",
+      items: [
+        {
+          id: "embedded-systems",
+          title: "Bachelor of Technology with Honours in Embedded Systems",
+          icon: "chip",
+        },
+        {
+          id: "semiconductor-technology",
+          title: "Bachelor of Technology with Honours in Semiconductor Technology",
+          icon: "atom",
+        },
+        
+      ],
+    },
+    minor: {
+      title: "ENTC Minor Programmes",
+      // description: "Focused areas to enhance your core expertise.",
+      items: [
+        {
+          id: "ai-ml",
+          title: "Bachelor of Technology with Minors in Artificial Intelligence and Machine Learning",
+          icon: "brain",
+        },
+        {
+          id: "cyber-security",
+          title: "Bachelor of Technology with Minors in Cyber Security",
+          icon: "shield",
+        },
+        
+      ],
+    },
+  },
+
+  {
+    id: "robotics-and-automation",
+    shortTitle: "robotics-and-automation",
+    title: "Robotics & Automation Major Programmes",
+    subtitle:"Explore our specialised AI & ML programmes designed to build industry-ready skills and future-proof your career.",
+    description: "",
+    major: {
+      title: "Robotics & Automation Honors Programmes",
+      // description: "Advanced specialisations to lead in the AI-driven future.",
+      items: [
+        {
+          id: "aerial-and-drone-technology",
+          title: "B. Tech in Robotics and Automation with Honours in Aerial and Drone Technology",
+          icon: "cloud",
+        },
+        
+      ],
+    },
+    minor: {
+      title: "Robotics & Automation Minor Programmes",
+      // description: "Focused areas to enhance your core expertise.",
+      items: [
+        {
+          id: "engineering-fundamentals",
+          title: "B. Tech in Robotics and Automation with Minors in Computer Science Engineering Fundamentals",
+          icon: "chip",
+        },
+        
+      ],
+    },
+  },
+
+
+  {
+    id: "robotics-and-artificial-intelligence",
+    shortTitle: "robotics-and-artificial-intelligence",
+    title: "Robotics& Artificial Intelligence Major & Minor Programmes",
+    subtitle:"Explore our specialised AI & ML programmes designed to build industry-ready skills and future-proof your career.",
+    description: "",
+    major: {
+      title: "Robotics& Artificial Intelligence Honors Programmes",
+      // description: "Advanced specialisations to lead in the AI-driven future.",
+      items: [
+        {
+          id: "aerial-and-drone-technology",
+          title: "B. Tech in Robotics and Automation with Honours in Aerial and Drone Technology",
+          icon: "cloud",
+        },
+        
+      ],
+    },
+    minor: {
+      title: "Robotics& Artificial Intelligence Minor Programmes",
+      // description: "Focused areas to enhance your core expertise.",
+      items: [
+        {
+          id: "engineering-fundamentals",
+          title: "B. Tech in Robotics and Automation with Minors in Computer Science Engineering Fundamentals",
+          icon: "chip",
+        },
+        
       ],
     },
   },
