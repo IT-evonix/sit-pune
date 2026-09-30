@@ -1,0 +1,296 @@
+.admission-tabs .nav-tabs {
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  background: #f8f9fb;
+}
+
+.admission-tabs .nav-link {
+  padding: 8px 24px;
+  border: 0;
+  border-radius: 6px;
+  background-color: #fff;
+  color: #6b7280;
+  cursor: pointer;
+  font-family: "Metropolis-SemiBold";
+  font-size: 15px;
+  transition:
+    color 0.5s ease,
+    background-color 0.5s ease,
+    box-shadow 0.5s ease;
+  white-space: nowrap;
+}
+
+.admission-tabs .nav-tabs .nav-link:hover,
+.admission-tabs .nav-tabs .nav-link.active {
+  border-color: transparent;
+  background-color: #c4161c;
+  color: #fff;
+}
+
+.admission-tabs .nav-tabs .nav-link.active {
+  box-shadow: 0 6px 18px rgba(16, 70, 127, 0.25);
+}
+
+.admission-tabs .nav-link:focus-visible {
+  outline: 2px solid #c4161c;
+  outline-offset: 2px;
+}
+
+.admission-tabs-content {
+  padding-top: 24px;
+}
+
+.admission-tabs-content [hidden] {
+  display: none !important;
+}
+
+.admission-tabs-placeholder {
+  margin: 0;
+}
+
+.siteee-title {
+  margin: 0 0 14px;
+  color: #172f63;
+  font-size: 21px;
+  font-family: 'Metropolis-SemiBold';
+}
+
+.siteee-intro {
+  margin: 0 0 28px;
+  padding: 14px 18px;
+  border-left: 5px solid #163c7a;
+  border-radius: 0 12px 12px 0;
+  background: #f3f8fe;
+  color: #172f63;
+}
+.redlink{
+  color:#c4161c !important;
+  text-decoration:none;
+}
+.siteee-timeline {
+  position: relative;
+  padding-bottom: 1px;
+}
+
+.siteee-timeline::before {
+  position: absolute;
+  top: 8px;
+  bottom: 8px;
+  left: 21px;
+  border-left: 1px dashed #c3c3c3;
+  content: "";
+}
+
+.siteee-step {
+  position: relative;
+  margin: 0 0 18px 53px;
+}
+
+.siteee-step-number {
+  position: absolute;
+  z-index: 1;
+  top: 12px;
+  left: -48px;
+  display: flex;
+  width: 35px;
+  height: 35px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ffad00;
+  border-radius: 50%;
+  background: #c4161c;
+  box-shadow: 0 0 0 3px #f4f6fc;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Metropolis-SemiBold";
+}
+
+.siteee-step-card {
+  padding: 17px 18px;
+  border: 1px solid #d8e0f2;
+  border-radius: 16px;
+  background: #fff;
+  color: #000;
+  font-size: 14px;
+}
+
+.siteee-step-card h3 {
+  margin: 0 0 9px;
+  color: #000;
+  font-size: 16px;
+  font-family: 'Metropolis-SemiBold';
+}
+
+.siteee-step-card h4 {
+  margin: 10px 0 5px;
+  color: #000;
+  font-size: 14px;
+  font-family: 'Metropolis-SemiBold';
+}
+
+.siteee-step-card ul {
+  margin: 0 0 8px;
+  list-style: disc;
+  padding: 0 0 0 14px;
+}
+
+.siteee-step-card li {
+  padding-left: 1px;
+  margin-bottom: 3px;
+  color: #000;
+  overflow-wrap: anywhere;
+  list-style-type: disc;
+}
+
+.siteee-step-card li::marker {
+  color: #000;
+}
+
+.siteee-step-card li a {
+  color: inherit;
+}
+
+.siteee-step-card .siteee-sublist {
+  padding-left: 13px;
+  list-style-type: circle;
+}
+
+.siteee-step-card .siteee-note {
+  margin: 8px 0 14px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: #f3f8fe;
+}
+
+.siteee-step-card .siteee-date-badge {
+  display: table;
+  max-width: 100%;
+  margin: 10px 0 15px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: #172f63;
+  color: #fff;
+  font-size: 12px;
+  font-family: 'Metropolis-SemiBold';
+}
+
+.siteee-step-card .siteee-date-badge strong {
+  color: #ffdf2d;
+}
+
+.siteee-contact {
+  padding: 22px;
+  border-radius: 18px;
+  background: #172f63;
+  color: #fff;
+}
+
+.siteee-contact > h3 {
+  margin: 0 0 14px;
+  color: #fff;
+  font-size: 19px;
+  font-family: 'Metropolis-SemiBold';
+}
+
+.siteee-contact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 9px;
+}
+
+.siteee-contact-grid > div {
+  min-width: 0;
+  padding: 12px;
+  border-radius: 12px;
+  background: #293f70;
+  overflow-wrap: anywhere;
+}
+
+.siteee-contact-grid h4 {
+  margin: 0 0 3px;
+  color: #ffdf2d;
+  font-size: 16px;
+  font-family: 'Metropolis-SemiBold';
+}
+
+.siteee-contact-grid a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.siteee-contact-grid a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 575px) {
+  .admission-tabs .nav-tabs {
+    display: flex;
+    gap: 8px;
+    padding: 10px;
+  }
+
+  .admission-tabs .nav-item {
+    flex: 1 1 auto;
+  }
+
+  .admission-tabs .nav-link {
+    width: 100%;
+    padding: 10px 8px;
+    white-space: normal;
+  }
+
+  .admission-tabs-content {
+    padding-top: 18px;
+  }
+
+  .siteee-title {
+    font-size: 18px;
+  }
+
+  .siteee-intro {
+    margin-bottom: 22px;
+    padding: 12px 13px;
+  }
+
+  .siteee-timeline::before {
+    left: 17px;
+  }
+
+  .siteee-step {
+    margin-left: 40px;
+    margin-bottom: 14px;
+  }
+  .siteee-step-number {
+    left: -41px;
+    width: 36px;
+    height: 36px;
+    font-size: 15px;
+  }
+  .siteee-step-card {
+    padding: 14px 13px;
+    border-radius: 13px;
+    font-size: 13px;
+  }
+
+  .siteee-step-card h3 {
+    font-size: 15px;
+  }
+  .siteee-step-card h4 {
+    font-size: 13px;
+  }
+  .siteee-step-card .siteee-date-badge {
+    border-radius: 14px;
+  }
+  .siteee-contact {
+    padding: 17px 14px;
+    border-radius: 15px;
+  }
+  .siteee-contact-grid {
+    grid-template-columns: 1fr;
+  }
+}

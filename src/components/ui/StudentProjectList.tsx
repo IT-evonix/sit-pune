@@ -27,7 +27,7 @@ export default function StudentProjectList({
           </div>
 
           {/* Project Table */}
-          <div className="table-responsive shadow-sm">
+          <div className="table-responsive">
             <table className="student_project_table">
               <thead>
                 <tr>
