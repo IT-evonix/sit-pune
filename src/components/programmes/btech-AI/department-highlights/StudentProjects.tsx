@@ -3,7 +3,7 @@
 import InfrastructureGallery, {
   MediaItem,
 } from "@/components/InfrastructureGallery";
-import StudentProjectList from "@/components/ui/StudentProjectList";
+// import StudentProjectList from "@/components/ui/StudentProjectList";
 import Tabs, { TabItem } from "@/components/ui/Tabs";
 
 const AIMLImages: MediaItem[] = [
