@@ -65,14 +65,10 @@ const AdmissionProcedurepg = () => {
             <p className="siteee-intro">
               Diploma Course/ Diploma in vocational Course from any recognized
               Polytechnic College as per AICTE norms.
-              
-              <div className="subheading18">OR</div>
-              
+              <div className="subheading pb-0 mb-0">OR</div>
               Passed Diploma in Vocational stream in the same or allied sector
               as per AICTE norms.
-              
-              <div className="subheading18">OR</div>
-              
+              <div className="subheading pb-0 mb-0">OR</div>
               Passed B Sc Degree from a recognized university as defined by UGC
               [Obtained at least 45% marks (40% in case of candidate belonging
               to SC/ST category) and passed H.S.C with mathematics as a subject
@@ -87,9 +83,9 @@ const AdmissionProcedurepg = () => {
               <article className="siteee-step">
                 <span className="siteee-step-number">1</span>
                 <div className="siteee-step-card">
-                  <div className="subheading18">Paid Registration</div>
+                  <div className="subheading18 redheading">Paid Registration</div>
                   <p>
-                    a. Direct Second Year Registration Link-
+                    Direct Second Year Registration Link-
                     <br />A non-refundable fee of Rs.1500/- for online
                     application is payable by every candidate at the time of
                     registration for the SIT
@@ -99,20 +95,20 @@ const AdmissionProcedurepg = () => {
               <article className="siteee-step">
                 <span className="siteee-step-number">2</span>
                 <div className="siteee-step-card">
-                  <div className="subheading18">Document Uploading Link -</div>
+                  <div className="subheading18 redheading">Document Uploading Link -</div>
                 </div>
               </article>
               <article className="siteee-step">
                 <span className="siteee-step-number">3</span>
                 <div className="siteee-step-card">
-                  <div className="subheading18">Documents Verification</div>
+                  <div className="subheading18 redheading">Documents Verification</div>
                   <p>Uploaded documents will be verified by SIT experts</p>
                 </div>
               </article>
               <article className="siteee-step">
                 <span className="siteee-step-number">4</span>
                 <div className="siteee-step-card">
-                  <div className="subheading18">
+                  <div className="subheading18 redheading">
                     Merit listing (Branch Allocation)
                   </div>
                   <p>
@@ -125,14 +121,23 @@ const AdmissionProcedurepg = () => {
               <article className="siteee-step">
                 <span className="siteee-step-number">5</span>
                 <div className="siteee-step-card">
-                  <div className="subheading18">Fees payment</div>
-                  <p>For details click here</p>
+                  <div className="subheading18 redheading">Fees payment</div>
+                  <p>
+                    For details{" "}
+                    <Link
+                      className="redlink"
+                      href="/pdf/admission/admission-procedure/2ndSubsequentYearDSY202627.pdf"
+                      target="_blank"
+                    >
+                      Click Here
+                    </Link>
+                  </p>
                 </div>
               </article>
               <article className="siteee-step">
                 <span className="siteee-step-number">6</span>
                 <div className="siteee-step-card">
-                  <div className="subheading18">Hostel Allocation</div>
+                  <div className="subheading18 redheading">Hostel Allocation</div>
                   <p>
                     After fees payment, interested candidates can register for
                     hostel allotment.
@@ -145,14 +150,14 @@ const AdmissionProcedurepg = () => {
                   <div className="subheading">
                     List of eligibility documents required for admission:
                   </div>
-                  <div className="subheading18">
+                  <div className="subheading18 redheading">
                     Eligibility documents to be uploaded second stage of
                     admission after registration
                   </div>
                   <Table
                     columns={eligibilityAdmissionColumns}
                     data={eligibilityAdmissionBranchwise}
-                    wrapperClassName="table-responsive shadow-sm"
+                    wrapperClassName="table-responsive"
                     tableClassName="student_project_table"
                   />
                 </div>
@@ -226,9 +231,9 @@ const AdmissionProcedurepg = () => {
               </p>
               <ol>
                 <li>
-                  Upload one PDF file for each mandatory document (Aadhar card,
-                  10th mark sheet, Diploma 3rd,4th and 5th Mark sheet), having
-                  scans of both sides / all pages of the document.
+                  Upload one PDF file for each mandatory document (Aadhar
+                  card,10th mark sheet, Diploma 3rd,4th and 5th Mark sheet),
+                  having scans of both sides / all pages of the document.
                 </li>
                 <li>
                   Upload the correct document PDF against the corresponding
@@ -245,7 +250,7 @@ const AdmissionProcedurepg = () => {
                   will not be included in the merit listing (branch allocation).
                 </li>
                 <li>
-                  You may upload the currently unavailable documents later, such
+                  You may upload the currently unavailable documents later; such
                   as the entrance examination score card and the 12th Mark list,
                   12th Passing, Leaving / Transfer certificates.
                 </li>
@@ -257,11 +262,11 @@ const AdmissionProcedurepg = () => {
                 Overall Admission Process Enquiry
               </div>
               <Table
-                    columns={AdmissionProcessEnquiryColumns}
-                    data={AdmissionProcessEnquiryData}
-                    wrapperClassName="table-responsive"
-                    tableClassName="student_project_table"
-                  />
+                columns={AdmissionProcessEnquiryColumns}
+                data={AdmissionProcessEnquiryData}
+                wrapperClassName="table-responsive"
+                tableClassName="student_project_table"
+              />
             </section>
 
             <section aria-labelledby="siteee-talk-us" className="mt-4 mt-sm-5">
@@ -269,11 +274,11 @@ const AdmissionProcedurepg = () => {
                 Overall Admission Process Enquiry
               </div>
               <Table
-                    columns={BranchSpecificEnquiryColumns}
-                    data={BranchSpecificEnquiryData}
-                    wrapperClassName="table-responsive"
-                    tableClassName="student_project_table"
-                  />
+                columns={BranchSpecificEnquiryColumns}
+                data={BranchSpecificEnquiryData}
+                wrapperClassName="table-responsive"
+                tableClassName="student_project_table"
+              />
             </section>
           </div>
           <div

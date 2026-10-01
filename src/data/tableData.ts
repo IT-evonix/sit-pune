@@ -83,7 +83,7 @@ export const eligibilityAdmissionBranchwise = [
 ];
 
 
-
+// Lateral Entry Start Here
 export const AdmissionProcessEnquiryColumns = [
   {
     key: "name",
@@ -94,7 +94,6 @@ export const AdmissionProcessEnquiryColumns = [
     title: "Contact No",
   },
 ];
-
 export const AdmissionProcessEnquiryData = [
   {
     name: "Landline number",
@@ -105,7 +104,6 @@ export const AdmissionProcessEnquiryData = [
     contactNumber: "6193 6464",
   },
 ];
-
 
 export const BranchSpecificEnquiryColumns = [
   {
@@ -121,7 +119,6 @@ export const BranchSpecificEnquiryColumns = [
     title: "Contact Number",
   },
 ];
-
 export const BranchSpecificEnquiryData = [
   {
     name: "B.Tech Artificial Intelligence and Machine Learning",
@@ -154,3 +151,66 @@ export const BranchSpecificEnquiryData = [
     contactNumber: "8087864775",
   },
 ];
+// Lateral Entry End Here
+
+
+
+// M.TECH Start Here
+export const MtechAdmissionProcessEnquiryColumns = [
+  {
+    key: "name",
+    title: "Name",
+  },
+  {
+    key: "contactNumber",
+    title: "Contact No",
+  },
+];
+export const MtechAdmissionProcessEnquiryData = [
+  {
+    name: "Landline number",
+    contactNumber: "6193 6419",
+  },
+  {
+    name: "Landline number",
+    contactNumber: "6193 6464",
+  },
+];
+
+export const MtechBranchSpecificEnquiryColumns = [
+  {
+    key: "name",
+    title: "M.Tech",
+  },
+  {
+    key: "contactPerson",
+    title: "Contact Person",
+  },
+  {
+    key: "contactNumber",
+    title: "Contact Number",
+  },
+];
+export const MtechBranchSpecificEnquiryData = [
+  {
+    name: "M.Tech Artificial Intelligence and Machine Learning",
+    contactPerson:"Mr. Pranav Gawande",
+    contactNumber: "9112290107",
+  },
+  {
+    name: "M.Tech Automotive Technology",
+    contactPerson:"Mr. Vishal Sharma",
+    contactNumber: "7262850404",
+  },
+  {
+    name: "Robotics and Artificial Intelligence",
+    contactPerson:"Mr. Sunil Chavat",
+    contactNumber: "7262044505",
+  },
+  {
+    name: "M.Tech Geoinformatics",
+    contactPerson:"	Ms. Sonal / Ms. Vrushali",
+    contactNumber: "7709998185",
+  },
+];
+// M.TECH End Here
