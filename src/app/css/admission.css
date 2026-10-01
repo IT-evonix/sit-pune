@@ -7,7 +7,6 @@
   border-radius: 10px;
   background: #f8f9fb;
 }
-
 .admission-tabs .nav-link {
   padding: 8px 24px;
   border: 0;
@@ -23,7 +22,6 @@
     box-shadow 0.5s ease;
   white-space: nowrap;
 }
-
 .admission-tabs .nav-tabs .nav-link:hover,
 .admission-tabs .nav-tabs .nav-link.active {
   border-color: transparent;
@@ -56,7 +54,7 @@
   margin: 0 0 14px;
   color: #172f63;
   font-size: 21px;
-  font-family: 'Metropolis-SemiBold';
+  font-family: "Metropolis-SemiBold";
 }
 
 .siteee-intro {
@@ -67,9 +65,9 @@
   background: #f3f8fe;
   color: #172f63;
 }
-.redlink{
-  color:#c4161c !important;
-  text-decoration:none;
+.redlink {
+  color: #c4161c !important;
+  text-decoration: none;
 }
 .siteee-timeline {
   position: relative;
@@ -87,7 +85,7 @@
 
 .siteee-step {
   position: relative;
-  margin: 0 0 18px 53px;
+  margin: 0 0 18px 50px;
 }
 
 .siteee-step-number {
@@ -122,16 +120,27 @@
   margin: 0 0 9px;
   color: #000;
   font-size: 16px;
-  font-family: 'Metropolis-SemiBold';
+  font-family: "Metropolis-SemiBold";
 }
 
 .siteee-step-card h4 {
-  margin: 10px 0 5px;
+  margin: 0px 0px 5px 0px;
   color: #000;
   font-size: 14px;
-  font-family: 'Metropolis-SemiBold';
+  font-family: "Metropolis-SemiBold";
 }
-
+#mtech-document-guidelines{
+  scroll-margin-top:100px;
+}
+.redheading{
+  font-size: 18px;
+  color: #c4161c;
+  background: #c4161c12;
+  padding: 10px;
+  line-height: normal;
+  border-radius: 10px;
+  margin: 0 0 10px 0;
+}
 .siteee-step-card ul {
   margin: 0 0 8px;
   list-style: disc;
@@ -175,7 +184,7 @@
   background: #172f63;
   color: #fff;
   font-size: 12px;
-  font-family: 'Metropolis-SemiBold';
+  font-family: "Metropolis-SemiBold";
 }
 
 .siteee-step-card .siteee-date-badge strong {
@@ -193,7 +202,7 @@
   margin: 0 0 14px;
   color: #fff;
   font-size: 19px;
-  font-family: 'Metropolis-SemiBold';
+  font-family: "Metropolis-SemiBold";
 }
 
 .siteee-contact-grid {
@@ -214,7 +223,7 @@
   margin: 0 0 3px;
   color: #ffdf2d;
   font-size: 16px;
-  font-family: 'Metropolis-SemiBold';
+  font-family: "Metropolis-SemiBold";
 }
 
 .siteee-contact-grid a {
@@ -227,7 +236,7 @@
   text-decoration: underline;
 }
 
-@media (max-width: 575px) {
+@media (max-width: 575.98px) {
   .admission-tabs .nav-tabs {
     display: flex;
     gap: 8px;

@@ -4403,28 +4403,11 @@ table {
 /*----------- Major and Minor End Here -----------*/
 
 /*------------ Admission Tab Start Here ------------*/
-/*------------ Admission Procedure Start Here ------------*/
-.step_mainbox{}
-.step_inner{}
-.steps_heading{
-  border-bottom: 1px solid #ccc;
-  align-items: center;
-  display: flex;
-  gap: 15px;
+/*------------ Undergraduate Admissions Start Here ------------*/
+.programme-card{
+  width: 32.2%;
 }
-.step_num{
-  background-color: #c4151d;
-  color:#fff;
-  font-size: 16px;
-  text-align: center;
-  width: max-content;
-  padding: 5px 20px;
-  border-radius: 17px 17px 0px 0px;
-  line-height: normal;
-  text-transform: uppercase;
-  font-family: 'Metropolis-Medium';
-}
-/*------------ Admission Procedure End Here ------------*/
+/*------------ Undergraduate Admissions End Here ------------*/
 /*------------ Admission Tab End Here ------------*/
 
 

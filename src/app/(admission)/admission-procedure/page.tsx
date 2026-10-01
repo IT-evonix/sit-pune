@@ -2,6 +2,7 @@ import InnerpageBanner from "@/components/InnerpageBanner";
 import TabbingSidebar from "@/components/TabbingSidebar";
 import AdmissionProcedureug from "@/components/admission/admission-procedure/ug/AdmissionProcedure"
 import AdmissionProcedurepg from "@/components/admission/admission-procedure/pg/AdmissionProcedure"
+import AdmissionProceduremtech from "@/components/admission/admission-procedure/mtech/AdmissionProceduremtech"
 import React from "react";
 
 const Admissionpage = () => {
@@ -16,11 +17,11 @@ const tabs = [
       title: "Postgraduate (PG)",
       content: <AdmissionProcedurepg/>,
     },
-    // {
-    //   id: "phd",
-    //   title: "PhD (Doctor of Philosophy)",
-    //   content:<AdmissionProcedure/>,
-    // },
+    {
+      id: "phd",
+      title: "PhD (Doctor of Philosophy)",
+      content:<AdmissionProceduremtech/>,
+    },
   ];
 
   return (
