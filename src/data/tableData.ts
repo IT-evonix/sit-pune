@@ -81,8 +81,6 @@ export const eligibilityAdmissionBranchwise = [
     vocationalCourse: "",
   },
 ];
-
-
 // Lateral Entry Start Here
 export const AdmissionProcessEnquiryColumns = [
   {
@@ -153,8 +151,6 @@ export const BranchSpecificEnquiryData = [
 ];
 // Lateral Entry End Here
 
-
-
 // M.TECH Start Here
 export const MtechAdmissionProcessEnquiryColumns = [
   {
@@ -176,7 +172,6 @@ export const MtechAdmissionProcessEnquiryData = [
     contactNumber: "6193 6464",
   },
 ];
-
 export const MtechBranchSpecificEnquiryColumns = [
   {
     key: "name",
@@ -214,3 +209,193 @@ export const MtechBranchSpecificEnquiryData = [
   },
 ];
 // M.TECH End Here
+
+// SIT -Deakin University Partnership Page Tables Start Here --------
+export const DualDegreecsColumns = [
+  {
+    key: "year",
+    title: "Computer Science and Engineering",
+    rowSpan: 2,
+  },
+  {
+    key: "amount",
+    title: "",
+    rowSpan: 2,
+  },
+];
+export const DualDegreecsData = [
+  {
+    year: { value: "Academic Fee", colSpan: 2 },
+    amount: null,
+    rowClass: "tableshighlight",
+  },
+  {
+    year: "Year 1 (Pune)",
+    amount: "₹ 4,22,000",
+  },
+  {
+    year: "Year 2 (Pune)",
+    amount: "₹ 4,22,000",
+  },
+  {
+    year: "Year 3 (Australia)",
+    amount: "₹ 22,55,000",
+  },
+  {
+    year: "Year 4 (Australia)",
+    amount: "₹ 22,55,000",
+  },
+  {
+    year: { value: "Accommodation Charges", colSpan: 2 },
+    amount: null,
+    rowClass: "tableshighlight",
+  },
+  {
+    year: "Year 1 (Hostel + Mess) Pune",
+    amount: "₹ 2,57,000",
+  },
+  {
+    year: "Year 2 (Hostel + Mess) Pune",
+    amount: "₹ 2,57,000",
+  },
+  {
+    year: "Year 3 (Approx. living cost), Australia",
+    amount: "₹ 11,50,000",
+  },
+  {
+    year: "Year 4 (Approx. living cost), Australia",
+    amount: "₹ 11,50,000",
+  },
+  {
+    year: "Total For Four Years",
+    amount: "₹ 81,68,000",
+    rowClass: "tableshighlight",
+  },
+];
+// SIT -Deakin University Partnership Tables Start Here --------
+export const DualDegreeceColumns = [
+  {
+    key: "year",
+    title: "Civil Engineering",
+    rowSpan: 2,
+  },
+  {
+    key: "amount",
+    title: "",
+    rowSpan: 2,
+  },
+];
+export const DualDegreeceData = [
+  {
+    year: { value: "Academic Fee", colSpan: 2 },
+    amount: null,
+    rowClass: "tableshighlight",
+  },
+  {
+    year: "Year 1 (Pune)",
+    amount: "₹ 3,37,500",
+  },
+  {
+    year: "Year 2 (Pune)",
+    amount: "₹ 3,37,500",
+  },
+  {
+    year: "Year 3 (Australia)",
+    amount: "₹ 24,09,000",
+  },
+  {
+    year: "Year 4 (Australia)",
+    amount: "₹ 24,09,000",
+  },
+  {
+    year: { value: "Accommodation Charges", colSpan: 2 },
+    amount: null,
+    rowClass: "tableshighlight",
+  },
+  {
+    year: "Year 1 (Hostel + Mess) Pune",
+    amount: "₹ 2,57,000",
+  },
+  {
+    year: "Year 2 (Hostel + Mess) Pune",
+    amount: "₹ 2,57,000",
+  },
+  {
+    year: "Year 3 (Approx. living cost), Australia",
+    amount: "₹ 11,50,000",
+  },
+  {
+    year: "Year 4 (Approx. living cost), Australia",
+    amount: "₹ 11,50,000",
+  },
+  {
+    year: "Total For Four Years",
+    amount: "₹ 83,07,000",
+    rowClass: "tableshighlight",
+  },
+];
+// SIT -Deakin University Partnership Tables End Here --------
+
+// University of East Anglia Tables Start Here --------
+export const DualDegreemeColumns = [
+  {
+    key: "year",
+    title: "Mechanical Engineering",
+    rowSpan: 2,
+  },
+  {
+    key: "amount",
+    title: "",
+    rowSpan: 2,
+  },
+];
+export const DualDegreemeData = [
+  {
+    year: { value: "Academic Fee", colSpan: 2 },
+    amount: null,
+    rowClass: "tableshighlight",
+  },
+  {
+    year: "Year 1 (Pune)",
+    amount: "₹ 3,37,500",
+  },
+  {
+    year: "Year 2 (Pune)",
+    amount: "₹ 3,37,500",
+  },
+  {
+    year: "Year 3 (UK)",
+    amount: "₹ 26,76,800",
+  },
+  {
+    year: "Year 4 (UK)",
+    amount: "₹ 26,76,800",
+  },
+  {
+    year: { value: "Accommodation Charges", colSpan: 2 },
+    amount: null,
+    rowClass: "tableshighlight",
+  },
+  {
+    year: "Year 1 (Hostel + Mess) Pune",
+    amount: "₹ 2,57,000",
+  },
+  {
+    year: "Year 2 (Hostel + Mess), Pune",
+    amount: "₹ 2,57,000",
+  },
+  {
+    year: "Year 3 (Approx. living cost), UK",
+    amount: "₹ 11,20,000",
+  },
+  {
+    year: "Year 4 (Approx. living cost), UK",
+    amount: "₹ 11,20,000",
+  },
+  {
+    year: "Total For Four Years",
+    amount: "₹ 87,81,032",
+    rowClass: "tableshighlight",
+  },
+];
+// University of East Anglia Tables End Here --------

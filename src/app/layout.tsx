@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 // import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap-icons/font/bootstrap-icons.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import "@fancyapps/ui/dist/fancybox/fancybox.css";
