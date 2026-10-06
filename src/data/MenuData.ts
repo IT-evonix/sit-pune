@@ -235,7 +235,8 @@ export const menuData: NavMenu[] = [
           {
             id: 5,
             title: "Doctoral Admissions",
-            href: "/",
+            href: "https://scri.siu.edu.in/",
+            target: "_blank",
           },
           {
             id: 6,

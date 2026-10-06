@@ -30,7 +30,7 @@ const tabs = [
         title={`Admission Procedure`}
         breadcrumbs={[
           // { label: "Programmes", href: "/programmes" },
-          { label: "Admission" },
+          { label: "Admissions" },
 
           { label: "Admission Procedure" },
         ]}
