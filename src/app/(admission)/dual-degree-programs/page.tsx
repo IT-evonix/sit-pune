@@ -152,7 +152,7 @@ const Admissionpage = () => {
 
       <div className="container-fluid py-5">
         <TabbingSidebar
-          heading="Admission Procedure"
+          heading="Dual Degree Programs"
           tabs={tabs}
           defaultActiveTabId="dual-degree-programs-overview"
         />
