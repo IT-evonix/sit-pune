@@ -2819,6 +2819,15 @@ height:260px;
   list-style-type: disc;
   color: #000;
 }
+.sublistingbox{
+  padding: 0 0 0 15px;
+  margin: 0px;
+}
+.listingbox .sublistingbox li {
+  padding: 2px 0;
+  list-style-type:circle;
+  color: #000;
+}
 .program_highlights_right .listingbox li {
   color: #fff;
 }
@@ -3751,12 +3760,9 @@ table {
 .student_project_table thead th:last-child {
     border-top-right-radius: 18px;
 }
-.student_project_table tbody tr:last-child td {
+/* .student_project_table tbody tr:last-child td {
     border-bottom: none;
-}
-.student_project_table tbody tr:last-child td {
-    border-right: none;
-}
+} */
 .student_project_year_block .table-responsive{
   border-radius: 18px;
 }
@@ -4404,10 +4410,197 @@ table {
 
 /*------------ Admission Tab Start Here ------------*/
 /*------------ Undergraduate Admissions Start Here ------------*/
-.programme-card{
+.undergraduate_admissions_page .programme-card{
   width: 32.2%;
 }
 /*------------ Undergraduate Admissions End Here ------------*/
+/*------------- Dual Degree Programs Start Here -------------*/
+.Aboutus_left{
+  margin: 0 0 40px 0;
+}
+.dual-degree-list{
+  padding-left:15px;
+  font-size:15px;
+}
+.siteee-step-card{
+  margin: 0 0 30px 0;
+}
+.siteee-step-card li {
+    padding-left: 1px;
+    margin-bottom: 3px;
+    color: #000;
+    overflow-wrap: anywhere;
+    list-style-type: disc;
+}
+.dual-degreeimg{
+  position:sticky;
+  top: 120px;
+}
+.admission_process_phase {
+  margin: 60px 0px 60px 0px;
+}
+.admission-phase {
+  position: relative;
+  margin: 0 0 70px;
+  padding: 40px;
+  border-radius: 28px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.08);
+}
+.admission_process_top {
+  background-color: #c2171d;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  display: flex;
+  position: relative;
+  padding: 8px 0;
+  border-radius: 20px 20px 0px 0px;
+  color: #fff;
+}
+.phaseNum_Name {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.phaseName {
+  font-family: 'Metropolis-SemiBold';
+  font-size: 20px;
+  line-height: normal;
+  padding: 0 0px 0 0px;
+  text-align: center;
+  width: 100%;
+}
+.processCrad_main {
+  display: flex;
+  justify-content: start;
+}
+.processCrad {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 250px;
+  transition: 0.35s;
+}
+.processCrad:hover {
+  transform: translateY(-10px);
+}
+.processCrad:hover svg {
+  transform: rotate(12deg) scale(1.1);
+  transition: 0.35s;
+}
+.processIcon {
+  width: 70px;
+  height: 70px;
+  border-radius: 200px;
+  margin-bottom: 20px;
+  border: 1px solid #163c7a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.processText .subheading {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Metropolis-Regular';
+  min-height: 150px;
+}
+.processText {
+  width: 100%;
+}
+.processCrad_Arrow {
+  width: 50px;
+  margin: 28px 0 0 0;
+}
+.processCrad_Arrow svg {
+  animation: arrowMove 1.4s ease-in-out infinite;
+}
+@keyframes arrowMove {
+  0% {
+    transform: translateX(0);
+    opacity: 0.4;
+  }
+  50% {
+    transform: translateX(10px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 0.4;
+  }
+}
+.processCrad .processCrad_Arrow svg {
+  width: 100%;
+}
+.admission_process_content {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 10px 30px #00000012;
+  padding: 25px;
+  position: relative;
+  z-index: 1;
+  border-radius: 0px 0px 20px 20px;
+}
+.pdf_main .programme-card{
+  width:100%;
+}
+.DualDegreePrograms{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    transition-duration: 0.5s;
+    position: relative;
+    margin: 0px 0px 9px;
+    background-color: #f3f8fe;
+    box-shadow: 0px 0px 0px #000;
+    border-radius: 100px;
+    padding: 10px;
+}
+.DualDegreePrograms-steps{
+  text-transform: uppercase;
+  text-align: start;
+  background-image: url(/images/innerpages/admission/dual-degree/dual-degree-bg.svg);
+  background-size: 168px 70px;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 2;
+  width: 26%;
+  padding: 24px 90px 24px 20px;
+  border-radius: 50px 0px 0px 50px;
+  font-family: 'Metropolis-SemiBold';
+  font-size: 15px;
+}
+.DualDegreePrograms-buttonbox{
+    position: relative;
+    width: 32%;
+    margin: 0px 0px 0px -140px;
+    background-color: #fff;
+    padding: 10px 10px 10px 40px;
+    text-align: center;
+    border-radius: 50px;
+    color: #163c7a;
+    font-family: 'Metropolis-Regular';
+    font-size: 15px;
+}
+.DualDegreePrograms p{
+    width: 56%;
+    line-height: normal;
+    font-family: 'Metropolis-Regular';
+    font-size: 15px;
+    margin: 0px 0px 0px 20px;
+}
+.DualDegreePrograms:hover .DualDegreePrograms-buttonbox{
+    background-color: #c6141c;
+    transition-duration: 0.3s;
+    color: #fff;
+}
+.tableshighlight{
+  font-family: 'Metropolis-Bold';
+}
+/*------------- Dual Degree Programs End Here -------------*/
 /*------------ Admission Tab End Here ------------*/
 
 
@@ -4829,6 +5022,15 @@ table {
     max-height: 29px !important;
   } */
   /*------- Programe AIML End Here -------*/
+  /*------------ Admission Tab Start Here ------------*/
+  /*----------- Dual Degree Programs Start Here -----------*/
+  .DualDegreePrograms-buttonbox{
+    margin: 0px 0px 0px -160px;
+    padding: 10px 10px 10px 10px;
+  }
+  /*------------ Dual Degree Programs End Here -----------*/
+  /*------------ Admission Tab End Here ------------------*/
+
 }
 @media (min-width: 1399.98px) {
   /* Header Start Here*/

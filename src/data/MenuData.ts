@@ -215,12 +215,12 @@ export const menuData: NavMenu[] = [
           {
             id: 1,
             title: "Admission Procedure",
-            href: "/",
+            href: "/admission-procedure",
           },
           {
             id: 2,
             title: "Undergraduate Admissions",
-            href: "/",
+            href: "/undergraduate-admissions",
           },
           {
             id: 3,
@@ -235,12 +235,13 @@ export const menuData: NavMenu[] = [
           {
             id: 5,
             title: "Doctoral Admissions",
-            href: "/",
+            href: "https://scri.siu.edu.in/",
+            target: "_blank",
           },
           {
             id: 6,
             title: "International Admissions",
-            href: "/",
+            href: "/dual-degree-programs",
           },
 
         ],
@@ -265,7 +266,8 @@ export const menuData: NavMenu[] = [
           {
             id: 3,
             title: "Uniform Information ",
-            href: "/",
+            href: "https://symbiuniforms.com/",
+            target: "_blank",
           },
            
         ],

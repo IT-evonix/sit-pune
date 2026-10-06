@@ -3,7 +3,7 @@ import TabbingSidebar from "@/components/TabbingSidebar";
 import AdmissionProcedureug from "@/components/admission/admission-procedure/ug/AdmissionProcedure"
 import AdmissionProcedurepg from "@/components/admission/admission-procedure/pg/AdmissionProcedure"
 import AdmissionProceduremtech from "@/components/admission/admission-procedure/mtech/AdmissionProceduremtech"
-import React from "react";
+
 
 const Admissionpage = () => {
 const tabs = [
@@ -30,7 +30,7 @@ const tabs = [
         title={`Admission Procedure`}
         breadcrumbs={[
           // { label: "Programmes", href: "/programmes" },
-          { label: "Admission Procedure" },
+          { label: "Admissions" },
 
           { label: "Admission Procedure" },
         ]}
