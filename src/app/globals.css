@@ -3755,16 +3755,17 @@ table {
   margin-top: 20px;
 }
 .student_project_table thead th:first-child {
-    border-top-left-radius: 18px;
+    border-top-left-radius: 0px !important;
 }
 .student_project_table thead th:last-child {
-    border-top-right-radius: 18px;
+    border-top-right-radius:0px !important;
 }
-/* .student_project_table tbody tr:last-child td {
-    border-bottom: none;
-} */
 .student_project_year_block .table-responsive{
   border-radius: 18px;
+  border-radius: 18px !important;
+}
+.customtable{
+  border-radius: 18px !important;
 }
 .student_project_select:focus {
   border-color: #c4161c;
@@ -3776,9 +3777,7 @@ table {
 }
 .student_project_table {
   width: 100%;
-  border-collapse: collapse;
-  border: 1px solid #d9e1e8;
-  table-layout: fixed;
+  min-width: 700px;
   border-collapse: separate;
   border-spacing: 0;
   border-radius: 18px;
@@ -3797,11 +3796,31 @@ table {
 .student_project_table td {
   padding: 12px 15px;
   background: #fff;
-  color: #222;
-  font-size: 14px;
+  color: #000;
+  font-size: 15px;
   vertical-align: middle;
   border-bottom: 1px solid #edf3fb;
   border-right: 1px solid #edf3fb;
+  white-space: nowrap;
+}
+.student_project_table tr:last-child td{
+    border-bottom: none;
+}
+.table-responsive{
+  border-radius: 18px;
+}
+.table-wrapper{
+  background: #fff;
+  border: 1px solid #e5edf7;
+  border-radius: 22px;
+  overflow: hidden;
+}
+.table-responsive::-webkit-scrollbar {
+  height: 7px;
+}
+.table-responsive::-webkit-scrollbar-thumb {
+  background: #b5cce8;
+  border-radius: 50px;
 }
 .student_project_sr {
   width: 100px;
