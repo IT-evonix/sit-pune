@@ -143,17 +143,6 @@ export default function MajorMinorProgrammes({
 
   return (
     <section className="major-minor-programmes-section">
-      {/* Main Heading */}
-      <div className="major-minor-programmes-heading">
-        {/* <h1>
-          <span className="heading-blue">{department.shortTitle}</span>{" "}
-          <span className="heading-red">Major & Minor</span>{" "}
-          <span className="heading-blue">Programmes</span>
-        </h1> */}
-
-        {/* Optional Main Subtitle */}
-        {/* {department.subtitle && <p>{department.subtitle}</p>} */}
-      </div>
 
       {/* Major & Minor Cards */}
       <div className="major-minor-programmes-grid">

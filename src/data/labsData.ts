@@ -161,4 +161,174 @@ export const labsData: DepartmentLabs[] = [
     ],
   },
 
+  {
+    id: "applied-science",
+    department: "Applied Science",
+    labs: [
+      {
+        id: "applied-science",
+        title: "Our Labs & Spaces",
+        gallery: [
+          {
+            id: "applied-science-lab-1",
+            title: "Chemistry Lab",
+            image: "/images/innerpages/programe/applied-science/our-labs-and-spaces/Chemistry-Lab.webp",
+            alt: "Concrete Technology Lab",
+          },
+          {
+            id: "applied-science-lab-2",
+            title: "Composite Materials Lab",
+            image: "/images/innerpages/programe/applied-science/our-labs-and-spaces/Composite-Materials-Lab.webp",
+            alt: "Transportation Engineering Lab",
+          },
+          {
+            id: "applied-science-lab-3",
+            title: "Language Lab",
+            image: "/images/innerpages/programe/applied-science/our-labs-and-spaces/Language-Lab.webp",
+            alt: "Geotechnical Engineering Lab",
+          },
+          {
+            id: "applied-science-lab-4",
+            title: "Material Research Lab",
+            image: "/images/innerpages/programe/applied-science/our-labs-and-spaces/Material-Research-Lab.webp",
+            alt: "Environmental Engineering Lab",
+          },
+          {
+            id: "applied-science-lab-5",
+            title: "Nanomaterials for Energy Applications Lab",
+            image: "/images/innerpages/programe/applied-science/our-labs-and-spaces/Nanomaterials-for-Energy-Applications-Lab.webp",
+            alt: "Engineering Mechanics Lab",
+          },
+          {
+            id: "applied-science-lab-6",
+            title: "Physics Lab",
+            image: "/images/innerpages/programe/applied-science/our-labs-and-spaces/Physics-Lab.webp",
+            alt: "Surveying Lab",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "civil-engineering",
+    department: "Civil Engineering",
+    labs: [
+      {
+        id: "civil-engineering",
+        title: "Our Labs & Spaces",
+        gallery: [
+          {
+            id: "civil-engineering-lab-1",
+            title: "Concrete Technology Lab",
+            image: "/images/innerpages/programe/civil-engineering/our-labs-and-spaces/01_Concrete_Technology_Lab.webp",
+            alt: "Concrete Technology Lab",
+          },
+          {
+            id: "civil-engineering-lab-2",
+            title: "Transportation Engineering Lab",
+            image: "/images/innerpages/programe/civil-engineering/our-labs-and-spaces/02_Transportation_Engineering_Lab.webp",
+            alt: "Transportation Engineering Lab",
+          },
+          {
+            id: "civil-engineering-lab-3",
+            title: "Geotechnical Engineering Lab",
+            image: "/images/innerpages/programe/civil-engineering/our-labs-and-spaces/03_Geotechnical_Engineering_Lab.webp",
+            alt: "Geotechnical Engineering Lab",
+          },
+          {
+            id: "civil-engineering-lab-4",
+            title: "Environmental Engineering Lab",
+            image: "/images/innerpages/programe/civil-engineering/our-labs-and-spaces/04_Environmental_Engineering_Lab.webp",
+            alt: "Environmental Engineering Lab",
+          },
+          {
+            id: "civil-engineering-lab-5",
+            title: "Engineering Mechanics Lab",
+            image: "/images/innerpages/programe/civil-engineering/our-labs-and-spaces/05_Engineering_Mechanics_Lab.webp",
+            alt: "Engineering Mechanics Lab",
+          },
+          {
+            id: "civil-engineering-lab-6",
+            title: "Surveying Lab",
+            image: "/images/innerpages/programe/civil-engineering/our-labs-and-spaces/06_Surveying_Lab.webp",
+            alt: "Surveying Lab",
+          },
+          {
+            id: "civil-engineering-lab-7",
+            title: "Civil Computer Lab",
+            image: "/images/innerpages/programe/civil-engineering/our-labs-and-spaces/07_Civil_Computer_Lab.webp",
+            alt: "Civil Computer Lab",
+          },
+          {
+            id: "civil-engineering-lab-8",
+            title: "Engineering Geology Lab",
+            image: "/images/innerpages/programe/civil-engineering/our-labs-and-spaces/08_Engineering_Geology_Lab.webp",
+            alt: "Engineering Geology Lab",
+          },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: "applied-science",
+    department: "Applied Science",
+    labs: [
+      {
+        id: "applied-science",
+        title: "Our Labs & Spaces",
+        gallery: [
+          {
+            id: "civil-engineering-lab-1",
+            title: "Concrete Technology Lab",
+            image: "/images/innerpages/programe/applied-science/our-labs-and-spaces/01_Concrete_Technology_Lab.webp",
+            alt: "Concrete Technology Lab",
+          },
+          {
+            id: "civil-engineering-lab-2",
+            title: "Transportation Engineering Lab",
+            image: "/images/innerpages/programe/applied-science/our-labs-and-spaces/02_Transportation_Engineering_Lab.webp",
+            alt: "Transportation Engineering Lab",
+          },
+          {
+            id: "civil-engineering-lab-3",
+            title: "Geotechnical Engineering Lab",
+            image: "/images/innerpages/programe/applied-science/our-labs-and-spaces/03_Geotechnical_Engineering_Lab.webp",
+            alt: "Geotechnical Engineering Lab",
+          },
+          {
+            id: "civil-engineering-lab-4",
+            title: "Environmental Engineering Lab",
+            image: "/images/innerpages/programe/applied-science/our-labs-and-spaces/04_Environmental_Engineering_Lab.webp",
+            alt: "Environmental Engineering Lab",
+          },
+          {
+            id: "civil-engineering-lab-5",
+            title: "Engineering Mechanics Lab",
+            image: "/images/innerpages/programe/applied-science/our-labs-and-spaces/05_Engineering_Mechanics_Lab.webp",
+            alt: "Engineering Mechanics Lab",
+          },
+          {
+            id: "civil-engineering-lab-6",
+            title: "Surveying Lab",
+            image: "/images/innerpages/programe/applied-science/our-labs-and-spaces/06_Surveying_Lab.webp",
+            alt: "Surveying Lab",
+          },
+          {
+            id: "civil-engineering-lab-7",
+            title: "Civil Computer Lab",
+            image: "/images/innerpages/programe/applied-science/our-labs-and-spaces/07_Civil_Computer_Lab.webp",
+            alt: "Civil Computer Lab",
+          },
+          {
+            id: "civil-engineering-lab-8",
+            title: "Engineering Geology Lab",
+            image: "/images/innerpages/programe/applied-science/our-labs-and-spaces/08_Engineering_Geology_Lab.webp",
+            alt: "Engineering Geology Lab",
+          },
+        ],
+      },
+    ],
+  },
+
 ];
