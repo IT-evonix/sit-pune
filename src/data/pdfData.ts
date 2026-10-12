@@ -189,3 +189,47 @@ export const CSNewsletterPDF: PDFItem[] = [
       "/images/innerpages/programe/computer-science/csdispatch/CSE-newslatter1.webp",
   },
 ];
+
+
+
+
+
+// Civil Engineering Program Start Here ------------------------------------
+// ========== CS BROCHURE ========== //
+export const CEBrochurePDF: PDFItem[] = [
+  {
+    id: 1,
+    title: "Civil Engineering Brochure",
+    batch: "2026",
+    pdfUrl:
+      "/pdf/programmes/btech-civil-engineering/CEdispatch/Brochure/Civil-Brochure.pdf",
+    previewImage:
+      "/images/innerpages/programe/civil-engineering/civildispatch/CE-Brochure.png",
+  },
+];
+
+// ========== CE MAGAZINE ==========//
+export const CEMagazinePDF: PDFItem[] = [
+  {
+    id: 1,
+    title: "Computer Science",
+    batch: "2025-26",
+    pdfUrl:
+      "/pdf/programmes/btech-cs/CSdispatch/Magazine/CSE-Magazine-25-26.pdf",
+    previewImage:
+      "/images/innerpages/programe/computer-science/csdispatch/CSE-Magazine-25-26.webp",
+  },
+];
+
+// ======== CE NEWSLETTER  =========
+export const CESNewsletterPDF: PDFItem[] = [
+  {
+    id: 1,
+    title: "Computer Science Jan To Jan",
+    batch: "2026",
+    pdfUrl:
+      "/pdf/programmes/btech-cs/CEdispatch/Newsletter/Civil-Brochure.pdf",
+    previewImage:
+      "/images/innerpages/programe/computer-science/csdispatch/CSE-newslatter1.webp",
+  },
+];

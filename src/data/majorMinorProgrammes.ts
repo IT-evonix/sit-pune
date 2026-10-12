@@ -288,6 +288,82 @@ export const majorMinorProgrammesData: ProgrammeDepartment[] = [
     },
   },
 
+    {
+    id: "civil-engineering",
+    shortTitle: "civil-engineering",
+    title: "Honours & Minors Programmes",
+    subtitle:"Explore our specialised AI & ML programmes designed to build industry-ready skills and future-proof your career.",
+    description: "",
+    major: {
+      title: "Honours Programmes",
+      // description: "Advanced specialisations to lead in the AI-driven future.",
+      items: [
+        {
+          id: "environmental-hydraulics",
+          title: "Environmental Hydraulics",
+          icon: "cloud",
+        },
+        {
+          id: "geo",
+          title: "Geo-Environmental Engineering",
+          icon: "shield",
+        },
+        {
+          id: "gis",
+          title: "GIS and Surveying Technology",
+          icon: "chart",
+        },
+        {
+          id: "infrastructure-engineering",
+          title: "Infrastructure Engineering and Management",
+          icon: "chart",
+        },
+        {
+          id: "smart-cities-urban",
+          title: "Smart Cities and Urban Analytics",
+          icon: "chart",
+        },
+        {
+          id: "structural-engineering",
+          title: "Structural Engineering",
+          icon: "atom",
+        },
+
+      ],
+    },
+    minor: {
+      title: "Minors Programmes",
+      items: [
+        {
+          id: "aiaml",
+          title: "Artificial Intelligence and Machine Learning",
+          icon: "brain",
+        },
+        {
+          id: "data-science",
+          title: "Data Science",
+          icon: "chart",
+        },
+        {
+          id: "internet-of-things",
+          title: "Internet of Things",
+          icon: "chip",
+        },
+        {
+          id: "embedded-system",
+          title: "Embedded Systems",
+          icon: "chip",
+        },
+        {
+          id: "aiwhaat",
+          title: "Automobile Engineering with Hybrid and Autonomous Technology",
+          icon: "atom",
+        },
+
+      ],
+    },
+  },
+
   // {
   //   id: "cse",
   //   shortTitle: "CSE",

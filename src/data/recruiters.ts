@@ -395,7 +395,64 @@ export const ComputerScience: RecruiterLogo[] = Array.from(
     height: 50,
   })
 );
-
+export const civil: RecruiterLogo[] = [
+  {
+    id: 1,
+    name: "Recruiter 1",
+    image: "/images/innerpages/programe/civil-engineering/about-department/civil-engineering1.webp",
+    width: 100,
+    height: 50,
+  },
+  {
+    id: 2,
+    name: "Recruiter 2",
+    image: "/images/innerpages/programe/civil-engineering/about-department/civil-engineering2.webp",
+    width: 100,
+    height: 50,
+  },
+  {
+    id: 3,
+    name: "Recruiter 3",
+    image: "/images/innerpages/programe/civil-engineering/about-department/civil-engineering3.webp",
+    width: 100,
+    height: 50,
+  },
+  {
+    id: 4,
+    name: "Recruiter 4",
+    image: "/images/innerpages/programe/civil-engineering/about-department/civil-engineering4.webp",
+    width: 100,
+    height: 50,
+  },
+  {
+    id: 5,
+    name: "Recruiter 5",
+    image: "/images/innerpages/programe/civil-engineering/about-department/civil-engineering5.webp",
+    width: 100,
+    height: 50,
+  },
+  {
+    id: 6,
+    name: "Recruiter 6",
+    image: "/images/innerpages/programe/civil-engineering/about-department/civil-engineering6.webp",
+    width: 100,
+    height: 50,
+  },
+  {
+    id: 7,
+    name: "Recruiter 7",
+    image: "/images/innerpages/programe/civil-engineering/about-department/civil-engineering7.webp",
+    width: 100,
+    height: 50,
+  },
+  {
+    id: 8,
+    name: "Recruiter 8",
+    image: "/images/innerpages/programe/civil-engineering/about-department/civil-engineering8.webp",
+    width: 100,
+    height: 50,
+  },
+];
 /* =============================  PROGRAM-WISE RECRUITERS  ============================= */
 export const programRecruiters: Record<string, ProgramRecruiters> = {
   aiml: {
@@ -405,7 +462,7 @@ export const programRecruiters: Record<string, ProgramRecruiters> = {
 
   civil: {
     title: "Top Recruiters",
-    logos: commonRecruiters,
+    logos: civil,
   },
 
   electronics: {
@@ -419,11 +476,6 @@ export const programRecruiters: Record<string, ProgramRecruiters> = {
   },
 
   computerScience: {
-    title: "Top Recruiters",
-    logos: ComputerScience,
-  },
-
-  ComputerScience: {
     title: "Top Recruiters",
     logos: ComputerScience,
   },
