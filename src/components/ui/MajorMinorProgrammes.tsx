@@ -6,7 +6,6 @@ import {
   Brain,
   Cloud,
   Cpu,
-  GraduationCap,
   ShieldCheck,
 } from "lucide-react";
 

@@ -101,7 +101,7 @@ export const menuData: NavMenu[] = [
           {
             id: 5,
             title: "Mechanical Engineering ",
-            href: "/",
+            href: "/programmes/btech/btech-mechanical-engineering",
           },
           {
             id: 6,

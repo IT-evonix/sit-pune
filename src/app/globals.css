@@ -2954,6 +2954,7 @@ height:260px;
   gap: 15px;
   border-top: 1px solid #ccc;
   padding: 12px 0 0 0;
+  flex-wrap: wrap;
 }
 .collaborations_box {
   display: flex;

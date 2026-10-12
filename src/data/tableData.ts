@@ -2760,3 +2760,301 @@ export const MtechEDFeestructure2026_27HostelMessData = [
 ];
 // Hostel & Mess End Here -----------------
 // --------SIT Pune MTech ED Fee Structure 2026-27 End Here ---------------------------------------
+
+// --------Scholarship Achievements Start Here ---------------------------------------
+// 2025-2026
+export const ScholarshipAchievements2025_26Columns = [
+  {
+    key: "typesofscholarship",
+    title: "Types of Scholarship",
+  },
+  {
+    key: "amount",
+    title: "Amount (in Rs.)",
+  },
+  {
+    key: "studentsbenefited",
+    title: "No. of Students Benefited",
+  },
+];
+export const ScholarshipAchievements2025_26Data = [
+  {
+    typesofscholarship: "Merit Scholarship (20%, 15%, 10%, 5%, SIU)",
+    amount: "₹ 21,27,408",
+    studentsbenefited: "125",
+  },
+  {
+    typesofscholarship: "Merit Scholarship International Students",
+    amount: "₹ 38,86,495",
+    studentsbenefited: "13",
+  },
+  {
+    typesofscholarship: "PG Scholarship (AICTE)",
+    amount: "₹ 4,96,000",
+    studentsbenefited: "7",
+  },
+  {
+    typesofscholarship: "Total",
+    amount: "₹ 65,09,903",
+    studentsbenefited: "145",
+  },
+];
+// 2024-2025
+export const ScholarshipAchievements2024_25Columns = [
+  {
+    key: "typesofscholarship",
+    title: "Types of Scholarship",
+  },
+  {
+    key: "amount",
+    title: "Amount (in Rs.)",
+  },
+  {
+    key: "studentsbenefited",
+    title: "No. of Students Benefited",
+  },
+];
+export const ScholarshipAchievements2024_25Data = [
+  {
+    typesofscholarship: "Merit Scholarship ( 20%, 15%, 10%, 5%, SIU)",
+    amount: "₹ 40,91,303",
+    studentsbenefited: "244",
+  },
+   {
+    typesofscholarship: "NER ( 100%, SIU)",
+    amount: "₹ 12,02,600",
+    studentsbenefited: "4",
+  },
+   {
+    typesofscholarship: "PG Scholarship (AICTE)",
+    amount: "₹ 11,02,000",
+    studentsbenefited: "8",
+  },
+   {
+    typesofscholarship: "National Scholarship (Government)",
+    amount: "₹ 10,24,000",
+    studentsbenefited: "16",
+  },
+   {
+    typesofscholarship: "GIP Scholarship",
+    amount: "₹ 3,44,000",
+    studentsbenefited: "2",
+  },
+   {
+    typesofscholarship: "Prime Minister's Scholarship Scheme Scheme",
+    amount: "₹ 2,40,000",
+    studentsbenefited: "10",
+  },
+  {
+    typesofscholarship: "Total",
+    amount: "₹ 80,03,903",
+    studentsbenefited: "274",
+  },
+
+];
+// 2023-2024
+export const ScholarshipAchievements2023_24Columns = [
+  {
+    key: "typesofscholarship",
+    title: "Types of Scholarship",
+  },
+  {
+    key: "amount",
+    title: "Amount (in Rs.)",
+  },
+  {
+    key: "studentsbenefited",
+    title: "No. of Students Benefited",
+  },
+];
+export const ScholarshipAchievements2023_24Data = [
+  {
+    typesofscholarship: "Merit Scholarship ( 20%, 15%, 10%, 5%, SIU)",
+    amount: "₹ 39,21,843",
+    studentsbenefited: "241",
+  },
+  {
+    typesofscholarship: "NER ( 100%, SIU)",
+    amount: "₹ 11,56,500",
+    studentsbenefited: "4",
+  },
+  {
+    typesofscholarship: "PG Scholarship (AICTE)",
+    amount: "₹ 5,58,000",
+    studentsbenefited: "4",
+  },
+  {
+    typesofscholarship: "National Scholarship ( Government )",
+    amount: "₹ 3,66,000",
+    studentsbenefited: "11",
+  },
+  {
+    typesofscholarship: "Total",
+    amount: "₹ 60,02,343",
+    studentsbenefited: "260",
+  },
+  {
+    typesofscholarship: "JKPMSSS ( Government )",
+    amount: "100% Academic Fee Waiver",
+    studentsbenefited: "6",
+  },
+];
+// 2022-2023
+export const ScholarshipAchievements2022_23Columns = [
+  {
+    key: "typesofscholarship",
+    title: "Types of Scholarship",
+  },
+  {
+    key: "amount",
+    title: "Amount (in Rs.)",
+  },
+  {
+    key: "studentsbenefited",
+    title: "No. of Students Benefited",
+  },
+];
+export const ScholarshipAchievements2022_23Data = [
+  {
+    typesofscholarship: "Merit Scholarship ( 20%, 15%, 10%, 5%, SIU)",
+    amount: "₹ 31,39,525",
+    studentsbenefited: "191",
+  },
+  {
+    typesofscholarship: "International Scholarship",
+    amount: "₹ 67,09,600",
+    studentsbenefited: "20",
+  },
+  {
+    typesofscholarship: "NER ( 100%, SIU)",
+    amount: "₹ 5,33,000",
+    studentsbenefited: "2",
+  },
+  {
+    typesofscholarship: "SIU Sports Scholarship",
+    amount: "₹ 24,000",
+    studentsbenefited: "1",
+  },
+  {
+    typesofscholarship: "PG Scholarship (AICTE)",
+    amount: "₹ 3,90,000",
+    studentsbenefited: "3",
+  },
+  {
+    typesofscholarship: "National Scholarship ( Government )",
+    amount: "₹ 3,34,000",
+    studentsbenefited: "10",
+  },
+  {
+    typesofscholarship: "Total",
+    amount: "₹ 1,11,30,125",
+    studentsbenefited: "10",
+  },
+  {
+    typesofscholarship: "JKPMSSS ( Government )",
+    amount: "100% Academic Fee Waiver",
+    studentsbenefited: "14",
+  },
+
+];
+// 2021-2022
+export const ScholarshipAchievements2021_22Columns = [
+  {
+    key: "typesofscholarship",
+    title: "Types of Scholarship",
+  },
+  {
+    key: "amount",
+    title: "Amount (in Rs.)",
+  },
+  {
+    key: "studentsbenefited",
+    title: "No. of Students Benefited",
+  },
+];
+export const ScholarshipAchievements2021_22Data = [
+  {
+    typesofscholarship: "Merit Scholarship ( 50%, SIU)",
+    amount: "₹ 16,29,250",
+    studentsbenefited: "26",
+  },
+  {
+    typesofscholarship: "International Scholarship",
+    amount: "₹ 43,52,500",
+    studentsbenefited: "18",
+  },
+  {
+    typesofscholarship: "NER ( 100%, SIU)",
+    amount: "₹ 2,60,000",
+    studentsbenefited: "1",
+  },
+  {
+    typesofscholarship: "Late Jayatee Deshmukh Scholarship",
+    amount: "₹ 25,000",
+    studentsbenefited: "1",
+  },
+  {
+    typesofscholarship: "PG Scholarship (AICTE)",
+    amount: "₹ 1,72,774",
+    studentsbenefited: "2",
+  },
+  {
+    typesofscholarship: "National Scholarship ( Government )",
+    amount: "₹ 3,55,500",
+    studentsbenefited: "9",
+  },
+  {
+    typesofscholarship: "Mukhya Mantri Medhavi Vidhyarthi Yojna, Madhya Pradesh ( Government )",
+    amount: "₹ 1,50,000",
+    studentsbenefited: "1",
+  },
+  {
+    typesofscholarship: "Total",
+    amount: "₹ 69,45,024",
+    studentsbenefited: "9",
+  },
+  {
+    typesofscholarship: "JKPMSSS ( Government )",
+    amount: "100% Academic Fee Waiver",
+    studentsbenefited: "19",
+  },
+];
+// 2020-2021
+export const ScholarshipAchievements2020_21Columns = [
+  {
+    key: "typesofscholarship",
+    title: "Types of Scholarship",
+  },
+  {
+    key: "amount",
+    title: "Amount (in Rs.)",
+  },
+  {
+    key: "studentsbenefited",
+    title: "No. of Students Benefited",
+  },
+];
+export const ScholarshipAchievements2020_21Data = [
+  {
+    typesofscholarship: "Merit Scholarship ( 50%, SIU )",
+    amount: "₹ 31,18,375",
+    studentsbenefited: "52",
+  },
+  {
+    typesofscholarship: "National Scholarship ( Government )",
+    amount: "₹ 1,65,000",
+    studentsbenefited: "6",
+  },
+  {
+    typesofscholarship: "Total",
+    amount: "₹ 32,83,375",
+    studentsbenefited: "",
+  },
+  {
+    typesofscholarship: "JKPMSSS ( Government )",
+    amount: "100% Academic Fee Waiver",
+    studentsbenefited: "27",
+  },
+
+];
+// --------Scholarship Achievements End Here ---------------------------------------
