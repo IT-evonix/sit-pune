@@ -57,7 +57,7 @@ const CEPage = () => {
   
     {
       id: "AIMLDispatch",
-      title: "The AIML Dispatch",
+      title: "The Applied Science Dispatch",
       content: <AIMLDispatch />,
     },
   ];
@@ -67,7 +67,6 @@ const CEPage = () => {
       <InnerpageBanner
         title={`Applied Science (First Year)`}
         breadcrumbs={[
-          // { label: "Programmes", href: "/programmes" },
           { label: "Programmes" },
 
           { label: "Applied Science (First Year)" },

@@ -38,8 +38,8 @@ const Overview = () => {
           </div>
           <div className="profileImage">
             <Image
-              src="/images/innerpages/programe/civil-engineering/Sayali-Sandbhor.webp"
-              alt="Sumit Kumar"
+              src="/images/innerpages/programe/civil-engineering/sayali_sandbhorimg.webp"
+              alt="Sayali Sandbhor"
               width={320}
               height={380}
             />
