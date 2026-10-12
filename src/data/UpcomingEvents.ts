@@ -22,16 +22,11 @@ export const upcomingEventsData: DepartmentUpcomingEvents[] = [
       {
         id: "undercover-ai-detective-challenge",
         title: "The AI Club invites you to participate in UNDERCOVER",
-
         description:
           "The AI Detective Challenge, an interactive detective-style game where your team takes on the role of AI detectives.",
-
         date: "8th August 2026, Saturday",
-
         time: "10:00 AM - 2:00 PM",
-
         venue: "MSA-DPA Lab, 5th Floor",
-
         image:
           "/images/innerpages/programe/aiml/UpcomingEvents/UpcomingEvents1.webp",
       },
@@ -50,19 +45,18 @@ export const upcomingEventsData: DepartmentUpcomingEvents[] = [
   },
 
   {
-    id: "bca",
+    id: "MechanicalEngineering",
     department: "Bachelor of Computer Applications",
     events: [
-      // Add BCA events here
-      // {
-      //   id: "bca-event-1",
-      //   title: "BCA Technical Event",
-      //   description: "Event description...",
-      //   date: "15th August 2026",
-      //   time: "11:00 AM – 2:00 PM",
-      //   venue: "Computer Lab",
-      //   image: "/images/innerpages/events/bca/bca-event.webp",
-      // },
+      {
+        id: "dummy-event",
+        title: "Lorem Ipsum is simply dummy text of the printing",
+        description: "Event description...",
+        date: "20th August 2026",
+        time: "00:00 AM - 00:00 PM",
+        venue: "Seminar Hall",
+        image: "/images/innerpages/programe/mechanical-engineering/UpcomingEvents/UpcomingEvents1.webp",
+      },
     ],
   },
 

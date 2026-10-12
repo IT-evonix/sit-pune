@@ -159,58 +159,7 @@ const Overview = () => {
               <span>B.Tech E&TC</span>
             </div>
           </div>
-          {/* <div className="verticalline"></div>
-          <div className="program_count_databox">
-            <div className="program_count_img">
-              <svg
-                width="81"
-                height="81"
-                viewBox="0 0 81 81"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <circle
-                  cx="40.415"
-                  cy="40.415"
-                  r="40.415"
-                  fill="#C4161C"
-                  fill-opacity="0.05"
-                />
-                <mask
-                  id="mask0_885_378"
-                  style={{ maskType: "luminance" }}
-                  maskUnits="userSpaceOnUse"
-                  x="26"
-                  y="22"
-                  width="54"
-                  height="54"
-                >
-                  <path
-                    d="M79.3105 22.3103H26.3105V75.3103H79.3105V22.3103Z"
-                    fill="white"
-                  />
-                </mask>
-                <g mask="url(#mask0_885_378)">
-                  <path
-                    d="M78.3808 64.0474C78.2346 62.2414 77.8178 60.4676 77.1441 58.7855C76.8449 57.9669 75.9872 57.4948 75.1354 57.6797C72.5589 58.2193 66.8015 59.145 57.0711 59.3579C54.6903 57.0718 50.9297 57.0718 48.549 59.3579C38.8186 59.1459 33.0612 58.2202 30.4837 57.6797C29.6374 57.495 28.7839 57.9606 28.4813 58.7723C27.7989 60.4601 27.3752 62.2411 27.2243 64.0553C26.6632 64.3636 26.3134 64.9521 26.311 65.5923V66.4755C26.3382 69.1211 26.8566 71.7386 27.84 74.1948C28.1037 74.8638 28.748 75.3048 29.467 75.3087C29.5876 75.3087 29.7078 75.2959 29.8257 75.2707C32.6125 74.7071 38.8053 73.7532 49.2769 73.5747V73.7982C49.2781 74.4102 49.6474 74.9614 50.213 75.1952C50.7786 75.4291 51.4293 75.2995 51.8623 74.867L52.81 73.9166L53.7578 74.867C54.1908 75.2995 54.8414 75.4291 55.407 75.1952C55.9726 74.9614 56.342 74.4102 56.3432 73.7982V73.5747C66.8148 73.7514 73.0067 74.7071 75.7864 75.2707C76.6238 75.4481 77.4665 74.9941 77.7792 74.1974C78.7629 71.7405 79.2817 69.1221 79.309 66.4757V65.5924C79.3065 64.946 78.9502 64.353 78.3808 64.0474ZM75.4915 59.4091C76.0583 60.8245 76.43 62.3101 76.5964 63.8257H58.9932C58.9926 62.877 58.7716 61.9413 58.3475 61.0928C64.0998 61.0234 69.8356 60.4601 75.4915 59.4091ZM52.81 59.4091C55.2492 59.4091 57.2266 61.3865 57.2266 63.8257C57.2266 66.2648 55.2492 68.2422 52.81 68.2422C50.3709 68.2422 48.3935 66.2648 48.3935 63.8257C48.3965 61.3878 50.3721 59.4122 52.81 59.4091ZM47.2727 61.0928C46.8486 61.9415 46.6276 62.877 46.627 63.8257H29.0051C29.1788 62.3103 29.5544 60.825 30.1216 59.4091C35.7798 60.4616 41.5179 61.0247 47.2727 61.0928ZM29.4804 73.542C28.5791 71.2937 28.1034 68.8976 28.0777 66.4755V65.5923H46.892C47.2926 66.9294 48.133 68.0923 49.2769 68.8923V71.8073C38.6455 71.9874 32.3246 72.9633 29.4804 73.542ZM53.8885 72.4997C53.2898 71.928 52.3488 71.9229 51.7439 72.4882L51.0434 73.1886V69.7527C52.1955 70.1001 53.4245 70.1001 54.5766 69.7527V73.1887L53.8885 72.4997ZM77.5426 66.4755C77.5147 68.8969 77.041 71.2922 76.1451 73.542C73.2955 72.9635 66.9747 71.9874 56.3433 71.8073V68.8923C57.4889 68.093 58.3308 66.9302 58.7327 65.5923H77.5426V66.4755Z"
-                    fill="#C4161C"
-                  />
-                  <path
-                    d="M52.8101 66.4759C53.8818 66.4759 54.8481 65.8303 55.2582 64.8401C55.6683 63.8499 55.4416 62.7101 54.6839 61.9522C53.9259 61.1943 52.7862 60.9676 51.796 61.3779C50.8058 61.788 50.1602 62.7543 50.1602 63.826C50.1602 65.2895 51.3466 66.4759 52.8101 66.4759ZM52.8101 62.9427C53.2979 62.9427 53.6933 63.3383 53.6933 63.826C53.6933 64.3139 53.2979 64.7093 52.8101 64.7093C52.3222 64.7093 51.9268 64.3138 51.9268 63.826C51.9268 63.3382 52.3222 62.9427 52.8101 62.9427Z"
-                    fill="#C4161C"
-                  />
-                  <path
-                    d="M77.5751 31.2868L53.7163 22.4733C53.1317 22.256 52.4884 22.256 51.9038 22.4733L28.045 31.2868C27.0017 31.6802 26.311 32.6787 26.311 33.7937C26.311 34.9088 27.0017 35.9072 28.045 36.3006L37.7939 39.9018V48.5899C37.7966 49.6937 38.4816 50.6806 39.5146 51.0693L51.8808 55.7067C52.4804 55.9322 53.1415 55.9322 53.741 55.7067L66.1073 51.0693C67.1394 50.6798 67.8235 49.6931 67.8262 48.5899V39.9018L72.2427 38.2703V44.5188C70.6875 44.9203 69.5988 46.3203 69.5929 47.9266V51.4598C69.5929 52.4355 70.3838 53.2264 71.3594 53.2264H74.8926C75.8684 53.2264 76.6593 52.4355 76.6593 51.4598V47.9266C76.6533 46.3204 75.5645 44.9204 74.0094 44.5188V37.6175L77.5753 36.3006C78.6185 35.9072 79.3092 34.9088 79.3092 33.7937C79.3092 32.6787 78.6185 31.6802 77.5751 31.2868ZM74.8926 47.9265V51.4596H71.3594V47.9265C71.3594 46.9508 72.1504 46.1598 73.1261 46.1598C74.1017 46.1598 74.8926 46.9508 74.8926 47.9265ZM66.0596 48.5898C66.0584 48.9576 65.8293 49.2864 65.4845 49.4148L53.1183 54.0539C52.9193 54.1304 52.699 54.1304 52.5001 54.0539L40.1338 49.4149C39.7898 49.2859 39.5614 48.9573 39.5606 48.5899V40.5519L51.9038 45.1115C52.4886 45.3281 53.1316 45.3281 53.7163 45.1115L66.0596 40.5546V48.5898ZM76.963 34.6435L73.0597 36.0849L58.0984 33.0703C58.0984 33.0173 58.1099 32.9643 58.1099 32.9104C58.1099 30.9292 55.7814 29.3772 52.81 29.3772C49.8386 29.3772 47.5103 30.9292 47.5103 32.9104C47.5103 34.8916 49.8386 36.4435 52.81 36.4435C54.503 36.528 56.1552 35.9062 57.3724 34.7264L69.9028 37.2518L53.1043 43.4569C52.9145 43.5276 52.7057 43.5276 52.516 43.4569L28.6571 34.6435C28.3074 34.5066 28.0772 34.1694 28.0772 33.7937C28.0772 33.418 28.3074 33.0808 28.6571 32.944L52.516 24.1304C52.7057 24.0597 52.9145 24.0597 53.1043 24.1304L76.963 32.944C77.3128 33.0808 77.543 33.418 77.543 33.7937C77.543 34.1694 77.3128 34.5066 76.963 34.6435ZM56.3433 32.9104C56.3433 33.7441 54.8319 34.677 52.8102 34.677C50.7884 34.677 49.277 33.7442 49.277 32.9104C49.277 32.0765 50.7884 31.1437 52.8102 31.1437C54.8319 31.1437 56.3433 32.0765 56.3433 32.9104Z"
-                    fill="#C4161C"
-                  />
-                </g>
-              </svg>
-            </div>
-            <div className="program_count_data">
-              <div className="count">30 seats</div>
-              <span>M.Tech AIML</span>
-            </div>
-          </div> */}
+          
           <div className="verticalline"></div>
           <div className="program_count_databox">
             <div className="program_count_img">
@@ -261,55 +210,7 @@ const Overview = () => {
           </div>
         </div>
 
-        {/* <div className="program_highlights_box">
-          <div className="program_highlights_left">
-            <div className="verticalScroll">
-              <div className="heading innerpageheading">Program Highlights</div>
-              <ul className="listingbox">
-                <li>Flexi credit Courses</li>
-                <li>Six-month industry internship</li>
-                <li>Industry collaboration</li>
-                <li>
-                  International University exchange programs, summer schools,
-                  and international internships
-                </li>
-                <li>Special Diploma in Business management</li>
-                <li>Mentor- Mentee System and remedial teaching</li>
-                <li>
-                  Academic Curricula benchmarked with International Universities
-                </li>
-                <li>Service learning activities</li>
-                <li>
-                  Industrial visits, Workshops, Technical events, Guest lectures
-                </li>
-                <li>Learn Foreign languages and liberal arts subjects</li>
-                <li>Tinker Lab</li>
-                <li>Best in class infrastructural facilities</li>
-                <li>Specialized Lab in AI, ML and data Science</li>
-                <li>
-                  Creative Thinking, Critical Thinking, Design Thinking,
-                  Entrepreneurship courses
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="program_highlights_right">
-            <div className="verticalScroll redscroll">
-              <div className="headingbg">Department Best Practices</div>
-              <ul className="listingbox">
-                <li>Courses are skill-based and Industry Oriented</li>
-                <li>Immense Domain Exposure</li>
-                <li>Multidisciplinary Application Knowledge</li>
-                <li>Major Thrust on Hands-on Training</li>
-                <li>
-                  Involving stakeholders in the practices of curriculum design
-                </li>
-                <li>Courses for Holistic Development</li>
-                <li>Latest technology skill development</li>
-              </ul>
-            </div>
-          </div>
-        </div> */}
+        
         <div className="program_highlights_box">
           <div className="program_highlights_left">
             <div className="verticalScroll">
@@ -354,141 +255,11 @@ const Overview = () => {
           </div>
         </div>
 
-        {/* <div
-          className="program_highlights_box grey_gradient"
-          style={{
-            background:
-              "linear-gradient(90deg,rgba(255, 255, 255, 1) 0%, rgba(232, 231, 231, 1) 100%);",
-          }}
-        >
-          <div className="program_highlights_left"
-            style={{ border: "none", backgroundColor: "#fff" }} >
-            <div className="verticalScroll">
-              <div className="heading innerpageheading">
-                International University Collaboration and MoU’s
-              </div>
-              <ul className="listingbox">
-                <li>Ingolstadt University, Germany</li>
-                <li>
-                  Indiana University Purdue University, Indianapolis, U.S.A
-                </li>
-                <li>Nanyang Technological University,Singapore</li>
-                <li>Leibniz University,Germany</li>
-                <li>Berlin School of Law andEconomics</li>
-                <li>Telecom Ecole De Management,Paris</li>
-                <li>University of Adelaide,Australia</li>
-                <li>University of Malta,Malta</li>
-                <li>King Mongkut’s University,Thailand</li>
-                <li>University of Malaya,Malaysia</li>
-                <li>Ritsumeikan University, Japan</li>
-                <li>Hanyang University, SouthKorea</li>
-                <li>Western University, Canada</li>
-                <li>RUDN University, Russia</li>
-              </ul>
-            </div>
-          </div>
-          <div
-            className="program_highlights_right"
-            style={{ backgroundColor: "#10467F" }}
-          >
-            <div className="verticalScroll bluescroll">
-              <div className="headingbg">Department Best Practices</div>
-              <ul className="listingbox">
-                <li>Industry co-teaching</li>
-                <li>Buddy sessions</li>
-                <li>Exposure to open source tools</li>
-                <li>Innovative teaching-learning pedagogy</li>
-                <li>Project-based learning</li>
-                <li>Skill enhancement via technical clubs</li>
-                <li>International teaching and research collaborations</li>
-                <li>Access to e-resources and research databases</li>
-                <li>
-                  Enhancing self-learning attitude via experiential learning
-                </li>
-                <li>Advance ICT tools for effectual knowledge transfer</li>
-              </ul>
-            </div>
-          </div>
-        </div> */}
-
-        {/* <div className="computing_facility_section">
-          <div className="computing_facility_inner">
-            <div className="heading innerpageheading">
-              The department has state of art computing facility as
-            </div>
-            <ul className="listingbox">
-              <li>High performance computing lab with Nvidia GPU</li>
-              <li>Data Analytics and Visualization lab</li>
-              <li>Apple lab for multimedia and analytics</li>
-              <li>
-                Deep Learning Lab with i7 machines and higher processing power
-              </li>
-              <li>
-                Computer Centre with machines in high configuration and licensed
-                software required for teaching and research.
-              </li>
-            </ul>
-          </div>
-        </div> */}
+        
 
         <div className="job_roles_recuiters">
           <div className="job_roles_recuitersinner">
-            {/* <div className="job_roles_recuitersright">
-              <div className="heading innerpageheading text-center">
-                Top Recuiters
-              </div>
-              <div className="recuiterslogo">
-                <Image
-                  src="/images/innerpages/programe/logo1.webp"
-                  alt="arrow"
-                  width={100}
-                  height={50}
-                />
-                <Image
-                  src="/images/innerpages/programe/logo2.webp"
-                  alt="arrow"
-                  width={100}
-                  height={50}
-                />
-
-                <Image
-                  src="/images/innerpages/programe/logo3.webp"
-                  alt="arrow"
-                  width={100}
-                  height={50}
-                />
-                <Image
-                  src="/images/innerpages/programe/logo4.webp"
-                  alt="arrow"
-                  width={100}
-                  height={70}
-                />
-                <Image
-                  src="/images/innerpages/programe/logo5.webp"
-                  alt="arrow"
-                  width={100}
-                  height={50}
-                />
-                <Image
-                  src="/images/innerpages/programe/logo6.webp"
-                  alt="arrow"
-                  width={100}
-                  height={50}
-                />
-                <Image
-                  src="/images/innerpages/programe/logo7.webp"
-                  alt="arrow"
-                  width={100}
-                  height={50}
-                />
-                <Image
-                  src="/images/innerpages/programe/logo8.webp"
-                  alt="arrow"
-                  width={100}
-                  height={50}
-                />
-              </div>
-            </div> */}
+            
 
             <div className="w-100">
               <RecruitersSlider program="electronics" />

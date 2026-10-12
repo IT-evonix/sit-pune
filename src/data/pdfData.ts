@@ -20,7 +20,6 @@ export const AIMLBrochurePDF: PDFItem[] = [
       "/images/innerpages/programe/aiml/aimldispatch/AIML-Brochure-2026.webp",
   },
 ];
-
 // ========== AIML MAGAZINE ==========//
 export const AIMLMagazinePDF: PDFItem[] = [
   {
@@ -33,7 +32,6 @@ export const AIMLMagazinePDF: PDFItem[] = [
       "/images/innerpages/programe/aiml/aimldispatch/AIML-Brochure-2026.webp",
   },
 ];
-
 // ======== AIML NEWSLETTER  =========
 export const AIMLNewsletterPDF: PDFItem[] = [
   {
@@ -46,6 +44,8 @@ export const AIMLNewsletterPDF: PDFItem[] = [
       "/images/innerpages/programe/aiml/aimldispatch/AIML-July-Dec.webp",
   },
 ];
+
+
 
 // ENTC Program Start Here ------------------------------------
 // ========== ENTC BROCHURE ========== //
@@ -60,7 +60,6 @@ export const ENTCBrochurePDF: PDFItem[] = [
       "/images/innerpages/programe/entc/entcdispatch/E&TC-Brochure-New-3-NEW.webp",
   },
 ];
-
 // ========== ENTC MAGAZINE ==========//
 export const ENTCMagazinePDF: PDFItem[] = [
   {
@@ -91,7 +90,6 @@ export const ENTCMagazinePDF: PDFItem[] = [
       "/images/innerpages/programe/entc/entcdispatch/Vidayam-2026-1.webp",
   },
 ];
-
 // ======== ENTC NEWSLETTER  =========
 export const ENTCNewsletterPDF: PDFItem[] = [
   {
@@ -102,5 +100,92 @@ export const ENTCNewsletterPDF: PDFItem[] = [
       "/pdf/programmes/btech-ETC/ENTC-Dispatch/Newsletter/Newsletter-Jan-June-2026-season.pdf",
     previewImage:
       "/images/innerpages/programe/entc/entcdispatch/Newsletter-Jan-June-2026-season.webp",
+  },
+];
+
+
+
+
+// Mechanical Engineering Program Start Here ------------------------------------
+// ========== ME BROCHURE ========== //
+export const MEBrochurePDF: PDFItem[] = [
+  {
+    id: 1,
+    title: "Mechanical Engineering Brochure",
+    batch: "2026",
+    pdfUrl:
+      "/pdf/programmes/btech-mechanical-engineering/ME-Dispatch/Brochure/mechanical_brochure26-27.pdf",
+    previewImage:
+      "/images/innerpages/programe/mechanical-engineering/medispatch/brochure_1.webp",
+  },
+];
+
+// ========== ME MAGAZINE ==========//
+export const MEMagazinePDF: PDFItem[] = [
+  {
+    id: 1,
+    title: "Mechanical Engineering Brochure",
+    batch: "2026",
+    pdfUrl:
+      "/pdf/programmes/btech-AI/AIML-Dispatch/Brochure/AIML-Brochure-2026.pdf",
+    previewImage:
+      "/images/innerpages/programe/aiml/aimldispatch/AIML-Brochure-2026.webp",
+  },
+];
+
+// ======== ME NEWSLETTER  =========
+export const MENewsletterPDF: PDFItem[] = [
+  {
+    id: 1,
+    title: "Mechanical Engineering Jan-Dec",
+    batch: "2025",
+    pdfUrl:
+      "/pdf/programmes/btech-mechanical-engineering/ME-Dispatch/Newsletter/Newsletter_1.pdf",
+    previewImage:
+      "/images/innerpages/programe/mechanical-engineering/medispatch/newslatter-1.webp",
+  },
+];
+
+
+
+
+
+// Computer Science Program Start Here ------------------------------------
+// ========== CS BROCHURE ========== //
+export const CSBrochurePDF: PDFItem[] = [
+  {
+    id: 1,
+    title: "Computer Science Brochure",
+    batch: "2026",
+    pdfUrl:
+      "/pdf/programmes/btech-cs/CSdispatch/Brochure/CSE-Bochure.pdf",
+    previewImage:
+      "/images/innerpages/programe/computer-science/csdispatch/CSE-Bochure1.webp",
+  },
+];
+
+// ========== CS MAGAZINE ==========//
+export const CSMagazinePDF: PDFItem[] = [
+  {
+    id: 1,
+    title: "Computer Science",
+    batch: "2025-26",
+    pdfUrl:
+      "/pdf/programmes/btech-cs/CSdispatch/Magazine/CSE-Magazine-25-26.pdf",
+    previewImage:
+      "/images/innerpages/programe/computer-science/csdispatch/CSE-Magazine-25-26.webp",
+  },
+];
+
+// ======== CS NEWSLETTER  =========
+export const CSNewsletterPDF: PDFItem[] = [
+  {
+    id: 1,
+    title: "Computer Science Jan To Jan",
+    batch: "2026",
+    pdfUrl:
+      "/pdf/programmes/btech-cs/CSdispatch/Newsletter/Jan_To_Jun_2026.pdf",
+    previewImage:
+      "/images/innerpages/programe/computer-science/csdispatch/CSE-newslatter1.webp",
   },
 ];

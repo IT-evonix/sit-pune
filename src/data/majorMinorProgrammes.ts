@@ -32,7 +32,7 @@ export const majorMinorProgrammesData: ProgrammeDepartment[] = [
     subtitle:"Explore our specialised AI & ML programmes designed to build industry-ready skills and future-proof your career.",
     description: "",
     major: {
-      title: "AIML Major Programmes",
+      title: "Majors Programmes",
       // description: "Advanced specialisations to lead in the AI-driven future.",
       items: [
         {
@@ -63,7 +63,7 @@ export const majorMinorProgrammesData: ProgrammeDepartment[] = [
       ],
     },
     minor: {
-      title: "AIML Minor Programmes",
+      title: "Minors Programmes",
       // description: "Focused areas to enhance your core expertise.",
       items: [
         {
@@ -85,7 +85,6 @@ export const majorMinorProgrammesData: ProgrammeDepartment[] = [
     },
   },
 
-
   {
     id: "entc",
     shortTitle: "ENTC",
@@ -93,7 +92,7 @@ export const majorMinorProgrammesData: ProgrammeDepartment[] = [
     subtitle:"Explore our specialised AI & ML programmes designed to build industry-ready skills and future-proof your career.",
     description: "",
     major: {
-      title: "ENTC Honors Programmes",
+      title: "Honors Programmes",
       // description: "Advanced specialisations to lead in the AI-driven future.",
       items: [
         {
@@ -110,7 +109,7 @@ export const majorMinorProgrammesData: ProgrammeDepartment[] = [
       ],
     },
     minor: {
-      title: "ENTC Minor Programmes",
+      title: "Minors Programmes",
       // description: "Focused areas to enhance your core expertise.",
       items: [
         {
@@ -135,7 +134,7 @@ export const majorMinorProgrammesData: ProgrammeDepartment[] = [
     subtitle:"Explore our specialised AI & ML programmes designed to build industry-ready skills and future-proof your career.",
     description: "",
     major: {
-      title: "Robotics & Automation Honors Programmes",
+      title: "Honors Programmes",
       // description: "Advanced specialisations to lead in the AI-driven future.",
       items: [
         {
@@ -147,7 +146,7 @@ export const majorMinorProgrammesData: ProgrammeDepartment[] = [
       ],
     },
     minor: {
-      title: "Robotics & Automation Minor Programmes",
+      title: "Minors Programmes",
       // description: "Focused areas to enhance your core expertise.",
       items: [
         {
@@ -159,7 +158,6 @@ export const majorMinorProgrammesData: ProgrammeDepartment[] = [
       ],
     },
   },
-
 
   {
     id: "robotics-and-artificial-intelligence",
@@ -168,7 +166,7 @@ export const majorMinorProgrammesData: ProgrammeDepartment[] = [
     subtitle:"Explore our specialised AI & ML programmes designed to build industry-ready skills and future-proof your career.",
     description: "",
     major: {
-      title: "Robotics& Artificial Intelligence Honors Programmes",
+      title: "Honors Programmes",
       // description: "Advanced specialisations to lead in the AI-driven future.",
       items: [
         {
@@ -180,7 +178,7 @@ export const majorMinorProgrammesData: ProgrammeDepartment[] = [
       ],
     },
     minor: {
-      title: "Robotics& Artificial Intelligence Minor Programmes",
+      title: "Minors Programmes",
       // description: "Focused areas to enhance your core expertise.",
       items: [
         {
@@ -193,10 +191,102 @@ export const majorMinorProgrammesData: ProgrammeDepartment[] = [
     },
   },
 
-  /*
-   * Example:
-   * Future departments can be added here.
-   */
+  {
+    id: "mechanical-engineering",
+    shortTitle: "mechanical-engineering",
+    title: "Major & Minor Programmes",
+    subtitle:"Explore our specialised AI & ML programmes designed to build industry-ready skills and future-proof your career.",
+    description: "",
+    major: {
+      title: "Honors Programmes",
+      // description: "Advanced specialisations to lead in the AI-driven future.",
+      items: [
+        {
+          id: "automobile-engineering",
+          title: "Automobile Engineering with Hybrid and Autonomous Technology",
+          icon: "chip",
+        },
+        {
+          id: "cad-cam",
+          title: "CAD/CAM",
+          icon: "atom",
+        },
+        {
+          id: "smart-manufacturing",
+          title: "Smart Manufacturing (Industry 4.0)",
+          icon: "chip",
+        },
+
+      ],
+    },
+    minor: {
+      title: "Minors Programmes",
+      items: [
+        {
+          id: "aiml",
+          title: "Artificial Intelligence & Machine Learning",
+          icon: "brain",
+        },
+        {
+          id: "data-science",
+          title: "Data Science",
+          icon: "chart",
+        },
+
+      ],
+    },
+  },
+
+  {
+    id: "computer-science",
+    shortTitle: "computer-science",
+    title: "Major & Minor Programmes",
+    subtitle:"Explore our specialised AI & ML programmes designed to build industry-ready skills and future-proof your career.",
+    description: "",
+    major: {
+      title: "Majors Programmes",
+      // description: "Advanced specialisations to lead in the AI-driven future.",
+      items: [
+        {
+          id: "aids",
+          title: "AI & Data Science",
+          icon: "brain",
+        },
+        {
+          id: "cloud-operations",
+          title: "Cloud Operations & Analytics",
+          icon: "cloud",
+        },
+        {
+          id: "digital-security",
+          title: "Digital Security & Forensics",
+          icon: "shield",
+        },
+        {
+          id: "metaverse-game",
+          title: "Metaverse & Game Development",
+          icon: "atom",
+        },
+
+      ],
+    },
+    minor: {
+      title: "Minors Programmes",
+      items: [
+        {
+          id: "iot",
+          title: "IoT & Embedded AI ",
+          icon: "chip",
+        },
+        {
+          id: "smart-manufacturing-intelligent",
+          title: "Smart Manufacturing & Intelligent Systems",
+          icon: "chip",
+        },
+
+      ],
+    },
+  },
 
   // {
   //   id: "cse",
