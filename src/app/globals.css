@@ -152,28 +152,6 @@ body.menu-open {
     transform: scale(1);
   }
 }
-@media (max-width: 991px) {
-  .desktop_track {
-    display: none;
-  }
-  .mobile_track {
-    display: flex;
-    width: max-content;
-    flex-wrap: nowrap;
-    animation: mobileMarquee 18s linear infinite;
-  }
-  .topstrip_marquee {
-    overflow: hidden;
-  }
-  @keyframes mobileMarquee {
-    0% {
-      transform: translateX(0%);
-    }
-    100% {
-      transform: translateX(-50%);
-    }
-  }
-}
 /* Top Strip End Here */
 
 /* custom css start here*/
@@ -388,80 +366,6 @@ body.menu-open {
 
 
 
-
-@media (max-width: 991px) {
-  .desktop-view {
-    display: none;
-  }
-  .fab-menu {
-    display: block;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 99999;
-  }
-  .fab-items {
-    position: absolute;
-    bottom: 75px;
-    right: 0;
-    display: flex;
-    flex-direction: column-reverse;
-    gap: 10px;
-  }
-  .fab-item {
-    min-width: 240px;
-    height: 48px;
-    padding: 0 15px;
-    background: #10467f;
-    color: #fff;
-    border-radius: 30px;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(20px);
-    transition: all 0.3s ease;
-  }
-  .fab-menu.open .fab-item {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0);
-  }
-  .fab-item:hover {
-    background: #a50f15;
-  }
-  .fab-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .fab-label {
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 1;
-  }
-  .fab-toggle {
-    width: 58px;
-    height: 58px;
-    border: none;
-    border-radius: 50%;
-    background: #a50f15;
-    color: #fff;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
-    transition: 0.3s ease;
-  }
-  .fab-toggle:hover {
-    transform: scale(1.05);
-  }
-}
-/*--------------- SideLinks End Here ----------------*/
 .firstslide {
   margin: 0px 0 0 0;
 }
@@ -3516,237 +3420,7 @@ table {
   font-size: 16px;
 }
 /* Outcome Based Tab End Here */
-/* ----- Faculty Page Start Here ----- */
 
-/* .faculty-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
-  margin-bottom: 30px;
-}
-.faculty-item {
-  width: 100%;
-}
-.faculty-card {
-  background: #fff;
-  border-radius: 25px;
-  overflow: hidden;
-  cursor: pointer;
-  transition: all 0.35s ease;
-  border: 1px solid #dfdfdf;
-  height: 100%;
-}
-.faculty-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.059);
-}
-.faculty-image {
-  position: relative;
-  width: 100%;
-  height: 250px;
-  overflow: hidden;
-}
-.faculty-image img {
-  object-fit: cover;
-  transition: 0.5s;
-}
-.faculty-card:hover .faculty-image img {
-  transform: scale(1.08);
-}
-.faculty-content {
-  padding: 20px;
-  text-align: center;
-}
-.faculty-content .subheading {
-  margin: 0;
-  font-size: 18px;
-  color: #1b1b1b;
-  font-family: "Metropolis-SemiBold";
-}
-.faculty-content span {
-  color: #333;
-  margin-top: 2px;
-  font-size: 14px;
-  display: block;
-}
-.faculty-details {
-  width: 100%;
-  margin-bottom: 40px;
-  background: #fff;
-  border-radius: 20px;
-  padding: 35px;
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
-  animation: fade 0.35s ease;
-  position: relative;
-}
-.faculty-close {
-  position: absolute;
-  top: 25px;
-  right: 25px;
-  width: 30px;
-  height: 30px;
-  border: none;
-  border-radius: 50%;
-  background: #4a4a4a;
-  color: #fff;
-  font-size: 16px;
-  font-weight: 600;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.3s ease;
-  z-index: 10;
-}
-.faculty-close:hover {
-  background: #163c7a;
-  transform: rotate(90deg);
-  color: #fff;
-}
-.details-arrow {
-  position: absolute;
-  top: -12px;
-  width: 24px;
-  height: 24px;
-  background: #fff;
-  transform: translateX(-50%) rotate(45deg);
-  box-shadow: -3px -3px 8px rgba(0, 0, 0, 0.05);
-  border-left: 1px solid #eee;
-  border-top: 1px solid #eee;
-  z-index: 5;
-  transition: 0.35s;
-}
-@keyframes fade {
-  from {
-    opacity: 0;
-    transform: translateY(15px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-.details-grid {
-  display: grid;
-  grid-template-columns: 280px 1fr;
-  gap: 40px;
-}
-.faculty-section .left img {
-  width: 100%;
-  height: auto;
-  border-radius: 12px;
-  display: block;
-}
-.faculty-section .right .heading {
-  margin: 0px 0px 6px 0px;
-}
-.facultyleft img {
-  border-radius: 20px;
-}
-.facultyright {
-  background: linear-gradient(
-    360deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgb(243, 248, 253) 100%
-  );
-  padding: 30px;
-  border-radius: 20px;
-}
-.facultyright .heading {
-  font-family: "Metropolis-Bold";
-  font-size: 25px;
-  margin: 0px 0px 7px 0px;
-}
-.facultyright .subheading18 {
-  font-size: 15px;
-  font-family: "Metropolis-Medium";
-}
-.info_box_main {
-  display: flex;
-  gap: 10px;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-.faculty-section .info-box {
-  margin-top: 20px;
-  width: 48%;
-}
-.info-box .subheading {
-  border-bottom: 1px solid #ccc;
-  padding: 0 0 5px 0;
-  margin: 0 0 5px 0;
-  line-height: normal;
-  font-size: 14px;
-}
-.facultydetail-content {
-  width: 100%;
-  background: #00000005;
-  margin-top: 20px;
-  border-top: 1px solid #ffffff;
-  padding: 20px;
-  border-radius: 15px;
-}
-.facultydetail-content p {
-  margin: 0px;
-}
-.faculty-section .info-box h5 {
-  margin-bottom: 10px;
-  font-size: 18px;
-  color: #10467f;
-}
-.faculty-section .info-box p {
-  margin: 0;
-  color: #000;
-  font-size: 14px;
-}
-.faculty-section .info-box ul {
-  margin: 0;
-  padding-left: 18px;
-}
-.faculty-section .info-box li {
-  margin-bottom: 6px;
-  color: #000;
-  font-size: 14px;
-  line-height: normal;
-}
-.faculty-section .info-box a {
-  margin-bottom: 8px;
-  color: #000;
-  font-size: 14px;
-  line-height: normal;
-  text-decoration: none;
-}
-.facultyprofile_links {
-  display: flex;
-  gap: 10px;
-  margin-top: 10px;
-}
-.facultyprofile_links a {
-  text-decoration: none;
-  color: #000;
-  font-size: 13px;
-  background: #f1f1f1;
-  padding: 7px 17px;
-  border-radius: 20px;
-  line-height: normal;
-}
-.facultyprofile_links a:nth-child(odd) {
-  background: #c4161c27;
-}
-.facultyprofile_links a:nth-child(even) {
-  background: #10467f29;
-}
-.facultyprofile_box {
-  margin: 30px 0 0 0;
-}
-.facultyprofile_box .subheading {
-  border-bottom: 1px solid #ccc;
-  padding: 0 0 5px 0;
-  margin: 25px 0 5px 0;
-  line-height: normal;
-  font-size: 14px;
-} */
 /*----------- Students Projects Start Here -----------*/
 .student_projects_main .main_content {
   padding: 0px 0px 0px 0px;
@@ -3832,13 +3506,13 @@ table {
   transition: background-color 0.2s ease;
 }
 .student_project_table tbody tr:hover td {
-  background: #fff7f7;
+  background: #f6f9ff;
 }
 /*----------- Students Projects Start Here -----------*/
 /* New Faculty Design Start Here*/
 .faculty-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   column-gap: 28px;
   row-gap: 60px;
 }
@@ -5038,9 +4712,9 @@ table {
   }
   /*---------- Hero Video End Here ----------*/
   /*------- Programe AIML Start Here -------*/
-  /* .international_collaborations span img {
-    max-height: 29px !important;
-  } */
+  .faculty-grid{
+    grid-template-columns: repeat(4, minmax(0px, 1fr));
+  }
   /*------- Programe AIML End Here -------*/
   /*------------ Admission Tab Start Here ------------*/
   /*----------- Dual Degree Programs Start Here -----------*/
@@ -5095,7 +4769,10 @@ table {
   /*------- Programe AIML End Here -------*/
 }
 @media (max-width: 1199.98px) {
-  /* ========== Rahul 1198.98 CSS start ==========  */
+  /*----------------- Top Strip Start Here -----------------*/
+  
+  /*----------------- Top Strip End Here -----------------*/
+  /* ---------------- Contact US Start Here---------------*/
   .adderess_form_mainbox {
     gap: 40px;
     padding: 40px 0;
@@ -5141,7 +4818,7 @@ table {
   .stat-box p {
     font-size: 18px;
   }
-  /* LeftSideBar Start Here */
+  /*------------- LeftSideBar Start Here ------------*/
   .sidebar-wrapper {
     max-width: 100%;
   }
@@ -5193,8 +4870,107 @@ table {
   .mtech_section .btech_enquiry_background_img_box {
     padding: 100px 0 0 0;
   }
-  /* ========== Rahul 991.98 CSS ends ========== */
+  /* ------------------ Contact-Us-End --------------------- */
+  /* ------------------ Right Side Start Here ---------------*/
+  .desktop-view {
+    display: none;
+  }
+  .fab-menu {
+    display: block;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99999;
+  }
+  .fab-items {
+    position: absolute;
+    bottom: 75px;
+    right: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
+  .fab-item {
+    min-width: 240px;
+    height: 48px;
+    padding: 0 15px;
+    background: #10467f;
+    color: #fff;
+    border-radius: 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    transition: all 0.3s ease;
+  }
+  .fab-menu.open .fab-item {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+  .fab-item:hover {
+    background: #a50f15;
+  }
+  .fab-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .fab-label {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1;
+  }
+  .fab-toggle {
+    width: 58px;
+    height: 58px;
+    border: none;
+    border-radius: 50%;
+    background: #a50f15;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+    transition: 0.3s ease;
+  }
+  .fab-toggle:hover {
+    transform: scale(1.05);
+  }
+  /* ------------------ Right Side End Here ---------------*/
+  /*----------------- Top Strip Start Here -----------------*/
+  .desktop_track {
+    display: none;
+  }
+  .mobile_track {
+    display: flex;
+    width: max-content;
+    flex-wrap: nowrap;
+    animation: mobileMarquee 18s linear infinite;
+  }
+  .topstrip_marquee {
+    overflow: hidden;
+  }
+  @keyframes mobileMarquee {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  /*----------------- Top Strip End Here -----------------*/
+
+
+
 }
+
+
 @media (max-width: 767.98px) {
   /*----------- Programe Tab Start Here -----------*/
   /*----------- Students Projects Start Here -----------*/

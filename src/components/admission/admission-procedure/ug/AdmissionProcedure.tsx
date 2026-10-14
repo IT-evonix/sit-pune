@@ -66,7 +66,7 @@ const AdmissionProcedureug = () => {
               <article className="siteee-step">
                 <span className="siteee-step-number">1</span>
                 <div className="siteee-step-card">
-                  <div className="subheading18">
+                  <div className="subheading18 redheading">
                     Step 1: Paid Registration, Document Upload, and Preference
                     Selection
                   </div>
@@ -126,7 +126,7 @@ const AdmissionProcedureug = () => {
               <article className="siteee-step">
                 <span className="siteee-step-number">2</span>
                 <div className="siteee-step-card">
-                  <div className="subheading18">
+                  <div className="subheading18 redheading">
                     Step 2: Admit Card Download
                   </div>
                   {/* <ul>
@@ -146,7 +146,7 @@ const AdmissionProcedureug = () => {
               <article className="siteee-step">
                 <span className="siteee-step-number">3</span>
                 <div className="siteee-step-card">
-                  <div className="subheading18">Step 3: SITEEE Examination</div>
+                  <div className="subheading18 redheading">Step 3: SITEEE Examination</div>
                   <ul>
                     <li>Mode: Computer-Based Test (CBT)</li>
                     <li>Cities: Across 68 cities in India</li>
@@ -164,7 +164,7 @@ const AdmissionProcedureug = () => {
               <article className="siteee-step">
                 <span className="siteee-step-number">4</span>
                 <div className="siteee-step-card">
-                  <div className="subheading18">Step 4: Result Declaration</div>
+                  <div className="subheading18 redheading">Step 4: Result Declaration</div>
                   <ul>
                     <li>
                       Results can be checked and scorecards downloaded from
@@ -181,7 +181,7 @@ const AdmissionProcedureug = () => {
               <article className="siteee-step">
                 <span className="siteee-step-number">5</span>
                 <div className="siteee-step-card">
-                  <div className="subheading18">
+                  <div className="subheading18 redheading">
                     Step 5: Merit Listing (Branch Allocation)
                   </div>
                   <ul>
@@ -217,7 +217,7 @@ const AdmissionProcedureug = () => {
               <article className="siteee-step">
                 <span className="siteee-step-number">6</span>
                 <div className="siteee-step-card">
-                  <div className="subheading18">
+                  <div className="subheading18 redheading">
                     Step 6: Fees Payment (First Installment)
                   </div>
                   <ul>
@@ -233,7 +233,7 @@ const AdmissionProcedureug = () => {
               <article className="siteee-step">
                 <span className="siteee-step-number">7</span>
                 <div className="siteee-step-card">
-                  <div className="subheading18">
+                  <div className="subheading18 redheading">
                     Step 7: Document Verification (Category Candidates Only)
                   </div>
                   <ul>
@@ -254,7 +254,7 @@ const AdmissionProcedureug = () => {
               <article className="siteee-step">
                 <span className="siteee-step-number">8</span>
                 <div className="siteee-step-card">
-                  <div className="subheading18">
+                  <div className="subheading18 redheading">
                     Step 8: Waitlist / Branch Change (If Applicable)
                   </div>
                   <ul>
@@ -274,7 +274,7 @@ const AdmissionProcedureug = () => {
               <article className="siteee-step">
                 <span className="siteee-step-number">9</span>
                 <div className="siteee-step-card">
-                  <div className="subheading18">Step 9: Hostel Allocation</div>
+                  <div className="subheading18 redheading">Step 9: Hostel Allocation</div>
                   <ul>
                     <li>
                       Hostel is provided on a first-come, first-served basis.
@@ -300,7 +300,7 @@ const AdmissionProcedureug = () => {
               <article className="siteee-step">
                 <span className="siteee-step-number">10</span>
                 <div className="siteee-step-card">
-                  <div className="subheading18">
+                  <div className="subheading18 redheading">
                     Step 10: Eligibility Process for Admitted Candidates
                   </div>
                   <ul>

@@ -1,20 +1,27 @@
-import InfrastructureGallery, {  MediaItem, } from "@/components/InfrastructureGallery";
+import LabsAndSpaces from "@/components/ui/LabsAndSpaces";
+import { labsData } from "@/data/labsData";
 
+export default function LabsAndSpacesPage() {
+  const roboticsDepartment = labsData.find(
+    (department) => department.id === "RA-RAI"
+  );
 
-const LabImages: MediaItem[] = [
-  // {
-  //   id: 1,
-  //   type: "image",
-  //   src: "/images/innerpages/programe/aiml/our-labs-and-spaces/Apple-Authorised-Training-Centre.webp",
-  // },
- 
-];
+  const roboticsLab = roboticsDepartment?.labs.find(
+    (lab) => lab.id === "robot-automation"
+  );
 
-export default function Page() {
   return (
-    <div className="sub-heading">
-     
-      Coming Soon
+    <div className="main_content">
+      {roboticsDepartment && roboticsLab && (
+        <LabsAndSpaces
+          departments={[
+            {
+              ...roboticsDepartment,
+              labs: [roboticsLab],
+            },
+          ]}
+        />
+      )}
     </div>
   );
 }
