@@ -86,7 +86,7 @@ export const menuData: NavMenu[] = [
           {
             id: 2,
             title: "Civil Engineering ",
-            href: "/",
+            href: "/programmes/btech/btech-civil-engineering",
           },
           {
             id: 3,
@@ -256,12 +256,12 @@ export const menuData: NavMenu[] = [
           {
             id: 1,
             title: "Fees & Financial Aid",
-            href: "/",
+            href: "/fees-structure",
           },
           {
             id: 2,
             title: "Scholarships",
-            href: "/",
+            href: "/scholarships",
           },
           {
             id: 3,

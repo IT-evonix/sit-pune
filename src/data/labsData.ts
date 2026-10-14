@@ -67,7 +67,181 @@ export const labsData: DepartmentLabs[] = [
     ],
   },
 
-  // Example another department
+  {
+    id: "ENTC",
+    department: "Electronics and Telecommunication",
+    labs: [
+      {
+        id: "entc",
+        title: "Our Labs & Spaces",
+        gallery: [
+          {
+            id: "entc-lab-1",
+            title: "5G Lab",
+            image: "/images/innerpages/programe/entc/our-labs-and-spaces/5G-Lab.webp",
+            alt: "5G Lab",
+          },
+          {
+            id: "entc-lab-2",
+            title: "5G Lab",
+            image: "/images/innerpages/programe/entc/our-labs-and-spaces/5G-Lab2.webp",
+            alt: "5G Lab",
+          },
+          {
+            id: "entc-lab-3",
+            title: "5G Lab",
+            image: "/images/innerpages/programe/entc/our-labs-and-spaces/5G-Lab-3.webp",
+            alt: "5G Lab",
+          },
+          {
+            id: "entc-lab-4",
+            title: "5G Lab",
+            image: "/images/innerpages/programe/entc/our-labs-and-spaces/5G-Lab4.webp",
+            alt: "5G Lab",
+          },
+          {
+            id: "entc-lab-5",
+            title: "5G Lab",
+            image: "/images/innerpages/programe/entc/our-labs-and-spaces/5G-Lab-5.webp",
+            alt: "5G Lab",
+          },
+          {
+            id: "entc-lab-6",
+            title: "5G Lab",
+            image: "/images/innerpages/programe/entc/our-labs-and-spaces/5G-Lab-6.webp",
+            alt: "5G Lab",
+          },
+          {
+            id: "entc-lab-7",
+            title: "5G Lab",
+            image: "/images/innerpages/programe/entc/our-labs-and-spaces/5G-Lab7.webp",
+            alt: "5G Lab",
+          },
+          {
+            id: "entc-lab-8",
+            title: "5G Lab",
+            image: "/images/innerpages/programe/entc/our-labs-and-spaces/5G-Lab-8.webp",
+            alt: "5G Lab",
+          },
+          {
+            id: "entc-lab-9",
+            title: "Analog Communication Lab",
+            image: "/images/innerpages/programe/entc/our-labs-and-spaces/Analog-Communication-Lab.webp",
+            alt: "Analog Communication Lab",
+          },
+          {
+            id: "entc-lab-10",
+            title: "Arduino IoT Edge AI Lab",
+            image: "/images/innerpages/programe/entc/our-labs-and-spaces/Arduino-IoT-Edge-AI-Lab.webp",
+            alt: "Arduino IoT Edge AI Lab",
+          },
+          {
+            id: "entc-lab-11",
+            title: "Center Excellence for Semiconductor Design",
+            image: "/images/innerpages/programe/entc/our-labs-and-spaces/Center-Excellence-for-Semiconductor-Design.webp",
+            alt: "Center Excellence for Semiconductor Design",
+          },
+          {
+            id: "entc-lab-12",
+            title: "Center Excellence for Semiconductor Design",
+            image: "/images/innerpages/programe/entc/our-labs-and-spaces/Center-Excellence-for-Semiconductor-Design-1.webp",
+            alt: "Center Excellence for Semiconductor Design",
+          },
+          {
+            id: "entc-lab-13",
+            title: "Center Excellence for Semiconductor Design",
+            image: "/images/innerpages/programe/entc/our-labs-and-spaces/Center-Excellence-for-Semiconductor-Design-2.webp",
+            alt: "Center Excellence for Semiconductor Design",
+          },
+          {
+            id: "entc-lab-14",
+            title: "Digital Electronics Lab",
+            image: "/images/innerpages/programe/entc/our-labs-and-spaces/Digital-Electronics-Lab.webp",
+            alt: "Digital Electronics Lab",
+          },
+          {
+            id: "entc-lab-15",
+            title: "Electronic Devices and Circuits Lab",
+            image: "/images/innerpages/programe/entc/our-labs-and-spaces/Electronic-Devices-and-Circuits-Lab.webp",
+            alt: "Electronic Devices and Circuits Lab",
+          },
+          {
+            id: "entc-lab-16",
+            title: "Embedded Systems Lab",
+            image: "/images/innerpages/programe/entc/our-labs-and-spaces/Embedded-Systems-Lab.webp",
+            alt: "Embedded Systems Lab",
+          },
+          {
+            id: "entc-lab-17",
+            title: "Tinker Lab",
+            image: "/images/innerpages/programe/entc/our-labs-and-spaces/Tinker-Lab.webp",
+            alt: "Tinker Lab",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "RA-RAI",
+    department: "Robotics and Automation",
+    labs: [
+      {
+        id: "robot-automation",
+        title: "Our Labs & Spaces",
+        gallery: [
+          {
+            id: "robot-automation-lab-1",
+            title: "Aerial Robotics Lab",
+            image: "/images/innerpages/programe/robot-automation/our-labs-and-spaces/Aerial Robotics Lab.webp",
+            alt: "Aerial Robotics Lab",
+          },
+          {
+            id: "robot-automation-lab-2",
+            title: "Advanced Manufacturing Lab",
+            image: "/images/innerpages/programe/robot-automation/our-labs-and-spaces/Advanced Manufacturing Lab.webp",
+            alt: "Advanced Manufacturing Lab",
+          },
+          {
+            id: "robot-automation-lab-3",
+            title: "Hydraulics and Pneumatics Lab",
+            image: "/images/innerpages/programe/robot-automation/our-labs-and-spaces/Hydraulics and Pneumatics Lab.webp",
+            alt: "Hydraulics and Pneumatics Lab",
+          },
+          {
+            id: "robot-automation-lab-4",
+            title: "Design and Prototyping Lab",
+            image: "/images/innerpages/programe/robot-automation/our-labs-and-spaces/Design and Prototyping Lab.webp",
+            alt: "Design and Prototyping Lab",
+          },
+          {
+            id: "robot-automation-lab-5",
+            title: "Industrial Robotics Lab",
+            image: "/images/innerpages/programe/robot-automation/our-labs-and-spaces/Industrial Robotics Lab.webp",
+            alt: "Industrial Robotics Lab",
+          },
+          {
+            id: "robot-automation-lab-6",
+            title: "Mechatronics and IoT Lab",
+            image: "/images/innerpages/programe/robot-automation/our-labs-and-spaces/Mechatronics and IoT Lab.webp",
+            alt: "Mechatronics and IoT Lab",
+          },
+          {
+            id: "robot-automation-lab-7",
+            title: "Mobile Robotics Lab",
+            image: "/images/innerpages/programe/robot-automation/our-labs-and-spaces/Mobile Robotics Lab.webp",
+            alt: "Mobile Robotics Lab",
+          },
+          {
+            id: "robot-automation-lab-8",
+            title: "PLC and Automation Lab",
+            image: "/images/innerpages/programe/robot-automation/our-labs-and-spaces/PLC and Automation Lab.webp",
+            alt: "PLC and Automation Lab",
+          },
+        ],
+      },
+    ],
+  },
+
   {
     id: "mechanical-engineering",
     department: "Mechanical Engineering",
@@ -117,7 +291,6 @@ export const labsData: DepartmentLabs[] = [
     ],
   },
 
-  // Example another department
   {
     id: "computer-science",
     department: "Computer Science",
@@ -209,6 +382,7 @@ export const labsData: DepartmentLabs[] = [
       },
     ],
   },
+
   {
     id: "civil-engineering",
     department: "Civil Engineering",
