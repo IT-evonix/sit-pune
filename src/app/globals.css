@@ -4777,6 +4777,7 @@ table {
 
 }
 @media (max-width: 991.98px) {
+  
   .stat-box {
     border: 1px solid #ccc;
     border-radius: 15px;
@@ -4787,7 +4788,6 @@ table {
   .stat-box p {
     font-size: 18px;
   }
-
   /* ------------- Right Side Important Links Start Here ------------- */
   .desktop-view {
     display: none;
@@ -4916,6 +4916,9 @@ table {
   .world_map_section{
     padding: 40px 0 40px 0;
   }
+  .coe-section{
+    padding: 40px 0 60px 0;
+  }
   /*-------- Section Padding Margin End Here --------*/
   /*-------- Programs Offered Start Here /*-------- */
   .academicStudentImage{
@@ -4924,10 +4927,10 @@ table {
     margin: 0 0 -30px 0px;
   }
   .ProgramsTabbing{
-    margin: 0px 0px -40px 0px;
+    margin: 0px 0px -40px 0px; 
   }
   .academic_programs_section .ProgramsTabbing .btn{
-    font-size:14px;
+    font-size:14px !important;
     padding: 7px 9px !important;
   }
   /*--------------- Programs Offered End Here ---------------*/
@@ -4965,7 +4968,10 @@ table {
     display:none;
   }
   /*---------- Global Map Start Here ------------*/
-
+  /* Center Of Excelence Start Here */
+  .coe-inner{
+    gap:20px;
+  }
   /*---------- Inner Page Start Here ----------*/
   /*------------- LeftSideBar Start Here ------------*/
   .sidebar-wrapper {
@@ -5022,16 +5028,16 @@ table {
   /* ------------- Contact Us End Here ------------- */
   /*---------- Inner Page Start Here ----------*/
 }
-
-
 @media (max-width: 767.98px) {
+  .heading{
+    text-align: center;
+  }
+  .subheading{
+    text-align: center;
+  }
   /* Hero Banner Start Here */
   .firstslide h1{
     font-size: 25px;
-  }
-  .videobanner_content .rounded_cta {
-    padding: 5px 15px;
-    font-size: 13px;
   }
   .videobanner_content {
     width: 100%;
@@ -5088,7 +5094,9 @@ table {
 /* Programe Offered Start Here */
 .ProgramsTabbing {
     margin: 0px 0px -25px 0px;
-}
+    width: 100%;
+    justify-content: center;
+  }
 /* Programe Offered End Here */
 /*--------- Global Map Start Here ---------*/
 .mobile_card{
@@ -5107,6 +5115,11 @@ table {
   width: 100%;
 }
 /*----------- Center Of Excelance Start Here -----------*/
+.SITPUNE{
+  font-size: 90px;
+  padding: 40px 0px 0px 0px;
+  line-height: 54px;
+}
   /*----------- Programe Main Tab Start Here -----------*/
 /*----------- Students Projects Start Here -----------*/
 .student_project_table th,
@@ -5128,6 +5141,9 @@ table {
 /*/*----------- Programe Main Tab End Here /*-----------*/
 }
 @media (max-width: 575.98px) {
+  .heading{
+    font-size: 25px;
+  }
   /*------- Latest Update Start Here -------*/
   .latestupdateicon img {
     left: 3%;
@@ -5142,11 +5158,40 @@ table {
   /*--------- Global Map Start Here ---------*/
   .mobile_card{
     min-height: inherit;
+    box-shadow: 0px 3px 8px #0000001c;
+  }
+  .world_map_mobile {
+    height: 350px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: thin; /* Firefox */
+    scrollbar-color: #09468e #e5e5e5; /* Firefox */
+    padding-right: 20px;
+    padding: 10px;
+  }
+  /* Chrome, Edge, Safari */
+  .world_map_mobile::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 10px;
+  }
+  .world_map_mobile::-webkit-scrollbar-track {
+    background: #e5e5e5;
+    border-radius: 10px;
+  }
+  .world_map_mobile::-webkit-scrollbar-thumb {
+    background: #09468e;
+    border-radius: 10px;
+  }
+  .world_map_mobile::-webkit-scrollbar-thumb:hover {
+    background: #c4161c;
   }
   /*--------- Global Map End Here ---------*/
   /*--------- State Counter Start Here ---------*/
   .stat-icon {
     max-height: 30px;
+  }
+  .stat-box{
+    padding: 12px;
   }
   .stat-box h2 {
     font-size: 22px;
@@ -5186,12 +5231,45 @@ table {
   /*--------- Gallery Start Here ---------*/
   .galleryinner{
     padding: 0 10px;
+    margin: 160px 0 0 0;
   }
   .gallerysecond{ 
     width: 51%;   
-    top: 37%;
+    top: 39%;
   } 
+  .gallery-card{
+    border: 2px solid #fff;
+  }
   /*--------- Gallery End Here ---------*/
+  /* Center Of Excellence Start Here */
+  .coe-card{
+    height: 200px;
+  }
+  .coe-bg{
+    height: 150px;
+    bottom: -10px;
+  }
+  .coe-prev, .coe-next{
+    width: 40px;
+    height: 25px;
+  }
+  .coe-right .swiper{
+    padding: 9px;
+  }
+  .coe-card img{
+    border-radius: 15px;
+  }
+  .coe-overlay{
+    border-radius: 15px;
+  }
+  .coe-card .subheading18{
+    font-size:16px;
+        bottom: 14px;
+  }
+  .coe-card{
+    border-radius: 15px;
+  }
+  /* Center Of Excellence End Here */
   /*------------- Inner Pages Start Here -------------*/
   /* /*-------------------- LeftSideBar Start Here /*-------------------- */
   .sidebar-wrapper {
@@ -5244,7 +5322,7 @@ table {
     width: 90%;
   }
   /* ------------ Contact Us End Here ------------- */
-}
+}   
 
 @media (max-width: 479.98px) {
   /* Header Start Here */
@@ -5252,5 +5330,29 @@ table {
     max-height: 40px !important;
   }
   /* Latest Update Start Here */
+  /* Center Of Excellence Start Here */
+  .coe-card {
+    height: 150px;
+  }
+  .SITPUNE {
+    font-size: 70px;
+    padding: 40px 0px 0px 0px;
+    line-height: 42px;
+  }
+  .coe-bg {
+    height: 140px;
+    bottom: -10px;
+  }
+  /*--------------- Programs Offered Start Here ---------------*/
+  .academic_programs_section .ProgramsTabbing .btn{
+    width:48%;
+  }
+  /*--------------- Programs Offered End Here ---------------*/
+  .testimonial_card{
+    text-align: center;
+  }
+  .student_img{
+    margin: 0 auto;
+  }
 }
 /* Media Queries End Here */

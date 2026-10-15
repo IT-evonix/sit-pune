@@ -15,8 +15,8 @@ const Footer = () => {
         <Blussitpune/>
         <footer className="sit-footer">
           <div className="container-fluid">
-            <div className="row gy-5">
-              <div className="col-lg-4 col-md-6">
+            <div className="row gy-4 gy-sm-5">
+              <div className="col-lg-4 col-sm-6">
                 <div className="footer-logo mb-4">
                   <Image
                     src="/images/common/Logo.webp"
@@ -63,7 +63,7 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-6">
+              <div className="col-lg-3 col-sm-6">
                 <div className="footer-links">
                   <h3>
                     About <span>Institute</span>
@@ -111,7 +111,7 @@ const Footer = () => {
                   </ul>
                 </div>
               </div>
-              <div className="col-lg-2 col-md-6">
+              <div className="col-lg-2 col-sm-6">
                 <div className="footer-links">
                   <h3>
                     Information <span>For</span>
@@ -144,7 +144,7 @@ const Footer = () => {
                   </ul>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-6">
+              <div className="col-lg-3 col-sm-6">
                 <div className="footer-links">
                   <h3>
                     Important <span>Links</span>
