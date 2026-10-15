@@ -196,115 +196,12 @@ body.menu-open {
   width: 40%;
 }
 /* Sticky Links Start Here */
-/* .sticky-links {
-  position: fixed;
-  top: 50%;
-  right: 0;
-  transform: translateY(-50%);
-  z-index: 9999;
-}
-.sticky-link {
-  display: flex;
-  align-items: center;
-  gap: 13px;
-  width: 260px;
-  padding:5px 10px 5px 7px;
-  margin-bottom: 2px;
-  background: #c4161c;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 30px 0 0 30px;
-  transform: translateX(210px);
-  transition: all 0.55s ease;
-}
-.sticky-link:hover {
-  transform: translateX(0);
-  color: #fff;
-}
-.sticky-icon {
-    flex-shrink: 0;
-    display: flex;
-    align-items: center;
-    background: #e73238;
-    padding: 7px;
-    border-radius: 30px;
-}
-.sticky-link svg{
-    width: 20px;
-    height: 20px;
-} */
-/*--------------- SideLinks Start Here ---------------*/
-/* .sticky-links {
-  position: fixed;
-  top: 50%;
-  right: 6px;
-  transform: translateY(-50%);
-  z-index: 999;
-  display: flex;
-  flex-direction: column;
-  gap: 7px;
-}
-.sticky-link {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-}
-.sticky-icon {
-  width: 40px;
-  height: 40px;
-  background: #10467f91;
-  color: #fff;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.3s ease;
-}
-.sticky-icon:hover {
-  background: #a50f15;
-}
-.sticky-tooltip {
-  position: absolute;
-  right: 45px;
-  top: 50%;
-  transform: translateY(-50%);
-  background: #222;
-  color: #fff;
-  font-size: 12px;
-  font-weight: 500;
-  white-space: nowrap;
-  padding: 5px 10px;
-  border-radius: 6px;
-  opacity: 0;
-  visibility: hidden;
-  transition: all 0.3s ease;
-}
-.sticky-tooltip::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  right: -5px;
-  transform: translateY(-50%);
-  border-top: 5px solid transparent;
-  border-bottom: 5px solid transparent;
-  border-left: 5px solid #222;
-}
-.sticky-link:hover .sticky-tooltip {
-  opacity: 1;
-  visibility: visible;
-}
-.sticky-link svg {
-  width: 18px;
-  height: 18px;
-} */
 .sticky-links {
   position: fixed;
   top: 50%;
   right: 0px;
   transform: translateY(-50%);
-  z-index: 9999;
+  z-index: 99;
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -363,11 +260,9 @@ body.menu-open {
 .fab-menu {
   display: none;
 }
-
-
-
 .firstslide {
   margin: 0px 0 0 0;
+  min-height: 406px;
 }
 .herofirstslide {
   position: relative;
@@ -390,9 +285,6 @@ body.menu-open {
   max-height: 550px;
   margin: 103px 0 0 0;
 } */
-.firstslide {
-  margin: 0px 0 0 0;
-}
 /* .firstslide .swiper {
   max-height: 550px;
 } */
@@ -4770,8 +4662,84 @@ table {
 }
 @media (max-width: 1199.98px) {
   /*----------------- Top Strip Start Here -----------------*/
-  
+  .topstrip_track{
+    gap: 5px;
+  }
+  .topstrip_link{
+    font-size: 13px;
+    padding: 2px 8px;
+  }
+
   /*----------------- Top Strip End Here -----------------*/
+  /*--------------- Header Menu Other Stuff Start Here ---------------*/
+
+  /*--------------- Header Menu Other Stuff End Here ---------------*/
+  /*--------------- Hero Banner Start Here ---------------*/
+  .firstslide {
+    min-height: 320px;
+  }
+  .firstslide h1 {
+    font-size: 35px;
+    line-height: 1.1;
+  }
+  .rounded_cta{
+    padding: 6px 22px;
+  }
+  .rounded-pill {
+    margin-top: 5px;
+  }
+  .firstslide .herolist {
+    margin: 18px 0 0 0;
+    font-size: 13px;
+  }
+  /*--------------- Hero Banner End Here ---------------*/
+  /*--------------- About Us Start Here ---------------*/
+  .Aboutus_section{
+    padding: 100px 0px 0px 0px;
+  }
+  .Aboutus_section:after{
+    height: 320px;
+  }
+  .Aboutus_inner{
+    padding: 0px 0px 0px 0px;
+  }
+  .Aboutus_left {
+    width: 45%;
+  }
+  /*--------------- About Us End Here ---------------*/
+  /*--------------- Programs Offered Start Here ---------------*/
+  .academicStudentImage{
+    max-height: 270px;
+    width: auto;
+    margin: 0 0 -80px 0px;
+  }
+  .ProgramsTabbing{
+    margin: 0px 0px -100px 0px;
+  }
+  .academic_programs_section .ProgramsTabbing .btn{
+    font-size:15px;
+    padding: 8px 11px !important;
+  }
+  /*--------------- Programs Offered End Here ---------------*/
+  /*--------------- Placements Start Here ---------------*/
+  .Placements_section:after{
+    width: 440px;
+    height: 360px;
+  }
+  /*--------------- Placements End Here ---------------*/
+  /*---------------- Gallery Section Start Here ----------------*/
+  .gallery-section{
+    min-height: inherit;
+  }
+  /*---------------- Gallery Section End Here ----------------*/
+
+  /*--------------- Reserch Start Here ---------------*/
+  .coe-card{
+    height: 300px;
+  }
+  /*--------------- Reserch End Here ---------------*/
+
+
   /* ---------------- Contact US Start Here---------------*/
   .adderess_form_mainbox {
     gap: 40px;
@@ -4805,12 +4773,13 @@ table {
   .contact_background_mainbox {
     grid-template-columns: 1fr 39vw;
   }
-  /* ========== Rahul 1198.98 CSS ends ========== */
+  /* Contact Us End  */
+
 }
 @media (max-width: 991.98px) {
   .stat-box {
-    border-right: none;
-    border-bottom: 1px solid #ccc;
+    border: 1px solid #ccc;
+    border-radius: 15px;
   }
   .stat-box h2 {
     font-size: 32px;
@@ -4818,6 +4787,186 @@ table {
   .stat-box p {
     font-size: 18px;
   }
+
+  /* ------------- Right Side Important Links Start Here ------------- */
+  .desktop-view {
+    display: none;
+  }
+  .fab-menu {
+    display: block;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+  }
+  .fab-items {
+    position: absolute;
+    bottom: 75px;
+    right: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
+  .fab-item {
+    min-width: 175px;
+    height: 36px;
+    padding: 0 8px;
+    background: #10467f;
+    color: #fff;
+    border-radius: 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    transition: all 0.3s ease;
+  }
+  .fab-menu.open .fab-item {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+  .fab-item:hover {
+    background: #a50f15;
+  }
+  .fab-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .fab-label {
+    font-size: 12px;
+    font-family: 'Metropolis-Medium';
+    line-height: 1;
+  }
+  .fab-toggle {
+    width: 48px;
+    height: 48px;
+    border: none;
+    border-radius: 50%;
+    background: #a50f15;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+    transition: 0.3s ease;
+  }
+  .fab-toggle:hover {
+    transform: scale(1.05);
+  }
+  /* ------------------ Right Side Important Links End Here ---------------*/
+  /*----------------- Top Strip Start Here -----------------*/
+  .desktop_track {
+    display: none;
+  }
+  .mobile_track {
+    display: flex;
+    width: max-content;
+    flex-wrap: nowrap;
+    animation: mobileMarquee 18s linear infinite;
+  }
+  .topstrip_marquee {
+    overflow: hidden;
+  }
+  @keyframes mobileMarquee {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  /*----------------- Top Strip End Here -----------------*/
+  .heading{
+    font-size:30px;
+    margin: 0px 0 17px 0;
+  }
+  .subheading{
+    font-size:20px;
+  }
+  /* Hero Banner Start Here */
+  .firstslide {
+    min-height: 250px;
+  }
+  /*------------ About Us Start Here ------------*/
+  .Aboutus_section:after{
+    height:250px;
+  }
+  .rounded-pill{
+    margin-top:10px;
+  }
+  /*-------- Section Padding Margin Start Here --------*/
+  .Aboutus_section{
+    padding: 40px 0px 0px 0px;
+  }
+  .academic_programs_section{
+    padding: 40px 0px 0px 0px;
+  }
+  .academic_programs_blue{
+    padding: 20px 0 40px;
+  }
+  .Placements_section{
+    padding: 40px 0 40px 0;
+  }
+  .world_map_section{
+    padding: 40px 0 40px 0;
+  }
+  /*-------- Section Padding Margin End Here --------*/
+  /*-------- Programs Offered Start Here /*-------- */
+  .academicStudentImage{
+    max-height: 180px;
+    width: auto;
+    margin: 0 0 -30px 0px;
+  }
+  .ProgramsTabbing{
+    margin: 0px 0px -40px 0px;
+  }
+  .academic_programs_section .ProgramsTabbing .btn{
+    font-size:14px;
+    padding: 7px 9px !important;
+  }
+  /*--------------- Programs Offered End Here ---------------*/
+  /*---------- Placement Start Here ----------*/
+  .Placements_section:after{
+    display:none;
+  }
+  /*---------- Placement End Here ----------*/
+  /* -------- Global Map Start Here -------- */
+  .mobile_card{
+    background-color:#fff;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0px 5px 13px #00000021;
+    min-height: 140px;
+  }
+  .tooltip_tags span{
+    font-size: 11px;
+  }
+  .mobile_card h5{
+    font-family: Metropolis-Bold;
+    font-size: 17px;
+  } 
+  .mobile_card h6 {
+      color: rgb(196, 22, 28);
+      font-family: Metropolis-Medium;
+      font-size:14px;
+  }
+  .mobile_card .tooltip_tags p{
+    font-size: 10px;
+    background: rgb(244, 244, 244);
+    margin:0px;
+  }
+  .world_map_mobile .tooltip_tags span:empty{
+    display:none;
+  }
+  /*---------- Global Map Start Here ------------*/
+
+  /*---------- Inner Page Start Here ----------*/
   /*------------- LeftSideBar Start Here ------------*/
   .sidebar-wrapper {
     max-width: 100%;
@@ -4831,7 +4980,7 @@ table {
     padding: 10px 8px;
   }
   /* LeftSideBar Start Here */
-  /* ========== Rahul 991.98 CSS star ========== */
+  /* ------------- Contact Us Start Here -------------- */
   .enquiry_listing {
     width: 30.9%;
   }
@@ -4870,130 +5019,181 @@ table {
   .mtech_section .btech_enquiry_background_img_box {
     padding: 100px 0 0 0;
   }
-  /* ------------------ Contact-Us-End --------------------- */
-  /* ------------------ Right Side Start Here ---------------*/
-  .desktop-view {
-    display: none;
-  }
-  .fab-menu {
-    display: block;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 99999;
-  }
-  .fab-items {
-    position: absolute;
-    bottom: 75px;
-    right: 0;
-    display: flex;
-    flex-direction: column-reverse;
-    gap: 10px;
-  }
-  .fab-item {
-    min-width: 240px;
-    height: 48px;
-    padding: 0 15px;
-    background: #10467f;
-    color: #fff;
-    border-radius: 30px;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(20px);
-    transition: all 0.3s ease;
-  }
-  .fab-menu.open .fab-item {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0);
-  }
-  .fab-item:hover {
-    background: #a50f15;
-  }
-  .fab-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .fab-label {
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 1;
-  }
-  .fab-toggle {
-    width: 58px;
-    height: 58px;
-    border: none;
-    border-radius: 50%;
-    background: #a50f15;
-    color: #fff;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
-    transition: 0.3s ease;
-  }
-  .fab-toggle:hover {
-    transform: scale(1.05);
-  }
-  /* ------------------ Right Side End Here ---------------*/
-  /*----------------- Top Strip Start Here -----------------*/
-  .desktop_track {
-    display: none;
-  }
-  .mobile_track {
-    display: flex;
-    width: max-content;
-    flex-wrap: nowrap;
-    animation: mobileMarquee 18s linear infinite;
-  }
-  .topstrip_marquee {
-    overflow: hidden;
-  }
-  @keyframes mobileMarquee {
-    0% {
-      transform: translateX(0%);
-    }
-    100% {
-      transform: translateX(-50%);
-    }
-  }
-  /*----------------- Top Strip End Here -----------------*/
-
-
-
+  /* ------------- Contact Us End Here ------------- */
+  /*---------- Inner Page Start Here ----------*/
 }
 
 
 @media (max-width: 767.98px) {
-  /*----------- Programe Tab Start Here -----------*/
-  /*----------- Students Projects Start Here -----------*/
-  .student_project_table th,
-  .student_project_table td {
-    font-size: 14px;
-    padding: 6px 7px;
+  /* Hero Banner Start Here */
+  .firstslide h1{
+    font-size: 25px;
   }
-  .student_project_sr {
-    width: 55px;
+  .videobanner_content .rounded_cta {
+    padding: 5px 15px;
+    font-size: 13px;
   }
-  .student_project_year_block {
-    margin-bottom: 25px;
-  }
-  .student_project_select {
+  .videobanner_content {
     width: 100%;
-    max-width: 100%;
+    position: inherit;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    padding: 15px 30px 30px 30px;
   }
-  /*----------- Students Projects End Here -----------*/
-  /*/*----------- Programe Tab End Here /*-----------*/
+  .herolist{
+    display:none;
+  }
+  .herofirstslide::after{
+    /* display: none; */
+    background: linear-gradient(
+    90deg,
+    rgb(196, 22, 28) 0%,
+    rgb(16, 70, 127) 100%
+  );
+  z-index: -1;
+  }
+/*------- Announcement Start Here -------*/
+  .latestupdateicon img{
+    left: 5%;
+    top: 0px;
+    max-height: 45px;
+  }
+  .latestupdateicon{
+    width:250px;
+  }
+  .latestupdateicon{
+    font-size: 15px;
+    padding: 10px 5px 10px 55px;
+  }
+/*------- Announcement End Here -------*/
+/*----------- About Us Section Start Here -----------*/
+.Aboutus_section:after{
+  display:none;
+}
+.Aboutus_left {
+  width: 100%;
+  text-align: center;
+}
+.stateinner{
+  box-shadow:none;
+  padding:0px;
+  margin:0px 0 0 0;
+}
+.stat-box p {
+  font-size: 16px;
+}
+/*----------- About Us Section End Here -----------*/
+/* Programe Offered Start Here */
+.ProgramsTabbing {
+    margin: 0px 0px -25px 0px;
+}
+/* Programe Offered End Here */
+/*--------- Global Map Start Here ---------*/
+.mobile_card{
+  min-height: 160px;
+}
+/*--------- Global Map End Here ---------*/
+/*----------- Center Of Excelance Start Here -----------*/
+.coe-inner{
+  flex-wrap: wrap;
+}
+.coe-left {
+  width: 100%;
+  text-align: center;
+}
+.coe-right{
+  width: 100%;
+}
+/*----------- Center Of Excelance Start Here -----------*/
+  /*----------- Programe Main Tab Start Here -----------*/
+/*----------- Students Projects Start Here -----------*/
+.student_project_table th,
+.student_project_table td {
+  font-size: 14px;
+  padding: 6px 7px;
+}
+.student_project_sr {
+  width: 55px;
+}
+.student_project_year_block {
+  margin-bottom: 25px;
+}
+.student_project_select {
+  width: 100%;
+  max-width: 100%;
+}
+/*----------- Students Projects End Here -----------*/
+/*/*----------- Programe Main Tab End Here /*-----------*/
 }
 @media (max-width: 575.98px) {
-  /* LeftSideBar Start Here */
+  /*------- Latest Update Start Here -------*/
+  .latestupdateicon img {
+    left: 3%;
+    max-height: 40px;
+  }
+  .latestupdateicon {
+    font-size: 12px;
+    padding: 10px 5px 10px 35px;
+    width: 200px;
+  }
+  /*------- Latest Update End Here -------*/
+  /*--------- Global Map Start Here ---------*/
+  .mobile_card{
+    min-height: inherit;
+  }
+  /*--------- Global Map End Here ---------*/
+  /*--------- State Counter Start Here ---------*/
+  .stat-icon {
+    max-height: 30px;
+  }
+  .stat-box h2 {
+    font-size: 22px;
+  }
+  .stat-box p {
+    font-size: 14px;
+    line-height: normal;
+    margin: 3px 0 0 0;
+  }
+  /*--------- State Counter End Here ---------*/
+  /*----------- Testimonials Start Here -----------*/
+  .testimonial_section{
+    background:none;
+    padding:0px 0px 40px 0px;
+  }
+  /*----------- Testimonials End Here -----------*/
+  /*------------ Placement Start Here ------------*/
+  .verticalline{
+    width: 100%;
+    height: 0.5px;
+    background-color: #00000059;
+  }
+  .placementNum{
+    text-align: center; 
+  }
+  .placementnumber{
+    gap:15px;
+    flex-wrap: wrap;
+  } 
+  .Placements_section .heading{
+    text-align: center;
+  }
+  .Placements_section .subheading{
+    text-align: center;
+  }
+  /*------------ Placement End Here ------------*/
+  /*--------- Gallery Start Here ---------*/
+  .galleryinner{
+    padding: 0 10px;
+  }
+  .gallerysecond{ 
+    width: 51%;   
+    top: 37%;
+  } 
+  /*--------- Gallery End Here ---------*/
+  /*------------- Inner Pages Start Here -------------*/
+  /* /*-------------------- LeftSideBar Start Here /*-------------------- */
   .sidebar-wrapper {
     padding: 16px;
     border-radius: 18px;
@@ -5007,8 +5207,9 @@ table {
     font-size: 15px;
     padding: 14px 6px;
   }
-  /* LeftSideBar Start Here */
-  /* ========== Rahul 575.98 CSS start ========== */
+  /*---------- LeftSideBar End Here ----------*/
+  /*-------------------- Inner Pages Start Here --------------------*/
+  /* -------------- Contact Us Start Here ------------- */
   .adderess_content_icon svg {
     width: 20px;
     height: 20px;
@@ -5042,6 +5243,14 @@ table {
   .enquiry_listing {
     width: 90%;
   }
-  /* ========== Rahul 575.98 CSS ends ========== */
+  /* ------------ Contact Us End Here ------------- */
+}
+
+@media (max-width: 479.98px) {
+  /* Header Start Here */
+  .logo img {
+    max-height: 40px !important;
+  }
+  /* Latest Update Start Here */
 }
 /* Media Queries End Here */

@@ -85,16 +85,16 @@ const WorldMap = () => {
         <div className="world_map_mobile d-lg-none">
           <div className="row">
             {locations.map((item) => (
-              <div className="col-12 col-md-6 mb-3" key={item.id}>
+              <div className="col-12 col-sm-6 mb-3" key={item.id}>
                 <div className="mobile_card">
                   <h5>{item.title}</h5>
 
-                  <p>{item.university}</p>
-                  <small>
-                    {item.programme1}, {item.programme2}
-                  </small>
+                  <h6>{item.university}</h6>
+                  
 
                   <div className="tooltip_tags">
+                    <span>{item.programme1}</span>
+                    <span>{item.programme2}</span>
                     <span>{item.programme3}</span>
                     <span>{item.programme4}</span>
                     <span>{item.programme5}</span>

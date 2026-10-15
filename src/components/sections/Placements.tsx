@@ -32,7 +32,7 @@ const Placements = () => {
     <div className="Placements_section" ref={sectionRef}>
       <div className="container-fluid">
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-xl-6 col-lg-5 col-md-5">
             {/* <div className="heading_small">Placements</div> */}
             <div className="heading">
               <span>Placements</span>
@@ -43,7 +43,7 @@ const Placements = () => {
             </div>
           </div>
 
-          <div className="col-md-6">
+          <div className="col-xl-6 col-lg-7 col-md-7">
             <div className="placementnumber">
               {/* Highest Package */}
               <div className="placementNum">
@@ -79,9 +79,9 @@ const Placements = () => {
         </div>
 
         <div className="row">
-          <div className="col-md-6"></div>
+          <div className="col-xl-6 col-lg-5 col-md-5"></div>
 
-          <div className="col-md-6">
+          <div className="col-xl-6 col-lg-7 col-md-12">
             <Testimonial />
           </div>
         </div>

@@ -16,7 +16,7 @@ const Footer = () => {
         <footer className="sit-footer">
           <div className="container-fluid">
             <div className="row gy-5">
-              <div className="col-lg-4">
+              <div className="col-lg-4 col-md-6">
                 <div className="footer-logo mb-4">
                   <Image
                     src="/images/common/Logo.webp"
@@ -144,7 +144,7 @@ const Footer = () => {
                   </ul>
                 </div>
               </div>
-              <div className="col-lg-3">
+              <div className="col-lg-3 col-md-6">
                 <div className="footer-links">
                   <h3>
                     Important <span>Links</span>
