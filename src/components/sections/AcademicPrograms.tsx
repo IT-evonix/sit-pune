@@ -131,7 +131,7 @@ export function ProgramTabs({
         <button
           key={tab.value}
           onClick={() => setActiveTab(tab.value)}
-          className="btn"
+          className="btn "
           style={{
             padding: "8px 18px",
             fontSize: "16px",

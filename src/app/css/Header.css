@@ -468,7 +468,7 @@ ul {
 @media (max-width: 1199.98px) {
   .desktop-menu > ul > li > a {
     padding: 10px 3px;
-    font-size: 12px;
+    font-size: 11px;
   }
   .program-btn {
     padding: 12px 18px;
@@ -511,11 +511,11 @@ ul {
   }
   .logo img {
     display: block;
-    max-height: 60px;
+    max-height: 50px;
     width: auto;
   }
   .mobile-menu.show ul {
-    width: 90%;
+    width: 97%;
   }
   /*--------------- Header Menu Other Stuff Start Here ---------------*/
   /* .desktop-menu > ul > li > a{
@@ -531,21 +531,22 @@ ul {
     display: none;
   }
   .mobile-menu {
-    padding: 100px 25px 25px 25px;
+    padding: 14px 25px 25px 25px;
   }
   .mobile-toggle {
     display: inline-flex;
   }
-
   .header-wrapper {
     min-height: 70px;
   }
-
   .mobile-menu {
     height: calc(100vh - 0px);
   }
-  .mobile-menu.show ul {
+  .mobile-menu ul {
     width: 97%;
+  }
+  .mobile-menu ul{
+    padding: 80px 0 0 0;
   }
 }
 
@@ -571,7 +572,7 @@ ul {
     width: 40px;
     height: 40px;
     font-size: 16px;
-    }
+  }
   .mobile-menu {
     height: calc(100vh - 72px);
   }
