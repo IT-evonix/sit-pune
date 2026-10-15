@@ -62,10 +62,10 @@ export default function StatsSection() {
     <section className="stats-section" ref={sectionRef}>
       <div className="container-fluid">
         <div className="stateinner">
-          <div className="row">
+          <div className="row g-3 g-lg-0">
             {stats.map((item, index) => (
-              <Col lg={3} md={6} key={index}>
-                <div className="stat-box d-flex align-items-center gap-3">
+              <Col lg={3} sm={6} xs={6} key={index}>
+                <div className="stat-box d-flex align-items-center gap-1 gap-sm-3">
                   <Image
                     src={item.icon}
                     alt={item.title}

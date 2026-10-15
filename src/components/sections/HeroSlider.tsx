@@ -26,16 +26,22 @@ const HeroSlider = () => {
       >
         {/* SLIDE 1 */}
         <SwiperSlide className="herofirstslide">
+          {/* <video className="w-100" autoPlay muted loop playsInline>
+            <source src="/videos/SIT-Hero.mp4" type="video/mp4" />
+          </video> */}
+          <video className="w-100" autoPlay muted loop playsInline preload="auto" poster="/images/banners/heroBanner.webp">
+          <source src="/videos/SIT-Hero.mp4" type="video/mp4" />
+        </video>
           <div className="videobanner_content">
             <h1 className="display-5 text-white">
               Engineering the Future at{" "}
               <span className="sitpunetext">SIT Pune</span>
             </h1>
-            <p className="mt-2 text-white m-0">
-              Welcome to Symbiosis Institute of Technology Pune — where innovation
-              meets excellence.
+            <p className="mt-2 text-white m-0 d-none d-md-block">
+              Welcome to Symbiosis Institute of Technology Pune — where
+              innovation meets excellence.
             </p>
-            <div className="mt-2 d-flex gap-3">
+            <div className="mt-2 d-flex gap-2 gap-sm-3 justify-content-center justify-content-md-start">
               <Rounded_CTA
                 label="Apply Now"
                 link="/"
@@ -57,9 +63,6 @@ const HeroSlider = () => {
               <li>Innovation Hub</li>
             </ul>
           </div>
-          <video className="w-100" autoPlay muted loop playsInline>
-            <source src="/videos/SIT-Hero.mp4" type="video/mp4" />
-          </video>
         </SwiperSlide>
         <SwiperSlide className="herofirstslide d-none">
           <div className="position-relative">

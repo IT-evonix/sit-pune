@@ -97,7 +97,7 @@ export default function CentreOfExcellence() {
                   slidesPerView: 1,
                 },
                 768: {
-                  slidesPerView: 1.3,
+                  slidesPerView: 1,
                 },
                 992: {
                   slidesPerView: 1,

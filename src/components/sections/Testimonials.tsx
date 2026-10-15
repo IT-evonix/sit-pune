@@ -157,7 +157,7 @@ export default function Testimonial() {
         ))}
       </Swiper>
 
-      <div className="d-flex justify-content-center mt-4">
+      <div className="d-flex justify-content-center mt-2 mt-lg-2 mt-xl-4">
         <NextPrev
           prevRef={prevRef}
           nextRef={nextRef}

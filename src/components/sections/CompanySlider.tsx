@@ -133,7 +133,7 @@ export default function CompanySlider() {
             }}
 
             // Arrows only below 991px
-            navigation={true}
+            navigation={false}
 
             breakpoints={{
               0: {
@@ -147,7 +147,7 @@ export default function CompanySlider() {
               },
               992: {
                 slidesPerView: 6,
-                navigation: false,
+                // navigation: false,
               },
             }}
           >
