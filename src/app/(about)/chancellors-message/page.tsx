@@ -5,19 +5,7 @@ import Image from "next/image";
 import InnerpageBanner from "@/components/InnerpageBanner";
 import "@/app/css/admission.css";
 
-interface LeadershipMessageProps {
-  image: string;
-  name: string;
-  designation: string;
-  message: string[];
-}
-
-export default function LeadershipMessage({
-  image,
-  name,
-  designation,
-  message,
-}: LeadershipMessageProps) {
+export default function ChancellorMessagePage() {
   const [activeLeader, setActiveLeader] = useState("chancellor");
 
   return (
