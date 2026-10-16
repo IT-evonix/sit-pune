@@ -560,6 +560,9 @@ ul {
   .mobile-accordion{
     font-size: 18px;
   }
+  .mobile-menu a{
+    font-size: 18px;
+  }
   .mobile-submenu a{
     font-size: 14px;
     padding: 0px 0px;
@@ -606,9 +609,11 @@ ul {
     font-size: 16px;
   }
   .mobile-menu {
-    height: calc(100vh - 72px);
+    height: calc(100vh - 0px);
   }
-
+  .mobile-menu.show ul {
+      width: 98%;
+  }
 
   
 }
