@@ -89,7 +89,7 @@ const Overview = () => {
             </div>
             <div className="row g-4">
               {missionData.map((item, index) => (
-                <div className="col-lg-3 col-md-6" key={index}>
+                <div className="col-xl-3 col-lg-6 col-sm-6" key={index}>
                   <div className="mission-card h-100">
                     <span className="badge mission-badge">{item.title}</span>
 

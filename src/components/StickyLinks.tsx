@@ -104,6 +104,7 @@ export default function StickyLinks() {
           className="fab-toggle"
           onClick={() => setOpen(!open)}
           aria-label="Toggle Menu"
+          aria-expanded={open}
         >
           {open ? <X size={24} /> : <Plus size={24} />}
         </button>

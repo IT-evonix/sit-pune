@@ -4740,6 +4740,7 @@ table {
   /*--------------- Reserch End Here ---------------*/
 
 
+
   /* ---------------- Contact US Start Here---------------*/
   .adderess_form_mainbox {
     gap: 40px;
@@ -4773,7 +4774,7 @@ table {
   .contact_background_mainbox {
     grid-template-columns: 1fr 39vw;
   }
-  /* Contact Us End  */
+  /* ---------------- Contact Us End  ----------------*/
 
 }
 @media (max-width: 991.98px) {
@@ -4803,12 +4804,15 @@ table {
     position: absolute;
     bottom: 75px;
     right: 0;
-    display: flex;
+    display: none;
     flex-direction: column-reverse;
     gap: 10px;
   }
+  .fab-menu.open .fab-items {
+    display: flex;
+  }
   .fab-item {
-    min-width: 175px;
+    min-width: 160px;
     height: 36px;
     padding: 0 8px;
     background: #10467f;
@@ -4838,7 +4842,7 @@ table {
     justify-content: center;
   }
   .fab-label {
-    font-size: 12px;
+    font-size: 11px;
     font-family: 'Metropolis-Medium';
     line-height: 1;
   }
@@ -5120,6 +5124,17 @@ table {
   padding: 40px 0px 0px 0px;
   line-height: 54px;
 }
+.fab-menu{
+  bottom: 10px;
+  right: 10px;
+}
+.fab-toggle{
+  width: 38px;
+  height: 38px;
+}
+.fab-item{
+  border: 1px solid #ffffff59;
+}
   /*----------- Programe Main Tab Start Here -----------*/
 /*----------- Students Projects Start Here -----------*/
 .student_project_table th,
@@ -5161,7 +5176,7 @@ table {
     box-shadow: 0px 3px 8px #0000001c;
   }
   .world_map_mobile {
-    height: 350px;
+    height: 390px;
     overflow-y: auto;
     overflow-x: hidden;
     scrollbar-width: thin; /* Firefox */
@@ -5206,6 +5221,15 @@ table {
   .testimonial_section{
     background:none;
     padding:0px 0px 40px 0px;
+  }
+  .testimonial_card{
+    text-align: center;
+  }
+  .student_img{
+    margin: 0 auto;
+  }
+  .student_info{
+    width:100%;
   }
   /*----------- Testimonials End Here -----------*/
   /*------------ Placement Start Here ------------*/
@@ -5348,11 +5372,6 @@ table {
     width:48%;
   }
   /*--------------- Programs Offered End Here ---------------*/
-  .testimonial_card{
-    text-align: center;
-  }
-  .student_img{
-    margin: 0 auto;
-  }
+  
 }
 /* Media Queries End Here */

@@ -221,7 +221,7 @@ const Header = () => {
 
       {/* ================= Mobile Menu ================= */}
 
-      <div className={`mobile-menu ${mobileMenuOpen ? "show" : ""}`}>
+      <div className={`mobile-menu mobilemainmenu ${mobileMenuOpen ? "show" : ""}`}>
         <ul>
           {menuData.map((menu) => (
             <li key={menu.id}>
