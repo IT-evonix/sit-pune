@@ -28,8 +28,7 @@ const AdmissionProcedureug = () => {
         <ul
           className="nav nav-tabs"
           role="tablist"
-          aria-label="Admission routes"
-        >
+          aria-label="Admission routes">
           <li className="nav-item" role="presentation">
             <button
               className={`nav-link${activeTab === "siteee" ? " active" : ""}`}

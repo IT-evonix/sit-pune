@@ -2858,6 +2858,7 @@ height:260px;
 }
 .profilecontent {
   width: 66%;
+  text-align: justify;
 }
 .profileImage {
   width: 32%;
@@ -3353,8 +3354,10 @@ table {
 .student_project_table th {
   padding: 9px 10px;
   font-family: "Metropolis-SemiBold";
-  background: #10467f;
-  color: #fff;
+  /* background: #10467f;
+  color: #fff; */
+  background: #dbebff;
+  color: #163c7a;
   border: 1px solid #ffffff38;
   font-size: 16px;
   text-align: left;
@@ -3797,6 +3800,14 @@ table {
   color: #c4161c;
   font-family: "Metropolis-Medium";
 }
+.leader-content p{
+  text-align: justify;
+}
+.leader-header h5 span{
+  font-size:14px;
+  display:block;
+  color:#000 !important;
+}
 .leader-sticky {
   position: sticky;
   position: -webkit-sticky;
@@ -3809,17 +3820,20 @@ table {
   border-radius: 20px;
   display: block;
 }
-.leader-sticky {
-  position: sticky;
-  top: 120px;
-}
 .leader-image-wrapper {
   position: relative;
+}
+.leadershipContent{
+  padding-left:15px !important;
 }
 /* Leadership Page End Here */
 /* Vision Mission Page Start Here */
 .about_vision_mision{
   padding:20px 0px 30px 0px;
+}
+.leadershipTabbing{
+  position:sticky;
+  top:100px
 }
 /* Vision Mission Page End Here */
 
@@ -4923,6 +4937,13 @@ table {
   .coe-section{
     padding: 40px 0 60px 0;
   }
+  .job_roles_recuitersinner{
+    padding: 0px 0px 0px 0;
+    background: transparent;
+  }
+  .job_roles_recuitersright {
+    margin-bottom: 40px;
+  }
   /*-------- Section Padding Margin End Here --------*/
   /*-------- Programs Offered Start Here /*-------- */
   .academicStudentImage{
@@ -5136,7 +5157,85 @@ table {
   border: 1px solid #ffffff59;
 }
   /*----------- Programe Main Tab Start Here -----------*/
-/*----------- Students Projects Start Here -----------*/
+/*------------- AIML Department Start Here -------------*/
+.heading {
+  font-size: 25px;
+  margin: 0px 0 17px 0;
+}
+.main_content{
+  padding: 0px 0px 0px 0px;
+}
+.profilemain {
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+}
+.profilecontent {
+  width: 100%;
+}
+.profileImage{
+  width: 100%;
+  position: inherit;
+}
+.profileDescription{
+  position: inherit;
+  background-color: transparent;
+  padding: 15px;
+}
+.profileName {
+    font-size: 16px;
+    line-height: normal;
+}
+.program_count_databox svg {
+  max-height: 50px;
+  width: auto;
+}
+.program_count_data .count{
+  font-size: 20px;
+}
+.program_count_databox {
+  gap: 10px;
+}
+.program_countrow{
+  justify-content: space-between;
+  padding: 13px;
+}
+.innerbannerheading{
+      font-size: 20px;
+}
+.innerbannersection::after{
+  width: 450px;
+  height: 170px;
+}
+.breadcrumb_links{
+    gap: 12px;
+    bottom: 4%;
+    font-size: 12px;
+}
+.collaborations_list{
+      width: 100%;
+}
+.international_collaborations span{
+  width: 48%;
+}
+.international_collaborations span img {
+  max-height: 60px;
+  margin: 0 auto;
+  width: auto;
+}
+.program_countrow{
+gap: 10px;
+padding: 10px;
+}
+.program_highlights_box{
+	flex-wrap: wrap;
+}
+.program_highlights_left{
+	width:100%
+}
+.program_highlights_right{
+	width:100%
+}
+/*  Students Projects Start Here */
 .student_project_table th,
 .student_project_table td {
   font-size: 14px;
@@ -5152,9 +5251,12 @@ table {
   width: 100%;
   max-width: 100%;
 }
-/*----------- Students Projects End Here -----------*/
+/* Students Projects End Here */
+
+/*------------- AIML Department End Here -------------*/
 /*/*----------- Programe Main Tab End Here /*-----------*/
 }
+
 @media (max-width: 575.98px) {
   .heading{
     font-size: 25px;
