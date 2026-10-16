@@ -16,7 +16,6 @@ export default function LeadershipMessage({
   image,
   name,
   designation,
-  message,
 }: LeadershipMessageProps) {
   const [activeLeader, setActiveLeader] = useState("chancellor");
 
