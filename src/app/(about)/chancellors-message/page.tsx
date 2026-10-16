@@ -181,7 +181,7 @@ export default function LeadershipMessage({
                           <div className="leader-sticky">
                             <div className="leader-image-wrapper">
                               <Image
-                                src="/images/innerpages/about/s-b-mujumdar.webp"
+                                src="/images/innerpages/about/vidya_yeravdekar.webp"
                                 alt="Dr. S.B. Mujumdar"
                                 width={500}
                                 height={650}
@@ -330,7 +330,7 @@ export default function LeadershipMessage({
                           <div className="leader-sticky">
                             <div className="leader-image-wrapper">
                               <Image
-                                src="/images/innerpages/about/s-b-mujumdar.webp"
+                                src="/images/innerpages/about/ramakrishnan_raman.webp"
                                 alt="Dr. S.B. Mujumdar"
                                 width={500}
                                 height={650}
