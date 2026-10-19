@@ -170,7 +170,7 @@ export function ProgramSlider({ data }: { data: Program[] }) {
     };
   }, []);
 
-  const showNav = isMobile ? data.length > 2 : data.length > 4;
+  const showNav = isMobile ? data.length > 1 : data.length > 4;
 
   useEffect(() => {
     if (

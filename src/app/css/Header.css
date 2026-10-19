@@ -283,7 +283,7 @@ ul {
   align-items: center;
   justify-content: center;
   position: relative;
-  z-index: 9999;
+  z-index: 99999;
 }
 .mobile-toggle span:nth-child(1) {
   top: 14px;
@@ -324,7 +324,7 @@ ul {
   overflow-y: auto;
   transform: translateX(-100%);
   transition: transform 0.35s ease;
-  z-index: 999;
+  z-index: 9999;
   padding: 25px;
   top: 0;
 }

@@ -413,31 +413,6 @@ body.menu-open {
   }
 }
 /*------------------- Latest Update End -------------*/
-/* .customBtn{
-  border: 1px solid #10467F;
-  padding: 8px 26px !important;
-  border-radius: 40px;
-  color:#10467F;
-  transition-duration:0.5s;
-}
-.customBtn:hover{
-  color: #fff !important;
-  border: 1px solid #10467F;
-  background-color:#10467F !important;
-}
-.customBtn:hover span{
-  color: #fff !important;
-}
-.rounded_cta{
-  border: 1px solid #10467F;
-  padding: 8px 26px;
-  border-radius: 40px;
-}
-.rounded_cta:hover{
-  color: #fff !important;
-  border: 1px solid #10467F;
-  background-color:#10467F !important;
-} */
 .customBtn {
   border: 1px solid #10467f;
   padding: 8px 26px !important;
@@ -1188,295 +1163,7 @@ body.menu-open {
   color: #000;
   border: 1px solid #fff;
 }
-/* ///////////////////////////////////////////////////////////////// */
-/* .gallery-section {
-  background: url("/images/gallery/gallery-bg.webp") center center/cover
-    no-repeat;
-  min-height: 100vh;
-  padding: 110px 0px 0px 0px;
-  position: relative;
-  overflow: hidden;
-  margin: -70px 0 0;
-}
-.gallery-slider {
-  position: relative;
-  width: 100%;
-  height: 460px;
-  margin-top: 0px;
-}
-.gallery-item {
-  position: absolute;
-  transition: all 0.8s ease;
-}
-.gallery-item.left {
-  width: 44%;
-  left: 2%;
-  top: 50px;
-  z-index: 1;
-  transform: rotate(-3deg) scale(0.70);
-  opacity: 0.9;
-}
-.gallery-item.center {
-  width: 50%;
-  left: 50%;
-  top: 0;
-  z-index: 5;
-  transform: translateX(-50%) scale(0.80);
-}
-.gallery-item.right {
-  width: 44%;
-  right: 2%;
-  top: 50px;
-  z-index: 1;
-  transform: rotate(3deg) scale(0.72);
-  opacity: 0.9;
-}
-.gallery-card {
-  display: block;
-  position: relative;
-  overflow: hidden;
-  border: 8px solid #fff;
-  background: #fff;
-  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.35);
-  transition: 0.4s;
-}
-.gallery-card:hover {
-  transform: translateY(-8px);
-}
-.gallery-card::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: -150%;
-  width: 70%;
-  height: 100%;
-  background: linear-gradient(
-    120deg,
-    transparent,
-    rgba(255, 255, 255, 0.45),
-    transparent
-  );
-  transform: skewX(-25deg);
-  z-index: 5;
-}
-.gallery-card:hover::before {
-  left: 170%;
-  transition: 1s;
-}
-.gallery-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-.gallery-item.left .gallery-img {
-  height: 420px;
-}
-.gallery-item.center .gallery-img {
-  height: 500px;
-}
-.gallery-item.right .gallery-img {
-  height: 420px;
-}
-.gallery-section .campustourBtn {
-  padding: 12px 30px;
-  border-radius: 35px;
-  line-height: normal;
-  background-color: #fff;
-  color: #000;
-  font-size: 20px;
-  transition-duration: 0.3s;
-  border: none;
-}
-.gallery-section .campustourBtn:hover {
-  background-color: #c4161c;
-  color: #fff;
-  transition-duration: 0.3s;
-}
-.gallery-section .campustourBtn:hover span {
-  color: #fff;
-}
-.gallery-section .campustourBtn span {
-  color: #c4161c;
-  font-family: "Metropolis-Bold";
-}
-.gallery-section .exploregallerybtn {
-  font-size: 20px;
-  padding: 12px 25px;
-  border-radius: 25px;
-  line-height: normal;
-  background-color: transparent;
-  border: 1px solid #fff;
-  color: #fff;
-  font-size: 18px;
-  transition-duration: 0.3s;
-}
-.gallery-section .exploregallerybtn span {
-  font-family: "Metropolis-Bold";
-}
-.gallery-section .exploregallerybtn:hover {
-  background-color: #fff;
-  transition-duration: 0.3s;
-  color: #000;
-  border: 1px solid #fff;
-} */
-/* ===============================   Gallery Section Option================================== */
-/* .gallery-section {
-  background: url("/images/gallery/gallery-bg.webp") center center/cover
-    no-repeat;
-  padding: 110px 0 70px;
-  overflow: hidden;
-  position: relative;
-  margin: -70px 0 0;
-}
-.gallery-section .heading {
-  color: #fff;
-}
-.gallery-section p {
-  color: #fff;
-  max-width: 700px;
-  margin: auto;
-}
-.gallerySwiper {
-  overflow: visible !important;
-}
-.gallerySwiper .swiper-wrapper {
-  align-items: center;
-}
-.gallerySwiper .swiper-slide {
-  transition: all 0.7s ease;
-  transform: scale(0.65) !important;
-  opacity: 0.65;
-  z-index: 1;
-}
-.gallerySwiper .swiper-slide-prev,
-.gallerySwiper .swiper-slide-next {
-  opacity: 0.9;
-}
-.gallerySwiper .swiper-slide-active {
-  transform: scale(0.85) !important;
-  opacity: 1;
-  z-index: 9;
-}
-.gallery-card {
-  display: block;
-  position: relative;
-  overflow: hidden;
-  border: 8px solid #fff;
-  border-radius: 4px;
-  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.28);
-  transition: transform 0.35s ease;
-  background: #fff;
-}
-.gallery-card:hover {
-  transform: translateY(-8px);
-}
-.gallery-card::before {
-  content: "";
-  position: absolute;
-  left: -120%;
-  top: 0;
-  width: 60%;
-  height: 100%;
-  background: linear-gradient(
-    120deg,
-    transparent,
-    rgba(255, 255, 255, 0.45),
-    transparent
-  );
-  transform: skewX(-25deg);
-  z-index: 5;
-}
-.gallery-card:hover::before {
-  left: 170%;
-  transition: 1s;
-}
-.gallery-img {
-  width: 100%;
-  height: 350px;
-  object-fit: cover;
-  display: block;
-}
-.gallery-section .campustourBtn {
-  padding: 12px 30px;
-  border-radius: 35px;
-  line-height: normal;
-  background-color: #fff;
-  color: #000;
-  font-size: 20px;
-  transition-duration: 0.3s;
-  border: none;
-}
-.gallery-section .campustourBtn:hover {
-  background-color: #c4161c;
-  color: #fff;
-  transition-duration: 0.3s;
-}
-.gallery-section .campustourBtn:hover span {
-  color: #fff;
-}
-.gallery-section .campustourBtn span {
-  color: #c4161c;
-  font-family: "Metropolis-Bold";
-}
-.gallery-section .exploregallerybtn {
-  font-size: 20px;
-  padding: 12px 25px;
-  border-radius: 25px;
-  line-height: normal;
-  background-color: transparent;
-  border: 1px solid #fff;
-  color: #fff;
-  font-size: 18px;
-  transition-duration: 0.3s;
-}
-.gallery-section .exploregallerybtn span {
-  font-family: "Metropolis-Bold";
-}
-.gallery-section .exploregallerybtn:hover {
-  background-color: #fff;
-  transition-duration: 0.3s;
-  color: #000;
-  border: 1px solid #fff;
-} */
-/* ===============================
-   Responsive
-================================== */
-/* @media (max-width:1200px){
-.gallery-img{
-height:420px;
-}
-}
-@media (max-width:991px){
-.gallerySwiper .swiper-slide{
-transform:scale(.82);
-}
-.gallerySwiper .swiper-slide-active{
-transform:scale(1);
-}
-.gallery-img{
-height:360px;
-}
-}
-@media (max-width:767px){
-.gallery-section{
-padding:70px 0;
-}
-.gallerySwiper{
-padding:30px 0 60px;
-}
-.gallerySwiper .swiper-slide{
-  transform:scale(.92);
-  opacity:1;
-}
-.gallerySwiper .swiper-slide-active{
-transform:scale(1);
-}
-.gallery-img{
-height:260px;
-}
-} */
-/*------------------ Gallery Section End Here ------------------*/
+
 /*------------------ World Map Section Start Here ------------------*/
 .world_map_section {
   padding: 60px 0;
@@ -1744,10 +1431,10 @@ height:260px;
   right: 5px;
 }
 .coe-prev svg {
-  max-height: 21px;
+  max-height: 18px;
 }
 .coe-next svg {
-  max-height: 21px;
+  max-height: 18px;
 }
 .coe-prev:hover,
 .coe-next:hover {
@@ -2237,6 +1924,8 @@ height:260px;
 }
 .footer-about h2 span {
   font-family: "Metropolis-Bold";
+  width: 100%;
+  display: block;
 }
 .footer-about p {
   margin-bottom: 20px;
@@ -2500,6 +2189,9 @@ height:260px;
   position: sticky;
   top: 115px;
 }
+.tabbingSidebar-toggle {
+  display: none;
+}
 .program-title {
   background: #163c7a;
   color: #ffffff;
@@ -2552,6 +2244,7 @@ height:260px;
   font-family: "Metropolis-Light";
 }
 /* TabbingSidebar End Here */
+
 .main_content {
   padding: 0px 0px 0px 30px;
 }
@@ -2921,7 +2614,7 @@ table {
   display: flex;
   flex-wrap: wrap;
   gap: 18px;
-  margin-top: 35px;
+  margin-top:0px;
 }
 .programme-card {
   border: 1px solid #e5e7eb;
@@ -2930,7 +2623,7 @@ table {
   transition: all 0.3s ease;
   background: #ffffff;
   cursor: pointer;
-  width: 45%;
+  width: 47%;
 }
 .programme-card:hover {
   transform: translateY(-2px);
@@ -2953,7 +2646,7 @@ table {
 }
 .programme-title {
   font-size: 16px;
-  color: #0f172a;
+  color: #000;
   font-family: "Metropolis-Medium";
 }
 .active-card .programme-title {
@@ -3169,7 +2862,7 @@ table {
 .play-icon {
   font-size: 30px;
   position: absolute;
-  z-index: 999;
+  z-index: 998;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -3408,7 +3101,7 @@ table {
 .faculty-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  column-gap: 28px;
+  column-gap: 25px;
   row-gap: 60px;
 }
 .faculty-card-wrapper {
@@ -3426,6 +3119,9 @@ table {
 }
 .faculty-card-wrapper:hover .faculty-card-inner {
   transform: rotateY(180deg);
+}
+.faculty-card-action {
+  display: none;
 }
 .faculty-card-face {
   position: absolute;
@@ -4565,6 +4261,7 @@ table {
   display: flex;
   flex-wrap: wrap;
   gap: 25px;
+  align-items: center;
   /* justify-content: space-between; */
 }
 .upcoming-event-detail {
@@ -4698,8 +4395,6 @@ table {
   }
   .rounded_cta{
     padding: 6px 22px;
-  }
-  .rounded-pill {
     margin-top: 5px;
   }
   .firstslide .herolist {
@@ -4752,7 +4447,24 @@ table {
     height: 300px;
   }
   /*--------------- Reserch End Here ---------------*/
-
+  /*------------- AIML Department Start Here -------------*/
+  .main_content{
+    padding: 0px 0px 0px 20px;
+  }
+  .profileDepartment{
+    line-height: normal;
+  }
+  .profileDepartment span{
+    margin-top:5px;
+    display:block;
+  }
+  .program_count_data .count {
+    font-size: 24px;
+  }
+  .program_countrow{
+    gap: 12px;
+  }
+  /*------------- AIML Department End Here -------------*/
 
 
   /* ---------------- Contact US Start Here---------------*/
@@ -4792,7 +4504,6 @@ table {
 
 }
 @media (max-width: 991.98px) {
-  
   .stat-box {
     border: 1px solid #ccc;
     border-radius: 15px;
@@ -4915,8 +4626,19 @@ table {
   .Aboutus_section:after{
     height:250px;
   }
-  .rounded-pill{
+  .rounded_cta{
     margin-top:10px;
+    font-size: 16px;
+    line-height: normal;
+    padding: 10px 22px;
+  }
+  .gallery-section .campustourBtn{
+    padding: 10px 22px;
+    font-size:16px;
+  }
+  .gallery-section .exploregallerybtn{
+    padding: 10px 22px;
+    font-size:16px;
   }
   /*-------- Section Padding Margin Start Here --------*/
   .Aboutus_section{
@@ -4940,6 +4662,7 @@ table {
   .job_roles_recuitersinner{
     padding: 0px 0px 0px 0;
     background: transparent;
+    margin: 40px 0 0px 0;
   }
   .job_roles_recuitersright {
     margin-bottom: 40px;
@@ -4962,6 +4685,9 @@ table {
   /*---------- Placement Start Here ----------*/
   .Placements_section:after{
     display:none;
+  }
+  .student_img{
+    border-radius: 80px;
   }
   /*---------- Placement End Here ----------*/
   /* -------- Global Map Start Here -------- */
@@ -4997,8 +4723,103 @@ table {
   .coe-inner{
     gap:20px;
   }
+  .sit-footer{
+    background-image: none;
+  }
+  .footer-links h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
   /*---------- Inner Page Start Here ----------*/
-  /*------------- LeftSideBar Start Here ------------*/
+  /*------------- LeftSideBar Start Here 991px ------------*/
+  .tabbingSidebar {
+    padding: 0;
+    border: 0;
+    width: 40px;
+    position: fixed;
+    left: 0;
+    border-radius: 10px;
+    margin: 0;
+    background: transparent;
+    z-index: 999;
+    top: 270px;
+  }
+  .tabbingSidebar .program-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    border-radius: 0px 30px 30px 0px;
+    padding:7px 0px 7px 10px;
+    margin: 0;
+  }
+  .tabbingSidebar .program-title span{
+    display: none;
+  }
+  .tabbingSidebar-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    transform: rotate(270deg);
+  }
+  body.menu-open .tabbingSidebar {
+    display: none;
+  }
+  /* .tabbingSidebar-toggle{
+    transform: rotate(270deg);
+  } */
+  .tabbingSidebarmenus {
+    display: block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    width: min(360px, calc(100vw - 56px));
+    overflow-y: auto;
+    padding: 24px 16px;
+    background: #fff;
+    box-shadow: 8px 0 24px rgb(0 0 0 / 18%);
+    transform: translateX(-100%);
+    visibility: hidden;
+    transition: transform 0.1s ease, visibility 0.1s ease;
+  }
+  .tabbingSidebarmenus.is-open {
+    transform: translateX(0);
+    visibility: visible;
+    width: 100%;
+  }
+  .tabbingSidebar:has(.tabbingSidebarmenus.is-open)::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: 1049;
+    background: rgb(0 0 0 / 45%);
+  }
+  .tabbingSidebar:has(.tabbingSidebarmenus.is-open) .tabbingSidebar-toggle {
+    position: fixed;
+    top: 12px;
+    right: 12px;
+    z-index: 1051;
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    background: #163c7a;
+    color: #fff;
+    /* box-shadow: 0 2px 8px rgb(0 0 0 / 20%); */
+    transform: rotate(-90deg);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .tabbingSidebarmenus {
+      transition: none;
+    }
+  }
   .sidebar-wrapper {
     max-width: 100%;
   }
@@ -5011,6 +4832,120 @@ table {
     padding: 10px 8px;
   }
   /* LeftSideBar Start Here */
+  /*------------- About Us Tab Start Here -------------*/
+  .leadershipContent {
+    padding-left: calc(var(--bs-gutter-x) * .5) !important;
+    margin-top: 25px !important;
+  }
+  .leader-sticky{
+    position: inherit;
+  }
+
+  /*------------- About Us Tab End Here -------------*/
+  /*------------- AIML Department Start Here -------------*/
+  .main_content{
+    padding: 0px 0px 0px 0px;
+  }
+  .innerbannersection{
+    min-height: 170px;
+  }
+  .innerbannersection::after {
+    width: 490px;
+    height: 150px;
+  }
+  .job_roles_recuitersright {
+    margin-bottom: 40px;
+    min-height: inherit;
+    padding: 20px 10px;
+  }
+  .program_highlights_box{
+    margin: 40px 0px 0px 0px;
+  }
+  .visionandmision {
+    padding: 40px 0px 30px 0px;
+  }
+  .faculty-social-links-front{
+    display: none;
+  }
+  .faculty-card-back{
+    flex-wrap: wrap;
+  }
+  .faculty-back-content{
+    width:100%;
+  }
+   .faculty-card-wrapper:hover .faculty-card-inner {
+    transform: none;
+  }
+  .faculty-card-wrapper.is-flipped .faculty-card-inner {
+    transform: rotateY(180deg);
+  }
+  .faculty-card-action {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+    padding: 7px 15px;
+    border: 0;
+    border-radius: 20px;
+    background: #163c7a;
+    color: #fff;
+    font-size: 13px;
+    cursor: pointer;
+    font-family: 'Metropolis-Regular';
+    font-size:13px;
+    line-height: 12px;
+  }
+  .faculty-card-back > .faculty-card-action {
+    position: relative;
+    top: inherit;
+    right: inherit;
+    margin: 0;
+    background: #fff;
+    color: #163c7a;
+    padding: 6px 15px;
+    margin-top:12px;
+    text-transform: capitalize;
+    font-family: 'Metropolis-Regular';
+    font-size:13px;
+    line-height: 12px;
+  }
+  .programme-list{
+    justify-content: space-between;
+    gap: 13px;
+  }
+  .programme-title{
+    font-size: 15px;
+  }
+  .small-icon-box{
+    width: 50px;
+    height: 50px;
+  }
+  .programme-card{
+    width: 48.5%;
+  }
+  .infrastructure_img {
+    max-height: 270px;
+    min-height: 260px;
+  }
+  .pdf-preview-grid{
+    grid-template-columns: repeat(3, 1fr);
+    gap:15px;
+  }
+  .pdf-preview-title{
+    font-size:15px;
+  }
+  .pdf-view-button{
+    padding: 6px 13px;
+    font-size: 12px;
+  }
+  .col-lg-3:last-child .stat-box {
+    border-right: 1px solid #ccc;
+  }
+  /*------------- AIML Department End Here -------------*/
+  /* About Us Tab Start Here */
+  .leader-header{
+    padding: 20px;
+  }
   /* ------------- Contact Us Start Here -------------- */
   .enquiry_listing {
     width: 30.9%;
@@ -5054,12 +4989,12 @@ table {
   /*---------- Inner Page Start Here ----------*/
 }
 @media (max-width: 767.98px) {
-  .heading{
+  /* .heading{
     text-align: center;
   }
   .subheading{
     text-align: center;
-  }
+  } */
   /* Hero Banner Start Here */
   .firstslide h1{
     font-size: 25px;
@@ -5123,6 +5058,10 @@ table {
     justify-content: center;
   }
 /* Programe Offered End Here */
+/* Placement Section Start Here */
+.student_info h3{
+  font-size: 20px;
+}
 /*--------- Global Map Start Here ---------*/
 .mobile_card{
   min-height: 160px;
@@ -5162,9 +5101,6 @@ table {
   font-size: 25px;
   margin: 0px 0 17px 0;
 }
-.main_content{
-  padding: 0px 0px 0px 0px;
-}
 .profilemain {
   flex-wrap: wrap;
   flex-direction: column-reverse;
@@ -5182,8 +5118,7 @@ table {
   padding: 15px;
 }
 .profileName {
-    font-size: 16px;
-    line-height: normal;
+  font-size: 16px;
 }
 .program_count_databox svg {
   max-height: 50px;
@@ -5198,6 +5133,8 @@ table {
 .program_countrow{
   justify-content: space-between;
   padding: 13px;
+  gap: 10px;
+  margin: 10px 0px 0px 0px;
 }
 .innerbannerheading{
       font-size: 20px;
@@ -5222,10 +5159,6 @@ table {
   margin: 0 auto;
   width: auto;
 }
-.program_countrow{
-gap: 10px;
-padding: 10px;
-}
 .program_highlights_box{
 	flex-wrap: wrap;
 }
@@ -5234,6 +5167,32 @@ padding: 10px;
 }
 .program_highlights_right{
 	width:100%
+}
+.faculty-grid {
+  grid-template-columns: repeat(2, minmax(0px, 1fr));
+  column-gap: 20px;
+  row-gap: 30px;
+}
+.faculty-back-detail{
+  margin-bottom: 12px;
+}
+.faculty-back-detail p{
+  font-size:13px;
+}
+.faculty-back-detail h4{
+  padding: 4px 15px;
+  font-size: 13px;
+}
+.faculty-social-link{
+  width: 28px;
+  height: 28px;
+}
+.infrastructure_img {
+  max-height: 220px;
+  min-height: 220px;
+}
+.infrastructure_images {
+  gap: 18px;
 }
 /*  Students Projects Start Here */
 .student_project_table th,
@@ -5252,7 +5211,41 @@ padding: 10px;
   max-width: 100%;
 }
 /* Students Projects End Here */
-
+.customTabs__nav {
+  overflow-x: auto;
+  overflow-y: hidden;
+  flex-wrap: nowrap;
+  -webkit-overflow-scrolling: touch;
+  font-size:15px;
+}
+.customTabs__button {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  padding: 6px 20px;
+  font-size: 14px;
+}
+.upcoming-event-card{
+  gap: 15px;
+}
+.datetext{
+  font-size: 12px;
+}
+.upcoming-event-content .subheading {
+  font-size: 16px;
+}
+.upcoming-event-detail{
+  font-size: 13px;
+  gap: 5px;
+}
+.upcoming-event-detail .upcoming-event-label svg{
+  max-height: 17px;
+}
+.upcoming-event-description{
+  margin: 0 0 15px;
+}
+.upcoming-event-details {
+  gap: 10px;
+}
 /*------------- AIML Department End Here -------------*/
 /*/*----------- Programe Main Tab End Here /*-----------*/
 }
@@ -5353,6 +5346,9 @@ padding: 10px;
   .Placements_section .subheading{
     text-align: center;
   }
+  .Numhead{
+    font-size: 25px;
+  }
   /*------------ Placement End Here ------------*/
   /*--------- Gallery Start Here ---------*/
   .galleryinner{
@@ -5379,8 +5375,16 @@ padding: 10px;
     width: 40px;
     height: 25px;
   }
+  .swiper-prev-btn{
+    width:40px;
+    height:25px;
+  }
+  .swiper-next-btn{
+    width:40px;
+    height:25px;
+  }
   .coe-right .swiper{
-    padding: 9px;
+    padding: 0px;
   }
   .coe-card img{
     border-radius: 15px;
@@ -5390,28 +5394,82 @@ padding: 10px;
   }
   .coe-card .subheading18{
     font-size:16px;
-        bottom: 14px;
+    bottom: 14px;
   }
   .coe-card{
     border-radius: 15px;
   }
+  .footer-about h2 span {
+    width: auto;
+    display: inline;
+  }
   /* Center Of Excellence End Here */
+  /*------------- AIML Department Start Here -------------*/
+  .major-minor-programmes-grid{
+    grid-template-columns: 1fr;
+  }
+  .major-minor-programme-list {
+    padding: 0px 15px 20px;
+  }
+  .infrastructure_card {
+    width: 47%;
+  }
+  .infrastructure_img {
+    max-height: 200px;
+    min-height: 250px;
+  }
+  /*------------- AIML Department End Here -------------*/
   /*------------- Inner Pages Start Here -------------*/
   /* /*-------------------- LeftSideBar Start Here /*-------------------- */
   .sidebar-wrapper {
     padding: 16px;
     border-radius: 18px;
   }
-  .program-title {
-    font-size: 22px;
-    border-radius: 14px;
-    margin-bottom: 20px;
-  }
   .sidebar-link {
     font-size: 15px;
     padding: 14px 6px;
   }
   /*---------- LeftSideBar End Here ----------*/
+   /*------------- AIML Department Start Here -------------*/
+  .program_countrow {
+    gap: 15px;
+    padding: 15px;
+    flex-wrap: wrap ;
+  }
+  .innerbannersection::after {
+    width: 300px;
+    height: 120px;
+  }
+  .provisionbox::after{
+    opacity: 0.03;
+  }
+  .visiontextleft {
+    width: 100%;
+  }
+  .international_collaborations span {
+    width: 47%;
+    padding: 10px;
+  }
+  .faculty-front-body{
+    padding: 95px 14px 35px;
+  }
+  .faculty-name{
+    font-size:17px;
+    margin: 0 0 6px;
+  }
+  .faculty-designation{
+    font-size:13px;
+  }
+  .programme-card {
+    width: 100%;
+  }
+  .upcoming-event-card{
+    grid-template-columns: 1fr;
+  }
+  .upcoming-event-image{
+    max-height: inherit;
+  }
+/*------------- AIML Department End Here -------------*/
   /*-------------------- Inner Pages Start Here --------------------*/
   /* -------------- Contact Us Start Here ------------- */
   .adderess_content_icon svg {
@@ -5473,6 +5531,22 @@ padding: 10px;
   .academic_programs_section .ProgramsTabbing .btn{
     width:48%;
   }
+  /*------------- AIML Department Start Here -------------*/
+  .faculty-grid {
+    grid-template-columns: repeat(1, minmax(0px, 1fr));
+  }
+  .faculty-front-body{
+    border: 1px solid #ffe4e5;
+  }
+  .infrastructure_img {
+    max-height: 160px;
+    min-height: 160px;
+  }
+  .pdf-preview-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+ /*------------- AIML Department End Here -------------*/ 
   /*--------------- Programs Offered End Here ---------------*/
   
 }

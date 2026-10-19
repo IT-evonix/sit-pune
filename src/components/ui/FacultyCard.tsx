@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useEffect, useId, useState } from "react";
 import Image from "next/image";
 
 import { FacultyMember } from "@/data/FacultyNew";
@@ -10,12 +10,39 @@ interface FacultyCardProps {
 }
 
 const FacultyCard: React.FC<FacultyCardProps> = ({ faculty }) => {
+  const [isFlipped, setIsFlipped] = useState(false);
+  const cardId = useId();
+
   const handleLinkClick = (event: React.MouseEvent<HTMLAnchorElement>) => {
     event.stopPropagation();
   };
 
+  useEffect(() => {
+    const closeOtherCards = (event: Event) => {
+      if (
+        event instanceof CustomEvent &&
+        event.detail !== cardId
+      ) {
+        setIsFlipped(false);
+      }
+    };
+
+    window.addEventListener("faculty-card-open", closeOtherCards);
+    return () =>
+      window.removeEventListener("faculty-card-open", closeOtherCards);
+  }, [cardId]);
+
+  const openCard = () => {
+    window.dispatchEvent(
+      new CustomEvent("faculty-card-open", { detail: cardId }),
+    );
+    setIsFlipped(true);
+  };
+
   return (
-    <div className="faculty-card-wrapper">
+    <div
+      className={`faculty-card-wrapper${isFlipped ? " is-flipped" : ""}`}
+    >
       <div className="faculty-card-inner">
         {/* =====================================================
             FRONT SIDE
@@ -38,6 +65,13 @@ const FacultyCard: React.FC<FacultyCardProps> = ({ faculty }) => {
               <h3 className="faculty-name">{faculty.name}</h3>
 
               <p className="faculty-designation">{faculty.designation}</p>
+              <button
+                type="button"
+                className="faculty-card-action"
+                onClick={openCard}
+              >
+                Know More
+              </button>
             </div>
             {/* Front Social Icons */}
             <FacultySocialLinks
@@ -83,6 +117,13 @@ const FacultyCard: React.FC<FacultyCardProps> = ({ faculty }) => {
               position="back"
             />
           </div>
+          <button
+            type="button"
+            className="faculty-card-action"
+            onClick={() => setIsFlipped(false)}
+          >
+            Know More
+          </button>
         </div>
       </div>
     </div>

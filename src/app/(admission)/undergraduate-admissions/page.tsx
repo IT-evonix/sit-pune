@@ -84,7 +84,7 @@ const UndergraduateAdmissionsPage = () => {
                 >
                   <Row className="align-items-center">
                     <Col xs={10} md={11}>
-                      <div className="d-flex align-items-center gap-3">
+                      <div className="d-flex align-items-center gap-2 gap-sm-3">
                         <div className="small-icon-box">
                           <Link size={28} strokeWidth={2} />
                         </div>

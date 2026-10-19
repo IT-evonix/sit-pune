@@ -274,7 +274,7 @@ export default function ProgrammeStructurePage() {
 
                     {/* Left */}
                     <Col xs={10} md={11}>
-                      <div className="d-flex align-items-center gap-3">
+                      <div className="d-flex align-items-center gap-2 gap-sm-3">
 
                         <div className="small-icon-box">
                           {item.pending ? (

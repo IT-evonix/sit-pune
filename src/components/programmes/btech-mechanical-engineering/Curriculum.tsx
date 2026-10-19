@@ -22,14 +22,14 @@ const programmeData: ProgrammeItem[] = [
   },
   {
     id: 2,
-    title: "B.Tech AIML Program Structure.pdf",
+    title: "B.Tech AIML Program Structure",
     batch: "2025-2029",
     pdfUrl:
       "/pdf/programmes/btech-AI/program-structure/B.Tech-AIML-2025-29-Program-Structure.pdf",
   },
   {
     id: 3,
-    title: "B.Tech AIML Program Structure.pdf",
+    title: "B.Tech AIML Program Structure",
     batch: "2024-2028",
     pdfUrl:
       "/pdf/programmes/btech-AI/program-structure/B.Tech-AIML-2024-28-Program-Structure.pdf",
@@ -78,7 +78,7 @@ export default function ProgrammeStructurePage() {
                 <Row className="align-items-center">
                   {/* Left */}
                   <Col xs={10} md={11}>
-                    <div className="d-flex align-items-center gap-3">
+                    <div className="d-flex align-items-center gap-2 gap-sm-3">
                       <div className="small-icon-box">
                         {item.pending ? (
                           <Hourglass size={28} strokeWidth={2} />

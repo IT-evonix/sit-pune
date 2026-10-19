@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useId, useState } from "react";
 import { ChevronDown, ChevronUp } from "lucide-react";
 
 interface SubTabItem {
@@ -78,6 +78,17 @@ const TabbingSidebar = ({
   const [activeTab, setActiveTab] = useState(initialActiveTabId);
   const [activeSubTab, setActiveSubTab] = useState("");
   const [openSubmenus, setOpenSubmenus] = useState<string[]>([]);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const sidebarMenuId = useId();
+
+  useEffect(() => {
+    const closeSidebar = () => setIsSidebarOpen(false);
+
+    window.addEventListener("sit:header-menu-open", closeSidebar);
+
+    return () =>
+      window.removeEventListener("sit:header-menu-open", closeSidebar);
+  }, []);
 
   const scrollToTop = () => {
     window.scrollTo({
@@ -100,6 +111,7 @@ const TabbingSidebar = ({
     } else {
       setOpenSubmenus([]);
       setActiveSubTab("");
+      setIsSidebarOpen(false);
     }
 
     scrollToTop();
@@ -119,6 +131,7 @@ const TabbingSidebar = ({
       );
     } else {
       setActiveSubTab(subTab.id);
+      setIsSidebarOpen(false);
     }
 
     scrollToTop();
@@ -168,9 +181,36 @@ const TabbingSidebar = ({
     <div className="row">
       <div className="col-lg-3">
         <div className="tabbingSidebar">
-          <div className="program-title">{heading}</div>
+          <div className="program-title">
+            <span>{heading}</span>
+            <button
+              type="button"
+              className="tabbingSidebar-toggle"
+              aria-label={`${isSidebarOpen ? "Close" : "Open"} ${heading} menu`}
+              aria-expanded={isSidebarOpen}
+              aria-controls={sidebarMenuId}
+              onClick={() => {
+                const willOpen = !isSidebarOpen;
 
-          <div className="tabbingSidebarmenus">
+                if (willOpen) {
+                  window.dispatchEvent(new Event("sit:sidebar-menu-open"));
+                }
+
+                setIsSidebarOpen(willOpen);
+              }}
+            >
+              {isSidebarOpen ? (
+                <ChevronUp size={22} />
+              ) : (
+                <ChevronDown size={22} />
+              )}
+            </button>
+          </div>
+
+          <div
+            className={`tabbingSidebarmenus${isSidebarOpen ? " is-open" : ""}`}
+            id={sidebarMenuId}
+          >
             <ul className="nav flex-column sidebar-menu">
               {tabs.map((tab) => (
                 <li key={tab.id} className="sidebar-item">
