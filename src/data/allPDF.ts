@@ -16,14 +16,14 @@ export const allPDF: AllPDFItem[] = [
   },
   {
     id: 2,
-    title: "B.Tech AIML Program Structure.pdf",
+    title: "B.Tech AIML Program Structure",
     batch: "2025-2029",
     pdfUrl:
       "/pdf/programmes/btech-AI/program-structure/B.Tech-AIML-2025-29-Program-Structure.pdf",
   },
   {
     id: 3,
-    title: "B.Tech AIML Program Structure.pdf",
+    title: "B.Tech AIML Program Structure",
     batch: "2024-2028",
     pdfUrl:
       "/pdf/programmes/btech-AI/program-structure/B.Tech-AIML-2024-28-Program-Structure.pdf",

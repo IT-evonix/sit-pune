@@ -28,8 +28,7 @@ const Footer = () => {
                 </div>
                 <div className="footer-about">
                   <h2>
-                    Symbiosis Institute of <br />
-                    <span>Technology (SIT)</span>
+                    Symbiosis Institute of <span> Technology (SIT)</span>
                   </h2>
                   <p>
                     Symbiosis Institute of Technology Constituent of
@@ -91,7 +90,7 @@ const Footer = () => {
                     </li>
                   </ul>
                 </div>
-                <div className="footer-links mt-5">
+                <div className="footer-links mt-4 mt-sm-5">
                   <h3>
                     Women <span>Helpline Number</span>
                   </h3>

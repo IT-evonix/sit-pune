@@ -504,3 +504,41 @@
     border-left: 0;
   }
 }
+
+@media (max-width: 991.98px) {
+  .tab-content-wrapper .main_content .admission-tabs .nav-tabs,
+  .leadership_tabbing .admission-tabs .nav-tabs {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .tab-content-wrapper .main_content .admission-tabs .nav-item,
+  .leadership_tabbing .admission-tabs .nav-item {
+    flex: 0 0 auto;
+  }
+
+  .tab-content-wrapper .main_content .admission-tabs .nav-link,
+  .leadership_tabbing .admission-tabs .nav-link {
+    width: auto;
+    padding: 6px 20px;
+    border: 0;
+    border-radius: 6px;
+    /* background-color: #fff;
+    color: #6b7280; */
+    font-family: "Metropolis-SemiBold";
+    font-size: 14px;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .tab-content-wrapper .main_content .admission-tabs .nav-tabs,
+  .leadership_tabbing .admission-tabs .nav-tabs {
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+  }
+}

@@ -92,7 +92,7 @@ export default function LeadershipMessage({
                       hidden={activeLeader !== "founder"}
                       tabIndex={0}
                     >
-                      <div className="row g-5">
+                      <div className="row row g-0 g-md-5">
                         <div className="col-lg-4 text-center">
                           <div className="leader-sticky">
                             <div className="leader-image-wrapper">
@@ -132,7 +132,7 @@ export default function LeadershipMessage({
                       hidden={activeLeader !== "chancellor"}
                       tabIndex={0}
                     >
-                      <div className="row g-5">
+                      <div className="row row g-0 g-md-5">
                         <div className="col-lg-4 text-center">
                           <div className="leader-sticky">
                             <div className="leader-image-wrapper">
@@ -169,7 +169,7 @@ export default function LeadershipMessage({
                       hidden={activeLeader !== "vice-chancellor"}
                       tabIndex={0}
                     >
-                      <div className="row g-5">
+                      <div className="row row g-0 g-md-5">
                         <div className="col-lg-4 text-center">
                           <div className="leader-sticky">
                             <div className="leader-image-wrapper">

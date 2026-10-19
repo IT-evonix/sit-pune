@@ -29,6 +29,19 @@ const Header = () => {
     };
   }, [mobileMenuOpen]);
 
+  useEffect(() => {
+    const closeMobileMenu = () => {
+      setMobileMenuOpen(false);
+      setActiveMobileMenu([]);
+      setActiveNestedMenu([]);
+    };
+
+    window.addEventListener("sit:sidebar-menu-open", closeMobileMenu);
+
+    return () =>
+      window.removeEventListener("sit:sidebar-menu-open", closeMobileMenu);
+  }, []);
+
   /* ========= ESC Close ========= */
 
   useEffect(() => {
@@ -200,7 +213,15 @@ const Header = () => {
 
           <button
             className={`mobile-toggle ${mobileMenuOpen ? "active" : ""}`}
-            onClick={() => setMobileMenuOpen((prev) => !prev)}
+            onClick={() => {
+              const willOpen = !mobileMenuOpen;
+
+              if (willOpen) {
+                window.dispatchEvent(new Event("sit:header-menu-open"));
+              }
+
+              setMobileMenuOpen(willOpen);
+            }}
             aria-label="Toggle Menu"
           >
             <span></span>
