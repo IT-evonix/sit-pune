@@ -24,7 +24,7 @@ const AdmissionCancellation = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          http://siufinance.ishinfo.com/UGStudentAdmission
+          click Here
         </a>
       </div>
 

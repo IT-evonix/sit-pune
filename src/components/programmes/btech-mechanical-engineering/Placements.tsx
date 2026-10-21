@@ -6,12 +6,12 @@ const AIMLImages: MediaItem[] = [
   {
     id: 1,
     type: "image",
-    src: "/images/innerpages/programe/mechanical-engineering/placements/p1.webp",
+    src: "/images/innerpages/programe/mechanical-engineering/placements/P1.webp",
   },
   {
     id: 2,
     type: "image",
-    src: "/images/innerpages/programe/mechanical-engineering/placements/p2.webp",
+    src: "/images/innerpages/programe/mechanical-engineering/placements/P2.webp",
   },
   {
     id: 3,
@@ -26,7 +26,7 @@ const AIMLImages: MediaItem[] = [
   {
     id: 5,
     type: "image",
-    src: "/images/innerpages/programe/mechanical-engineering/placements/p5.webp",
+    src: "/images/innerpages/programe/mechanical-engineering/placements/P5.webp",
   },
   {
     id: 6,
@@ -36,27 +36,27 @@ const AIMLImages: MediaItem[] = [
   {
     id: 7,
     type: "image",
-    src: "/images/innerpages/programe/mechanical-engineering/placements/p7.webp",
+    src: "/images/innerpages/programe/mechanical-engineering/placements/P7.webp",
   },
   {
     id: 8,
     type: "image",
-    src: "/images/innerpages/programe/mechanical-engineering/placements/p8.webp",
+    src: "/images/innerpages/programe/mechanical-engineering/placements/P8.webp",
   },
   {
     id: 9,
     type: "image",
-    src: "/images/innerpages/programe/mechanical-engineering/placements/p9.webp",
+    src: "/images/innerpages/programe/mechanical-engineering/placements/P9.webp",
   },
   {
     id: 10,
     type: "image",
-    src: "/images/innerpages/programe/mechanical-engineering/placements/p10.webp",
+    src: "/images/innerpages/programe/mechanical-engineering/placements/P10.webp",
   },
   {
     id: 11,
     type: "image",
-    src: "/images/innerpages/programe/mechanical-engineering/placements/p11.webp",
+    src: "/images/innerpages/programe/mechanical-engineering/placements/P11.webp",
   },
 ];
 
