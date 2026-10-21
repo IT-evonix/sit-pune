@@ -3,12 +3,12 @@ import "@/app/css/admission.css";
 const Eligibility = () => {
   return (
     <main className="main_content lateral-eligibility">
-      <header className="lateral-eligibility__header">
+      <div className="lateral-eligibility__header">
         <h1 className="heading innerpageheading">Eligibility</h1>
         <p className="subheading">
           B.Tech. (Lateral Entry to Second Year)
         </p>
-      </header>
+      </div>
 
       <ol className="lateral-eligibility__options">
         <li className="lateral-eligibility__option">

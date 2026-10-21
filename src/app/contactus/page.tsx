@@ -269,7 +269,7 @@ const page = () => {
       />
       {/* M.Tech enquiries section ends  */}
 
-      <div className="SITMap">
+      <div className="SITMap" id="SITMap">
         <div className="container">
             <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d65217.31173431537!2d73.69784787751898!3d18.55539766807785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bc3e3d28683b%3A0x64a3e9ef22f676a0!2sSymbiosis%20Institute%20of%20Technology%20%7C%20SIT%20Pune!5e1!3m2!1sen!2sin!4v1787050258566!5m2!1sen!2sin"

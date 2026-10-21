@@ -141,6 +141,7 @@ body.menu-open {
   text-decoration: none;
   padding: 4px 13px;
 }
+
 @keyframes pulseGlow {
   0% {
     transform: scale(1);
@@ -4499,6 +4500,9 @@ table {
   }
   .contact_background_mainbox {
     grid-template-columns: 1fr 39vw;
+  }
+  #SITMap{
+    scroll-margin-top: 350px;
   }
   /* ---------------- Contact Us End  ----------------*/
 
