@@ -3329,7 +3329,7 @@ table {
   box-shadow: 0 5px 10px rgb(0 0 0 / 3%);
 }
 .faq_section .accordion-button:not(.collapsed) {
-  background-color: #c4161c28;
+  background-color: #c4161c1a;
 }
 .faq_section .accordion-button:focus {
   box-shadow: 0px 0px 0px #ccc;
@@ -5217,6 +5217,7 @@ table {
   flex-wrap: nowrap;
   -webkit-overflow-scrolling: touch;
   font-size:15px;
+  gap:15px;
 }
 .customTabs__button {
   flex: 0 0 auto;
@@ -5393,8 +5394,9 @@ table {
     border-radius: 15px;
   }
   .coe-card .subheading18{
-    font-size:16px;
-    bottom: 14px;
+    font-size:15px;
+    bottom: 12px;
+    left: 10px;
   }
   .coe-card{
     border-radius: 15px;
