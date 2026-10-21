@@ -258,7 +258,7 @@
 .scholarship_main .scholarship_summary--red {
   background: #fcf1f2;
 }
-.scholarship_main .natureof_scholarship{
+.scholarship_main .natureof_scholarship {
   display: flex;
   align-items: center;
 }
@@ -341,10 +341,10 @@
   color: #183d66;
   line-height: 1.9;
 }
-.scholarship_rate_list li{
+.scholarship_rate_list li {
   list-style-type: disc;
   line-height: normal;
-  padding:5px 0px 5px 0px;
+  padding: 5px 0px 5px 0px;
 }
 
 .scholarship_main .scholarship_rate_list strong {
@@ -410,6 +410,25 @@
 .scholarship_main .scholarship_link:hover {
   background: #073a69;
   color: #fff;
+}
+.program_overview_section{
+  display:flex;
+  gap:30px;
+}
+.program_overview_left{
+  width:60%;
+  text-align:justify;
+}
+.program_overview_right{
+  width:40%;
+}
+.program_overview_right img{
+  position:sticky;
+  top:100px;
+}
+
+.mtechEligibility .student_project_table td{
+  white-space: wrap;
 }
 
 @media (max-width: 575.98px) {
@@ -655,7 +674,7 @@
   margin: 0;
   color: #000;
   font-size: 14px;
-  font-style:italic;
+  font-style: italic;
 }
 
 @media (max-width: 991.98px) {

@@ -3305,3 +3305,304 @@ export const IMPScheduleDate = [
   },
 ];
 // --------Lateral Entry Page End Here ---------------------------------------
+
+// -------- M.Tech Admission Programmes Page Start Here ---------------------------------------
+// --------Programme Profile Start Here ---------------------------------------
+export const MtechadmissionProgrammeProfile = [
+  {
+    key: "schedule",
+    title: "Programmes",
+  },
+  {
+    key: "SanctionedIntake",
+    title: "Sanctioned Intake",
+  },
+  {
+    key: "ProgrammeDuration",
+    title: "Programme Duration",
+  },
+];
+export const MtechadmissionProgrammeProfileData = [
+  {
+    schedule: "M.Tech Artificial Intelligence and Machine Learning",
+    SanctionedIntake: "30",
+    ProgrammeDuration: "2 years",
+  },
+  {
+    schedule: "M. Tech Robotics and Artificial Intelligence",
+    SanctionedIntake: "18",
+    ProgrammeDuration: "2 years",
+  },
+  {
+    schedule: "Master of Technology (Engineering Design)",
+    SanctionedIntake: "30",
+    ProgrammeDuration: "2 years for full time, 3 years for part-time",
+  },
+  {
+    schedule: "M.Tech. Automotive Technology",
+    SanctionedIntake: "30",
+    ProgrammeDuration: "2 years",
+  },
+  {
+    schedule: "M.Tech.(Geoinformatics)",
+    SanctionedIntake: "18",
+    ProgrammeDuration: "2 years",
+  },
+  
+];
+// -------- M.Tech Admission Programmes Page End Here ---------------------------------------
+
+// M.Tech Admission Eligibility Tab Start --------------------------------------- 
+export const MtechEligibilityadmissionData = [
+  {
+    schedule: "M.Tech Artificial Intelligence and Machine Learning",
+    SanctionedIntake: "30",
+    ProgrammeDuration: "2 years",
+  },
+  {
+    schedule: "M. Tech Robotics and Artificial Intelligence",
+    SanctionedIntake: "18",
+    ProgrammeDuration: "2 years",
+  },
+  {
+    schedule: "Master of Technology (Engineering Design)",
+    SanctionedIntake: "30",
+    ProgrammeDuration: "2 years for full time, 3 years for part-time",
+  },
+  {
+    schedule: "M.Tech. Automotive Technology",
+    SanctionedIntake: "30",
+    ProgrammeDuration: "2 years",
+  },
+  {
+    schedule: "M.Tech.(Geoinformatics)",
+    SanctionedIntake: "18",
+    ProgrammeDuration: "2 years",
+  },
+  
+];
+// -------- M.Tech Admission Programmes Page End Here ---------------------------------------
+
+
+// --------Important Dates Start Here ---------------------------------------
+export const MtechIMPSchedule = [
+  {
+    key: "schedule",
+    title: "Schedule",
+  },
+  {
+    key: "SanctionedIntake",
+    title: "Date",
+  },
+];
+export const MtechIMPScheduleDate = [
+  {
+    schedule: "Programme Registration Begins",
+    SanctionedIntake: "4th November 2025",
+  },
+  {
+    schedule: "Last date of Online registration based on vacancy",
+    SanctionedIntake: "14th August 2026",
+  },
+  {
+    schedule: "Announcement of First Merit list of GATE Candidates",
+    SanctionedIntake: "23rd March 2026",
+  },
+  {
+    schedule: "Last date for payment of fees for GATE candidates in the first merit list",
+    SanctionedIntake: "28th March 2026",
+  },
+  {
+    schedule: "Entrance Test of Non-GATE Candidates for first merit list",
+    SanctionedIntake: "24th March 2026 Onwards",
+  },
+  {
+    schedule: "Announcement of First Merit list of Non-GATE Candidates",
+    SanctionedIntake: "25th March 2026 Onwards",
+  },
+  {
+    schedule: "Programme Commencement",
+    SanctionedIntake: "3rd August 2026",
+  },
+];
+
+// --------Important Dates M.Tech Geoinformatics Start Here ---------------------------------------
+export const MtechGeoinformaticsIMPSchedule = [
+  {
+    key: "schedule",
+    title: "Schedule",
+  },
+  {
+    key: "SanctionedIntake",
+    title: "Date",
+  },
+];
+export const MtechGeoinformaticsIMPScheduleDate = [
+  {
+    schedule: "Last date of Online Registration",
+    SanctionedIntake: "10th June 2026",
+  },
+  {
+    schedule: "Last Date of Payment of Registration Fees",
+    SanctionedIntake: "10th June 2026",
+  },
+  {
+    schedule: "Announcement of Shortlist for Entrance Examination and Personal Interaction",
+    SanctionedIntake: "11th June 2026",
+  },
+  {
+    schedule: "Entrance Examination and Personal Interaction (Online)",
+    SanctionedIntake: "12th June 2026",
+  },
+  {
+    schedule: "Announcement of First Merit List",
+    SanctionedIntake: "15th June 2026",
+  },
+  {
+    schedule: "Last Date for Payment of Fees for Candidates in the First Merit List",
+    SanctionedIntake: "30th June 2026",
+  },
+  {
+    schedule: "Programme Commencement",
+    SanctionedIntake: "24th July 2026",
+  },
+];
+// -------- M.Tech Admission Programmes Page End Here ---------------------------------------
+
+// -------- M.Tech Admission FAQ Tables Start Here ---------------------------------------
+export const MtechFAQProgrammeColumns = [
+  {
+    key: "program",
+    title: "Programme",
+  },
+  {
+    key: "intake",
+    title: "Sanctioned Intake",
+  },
+  {
+    key: "duration",
+    title: "Programme Duration",
+  },
+];
+export const MtechFAQProgrammeData = [
+  {
+    program: "M.Tech Artificial Intelligence and Machine Learning",
+    intake: "30",
+    duration: "2 years",
+  },
+  {
+    program: "*M.Tech Robotics and Artificial Intelligence",
+    intake: "18",
+    duration: "2 years",
+  },
+  {
+    program: "M.Tech Engineering Design",
+    intake: "30",
+    duration: "2 years",
+  },
+  {
+    program: "M.Tech Automotive Technology",
+    intake: "30",
+    duration: "2 years",
+  },
+  {
+    program: "M.Tech Geoinformatics",
+    intake: "18",
+    duration: "2 years",
+  },
+];
+
+export const MtechFAQScheduleColumns = [
+  {
+    key: "schedule",
+    title: "Schedule",
+  },
+  {
+    key: "date",
+    title: "Date",
+  },
+];
+export const MtechFAQScheduleData = [
+  {
+    schedule: "Schedule",
+    date: "Date",
+  },
+  {
+    schedule: "Programme Registration Begins",
+    date: "4th November 2025",
+  },
+  {
+    schedule: "Last date of Online registration based on vacancy",
+    date: "15th September 2026",
+  },
+  {
+    schedule: "Announcement of First Merit list of GATE Candidates",
+    date: "23rd March 2026",
+  },
+  {
+    schedule:
+      "Last date for payment of fees for GATE candidates in the first merit list",
+    date: "28th March 2026",
+  },
+  {
+    schedule:
+      "Last date for uploading documents for Non-GATE candidates in the first merit list",
+    date: "20th March 2026",
+  },
+  {
+    schedule:
+      "Entrance Test of Non-GATE Candidates for first merit list",
+    date: "24th March 2026",
+  },
+  {
+    schedule: "Test Result of Non-GATE Candidates for first merit list",
+    date: "25th March 2026",
+  },
+  {
+    schedule: "Announcement of First Merit list of Non-GATE Candidates",
+    date: "25th March 2026",
+  },
+  {
+    schedule: "Programme Commencement",
+    date: "3rd August 2026",
+  },
+];
+
+export const MtechFAQEligibilityColumns = [
+  {
+    key: "program",
+    title: "Program",
+  },
+  {
+    key: "eligibility",
+    title: "Eligibility",
+  },
+];
+export const MtechFAQEligibilityData = [
+  {
+    program: "M.Tech Artificial Intelligence and Machine Learning",
+    eligibility:
+      "Passed Bachelor's Degree or equivalent with at least 50% marks (45% for reserved category).",
+  },
+  {
+    program: "M.Tech Automotive Technology",
+    eligibility:
+      "Passed Bachelor's Degree or equivalent with at least 50% marks (45% for reserved category).",
+  },
+  {
+    program: "M.Tech Engineering Design",
+    eligibility:
+      "(a) Passed Bachelor's Degree or equivalent with at least 50% marks (45% for reserved category). (b) UG + 2 years of industry/research experience in a research lab.",
+  },
+  {
+    program: "M.Tech Robotics and Artificial Intelligence",
+    eligibility:
+      "Passed Bachelor's Degree or equivalent with at least 50% marks (45% for reserved category).",
+  },
+  {
+    program: "M.Tech Geoinformatics & Surveying Technology",
+    eligibility:
+      "Engineering Graduate (BE/B.Tech), M.Sc. (Geoinformatics, Physics, Geology, Environmental Science, Mathematics, Agriculture) or equivalent from any statutory university with at least 50% marks (45% for SC/ST). Candidates in their final year can also apply.",
+  },
+];
+// -------- M.Tech Admission FAQ Tables End Here ---------------------------------------
