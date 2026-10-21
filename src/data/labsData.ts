@@ -271,13 +271,13 @@ export const labsData: DepartmentLabs[] = [
           {
             id: "mechanical-engineering-lab-4",
             title: "Mechanics Lab",
-            image: "/images/innerpages/programe/mechanical-engineering/our-labs-and-spaces/me-4.webp",
+            image: "/images/innerpages/programe/mechanical-engineering/our-labs-and-spaces/Me-4.webp",
             alt: "Mechanical engineering laboratory",
           },
           {
             id: "mechanical-engineering-lab-5",
             title: "Project lab",
-            image: "/images/innerpages/programe/mechanical-engineering/our-labs-and-spaces/me-5.webp",
+            image: "/images/innerpages/programe/mechanical-engineering/our-labs-and-spaces/Me-5.webp",
             alt: "Mechanical engineering laboratory",
           },
           {

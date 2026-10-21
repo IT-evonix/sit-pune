@@ -10,17 +10,17 @@ const CSImages: MediaItem[] = [
   {
     id: 2,
     type: "image",
-    src: "/images/innerpages/programe/computer-science/placements/placement2.webp",
+    src: "/images/innerpages/programe/computer-science/placements/Placement2.webp",
   },
   {
     id: 3,
     type: "image",
-    src: "/images/innerpages/programe/computer-science/placements/placement3.webp",
+    src: "/images/innerpages/programe/computer-science/placements/Placement3.webp",
   },  
   {
     id: 4,
     type: "image",
-    src: "/images/innerpages/programe/computer-science/placements/placement4.webp",
+    src: "/images/innerpages/programe/computer-science/placements/Placement4.webp",
   },  
   {
     id: 5,
@@ -30,7 +30,7 @@ const CSImages: MediaItem[] = [
   {
     id: 6,
     type: "image",
-    src: "/images/innerpages/programe/computer-science/placements/placement6.webp",
+    src: "/images/innerpages/programe/computer-science/placements/Placement6.webp",
   },  
   {
     id: 7,
@@ -45,12 +45,12 @@ const CSImages: MediaItem[] = [
   {
     id: 9,
     type: "image",
-    src: "/images/innerpages/programe/computer-science/placements/placement9.webp",
+    src: "/images/innerpages/programe/computer-science/placements/Placement9.webp",
   }, 
   {
     id: 10,
     type: "image",
-    src: "/images/innerpages/programe/computer-science/placements/placement10.webp",
+    src: "/images/innerpages/programe/computer-science/placements/Placement10.webp",
   }, 
   {
     id: 11,
