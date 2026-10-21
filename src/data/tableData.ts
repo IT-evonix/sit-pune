@@ -3058,3 +3058,250 @@ export const ScholarshipAchievements2020_21Data = [
 
 ];
 // --------Scholarship Achievements End Here ---------------------------------------
+
+// --------Lateral Entry Page Start Here ---------------------------------------
+export const AdmissionprocessSchedule = [
+  {
+    key: "schedule",
+    title: "Schedule",
+  },
+  {
+    key: "date",
+    title: "Date",
+  },
+];
+export const AdmissionprocessScheDate = [
+  {
+    schedule: "Registration Commences on",
+    date: "November 04, 2025 (Tuesday)",
+  },
+  {
+    schedule: "Last Date of Online Registration",
+    date: "August 10, 2026 (Monday)",
+  },
+  {
+    schedule: "Last Date of Online Document Uploading for 1st Merit List",
+    date: "March 14, 2026 (Saturday)",
+  },
+  {
+    schedule: "Declaration of Diploma/B.Sc./Voc.- 1st Merit List",
+    date: "March 16, 2026 (Monday)",
+  },
+  {
+    schedule: "Last Date of Online Document Uploading for 2nd Merit List",
+    date: "April 4, 2026 (Saturday)",
+  },
+  {
+    schedule: "Declaration of 2nd Merit List for Diploma/B.Sc./Voc.",
+    date: "April 6, 2026 (Monday)",
+  },
+  {
+    schedule: "Last Date of Online Document Uploading for 3rd Merit List",
+    date: "25th April 2026",
+  },
+  {
+    schedule: "Declaration of 3rd Merit List for Diploma/B.Sc./Voc.",
+    date: "27th April 2026",
+  },
+  {
+    schedule: "Last Date of Online Document Uploading for 4th Merit List",
+    date: "16th May 2026",
+  },
+  {
+    schedule: "Declaration of 4th Merit List for Diploma/B.Sc./Voc.",
+    date: "18th May 2026",
+  },
+  {
+    schedule: "Last Date of Online Document Uploading for 5th Merit List",
+    date: "8th June 2026",
+  },
+  {
+    schedule: "Declaration of 5th Merit List for Diploma/B.Sc./Voc.",
+    date: "11th June 2026",
+  },
+  {
+    schedule: "Last Date of Online Document Uploading for 6th Merit List",
+    date: "24th June 2026",
+  },
+  {
+    schedule: "Declaration of 6th Merit List for Diploma/B.Sc./Voc.",
+    date: "26th June 2026",
+  },
+  {
+    schedule: "Last Date of Online Document Uploading for 7th Merit List",
+    date: "6th July 2026",
+  },
+  {
+    schedule: "Declaration of 7th Merit List for Diploma/B.Sc./Voc.",
+    date: "7th July 2026",
+  },
+  {
+    schedule: "Last Date of Online Document Uploading for 8th Merit List",
+    date: "16th July 2026",
+  },
+  {
+    schedule: "Declaration of 8th Merit List for Diploma/B.Sc./Voc.",
+    date: "17th July 2026",
+  },
+  {
+    schedule: "Last Date of Online Document Uploading for 9th Merit List",
+    date: "29th July 2026",
+  },
+  {
+    schedule: "Declaration of 9th Merit List for Diploma/B.Sc./Voc.",
+    date: "30th July 2026",
+  },
+  {
+    schedule: "Programme Commencement",
+    date: "August 3, 2026 (Monday)",
+  },
+];
+
+// --------Alloted Seats For Lateral Entry Start Here ---------------------------------------
+export const AllotedSeatsBranch = [
+  {
+    key: "schedule",
+    title: "Branch",
+  },
+  {
+    key: "date",
+    title: "Proposed Intake AY 2025-26",
+  },
+];
+export const AllotedSeatsBranchData = [
+  {
+    schedule: "Artificial Intelligence and Machine Learning",
+    date: "18",
+  },
+  {
+    schedule: "Civil Engineering",
+    date: "6",
+  },
+  {
+    schedule: "Computer Science and Engineering",
+    date: "18",
+  },
+  {
+    schedule: "Electronics and Telecommunication Engineering",
+    date: "12",
+  },
+  {
+    schedule: "Mechanical Engineering",
+    date: "6",
+  },
+  {
+    schedule: "Robotics and Automation",
+    date: "12",
+  },
+];
+
+export const LateralEntryFAQBranchColumns = [
+  {
+    key: "schedule",
+    title: "Branch",
+  },
+  {
+    key: "date",
+    title: "Proposed Intake",
+  },
+];
+export const LateralEntryFAQBranchData = AllotedSeatsBranchData;
+
+// --------IMP for Students Start Here ---------------------------------------
+export const IMPSchedule = [
+  {
+    key: "schedule",
+    title: "Schedule",
+  },
+  {
+    key: "date",
+    title: "Date",
+  },
+];
+export const IMPScheduleDate = [
+  {
+    schedule: "Registration Commences on",
+    date: "November 04, 2025 (Tuesday)",
+  },
+  {
+    schedule: "Last Date of Online Registration",
+    date: "August 10, 2026 (Monday)",
+  },
+  {
+    schedule: "Last Date of Online Document Uploading for 1st Merit List",
+    date: "March 14, 2026 (Saturday)",
+  },
+  {
+    schedule: "Declaration of Diploma/B.Sc./Voc.- 1st Merit List",
+    date: "March 16, 2026 (Monday)",
+  },
+  {
+    schedule: "Last Date of Online Document Uploading for 2nd Merit List",
+    date: "April 4, 2026 (Saturday)",
+  },
+  {
+    schedule: "Declaration of 2nd Merit List for Diploma/B.Sc./Voc.",
+    date: "April 6, 2026 (Monday)",
+  },
+  {
+    schedule: "Last Date of Online Document Uploading for 3rd Merit List",
+    date: "25th April 2026",
+  },
+  {
+    schedule: "Declaration of 3rd Merit List for Diploma/B.Sc./Voc.",
+    date: "27th April 2026",
+  },
+  {
+    schedule: "Last Date of Online Document Uploading for 4th Merit List",
+    date: "16th May 2026",
+  },
+  {
+    schedule: "Declaration of 4th Merit List for Diploma/B.Sc./Voc.",
+    date: "18th May 2026",
+  },
+  {
+    schedule: "Last Date of Online Document Uploading for 5th Merit List",
+    date: "8th June 2026",
+  },
+  {
+    schedule: "Declaration of 5th Merit List for Diploma/B.Sc./Voc.",
+    date: "11th June 2026",
+  },
+  {
+    schedule: "Last Date of Online Document Uploading for 6th Merit List",
+    date: "24th June 2026",
+  },
+  {
+    schedule: "Declaration of 6th Merit List for Diploma/B.Sc./Voc.",
+    date: "26th June 2026",
+  },
+  {
+    schedule: "Last Date of Online Document Uploading for 7th Merit List",
+    date: "6th July 2026",
+  },
+  {
+    schedule: "Declaration of 7th Merit List for Diploma/B.Sc./Voc.",
+    date: "7th July 2026",
+  },
+  {
+    schedule: "Last Date of Online Document Uploading for 8th Merit List",
+    date: "16th July 2026",
+  },
+  {
+    schedule: "Declaration of 8th Merit List for Diploma/B.Sc./Voc.",
+    date: "17th July 2026",
+  },
+  {
+    schedule: "Last Date of Online Document Uploading for 9th Merit List",
+    date: "29th July 2026",
+  },
+  {
+    schedule: "Declaration of 9th Merit List for Diploma/B.Sc./Voc.",
+    date: "30th July 2026",
+  },
+  {
+    schedule: "Programme Commencement",
+    date: "August 3, 2026 (Monday)",
+  },
+];
+// --------Lateral Entry Page End Here ---------------------------------------
