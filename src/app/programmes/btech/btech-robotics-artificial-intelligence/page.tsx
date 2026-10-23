@@ -110,6 +110,7 @@ const RAIPage = () => {
     <div className="mainpage-wrapper">
       <InnerpageBanner
         title={`Robotics \n & Artificial Intelligence`}
+        subtitle="B.Tech.,&nbsp; M.Tech.,&nbsp; Ph.D."
         breadcrumbs={[
           // { label: "Programmes", href: "/programmes" },
           { label: "Programmes" },

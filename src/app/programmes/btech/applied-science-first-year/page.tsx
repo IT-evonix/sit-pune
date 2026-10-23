@@ -66,6 +66,7 @@ const CEPage = () => {
     <div className="mainpage-wrapper">
       <InnerpageBanner
         title={`Applied Science (First Year)`}
+        subtitle="B.Tech."
         breadcrumbs={[
           { label: "Programmes" },
 

@@ -161,43 +161,43 @@ export const menuData: NavMenu[] = [
 
       {
         id: 3,
-        heading: "Other",
+        heading: "Dual Degree Programmes",
         links: [
           {
             id: 1,
             title: "Dual Degree Programmes",
-            href: "/",
+            href: "/dual-degree-programs",
           },
-          {
-            id: 2,
-            title: "Doctoral Admissions",
-            href: "/",
-          },
-          {
-            id: 3,
-            title: "Library ",
-            href: "/",
-          },
-           {
-            id: 4,
-            title: "Academic Guidelines ",
-            href: "/",
-          },
-           {
-            id: 5,
-            title: "Teaching & Learning",
-            href: "/",
-          },
-           {
-            id: 6,
-            title: "Robotics and Automation ",
-            href: "/",
-          },
-           {
-            id: 7,
-            title: "Geoinformatics",
-            href: "/",
-          },
+          // {
+          //   id: 2,
+          //   title: "Doctoral Admissions",
+          //   href: "/",
+          // },
+          // {
+          //   id: 3,
+          //   title: "Library ",
+          //   href: "/",
+          // },
+          //  {
+          //   id: 4,
+          //   title: "Academic Guidelines ",
+          //   href: "/",
+          // },
+          //  {
+          //   id: 5,
+          //   title: "Teaching & Learning",
+          //   href: "/",
+          // },
+          //  {
+          //   id: 6,
+          //   title: "Robotics and Automation ",
+          //   href: "/",
+          // },
+          //  {
+          //   id: 7,
+          //   title: "Geoinformatics",
+          //   href: "/",
+          // },
         ],
       },
     ],

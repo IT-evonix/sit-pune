@@ -9,11 +9,13 @@ interface Breadcrumb {
 
 interface InnerpageBannerProps {
   title: string;
+  subtitle?: string; // Optional subtitle
   breadcrumbs: Breadcrumb[]; // 
 }
 
 const InnerpageBanner: React.FC<InnerpageBannerProps> = ({
   title,
+  subtitle,
   breadcrumbs,
 }) => {
   return (
@@ -25,6 +27,10 @@ const InnerpageBanner: React.FC<InnerpageBannerProps> = ({
           <h1 className="text-white innerbannerheading whitespace-pre-line">
             {title}
           </h1>
+
+          <h6>
+            {subtitle}
+          </h6>
 
           {/*  Breadcrumb */}
           <div className="breadcrumb_links flex items-center">

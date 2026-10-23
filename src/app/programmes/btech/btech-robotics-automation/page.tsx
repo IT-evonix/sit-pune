@@ -110,6 +110,7 @@ const RAPage = () => {
     <div className="mainpage-wrapper">
       <InnerpageBanner
         title={`Robotics \n & Automation`}
+        subtitle="B.Tech.,&nbsp; M.Tech.,&nbsp; Ph.D."
         breadcrumbs={[
           // { label: "Programmes", href: "/programmes" },
           { label: "Programmes" },
