@@ -354,10 +354,46 @@ export const menuData: NavMenu[] = [
     ],
   },
 
+  // {
+  //   id: 6,
+  //   title: "Academics",
+  //   href: "/",
+  // },
+
   {
     id: 6,
     title: "Academics",
-    href: "/",
+    hasMegaMenu: true,
+    columns: [
+      {
+        id: 1,
+        heading: "Academics",
+        links: [
+          {
+            id: 1,
+            title: "Academic Policy",
+            href: "/pdf/academics/AcademicPolicy.pdf",
+            target: "_blank",
+          },
+          {
+            id: 2,
+            title: "Academic Calendar",
+            href: "/academic-calendar",
+          },
+
+          {
+            id: 3,
+            title: "Examination",
+            href: "/notice-attendance",
+          },
+          {
+            id: 4,
+            title: "Library",
+            href: "/library",
+          },
+        ],
+      },      
+    ],
   },
 
   {

@@ -968,9 +968,6 @@ export const Feestructure2026_27HostelMessData = [
 // Hostel & Mess Start Here----------------
 // --------SIT Pune BTech Fee Structure 2026-27 End Here ---------------------------------------
 
-
-
-
 // --------SIT Pune BTech 2nd Subsequent Fees 2026-27 Start Here ---------------------------------------
 // Indian Students Start Here --------
 // Section A: Annual Academic Fees --------
@@ -1622,12 +1619,6 @@ export const btech2ndFeestructure2026_27HostelMessData = [
 // Hostel & Mess End Here -----------------
 // --------SIT Pune BTech 2nd Subsequent Fees 2026-27 Start Here ---------------------------------------
 
-
-
-
-
-
-
 // --------SIT Pune MTech Fee Structure 2026-27 Start Here ---------------------------------------
 // Indian Students Start Here -------------
 // Section A: Annual Academic Fees --------
@@ -2170,13 +2161,6 @@ export const MtechFeestructure2026_27HostelMessData = [
 ];
 // Hostel & Mess End Here -----------------
 // --------SIT Pune MTech Fee Structure 2026-27 End Here ---------------------------------------
-
-
-
-
-
-
-
 
 // --------SIT Pune MTech ED Fee Structure 2026-27 Start Here ---------------------------------------
 // Indian Students Start Here --------
@@ -2820,27 +2804,27 @@ export const ScholarshipAchievements2024_25Data = [
     amount: "₹ 40,91,303",
     studentsbenefited: "244",
   },
-   {
+  {
     typesofscholarship: "NER ( 100%, SIU)",
     amount: "₹ 12,02,600",
     studentsbenefited: "4",
   },
-   {
+  {
     typesofscholarship: "PG Scholarship (AICTE)",
     amount: "₹ 11,02,000",
     studentsbenefited: "8",
   },
-   {
+  {
     typesofscholarship: "National Scholarship (Government)",
     amount: "₹ 10,24,000",
     studentsbenefited: "16",
   },
-   {
+  {
     typesofscholarship: "GIP Scholarship",
     amount: "₹ 3,44,000",
     studentsbenefited: "2",
   },
-   {
+  {
     typesofscholarship: "Prime Minister's Scholarship Scheme Scheme",
     amount: "₹ 2,40,000",
     studentsbenefited: "10",
@@ -2850,7 +2834,6 @@ export const ScholarshipAchievements2024_25Data = [
     amount: "₹ 80,03,903",
     studentsbenefited: "274",
   },
-
 ];
 // 2023-2024
 export const ScholarshipAchievements2023_24Columns = [
@@ -2955,7 +2938,6 @@ export const ScholarshipAchievements2022_23Data = [
     amount: "100% Academic Fee Waiver",
     studentsbenefited: "14",
   },
-
 ];
 // 2021-2022
 export const ScholarshipAchievements2021_22Columns = [
@@ -3004,7 +2986,8 @@ export const ScholarshipAchievements2021_22Data = [
     studentsbenefited: "9",
   },
   {
-    typesofscholarship: "Mukhya Mantri Medhavi Vidhyarthi Yojna, Madhya Pradesh ( Government )",
+    typesofscholarship:
+      "Mukhya Mantri Medhavi Vidhyarthi Yojna, Madhya Pradesh ( Government )",
     amount: "₹ 1,50,000",
     studentsbenefited: "1",
   },
@@ -3055,7 +3038,6 @@ export const ScholarshipAchievements2020_21Data = [
     amount: "100% Academic Fee Waiver",
     studentsbenefited: "27",
   },
-
 ];
 // --------Scholarship Achievements End Here ---------------------------------------
 
@@ -3348,11 +3330,10 @@ export const MtechadmissionProgrammeProfileData = [
     SanctionedIntake: "18",
     ProgrammeDuration: "2 years",
   },
-  
 ];
 // -------- M.Tech Admission Programmes Page End Here ---------------------------------------
 
-// M.Tech Admission Eligibility Tab Start --------------------------------------- 
+// M.Tech Admission Eligibility Tab Start ---------------------------------------
 export const MtechEligibilityadmissionData = [
   {
     schedule: "M.Tech Artificial Intelligence and Machine Learning",
@@ -3379,10 +3360,8 @@ export const MtechEligibilityadmissionData = [
     SanctionedIntake: "18",
     ProgrammeDuration: "2 years",
   },
-  
 ];
 // -------- M.Tech Admission Programmes Page End Here ---------------------------------------
-
 
 // --------Important Dates Start Here ---------------------------------------
 export const MtechIMPSchedule = [
@@ -3409,7 +3388,8 @@ export const MtechIMPScheduleDate = [
     SanctionedIntake: "23rd March 2026",
   },
   {
-    schedule: "Last date for payment of fees for GATE candidates in the first merit list",
+    schedule:
+      "Last date for payment of fees for GATE candidates in the first merit list",
     SanctionedIntake: "28th March 2026",
   },
   {
@@ -3447,7 +3427,8 @@ export const MtechGeoinformaticsIMPScheduleDate = [
     SanctionedIntake: "10th June 2026",
   },
   {
-    schedule: "Announcement of Shortlist for Entrance Examination and Personal Interaction",
+    schedule:
+      "Announcement of Shortlist for Entrance Examination and Personal Interaction",
     SanctionedIntake: "11th June 2026",
   },
   {
@@ -3459,7 +3440,8 @@ export const MtechGeoinformaticsIMPScheduleDate = [
     SanctionedIntake: "15th June 2026",
   },
   {
-    schedule: "Last Date for Payment of Fees for Candidates in the First Merit List",
+    schedule:
+      "Last Date for Payment of Fees for Candidates in the First Merit List",
     SanctionedIntake: "30th June 2026",
   },
   {
@@ -3550,8 +3532,7 @@ export const MtechFAQScheduleData = [
     date: "20th March 2026",
   },
   {
-    schedule:
-      "Entrance Test of Non-GATE Candidates for first merit list",
+    schedule: "Entrance Test of Non-GATE Candidates for first merit list",
     date: "24th March 2026",
   },
   {
@@ -3606,3 +3587,395 @@ export const MtechFAQEligibilityData = [
   },
 ];
 // -------- M.Tech Admission FAQ Tables End Here ---------------------------------------
+
+// Library Start Here -----------------------------------------------------------------------
+export const LibraryPrintCollectionColumns = [
+  {
+    key: "srNo",
+    title: "Sr. No.",
+  },
+  {
+    key: "collection",
+    title: "Name of the Collection",
+  },
+  {
+    key: "quantity",
+    title: "Number of the Collection",
+  },
+];
+export const LibraryPrintCollectionData = [
+  {
+    srNo: "01",
+    collection: "Books",
+    quantity: "18,364",
+  },
+  {
+    srNo: "02",
+    collection: "Journals",
+    quantity: "108",
+  },
+  {
+    srNo: "03",
+    collection: "Magazine",
+    quantity: "12",
+  },
+  {
+    srNo: "04",
+    collection: "News paper",
+    quantity: "8",
+  },
+];
+
+export const LibraryNonPrintCollectionColumns = [
+  {
+    key: "srNo",
+    title: "Sr. No.",
+  },
+  {
+    key: "collection",
+    title: "Name of the Collection",
+  },
+  {
+    key: "quantity",
+    title: "Number of the Collection as on May 2020",
+  },
+];
+export const LibraryNonPrintCollectionData = [
+  {
+    srNo: "01",
+    collection: "Online Database",
+    quantity: "6",
+  },
+  {
+    srNo: "02",
+    collection: "E Books",
+    quantity: "995",
+  },
+  {
+    srNo: "03",
+    collection: "E Journals",
+    quantity: "652",
+  },
+  {
+    srNo: "04",
+    collection: "Back vol.",
+    quantity: "33",
+  },
+  {
+    srNo: "05",
+    collection: "CD/DVD",
+    quantity: "1,011",
+  },
+];
+
+export const LibraryDatabaseColumns = [
+  {
+    key: "srNo",
+    title: "Sr. No.",
+  },
+  {
+    key: "database",
+    title: "E-database / Publisher",
+  },
+  {
+    key: "subjectArea",
+    title: "Subject Area",
+  },
+  {
+    key: "journalCount",
+    title: "No. of e-Journals",
+  },
+];
+export const LibraryDatabaseData = [
+  {
+    srNo: "01",
+    database: "IEEE (All-Society Periodicals Package)",
+    subjectArea:
+      "Computer Science Engineering, Electronics and Telecommunications, Robotics and Automation",
+    journalCount: "209",
+  },
+  {
+    srNo: "02",
+    database:
+      "ACM India: Digital Library (Association for Computing Machinery)",
+    subjectArea: "Computer Engineering",
+    journalCount: "48",
+  },
+  {
+    srNo: "03",
+    database: "ASCE (American Society of Civil Engineering)",
+    subjectArea: "Civil Engineering",
+    journalCount: "35",
+  },
+  {
+    srNo: "04",
+    database: "ASME (American Society of Mechanical Engineering)",
+    subjectArea: "Mechanical Engineering",
+    journalCount: "33",
+  },
+  {
+    srNo: "05",
+    database: "Wiley Online Library",
+    subjectArea: "Computer Science Engineering",
+    journalCount: "31",
+  },
+  {
+    srNo: "06",
+    database: "Elsevier (ScienceDirect)",
+    subjectArea: "All branches",
+    journalCount: "296",
+  },
+  {
+    srNo: "07",
+    database: "McGraw-Hill eBook",
+    subjectArea: "All branches",
+    journalCount: "947",
+  },
+  {
+    srNo: "08",
+    database: "Videeya eBook",
+    subjectArea: "All branches",
+    journalCount: "48",
+  },
+];
+
+export const LibrarySectionColumns = [
+  {
+    key: "section",
+    title: "Section",
+  },
+  {
+    key: "description",
+    title: "Description",
+  },
+];
+export const LibrarySectionData = [
+  {
+    section: "Circulation Section",
+    description: "Book stacks for loan to students and staff.",
+  },
+  {
+    section: "Reference Section",
+    description:
+      "Reference materials include encyclopedias, dictionaries, handbooks, and CD-ROMs.",
+  },
+  {
+    section: "Periodical Section",
+    description: "Current national and international journals and magazines.",
+  },
+  {
+    section: "Reading Hall",
+    description:
+      "A well-lit reading hall with 180 seats. Personal books are allowed in the designated reading space, but not in the main library reading area.",
+  },
+  {
+    section: "IT Section",
+    description:
+      "Computers and devices for accessing SIT and SIU databases, e-resources, Web OPAC, and other online resources.",
+  },
+];
+
+export const LibraryTimingColumns = [
+  {
+    key: "day",
+    title: "Day / Service",
+  },
+  {
+    key: "hours",
+    title: "Hours",
+  },
+];
+export const LibraryTimingData = [
+  {
+    day: "Monday to Friday",
+    hours: "08.30 AM to 08.00 PM",
+  },
+  {
+    day: "Issue – Return",
+    hours: "08:30 AM to 04:30 PM",
+  },
+  {
+    day: "Sunday",
+    hours: "Closed",
+  },
+  {
+    day: "Festivals / Holidays",
+    hours: "Closed",
+  },
+  {
+    day: "During Vacation",
+    hours: "08.30 AM to 04.30 PM (Monday to Saturday)",
+  },
+];
+
+export const LibraryCommitteeColumns = [
+  {
+    key: "srNo",
+    title: "Sr. No.",
+  },
+  {
+    key: "name",
+    title: "Name",
+  },
+  {
+    key: "representative",
+    title: "Representative",
+  },
+  {
+    key: "position",
+    title: "Position",
+  },
+];
+export const LibraryCommitteeData = [
+  {
+    srNo: "01",
+    name: "Dr. Ketan Kotecha",
+    representative: "Director",
+    position: "Chairman",
+  },
+  {
+    srNo: "02",
+    name: "Dr. Arundhati Warke",
+    representative: "Deputy Director, Academic",
+    position: "Member",
+  },
+  {
+    srNo: "03",
+    name: "Dr. Nitin Khedkar",
+    representative: "Deputy Director, Administration",
+    position: "Member",
+  },
+  {
+    srNo: "04",
+    name: "Dr. Hemanth Kumar C.",
+    representative: "Faculty In-Charge Library",
+    position: "Member",
+  },
+  {
+    srNo: "05",
+    name: "Dr. Meena Laad",
+    representative: "HOD, Applied Science",
+    position: "Member",
+  },
+  {
+    srNo: "06",
+    name: "Dr. Sayali Sandbhor",
+    representative: "HOD, Civil Engineering",
+    position: "Member",
+  },
+  {
+    srNo: "07",
+    name: "Dr. Deepali Vora",
+    representative: "HOD, Computer Science / IT",
+    position: "Member",
+  },
+  {
+    srNo: "08",
+    name: "Dr. Anirban Sur",
+    representative: "HOD, Mechanical Engineering",
+    position: "Member",
+  },
+  {
+    srNo: "09",
+    name: "Dr. Pritesh Shah",
+    representative: "HOD, Electronics and Telecommunication",
+    position: "Member",
+  },
+  {
+    srNo: "10",
+    name: "Dr. Shruti Patil",
+    representative: "HOD, AI and Machine Learning",
+    position: "Member",
+  },
+  {
+    srNo: "11",
+    name: "Dr. Arun Kumar Bongale",
+    representative: "HOD, Robotics Engineering",
+    position: "Member",
+  },
+  {
+    srNo: "12",
+    name: "Mr. Robert Rodrigues",
+    representative: "Administrative Officer",
+    position: "Member",
+  },
+  {
+    srNo: "13",
+    name: "Nisarg Patel",
+    representative: "Student Representative",
+    position: "Member",
+  },
+  {
+    srNo: "14",
+    name: "Ameya Soni",
+    representative: "Student Representative",
+    position: "Member",
+  },
+  {
+    srNo: "15",
+    name: "Mr. Vinay Shaligram",
+    representative: "Library In-charge",
+    position: "Member",
+  },
+];
+
+export const LibraryStaffColumns = [
+  {
+    key: "srNo",
+    title: "Sr. No.",
+  },
+  {
+    key: "name",
+    title: "Name of the Staff",
+  },
+  {
+    key: "joiningDate",
+    title: "Date of Joining",
+  },
+  {
+    key: "designation",
+    title: "Designation",
+  },
+  {
+    key: "qualification",
+    title: "Qualification",
+  },
+];
+export const LibraryStaffData = [
+  {
+    srNo: "01",
+    name: "Mr. Vinay M. Shaligram",
+    joiningDate: "15 Sep 2021",
+    designation: "Library In-charge",
+    qualification: "M.A., M.Lib. & I.Sc.",
+  },
+  {
+    srNo: "02",
+    name: "Ms. Nutan Nemade",
+    joiningDate: "01 Jun 2023",
+    designation: "Senior Library Assistant",
+    qualification: "NET, B.Com., M.Lib. & I.Sc.",
+  },
+  {
+    srNo: "03",
+    name: "Mr. Mandar Thipse",
+    joiningDate: "01 Jul 2000",
+    designation: "Library Assistant",
+    qualification: "B.A., M.Lib. & I.Sc.",
+  },
+  {
+    srNo: "04",
+    name: "Mr. Niliesh Mankar",
+    joiningDate: "02 Sep 2013",
+    designation: "Library Assistant",
+    qualification: "B.A., M.Lib. & I.Sc.",
+  },
+  {
+    srNo: "05",
+    name: "Mr. Atul Shinde",
+    joiningDate: "10 Apr 2008",
+    designation: "Library Assistant",
+    qualification: "B.Com., M.Lib. & I.Sc.",
+  },
+];
+// -------- Library Tables End Here -----------------------------------------------------------
