@@ -50,14 +50,14 @@ const tabs = [
     {
       id: "siulibraryportal",
       title: "SIU Library Portal",
-      url:"https://elibrary.siu.edu.in/user/login",
-      Target:"_blank"
+      href: "https://elibrary.siu.edu.in/user/login",
+      external: true,
     },
     {
       id: "librarymanual",
       title: "Library Manual",
-      url:"/pdf/academics/library/Library-Manual-2024.pdf",
-      Target:"_blank"
+      href: "/pdf/academics/library/Library-Manual-2024.pdf",
+      external: true,
     },
     {
       id: "usefulllinks",
