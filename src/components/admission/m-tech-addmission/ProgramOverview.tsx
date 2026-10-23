@@ -1,5 +1,4 @@
 import React from "react";
-import {} from "@/data/tableData";
 import Link from "next/link";
 import Table from "@/components/ui/Table";
 import {

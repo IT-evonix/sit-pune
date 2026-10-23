@@ -3899,6 +3899,17 @@ table {
 }
 /*------------- Dual Degree Programs End Here -------------*/
 /*------------ Admission Tab End Here ------------*/
+/*---------------- Academics Tab Start Here ----------------*/
+/* Academic Calendar */
+.notice-attendance-main{
+  background-image:url('/images/innerpages/academics/notice-attendance.webp');
+  background-position:right;
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+/*---------------- Academics Tab End Here ----------------*/
+
+
 
 
 /* ========== Rahul Normal CSS start ==========  */
