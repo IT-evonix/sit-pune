@@ -111,6 +111,9 @@ const AIMLPage = () => {
     <div className="mainpage-wrapper">
       <InnerpageBanner
         title={`Artificial Intelligence \n & Machine Learning`}
+
+        subtitle="B.Tech.,&nbsp; M.Tech.,&nbsp; Ph.D."
+
         breadcrumbs={[
           // { label: "Programmes", href: "/programmes" },
           { label: "Programmes" },

@@ -111,6 +111,7 @@ const ComputerScienceEngineeringPage = () => {
     <div className="mainpage-wrapper">
       <InnerpageBanner
         title={`Computer Science and Engineering`}
+        subtitle="B.Tech.,&nbsp; M.Tech.,&nbsp; Ph.D."
         breadcrumbs={[
           // { label: "Programmes", href: "/programmes" },
           { label: "Programmes" },

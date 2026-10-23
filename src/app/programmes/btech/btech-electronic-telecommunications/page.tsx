@@ -110,6 +110,7 @@ const ENTCPage = () => {
     <div className="mainpage-wrapper">
       <InnerpageBanner
         title={`Electronics \n & Telecommunication Engineering`}
+        subtitle="B.Tech.,&nbsp; M.Tech.,&nbsp; Ph.D."
         breadcrumbs={[
           // { label: "Programmes", href: "/programmes" },
           { label: "Programmes" },
