@@ -250,8 +250,8 @@ const Overview = () => {
               </svg>
             </div>
             <div className="program_count_data">
-              <div className="count">-</div>
-              <span>Ph.D. AIML</span>
+              {/* <div className="count">-</div> */}
+              <span>Ph.D.</span>
             </div>
           </div>
         </div>
