@@ -45,14 +45,14 @@ import Tabs, { TabItem } from "@/components/ui/Tabs";
 // import PDFList from "@/components/ui/PDFList";
 import PDFPreview from "@/components/ui/PDFPreview";
 
-import { ENTCBrochurePDF, ENTCMagazinePDF, ENTCNewsletterPDF } from "@/data/pdfData";
+import { RABrochurePDF, } from "@/data/pdfData";
 
 const RADispatch = () => {
   const tabsData: TabItem[] = [
     {
       id: "Brochure",
       title: "Brochure",
-      content: <PDFPreview data={[]} emptyMessage="Coming Soon" />,
+      content: <PDFPreview data={RABrochurePDF} />,
     },
 
     {

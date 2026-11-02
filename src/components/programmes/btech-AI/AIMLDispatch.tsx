@@ -45,7 +45,7 @@ import Tabs, { TabItem } from "@/components/ui/Tabs";
 // import PDFList from "@/components/ui/PDFList";
 import PDFPreview from "@/components/ui/PDFPreview";
 
-import { AIMLBrochurePDF, AIMLNewsletterPDF } from "@/data/pdfData";
+import { AIMLBrochurePDF, AIMLMagazinePDF, AIMLNewsletterPDF } from "@/data/pdfData";
 
 const AIMLDispatch = () => {
   const tabsData: TabItem[] = [
@@ -58,7 +58,7 @@ const AIMLDispatch = () => {
     {
       id: "Magazine",
       title: "Magazine",
-      content: <PDFPreview data={[]} emptyMessage="Coming Soon" />,
+      content: <PDFPreview data={AIMLMagazinePDF} />,
     },
 
     {

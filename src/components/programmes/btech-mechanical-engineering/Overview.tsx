@@ -48,7 +48,7 @@ const Overview = () => {
                 <div>
                   <span>Professor</span>
                 </div>
-                <span>Mechanical Engineering Department | BE, ME (BIT, Mesra) PhD (Indian Institute of Technology (ISM) Dhanbad)</span>
+                <span>Mechanical Engineering Department | B.E., M.E. (BIT Mesra), Ph.D. (IIT (ISM) Dhanbad)</span>
               </div>
             </div>
           </div>
@@ -234,8 +234,8 @@ const Overview = () => {
               </svg>
             </div>
             <div className="program_count_data">
-              <div className="count">-</div>
-              <span>Ph.D. Mechanical Engineering</span>
+              {/* <div className="count">-</div> */}
+              <span>Ph.D.</span>
             </div>
           </div>
         </div>
@@ -245,7 +245,7 @@ const Overview = () => {
           <div className="program_highlights_left">
             <div className="verticalScroll">
               <div className="heading innerpageheading">
-                Honours and Minors (Optional)
+                Honours and Minors
               </div>
               <ul className="listingbox">
                 <li>
@@ -318,7 +318,7 @@ const Overview = () => {
                     <span>
                       <Image
                         className="img-fluid"
-                        src="/images/innerpages/programe/aston-university.webp"
+                        src="/images/innerpages/programe/Macquarie_University.webp"
                         alt="Logo"
                         width={350}
                         height={65}

@@ -31,7 +31,7 @@ const Overview = () => {
               About the Department{" "}
             </div>
             <p className="m-0 p-0">
-           The global industrial landscape is undergoing a profound transformation driven by the Fourth Industrial Revolution, widely known as Industry 4.0. This new era is characterized by the seamless integration of digital technologies with physical systems through the Internet of Things (IoT), real-time data analytics, and cyber-physical systems. In alignment with these evolving industry requirements, The Department of Robotics and Automation at Symbiosis Institute of Technology (SIT), Pune offers two multidisciplinary B. Tech programmes in Robotics & Automation & Robotics & AI, focused on developing future-ready engineers for the rapidly evolving domains of Robotics, Industrial Automation and Industry 4.0. The programme integrates core engineering knowledge with emerging technologies such as robotics, automation, IoT, artificial intelligence, machine learning, intelligent manufacturing and cyber-physical systems, with a strong emphasis on hands-on, project-based and experiential learning. The department is supported by specialized facilities including Advanced Manufacturing, Aerial & Mobile Robotics, Hydraulics & Pneumatics, Mechatronics & IoT, and PLC & Automation laboratories, enabling students to gain practical exposure to real-world engineering systems. With a focus on research, industry and international collaborations, innovation, entrepreneurship and lifelong learning, the department prepares graduates to design and implement intelligent automated solutions across diverse industrial and societal applications. 
+           The global industrial landscape is undergoing a profound transformation driven by the Fourth Industrial Revolution, widely known as Industry 4.0. This new era is characterized by the seamless integration of digital technologies with physical systems through the Internet of Things (IoT), real-time data analytics, and cyber-physical systems. In alignment with these evolving industry requirements, The Department of Robotics and Automation at Symbiosis Institute of Technology (SIT), Pune offers two multidisciplinary B. Tech programmes in Robotics & Automation & Robotics & AI, focused on developing future-ready engineers for the rapidly evolving domains of Robotics, Industrial Automation and Industry 4.0. The programme integrates core engineering knowledge with emerging technologies such as robotics, automation, IoT, artificial intelligence, machine learning, intelligent manufacturing and cyber-physical systems, with a strong emphasis on hands-on, project-based and experiential learning. The department is supported by specialized facilities including Advanced Manufacturing, Aerial & Mobile Robotics, Hydraulics & Pneumatics, Mechatronics & IoT, and PLC & Automation laboratories, enabling students to gain practical exposure to real-world engineering systems. With a focus on research, industry and international collaborations, innovation, entrepreneurship and lifelong learning, the department prepares graduates to design and implement intelligent automated solutions across diverse industrial and societal applications.
             </p>
            
           </div>
@@ -235,7 +235,7 @@ const Overview = () => {
               </svg>
             </div>
             <div className="program_count_data">
-              <div className="count">-</div>
+              {/* <div className="count">-</div> */}
               <span>Ph.D. </span>
             </div>
           </div>
@@ -294,7 +294,7 @@ const Overview = () => {
           <div className="program_highlights_left">
             <div className="verticalScroll">
               <div className="heading innerpageheading">
-               HONOURS AND MINORS (Optional) 
+               Honours and Minors 
               </div>
               <ul className="listingbox">
                 <li>

@@ -102,7 +102,7 @@ const ComputerScienceEngineeringPage = () => {
     },
     {
       id: "AIMLDispatch",
-      title: "The ME Dispatch",
+      title: "The CSE Dispatch",
       content: <CSDispatch />,
     },
   ];
@@ -111,7 +111,7 @@ const ComputerScienceEngineeringPage = () => {
     <div className="mainpage-wrapper">
       <InnerpageBanner
         title={`Computer Science and Engineering`}
-        subtitle="B.Tech.,&nbsp; M.Tech.,&nbsp; Ph.D."
+        subtitle="B.Tech.,&nbsp; Ph.D."
         breadcrumbs={[
           // { label: "Programmes", href: "/programmes" },
           { label: "Programmes" },

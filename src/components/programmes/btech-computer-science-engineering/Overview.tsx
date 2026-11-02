@@ -201,8 +201,8 @@ const Overview = () => {
               </svg>
             </div>
             <div className="program_count_data">
-              <div className="count">-</div>
-              <span>Ph.D. CSE</span>
+              {/* <div className="count">-</div> */}
+              <span>Ph.D.</span>
             </div>
           </div>
         </div>
@@ -211,12 +211,12 @@ const Overview = () => {
           <div className="program_highlights_left">
             <div className="verticalScroll">
               <div className="heading innerpageheading">
-                Honours and Minors (Optional)
+                Honours and Minors
               </div>
               <ul className="listingbox">
                 <li>AI and Data Science</li>
                 <li>Cloud Operations and Analytics</li>
-                <li>Cloud Operations and Analytics</li>
+                <li>Digital Security and Forensics</li>
                 <li>Metaverse and Game Development</li>
                 <li>IoT and Embedded AI</li>
                 <li>Smart Manufacturing and Intelligent Systems</li>
@@ -227,14 +227,14 @@ const Overview = () => {
             <div className="verticalScroll redscroll">
               <div className="headingbg">Key Infrastructure</div>
               <ul className="listingbox">
-                <li> Cloud Computing Lab</li>
+                <li>Cloud Computing Lab</li>
                 <li>Computer Network and Security Lab</li>
                 <li>DBMS & Analytics Lab</li>
                 <li>Open Source Tool Lab</li>
                 <li>Project Lab</li>
                 <li>Web & Mobile Technology Lab</li>
-                <li>Web & Mobile Technology Lab</li>
-                <li>Web & Mobile Technology Lab</li>
+                <li>Cyber Security & Digital Forensic Lab</li>
+                <li>Applied Artificial Intelligence Lab</li>
                 <li>Programming and Problem Solving Lab</li>
               </ul>
             </div>

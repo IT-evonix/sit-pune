@@ -4476,6 +4476,15 @@ table {
   .program_countrow{
     gap: 12px;
   }
+  .profilecontent {
+    width: 64%;
+  }
+  .profileImage {
+    width: 36%;
+  }
+  .profileDescription{
+    padding: 80px 16px 20px 16px;
+  }
   /*------------- AIML Department End Here -------------*/
 
 
