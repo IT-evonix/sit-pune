@@ -101,7 +101,7 @@ const RAIPage = () => {
     },
     {
       id: "ArtificalDispatch",
-      title: "The Artifical Dispatch",
+      title: "The R&AI Dispatch",
       content: <AIMLDispatch />,
     },
   ];

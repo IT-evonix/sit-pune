@@ -24,12 +24,12 @@ export const AIMLBrochurePDF: PDFItem[] = [
 export const AIMLMagazinePDF: PDFItem[] = [
   {
     id: 1,
-    title: "AIML Brochure",
+    title: "AIML Magazine",
     batch: "2026",
     pdfUrl:
-      "/pdf/programmes/btech-AI/AIML-Dispatch/Brochure/AIML-Brochure-2026.pdf",
+      "/pdf/programmes/btech-AI/AIML-Dispatch/Magazine/NexusAI_2025_Magazine_Final_HQ.pdf",
     previewImage:
-      "/images/innerpages/programe/aiml/aimldispatch/AIML-Brochure-2026.webp",
+      "/images/innerpages/programe/aiml/aimldispatch/AIMLMagazine.webp",
   },
 ];
 // ======== AIML NEWSLETTER  =========
@@ -104,6 +104,20 @@ export const ENTCNewsletterPDF: PDFItem[] = [
 ];
 
 
+
+// Robotics and Automation Program Start Here ------------------------------------
+// ========== RA BROCHURE ========== //
+export const RABrochurePDF: PDFItem[] = [
+  {
+    id: 1,
+    title: "Robotics and Automation Brochure",
+    batch: "2026",
+    pdfUrl:
+      "/pdf/programmes/btech-robot-auto/RA-Dispatch/Brochure/RA-Brochure.pdf",
+    previewImage:
+      "/images/innerpages/programe/robot-automation/dispatch/RA-Brochure.webp",
+  },
+];
 
 
 // Mechanical Engineering Program Start Here ------------------------------------

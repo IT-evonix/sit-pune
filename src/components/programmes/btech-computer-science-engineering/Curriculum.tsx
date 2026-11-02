@@ -15,42 +15,42 @@ interface ProgrammeItem {
 const programmeData: ProgrammeItem[] = [
   {
     id: 1,
-    title: "B.Tech CS Program Structure",
+    title: "B.Tech CSE Program Structure",
     batch: "2026-30",
     pdfUrl:
       "/pdf/programmes/btech-cs/curriculum/PS_CSE-2026-30_03-06-26.pdf",
   },
   {
     id: 2,
-    title: "B.Tech CS Program Structure",
+    title: "B.Tech CSE Program Structure",
     batch: "2025-29",
     pdfUrl:
       "/pdf/programmes/btech-cs/curriculum/sitpbtcsedd-cyber-security-2025-29.pdf",
   },
   {
     id: 3,
-    title: "B.Tech CS Program Structure",
+    title: "B.Tech CSE Program Structure",
     batch: "2025-29",
     pdfUrl:
       "/pdf/programmes/btech-cs/curriculum/sitpbtcsedd-data-science-2025-29.pdf",
   },
   {
     id: 4,
-    title: "B.Tech CS Program Structure",
+    title: "B.Tech CSE Program Structure",
     batch: "2025-29",
     pdfUrl:
       "/pdf/programmes/btech-cs/curriculum/PS_SIT-PuneBTech-Computer_25-29.pdf",
   },
   {
     id: 5,
-    title: "B.Tech CS Program Structure",
+    title: "B.Tech CSE Program Structure",
     batch: "2024-28",
     pdfUrl:
       "/pdf/programmes/btech-cs/curriculum/PS_SIT-PuneBTech-CSE_2024-28.pdf",
   },
   {
     id: 6,
-    title: "B.Tech CS Program Structure ",
+    title: "B.Tech CSE Program Structure ",
     batch: "2023-27",
     pdfUrl:
       "/pdf/programmes/btech-cs/curriculum/PS_SIT_PuneBTech_CSE_2023-27.pdf",

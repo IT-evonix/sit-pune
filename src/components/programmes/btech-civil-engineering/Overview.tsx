@@ -236,8 +236,8 @@ const Overview = () => {
               </svg>
             </div>
             <div className="program_count_data">
-              <div className="count">-</div>
-              <span>Ph.D. CIVIL</span>
+              {/* <div className="count">-</div> */}
+              <span>Ph.D.</span>
             </div>
           </div>
         </div>
@@ -246,7 +246,7 @@ const Overview = () => {
           <div className="program_highlights_left">
             <div className="verticalScroll">
               <div className="heading innerpageheading">
-                Honours and Minors (Optional)
+                Honours and Minors
               </div>
               <ul className="listingbox">
                 <li>

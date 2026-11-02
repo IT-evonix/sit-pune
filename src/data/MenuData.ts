@@ -224,7 +224,7 @@ export const menuData: NavMenu[] = [
           },
           {
             id: 3,
-            title: "Lateral Entry admissions",
+            title: "Lateral Entry Admissions",
             href: "/",
           },
           {
@@ -371,8 +371,8 @@ export const menuData: NavMenu[] = [
         links: [
           {
             id: 1,
-            title: "Academic Policy",
-            href: "/pdf/academics/AcademicPolicy.pdf",
+            title: "Academic Guidelines",
+            href: "",
             target: "_blank",
           },
           {
@@ -380,14 +380,37 @@ export const menuData: NavMenu[] = [
             title: "Academic Calendar",
             href: "/academic-calendar",
           },
-
           {
             id: 3,
+            title: "Student Handbook",
+            href: "/pdf/academics/Student-Handbook.pdf",
+            target: "_blank",
+          },
+          {
+            id: 4,
+            title: "Student Code",
+            href: "/pdf/academics/Code-Conduct.pdf",
+            target: "_blank",
+          },
+          {
+            id: 5,
+            title: "Academic Policy",
+            href: "/pdf/academics/AcademicPolicy.pdf",
+            target: "_blank",
+          },
+          {
+            id: 6,
             title: "Examination",
             href: "/notice-attendance",
           },
           {
-            id: 4,
+            id: 7,
+            title: "Uniform Information",
+            href: "https://symbiuniforms.com/",
+            target: "_blank",
+          },
+          {
+            id: 8,
             title: "Library",
             href: "/library",
           },
@@ -427,11 +450,13 @@ export const menuData: NavMenu[] = [
             id: 1,
             title: "Non-Teaching",
             href: "https://forms.gle/YZiLsuAv7pkjMXtz7",
+            target: "_blank",
           },
           {
             id: 2,
             title: "Teaching",
             href: "https://forms.gle/SykENLbTAgR7yVuA6",
+            target: "_blank",
           },
         ],
       },      

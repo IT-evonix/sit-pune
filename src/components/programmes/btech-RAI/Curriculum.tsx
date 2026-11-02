@@ -222,7 +222,7 @@ const programmeData: ProgrammeItem[] = [
     id: 1,
     title: 'Provisional Programme Structure ',
     batch: '2026-2030',
-    pdfUrl: '/pdf/programmes/btech-robot-artifical/program-structure/BTech-RAI-2026-30-Provional-PS.pdf',
+    pdfUrl: '/pdf/programmes/btech-robot-artifical/program-structure/RAI-2026-2030.pdf',
   },
   
    

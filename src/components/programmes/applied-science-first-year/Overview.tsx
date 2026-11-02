@@ -57,7 +57,7 @@ const Overview = () => {
 
         {/* <OutcomeBasedEducation/> */}
 
-        <div className="visionandmision">
+        {/* <div className="visionandmision">
           <div className="card provisionbox">
             <div className="d-flex align-items-start gap-3">
               <div className="visiontextleft">
@@ -87,9 +87,9 @@ const Overview = () => {
               ))}
             </div>
           </div>
-        </div>
+        </div> */}
 
-        <div className="program_countrow">
+        {/* <div className="program_countrow">
           <div className="program_count_databox">
             <div className="program_count_img">
               <svg
@@ -239,17 +239,17 @@ const Overview = () => {
             </div>
             <div className="program_count_data">
               <div className="count">-</div>
-              <span>Ph.D. AIML</span>
+              <span>Ph.D.</span>
             </div>
           </div>
-        </div>
+        </div> */}
 
        
         <div className="program_highlights_box">
           <div className="program_highlights_left">
             <div className="verticalScroll">
               <div className="heading innerpageheading">
-                Honours and Minors (Optional)
+                Honours and Minors
               </div>
               <ul className="listingbox">
                 <li>
@@ -301,16 +301,11 @@ const Overview = () => {
           </div>
         </div>
 
-       
-
         <div className="job_roles_recuiters">
           <div className="job_roles_recuitersinner">
-            
-
-            <div className="w-100">
+            {/* <div className="w-100">
               <RecruitersSlider program="aiml" />
-            </div>
-
+            </div> */}
             <div className="job_roles_recuitersleft">
               <div className="heading innerpageheading">
                 International collaborations
@@ -414,62 +409,6 @@ const Overview = () => {
             </div>
           </div>
         </div>
-
-        {/* <div className="intake_main">
-          <div className="row">
-            <div className="col-md-7">
-              <div className="intake_left">
-                <div className="heading innerpageheading text-white">
-                  Intake per Year
-                </div>
-                <div className="intakerow">
-                  <div
-                    className="intakeleft"
-                    style={{ fontFamily: "Metropolis-Bold" }}
-                  >
-                    B Tech in Artificial Intelligence and Machine Learning
-                  </div>
-                  <div
-                    className="intakeright"
-                    style={{ fontFamily: "Metropolis-Bold" }}
-                  >
-                    Seats
-                  </div>
-                </div>
-                <div className="intakerow">
-                  <div className="intakeleft">B.Tech AIML</div>
-                  <div className="intakeright">180</div>
-                </div>
-                <div className="intakerow">
-                  <div className="intakeleft">M.Tech AIML</div>
-                  <div className="intakeright">30</div>
-                </div>
-                <div className="intakerow">
-                  <div className="intakeleft">Ph.D. AIML</div>
-                  <div className="intakeright">-</div>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-5">
-              <a
-                target="_blank"
-                className="overviewtestimonials"
-                href="https://www.youtube.com/watch?v=DPIO8LYm-jk&feature=youtu.be"
-              >
-                <div className="intake_right">
-                  <div className="heading innerpageheading text-white">
-                    Student <br /> Testimonials
-                  </div>
-                  <div className="StudentName">Aadith Sukumar</div>
-                  <div className="StudentDepartment">
-                    Student of B.Tech (Artificial Intelligence and Machine
-                    Learning)
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div> */}
       </div>
     </div>
   );

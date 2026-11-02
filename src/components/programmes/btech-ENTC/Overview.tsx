@@ -75,7 +75,7 @@ const Overview = () => {
 
         {/* <OutcomeBasedEducation/> */}
 
-        <div className="visionandmision main_content">
+        <div className="visionandmision">
           <div className="card provisionbox">
             <div className="d-flex align-items-start gap-3">
               <div className="visiontextleft">
@@ -204,7 +204,7 @@ const Overview = () => {
               </svg>
             </div>
             <div className="program_count_data">
-              <div className="count">-</div>
+              {/* <div className="count">-</div> */}
               <span>Ph.D. </span>
             </div>
           </div>

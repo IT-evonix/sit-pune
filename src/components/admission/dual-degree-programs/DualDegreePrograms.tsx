@@ -1,17 +1,17 @@
 import React from "react";
 import Image from "next/image";
 import PDFCard from "@/components/ui/PDFCard";
-import {
-  Award,
-  BadgeCheck,
-  CalendarDays,
-  ClipboardList,
-  FileCheck2,
-  Files,
-  MessageSquare,
-  Send,
-  UsersRound,
-} from "lucide-react";
+// import {
+//   Award,
+//   BadgeCheck,
+//   CalendarDays,
+//   ClipboardList,
+//   FileCheck2,
+//   Files,
+//   MessageSquare,
+//   Send,
+//   UsersRound,
+// } from "lucide-react";
 const DualDegreePrograms = () => {
   return (
     <div className="main_content">
@@ -67,7 +67,6 @@ const DualDegreePrograms = () => {
               </li>
             </ul>
           </div>
-
           <div className="dual-degree-box siteee-step-card">
             <div className="subheading">Selection and Evaluation</div>
             <ul className="dual-degree-list">
@@ -102,7 +101,8 @@ const DualDegreePrograms = () => {
               item={{
                 id: 1,
                 title: "Click Here for Fee Structure of 2025-26",
-                pdfUrl: "/pdf/admission/dual-degree-programs/Revised_Fee_Sructure_25-26.pdf",
+                pdfUrl:
+                  "/pdf/admission/dual-degree-programs/Revised_Fee_Sructure_25-26.pdf",
               }}
             />
           </div>
@@ -119,7 +119,7 @@ const DualDegreePrograms = () => {
           </div>
         </div>
       </div>
-      <div className="admission_process_phase admission_phase1">
+      {/* <div className="admission_process_phase admission_phase1">
         <div className="admission_process_top">
           <div className="phaseNum_Name">
             <div className="phaseName">Application Submission</div>
@@ -216,8 +216,8 @@ const DualDegreePrograms = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div className="admission_process_phase admission_phase1">
+      </div> */}
+      {/* <div className="admission_process_phase admission_phase1">
         <div className="admission_process_top">
           <div className="phaseNum_Name">
             <div className="phaseName">Selection & Evaluation</div>
@@ -338,8 +338,8 @@ const DualDegreePrograms = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div className="DualDegreePrograms">
+      </div> */}
+      {/* <div className="DualDegreePrograms">
         <div className="DualDegreePrograms-steps">Jan-April</div>
         <div className="DualDegreePrograms-buttonbox">Orientation Session</div>
         <p>
@@ -383,6 +383,37 @@ const DualDegreePrograms = () => {
           They must submit an undertaking confirming their eligibility and
           commitment.
         </p>
+      </div> */}
+
+      <div className="admission_process_phase mb-0">
+        <div className="dual-degreeimg">
+          <Image
+            src="/images/innerpages/admission/dual-degree/application_submission.webp"
+            alt="Dual Degree Programs"
+            width={1500}
+            height={449}
+          />
+        </div>
+      </div>
+      <div className="admission_process_phase m-0">
+        <div className="dual-degreeimg">
+          <Image
+            src="/images/innerpages/admission/dual-degree/selection_and_evaluation.webp"
+            alt="Dual Degree Programs"
+            width={1500}
+            height={449}
+          />
+        </div>
+      </div>
+      <div className="admission_process_phase m-0">
+        <div className="dual-degreeimg">
+          <Image
+            src="/images/innerpages/admission/dual-degree/dual_degree_month_process.webp"
+            alt="Dual Degree Programs"
+            width={1500}
+            height={449}
+          />
+        </div>
       </div>
     </div>
   );
