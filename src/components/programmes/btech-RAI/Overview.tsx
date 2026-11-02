@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-// import RecruitersSlider from "@/components/ui/RecruitersSlider";
+import RecruitersSlider from "@/components/ui/RecruitersSlider";
 // import OutcomeBasedEducation from "./OutcomeBasedEducation";
 
 const Overview = () => {
@@ -31,9 +31,32 @@ const Overview = () => {
               About the Department{" "}
             </div>
             <p className="m-0 p-0">
-           The global industrial landscape is undergoing a profound transformation driven by the Fourth Industrial Revolution, widely known as Industry 4.0. This new era is characterized by the seamless integration of digital technologies with physical systems through the Internet of Things (IoT), real-time data analytics, and cyber-physical systems. In alignment with these evolving industry requirements, The Department of Robotics and Automation at Symbiosis Institute of Technology (SIT), Pune offers two multidisciplinary B. Tech programmes in Robotics & Automation & Robotics & AI, focused on developing future-ready engineers for the rapidly evolving domains of Robotics, Industrial Automation and Industry 4.0. The programme integrates core engineering knowledge with emerging technologies such as robotics, automation, IoT, artificial intelligence, machine learning, intelligent manufacturing and cyber-physical systems, with a strong emphasis on hands-on, project-based and experiential learning. The department is supported by specialized facilities including Advanced Manufacturing, Aerial & Mobile Robotics, Hydraulics & Pneumatics, Mechatronics & IoT, and PLC & Automation laboratories, enabling students to gain practical exposure to real-world engineering systems. With a focus on research, industry and international collaborations, innovation, entrepreneurship and lifelong learning, the department prepares graduates to design and implement intelligent automated solutions across diverse industrial and societal applications.
+              The global industrial landscape is undergoing a profound
+              transformation driven by the Fourth Industrial Revolution, widely
+              known as Industry 4.0. This new era is characterized by the
+              seamless integration of digital technologies with physical systems
+              through the Internet of Things (IoT), real-time data analytics,
+              and cyber-physical systems. In alignment with these evolving
+              industry requirements, The Department of Robotics and Automation
+              at Symbiosis Institute of Technology (SIT), Pune offers two
+              multidisciplinary B. Tech programmes in Robotics & Automation &
+              Robotics & AI, focused on developing future-ready engineers for
+              the rapidly evolving domains of Robotics, Industrial Automation
+              and Industry 4.0. The programme integrates core engineering
+              knowledge with emerging technologies such as robotics, automation,
+              IoT, artificial intelligence, machine learning, intelligent
+              manufacturing and cyber-physical systems, with a strong emphasis
+              on hands-on, project-based and experiential learning. The
+              department is supported by specialized facilities including
+              Advanced Manufacturing, Aerial & Mobile Robotics, Hydraulics &
+              Pneumatics, Mechatronics & IoT, and PLC & Automation laboratories,
+              enabling students to gain practical exposure to real-world
+              engineering systems. With a focus on research, industry and
+              international collaborations, innovation, entrepreneurship and
+              lifelong learning, the department prepares graduates to design and
+              implement intelligent automated solutions across diverse
+              industrial and societal applications.
             </p>
-           
           </div>
           <div className="profileImage">
             <Image
@@ -63,7 +86,12 @@ const Overview = () => {
               <div className="visiontextleft">
                 <div className="subheading">Vision</div>
                 <p className="section-text">
-                To emerge as a center of learning in the field of Robotics, Automation and Artificial Intelligence by building strong technical competency, encouraging multidisciplinary innovation, preparing industry-ready professionals with global exposure, and delivering ethical and sustainable solutions for societal needs.
+                  To emerge as a center of learning in the field of Robotics,
+                  Automation and Artificial Intelligence by building strong
+                  technical competency, encouraging multidisciplinary
+                  innovation, preparing industry-ready professionals with global
+                  exposure, and delivering ethical and sustainable solutions for
+                  societal needs.
                 </p>
               </div>
             </div>
@@ -136,7 +164,7 @@ const Overview = () => {
             </div>
             <div className="program_count_data">
               <div className="count">60 seats</div>
-              <span>B. Tech R&AI </span>
+              <span>B. Tech R&A </span>
             </div>
           </div>
           <div className="verticalline"></div>
@@ -187,7 +215,7 @@ const Overview = () => {
               </svg>
             </div>
             <div className="program_count_data">
-              <div className="count">18 seats	</div>
+              <div className="count">18 seats </div>
               <span>M.Tech R&AI </span>
             </div>
           </div>
@@ -293,17 +321,16 @@ const Overview = () => {
         <div className="program_highlights_box">
           <div className="program_highlights_left">
             <div className="verticalScroll">
-              <div className="heading innerpageheading">
-               Honours and Minors 
-              </div>
+              <div className="heading innerpageheading">Honours and Minors</div>
               <ul className="listingbox">
                 <li>
-                	B.Tech in RA with Honours in Aerial Robotics and Drone Technology 
+                  B.Tech in RA with Honours in Aerial Robotics and Drone
+                  Technology
                 </li>
                 <li>
-                B.Tech in RA with Minors in Computer Science Engineering Fundamentals 
+                  B.Tech in RA with Minors in Computer Science Engineering
+                  Fundamentals
                 </li>
-               
               </ul>
             </div>
           </div>
@@ -311,7 +338,7 @@ const Overview = () => {
             <div className="verticalScroll redscroll">
               <div className="headingbg">Key Infrastructure</div>
               <ul className="listingbox">
-               <li>Industrial Robotics Lab</li>
+                <li>Industrial Robotics Lab</li>
                 <li>Aerial Robotics & Drone Technology Lab</li>
                 <li>Mechatronics & IoT Lab</li>
                 <li>PLC & Automation Lab</li>
@@ -322,167 +349,17 @@ const Overview = () => {
           </div>
         </div>
 
-        {/* <div
-          className="program_highlights_box grey_gradient"
-          style={{
-            background:
-              "linear-gradient(90deg,rgba(255, 255, 255, 1) 0%, rgba(232, 231, 231, 1) 100%);",
-          }}
-        >
-          <div className="program_highlights_left"
-            style={{ border: "none", backgroundColor: "#fff" }} >
-            <div className="verticalScroll">
-              <div className="heading innerpageheading">
-                International University Collaboration and MoU’s
-              </div>
-              <ul className="listingbox">
-                <li>Ingolstadt University, Germany</li>
-                <li>
-                  Indiana University Purdue University, Indianapolis, U.S.A
-                </li>
-                <li>Nanyang Technological University,Singapore</li>
-                <li>Leibniz University,Germany</li>
-                <li>Berlin School of Law andEconomics</li>
-                <li>Telecom Ecole De Management,Paris</li>
-                <li>University of Adelaide,Australia</li>
-                <li>University of Malta,Malta</li>
-                <li>King Mongkut’s University,Thailand</li>
-                <li>University of Malaya,Malaysia</li>
-                <li>Ritsumeikan University, Japan</li>
-                <li>Hanyang University, SouthKorea</li>
-                <li>Western University, Canada</li>
-                <li>RUDN University, Russia</li>
-              </ul>
+        <div className="job_roles_recuiters">
+          <div className="job_roles_recuitersinner">
+            <div className="w-100">
+              <RecruitersSlider program="robotics" />
             </div>
-          </div>
-          <div
-            className="program_highlights_right"
-            style={{ backgroundColor: "#10467F" }}
-          >
-            <div className="verticalScroll bluescroll">
-              <div className="headingbg">Department Best Practices</div>
-              <ul className="listingbox">
-                <li>Industry co-teaching</li>
-                <li>Buddy sessions</li>
-                <li>Exposure to open source tools</li>
-                <li>Innovative teaching-learning pedagogy</li>
-                <li>Project-based learning</li>
-                <li>Skill enhancement via technical clubs</li>
-                <li>International teaching and research collaborations</li>
-                <li>Access to e-resources and research databases</li>
-                <li>
-                  Enhancing self-learning attitude via experiential learning
-                </li>
-                <li>Advance ICT tools for effectual knowledge transfer</li>
-              </ul>
-            </div>
-          </div>
-        </div> */}
 
-        {/* <div className="computing_facility_section">
-          <div className="computing_facility_inner">
-            <div className="heading innerpageheading">
-              The department has state of art computing facility as
-            </div>
-            <ul className="listingbox">
-              <li>High performance computing lab with Nvidia GPU</li>
-              <li>Data Analytics and Visualization lab</li>
-              <li>Apple lab for multimedia and analytics</li>
-              <li>
-                Deep Learning Lab with i7 machines and higher processing power
-              </li>
-              <li>
-                Computer Centre with machines in high configuration and licensed
-                software required for teaching and research.
-              </li>
-            </ul>
-          </div>
-        </div> */}
-
-        {/* <div className="job_roles_recuiters"> */}
-          {/* <div className="job_roles_recuitersinner"> */}
-            {/* <div className="job_roles_recuitersright">
-              <div className="heading innerpageheading text-center">
-                Top Recuiters
-              </div>
-              <div className="recuiterslogo">
-                <Image
-                  src="/images/innerpages/programe/logo1.webp"
-                  alt="arrow"
-                  width={100}
-                  height={50}
-                />
-                <Image
-                  src="/images/innerpages/programe/logo2.webp"
-                  alt="arrow"
-                  width={100}
-                  height={50}
-                />
-
-                <Image
-                  src="/images/innerpages/programe/logo3.webp"
-                  alt="arrow"
-                  width={100}
-                  height={50}
-                />
-                <Image
-                  src="/images/innerpages/programe/logo4.webp"
-                  alt="arrow"
-                  width={100}
-                  height={70}
-                />
-                <Image
-                  src="/images/innerpages/programe/logo5.webp"
-                  alt="arrow"
-                  width={100}
-                  height={50}
-                />
-                <Image
-                  src="/images/innerpages/programe/logo6.webp"
-                  alt="arrow"
-                  width={100}
-                  height={50}
-                />
-                <Image
-                  src="/images/innerpages/programe/logo7.webp"
-                  alt="arrow"
-                  width={100}
-                  height={50}
-                />
-                <Image
-                  src="/images/innerpages/programe/logo8.webp"
-                  alt="arrow"
-                  width={100}
-                  height={50}
-                />
-              </div>
-            </div> */}
-
-            {/* <div className="w-100">
-              <RecruitersSlider program="electronics" />
-            </div> */}
-
-            {/* <div className="job_roles_recuitersleft">
+            <div className="job_roles_recuitersleft">
               <div className="heading innerpageheading">
                 International collaborations
               </div>
               <div className="collaborations_box">
-                <div className="collaborations_list">
-                  <div className="subheading18">Dual Degree (2+2)</div>
-                  <div className="international_collaborations">
-                    <span>
-                      <Image
-                        className="img-fluid"
-                        src="/images/innerpages/programe/Macquarie_University.webp"
-                        alt="Logo"
-                        width={350}
-                        height={65}
-                        priority
-                      />
-                     
-                    </span>
-                  </div>
-                </div>
                 <div className="collaborations_list">
                   <div className="subheading18">Academic Progression</div>
                   <div className="international_collaborations">
@@ -495,11 +372,33 @@ const Overview = () => {
                         height={65}
                         priority
                       />
-                   
-                      </span>
-                   
+                      {/* Aston University, UK */}
+                    </span>
+                    <span>
+                      <Image
+                        className="img-fluid"
+                        src="/images/innerpages/programe/Loughborough-University.webp"
+                        alt="Logo"
+                        width={350}
+                        height={65}
+                        priority
+                      />
+                      {/* Loughborough University, UK */}
+                    </span>
+                    <span>
+                      <Image
+                        className="img-fluid"
+                        src="/images/innerpages/programe/Northeastern-University-Logo.webp"
+                        alt="Logo"
+                        width={350}
+                        height={65}
+                        priority
+                      />
+                      {/* Northeastern University, USA */}
+                    </span>
                   </div>
                 </div>
+                
                 <div className="collaborations_list">
                   <div className="subheading18">
                     Global Immersion / Semester Abroad / Summer-Winter Schools
@@ -508,88 +407,49 @@ const Overview = () => {
                     <span>
                       <Image
                         className="img-fluid"
-                        src="/images/innerpages/programe/logo.nchu.png"
+                        src="/images/innerpages/programe/Ingolstadt-university.webp"
                         alt="Logo"
                         width={350}
                         height={65}
                         priority
                       />
-                   
-                      </span>
+                    </span>
                     <span>
                       <Image
                         className="img-fluid"
-                        src="/images/innerpages/programe/mitacs-logo-en.svg"
+                        src="/images/innerpages/programe/AIT-thailand.webp"
                         alt="Logo"
                         width={350}
                         height={65}
                         priority
                       />
-                     
-                      </span>
-                
+                    </span>
+                    <span>
+                      <Image
+                        className="img-fluid"
+                        src="/images/innerpages/programe/computer-science/about-department/Deakin-black.webp"
+                        alt="Logo"
+                        width={350}
+                        height={65}
+                        priority
+                      />
+                    </span>
+                    <span>
+                      <Image
+                        className="img-fluid"
+                        src="/images/innerpages/programe/computer-science/about-department/RWTH.webp"
+                        alt="Logo"
+                        width={350}
+                        height={65}
+                        priority
+                      />
+                    </span>
                   </div>
                 </div>
               </div>
-            </div> */}
-          {/* </div> */}
-        {/* </div> */}
-
-        {/* <div className="intake_main">
-          <div className="row">
-            <div className="col-md-7">
-              <div className="intake_left">
-                <div className="heading innerpageheading text-white">
-                  Intake per Year
-                </div>
-                <div className="intakerow">
-                  <div
-                    className="intakeleft"
-                    style={{ fontFamily: "Metropolis-Bold" }}
-                  >
-                    B Tech in Artificial Intelligence and Machine Learning
-                  </div>
-                  <div
-                    className="intakeright"
-                    style={{ fontFamily: "Metropolis-Bold" }}
-                  >
-                    Seats
-                  </div>
-                </div>
-                <div className="intakerow">
-                  <div className="intakeleft">B.Tech AIML</div>
-                  <div className="intakeright">180</div>
-                </div>
-                <div className="intakerow">
-                  <div className="intakeleft">M.Tech AIML</div>
-                  <div className="intakeright">30</div>
-                </div>
-                <div className="intakerow">
-                  <div className="intakeleft">Ph.D. AIML</div>
-                  <div className="intakeright">-</div>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-5">
-              <a
-                target="_blank"
-                className="overviewtestimonials"
-                href="https://www.youtube.com/watch?v=DPIO8LYm-jk&feature=youtu.be"
-              >
-                <div className="intake_right">
-                  <div className="heading innerpageheading text-white">
-                    Student <br /> Testimonials
-                  </div>
-                  <div className="StudentName">Aadith Sukumar</div>
-                  <div className="StudentDepartment">
-                    Student of B.Tech (Artificial Intelligence and Machine
-                    Learning)
-                  </div>
-                </div>
-              </a>
             </div>
           </div>
-        </div> */}
+        </div>
       </div>
     </div>
   );
