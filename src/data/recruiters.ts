@@ -453,6 +453,65 @@ export const civil: RecruiterLogo[] = [
     height: 50,
   },
 ];
+
+export const RAandRAIRecruiters: RecruiterLogo[] = [
+  {
+    id: 1,
+    name: "Recruiter 1",
+    image: "/images/innerpages/programe/robot-automation/toprecuiter/logo1.webp",
+    width: 100,
+    height: 50,
+  },
+  {
+    id: 2,
+    name: "Recruiter 2",
+    image: "/images/innerpages/programe/robot-automation/toprecuiter/logo2.webp",
+    width: 100,
+    height: 50,
+  },
+  {
+    id: 3,
+    name: "Recruiter 3",
+    image: "/images/innerpages/programe/robot-automation/toprecuiter/logo3.webp",
+    width: 100,
+    height: 50,
+  },
+  {
+    id: 4,
+    name: "Recruiter 4",
+    image: "/images/innerpages/programe/robot-automation/toprecuiter/logo4.webp",
+    width: 100,
+    height: 50,
+  },
+  {
+    id: 5,
+    name: "Recruiter 5",
+    image: "/images/innerpages/programe/robot-automation/toprecuiter/logo5.png",
+    width: 100,
+    height: 50,
+  },
+  {
+    id: 6,
+    name: "Recruiter 6",
+    image: "/images/innerpages/programe/robot-automation/toprecuiter/logo6.png",
+    width: 100,
+    height: 50,
+  },
+  {
+    id: 7,
+    name: "Recruiter 7",
+    image: "/images/innerpages/programe/robot-automation/toprecuiter/logo7.webp",
+    width: 100,
+    height: 50,
+  },
+  {
+    id: 8,
+    name: "Recruiter 8",
+    image: "/images/innerpages/programe/robot-automation/toprecuiter/logo8.png",
+    width: 100,
+    height: 50,
+  },
+];
 /* =============================  PROGRAM-WISE RECRUITERS  ============================= */
 export const programRecruiters: Record<string, ProgramRecruiters> = {
   aiml: {
@@ -482,6 +541,6 @@ export const programRecruiters: Record<string, ProgramRecruiters> = {
 
   robotics: {
     title: "Top Recruiters",
-    logos: commonRecruiters,
+    logos: RAandRAIRecruiters,
   },
 };
