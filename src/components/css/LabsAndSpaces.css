@@ -122,7 +122,6 @@
 
 .labs-card--normal {
   height: 260px;
-
   grid-column: auto;
   grid-row: auto;
 }

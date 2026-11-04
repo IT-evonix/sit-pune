@@ -6,10 +6,10 @@ const page = () => {
   return (
     <div className="">
       <InnerpageBanner
-        title={`Founder Stories`}
+        title={`AICTE Idea Lab`}
         breadcrumbs={[
           // { label: "Programmes", href: "/programmes" },
-          { label: "About" },
+          { label: "Founder Stories" },
 
           { label: "AICTE Idea Lab" },
         ]}
@@ -63,7 +63,7 @@ const page = () => {
                       <div className="profile_card">
                         <div className="profile_photo">
                           <Image
-                            src="/images/innerpages/programe/aiml/faculty/Dr-Ketan-Kotecha.webp"
+                            src="/images/innerpages/programe/aiml/faculty/DrKetan-Kotecha.webp"
                             alt="Students"
                             width={200}
                             height={200}
