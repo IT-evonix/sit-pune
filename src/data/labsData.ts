@@ -181,6 +181,7 @@ export const labsData: DepartmentLabs[] = [
       },
     ],
   },
+
   {
     id: "RA-RAI",
     department: "Robotics and Automation",
@@ -444,65 +445,93 @@ export const labsData: DepartmentLabs[] = [
     ],
   },
 
+
+
+// Campus Life Tab Start Here
+// Campus Life Start Here --------------------------------------------------------------------------
   {
-    id: "applied-science",
+    id: "campus-life-labsandspaces",
     department: "Applied Science",
     labs: [
       {
-        id: "applied-science",
-        title: "Our Labs & Spaces",
+        id: "labsand-spaces",
+        title: "Labs and Spaces",
         gallery: [
           {
-            id: "civil-engineering-lab-1",
+            id: "cloud-computing-lab",
+            title: "Cloud Computing Lab",
+            image: "/images/campus-life/labs-and-spaces/Cloud-Computing-Lab.jpg",
+            alt: "Cloud Computing Lab",
+          },
+          {
+            id: "cloud-computing-lab-2",
+            title: "Cloud Computing Lab",
+            image: "/images/campus-life/labs-and-spaces/Cloud-Computing-Lab2.jpg",
+            alt: "Cloud Computing Lab",
+          },
+          {
+            id: "computer-vision-lab",
+            title: "Computer Vision Lab",
+            image: "/images/campus-life/labs-and-spaces/Computer-Vision-Lab.jpg",
+            alt: "Computer Vision Lab",
+          },
+          {
+            id: "concrete-technology-lab",
             title: "Concrete Technology Lab",
-            image: "/images/innerpages/programe/applied-science/our-labs-and-spaces/01_Concrete_Technology_Lab.webp",
+            image: "/images/campus-life/labs-and-spaces/Concrete-Technology-Lab.jpg",
             alt: "Concrete Technology Lab",
           },
           {
-            id: "civil-engineering-lab-2",
+            id: "robotics-and-automation",
+            title: "Department of Robotics and Automation",
+            image: "/images/campus-life/labs-and-spaces/Department-of-Robotics-and-Automation.jpg",
+            alt: "Department of Robotics and Automation",
+          },
+          {
+            id: "robotics-and-automation-2",
+            title: "Department of Robotics and Automation",
+            image: "/images/campus-life/labs-and-spaces/Department-of-Robotics-and-Automation2.jpg",
+            alt: "Department of Robotics and Automation",
+          },
+          {
+            id: "digital-signal-processing-lab",
+            title: "Digital Signal Processing Lab",
+            image: "/images/campus-life/labs-and-spaces/Digital-Signal-Processing-Lab.png",
+            alt: "Digital Signal Processing Lab",
+          },
+          {
+            id: "embedded-systems-lab",
+            title: "Embedded Systems Lab",
+            image: "/images/campus-life/labs-and-spaces/Embedded-Systems-Lab.png",
+            alt: "Embedded Systems Lab",
+          },
+          {
+            id: "open-source-tool-lab",
+            title: "Open Source Tool Lab",
+            image: "/images/campus-life/labs-and-spaces/Open-Source-Tool Lab.jpg",
+            alt: "Open Source Tool Lab",
+          },
+          {
+            id: "som-lab-entrance",
+            title: "SOM Lab Entrance",
+            image: "/images/campus-life/labs-and-spaces/SOM-Lab-entrance.jpg",
+            alt: "SOM Lab Entrance",
+          },
+          {
+            id: "theory-of-machines-lab",
+            title: "Theory of Machines Lab",
+            image: "/images/campus-life/labs-and-spaces/Theory-of-Machines-lab.jpg",
+            alt: "Theory of Machines Lab",
+          },
+          {
+            id: "transportation-engineering-lab",
             title: "Transportation Engineering Lab",
-            image: "/images/innerpages/programe/applied-science/our-labs-and-spaces/02_Transportation_Engineering_Lab.webp",
+            image: "/images/campus-life/labs-and-spaces/Transportation-Engineering-Lab.jpg",
             alt: "Transportation Engineering Lab",
-          },
-          {
-            id: "civil-engineering-lab-3",
-            title: "Geotechnical Engineering Lab",
-            image: "/images/innerpages/programe/applied-science/our-labs-and-spaces/03_Geotechnical_Engineering_Lab.webp",
-            alt: "Geotechnical Engineering Lab",
-          },
-          {
-            id: "civil-engineering-lab-4",
-            title: "Environmental Engineering Lab",
-            image: "/images/innerpages/programe/applied-science/our-labs-and-spaces/04_Environmental_Engineering_Lab.webp",
-            alt: "Environmental Engineering Lab",
-          },
-          {
-            id: "civil-engineering-lab-5",
-            title: "Engineering Mechanics Lab",
-            image: "/images/innerpages/programe/applied-science/our-labs-and-spaces/05_Engineering_Mechanics_Lab.webp",
-            alt: "Engineering Mechanics Lab",
-          },
-          {
-            id: "civil-engineering-lab-6",
-            title: "Surveying Lab",
-            image: "/images/innerpages/programe/applied-science/our-labs-and-spaces/06_Surveying_Lab.webp",
-            alt: "Surveying Lab",
-          },
-          {
-            id: "civil-engineering-lab-7",
-            title: "Civil Computer Lab",
-            image: "/images/innerpages/programe/applied-science/our-labs-and-spaces/07_Civil_Computer_Lab.webp",
-            alt: "Civil Computer Lab",
-          },
-          {
-            id: "civil-engineering-lab-8",
-            title: "Engineering Geology Lab",
-            image: "/images/innerpages/programe/applied-science/our-labs-and-spaces/08_Engineering_Geology_Lab.webp",
-            alt: "Engineering Geology Lab",
           },
         ],
       },
     ],
-  },
+  },  
 
 ];

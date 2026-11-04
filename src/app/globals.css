@@ -4169,6 +4169,7 @@ table {
 .careerimages_sticky {
   position: sticky;
   top: 100px;
+  padding-left:20px;
 }
 .aicte_leadership{
   background: #10467f0f;
@@ -4214,6 +4215,241 @@ table {
   font-size:14px;
   line-height: normal;
   color:#2c2c2c;
+}
+/* Maker Lab Start Here */
+.makersLab_main{
+  padding: 60px 0px 70px;
+  overflow: hidden;
+  background: url(/images/home/Internationalization.webp) 0px center / 100% auto no-repeat;
+  background-position: 0px center;
+}
+.makersLab_main .program_highlights_right{
+  width: 100%;
+}
+.makersLab_main .verticalScroll{
+  max-height:inherit;
+}
+.maker_lab_box{
+  padding:60px 0px 60px 0px;
+}
+.maker_lab_box .profile_photo{
+  min-width: 33%;
+  max-width: 33%;
+}
+.maker_lab_box .profile_details{
+  width: auto;
+  padding: 0px 15px 0px 0px;
+}
+.maker_lab_box .profile_details p{
+  font-size: 15px;
+}
+.aicte_leadership{
+  padding: 25px;
+}
+.bluebg_box{
+  background-color: #ebf5ff;
+  padding:25px;
+  border-radius: 10px;
+  height:100%;
+  display: flex;
+  align-items: center;
+}
+.maker_lab_box .aicte_leadership{
+  background: #fff7f7;
+}
+
+.sitepic_inner {
+  align-items:flex-start;
+  display: flex;
+}
+.sitepic_left{
+  border-radius: 40px;
+  width: 45%;
+  position:sticky;
+  top: 120px;
+  transition-duration: 0.7s;
+}
+.sitepic_image{
+  overflow: hidden;
+  transition-duration: 0.7s;
+  border-radius: 40px;
+}
+.sitepic_left img{
+  border-radius: 40px;
+  transition-duration: 0.7s;
+}
+.sitepic_left img:hover{
+  transform: scale(1.1);
+  transition-duration: 0.7s;
+}
+.sitepic_right{
+  width: 55%;
+  padding: 0 0 0 50px;
+}
+.sitepic_lastbox{
+  background-color: #f3f8fe;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  margin: 60px 0 0 0;
+}
+.sitepic_lastbox .subheading{
+  color: #c4161c;
+  line-height: normal;
+  margin-top:10px;
+}
+/* Epic Chronicle Start Here */
+.epicchronicle_box{
+  display:grid;
+  grid-template-columns: 3fr 350px;
+  gap: 20px;
+  border-radius: 20px;
+  padding:30px;
+  margin: 0px 0 30px 0;
+}
+.epicchronicle_box:nth-child(odd) {
+  background-color: #fcf1f2;
+}
+.epicchronicle_box:nth-child(even) {
+  background-color: #eff6fb;
+}
+
+.epicchronicle_box:nth-child(even) .credential_achievements_box{
+  background-color: #fcf1f2;
+}
+.credential_achievements{
+  background-color: #f3f8fe;
+  border-radius: 20px;
+}
+.credential_achievements_main{
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 20px;
+}
+.credential_achievements_box{
+  background-color: #e7f2ff;
+  border-radius: 20px;
+  padding: 15px;
+  margin: 0px 0 10px 0;
+}
+.achievements_heading{
+  background-color: #c4161c;
+  border-radius: 30px;
+  color: #fff;
+  font-family: 'Metropolis-SemiBold';
+  font-size: 14px;
+  line-height: normal;
+  text-align: center;
+  width: fit-content;
+  padding: 6px 30px;
+  margin: 0px 0px 10px 0px;
+}
+.achievements_details{
+  font-family: 'Metropolis-SemiBold';
+  line-height: normal;
+}
+.achievements_details span{
+  font-family: 'Metropolis-Regular';
+  font-size: 14px;
+}
+.credential_achievements_box ul li{
+  margin: 0px 0px 8px 0px;
+  line-height: normal;
+  font-size:15px;
+}
+
+/* Founder Stories Page Start Here */
+.founder_stories_box{
+  display: flex;
+  margin: 0 0 20px 0;
+  scroll-margin-top: 150px;
+  overflow: clip;
+}
+.founder_stories_box:nth-child(odd) .founder_stories_text{
+  background-color: #fcf1f2;
+}
+.founder_stories_box:nth-child(even){
+  flex-direction: row-reverse;
+}
+.founder_stories_box:nth-child(even) .founder_stories_text {
+    background-color: #eff6fb;
+    text-align: right;
+    padding: 20px 20px 20px 20px;
+}
+.founder_stories_box:nth-child(even) .founder_stories_img {
+    flex-direction: row-reverse;
+}
+.founder_stories_box:nth-child(odd) .founder_name,
+.founder_stories_box:nth-child(odd) .company_name,
+.founder_stories_box:nth-child(odd) .batchyear {
+    text-align: left;
+}
+.founder_stories_box:nth-child(even) .founder_name,
+.founder_stories_box:nth-child(even) .company_name,
+.founder_stories_box:nth-child(even) .batchyear {
+    text-align: right;
+}
+.founder_stories_text{
+  /* background-color: #FDF9F9; */
+  padding: 20px 20px 20px 20px;
+  color: #222222;
+  border-radius: 20px;
+  width: 85%;
+  float: left;
+  position: relative;
+  font-family: Metropolis-Regular;
+}
+.founder_name {
+    font-family: Metropolis-Bold;
+    font-size: 17px;
+    color: #c32f33;
+    width: 100%;
+    text-align: left;
+}
+.company_name {
+    font-size: 14px;
+    color: #222;
+    width: 100%;
+    text-align: left;
+    font-family: Metropolis-Medium;
+}
+.batchyear{
+    font-size: 14px;
+    color: #222;
+    width: 100%;
+    text-align: left;
+    font-family: Metropolis-Regular;
+}
+.founder_stories_img {
+    color: #F2F2F2;
+    font-size: 50px;
+    width: 15%;
+    float: left;
+    text-align: center;
+    font-family: Metropolis-Bold;
+    display: flex;
+    align-items: center;
+}.testimonials_line {
+    width: 40%;
+    height: 2px;
+    background: #FFF4F4;
+}
+.testimonials_img {
+    border-radius: 100px;
+    border: 2px solid #c4161c4a;
+}
+.founder_stories_text .top_icon {
+    width: 15px;
+    opacity: 0.2;
+    margin: -12px 7px 0 0px;
+    display: unset;
+}
+.founder_stories_text .bottom_icon {
+    width: 15px;
+    opacity: 0.2;
+    transform: rotate(180deg);
+    margin: 5px 0 0 7px;
+    display: unset;
 }
 /*-------- Founder Story Tab End Here --------*/
 /*--------------- upcoming Events Start Here ---------------*/

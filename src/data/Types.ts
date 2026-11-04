@@ -10,7 +10,7 @@ export interface MenuLink {
 
 export interface MenuColumn {
   id: number;
-  heading: string;
+  heading?: string;
   links: MenuLink[];
 }
 

@@ -3979,3 +3979,115 @@ export const LibraryStaffData = [
   },
 ];
 // -------- Library Tables End Here -----------------------------------------------------------
+
+// -------- Founder Stories Tab Start Here -----------------------------------------------------------
+// Epic Committee Start Here
+export const EpicCommitteeColumns = [
+  {
+    key: "srNo",
+    title: "S. No.",
+  },
+  {
+    key: "name",
+    title: "Name of Member",
+  },
+  {
+    key: "memberType",
+    title: "Member (Teaching / Nonteaching / Student/External Expert)",
+  },
+  {
+    key: "designation",
+    title: "Designation",
+  },
+  {
+    key: "details",
+    title: "Details",
+  },
+];
+export const EpicCommitteeData = [
+  {
+    srNo: "1",
+    name: "Dr. Bhavna Ambudkar",
+    memberType: "Teaching",
+    designation: "President",
+    details: "Head, EPIC-SIT",
+  },
+  {
+    srNo: "2",
+    name: "Dr. Sankit Kassa",
+    memberType: "Teaching",
+    designation: "Vice President",
+    details: "Faculty, E & TC",
+  },
+  {
+    srNo: "3",
+    name: "Dr. Manoj Shukla",
+    memberType: "Teaching",
+    designation: "Convener",
+    details: "Faculty, R & A",
+  },
+  {
+    srNo: "4",
+    name: "Dr. Amol Dalvi",
+    memberType: "Teaching",
+    designation: "Member",
+    details: "Faculty, Mech",
+  },
+  {
+    srNo: "5",
+    name: "Dr. Sagar Kolekar",
+    memberType: "Teaching",
+    designation: "Member",
+    details: "Faculty, Civil",
+  },
+  {
+    srNo: "6",
+    name: "Dr. Balkrishna Patil",
+    memberType: "Teaching",
+    designation: "Member",
+    details: "Faculty, CSE",
+  },
+  {
+    srNo: "7",
+    name: "Dr. Wasim Khan",
+    memberType: "Teaching",
+    designation: "Member",
+    details: "Faculty, AIML",
+  },
+  {
+    srNo: "8",
+    name: "Ms. Sneha Gajbhiye",
+    memberType: "Teaching",
+    designation: "Member",
+    details: "Faculty, First Year",
+  },
+  {
+    srNo: "9",
+    name: "Ms. Sujata Mengane",
+    memberType: "External expert",
+    designation: "Member",
+    details: "Industry representative",
+  },
+  {
+    srNo: "10",
+    name: "Mr. Pratap Pawar",
+    memberType: "External expert",
+    designation: "Member",
+    details: "Startup representative",
+  },
+  {
+    srNo: "11",
+    name: "Mr. Nikhil Kulkarni",
+    memberType: "External expert",
+    designation: "Member",
+    details: "Incubation center representative",
+  },
+  {
+    srNo: "12",
+    name: "Mr. Sagar",
+    memberType: "Non-Teaching",
+    designation: "Member",
+    details: "Admin Officer, SIT",
+  },
+];
+// -------- Founder Stories Tab End Here -----------------------------------------------------------

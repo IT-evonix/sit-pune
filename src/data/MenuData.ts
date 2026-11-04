@@ -17,11 +17,6 @@ export const menuData: NavMenu[] = [
           },
           {
             id: 2,
-            title: "Add Administration and Governance ",
-            href: "/",
-          },
-          {
-            id: 3,
             title: "Grievance Redressal / Anti-Ragging ",
             href: "/",
           },
@@ -427,6 +422,76 @@ export const menuData: NavMenu[] = [
 
   {
     id: 8,
+    title: "Founder Stories ",
+    hasMegaMenu: true,
+    columns: [
+      {
+        id: 1,
+        heading: "EPIC",
+        links: [
+          {
+            id: 1,
+            title: "The EPIC Chronicle ",
+            href: "/programmes/btech/artificial-intelligence-machine-learning",
+          },
+          {
+            id: 2,
+            title: "EPIC Moments ",
+            href: "/programmes/btech/btech-civil-engineering",
+          },
+          {
+            id: 3,
+            title: "SIT EPIC ",
+            href: "/programmes/btech/btech-computer-science-engineering",
+          },
+          
+
+        ],
+      },
+
+      {
+        id: 2,
+        heading: "Postgraduate",
+        links: [
+          {
+            id: 1,
+            title: "AICTE Idea Lab ",
+            href: "/",
+          },
+         
+        ],
+      },
+
+      {
+        id: 3,
+        heading: "Dual Degree Programmes",
+        links: [
+          {
+            id: 1,
+            title: "Makers Lab",
+            href: "/dual-degree-programs",
+          },
+          
+        ],
+      },
+
+      {
+        id: 3,
+        heading: "Founder Stories",
+        links: [
+          {
+            id: 1,
+            title: "Founder Stories",
+            href: "/dual-degree-programs",
+          },
+          
+        ],
+      },
+    ],
+  },
+
+  {
+    id: 9,
     title: "Going Global",
     href: "/",
   },
@@ -438,7 +503,7 @@ export const menuData: NavMenu[] = [
   // },
 
   {
-    id: 9,
+    id: 10,
     title: "Career",
     hasMegaMenu: true,
     columns: [

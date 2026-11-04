@@ -25,7 +25,7 @@ body.menu-open {
 /* ============== DESKTOP MENU ============== */
 .desktop-menu {
   flex: 1;
-  margin-left: 35px;
+  margin-left: 20px;
 }
 .desktop-menu > ul {
   display: flex;
@@ -42,10 +42,10 @@ body.menu-open {
 .desktop-menu > ul > li > a {
   display: flex;
   align-items: center;
-  gap: 3px;
-  padding: 25px 5px;
+  gap: 2px;
+  padding: 25px 0px 25px 6px;
   color: #24324a;
-  font-size: 13px;
+  font-size: 12px;
   text-decoration: none;
   transition: 0.25s;
   font-family: "Metropolis-Medium";
@@ -463,6 +463,15 @@ ul {
   }
 }
 /* ============== RESPONSIVE ============== */
+
+@media (min-width: 1499.98px) {
+  .desktop-menu > ul > li > a {
+    gap: 3px;
+    padding: 25px 0px 25px 10px;
+    color: #24324a;
+    font-size: 14px;
+  }
+}
 
 @media (max-width: 1199.98px) {
   .desktop-menu > ul > li > a {
