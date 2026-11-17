@@ -9,10 +9,10 @@ export default function ChancellorMessagePage() {
   const [activeLeader, setActiveLeader] = useState("founder");
 
   return (
-    <div className="div">
+    <div className="leadership_main">
       <InnerpageBanner
-        title="Leadership"
-        breadcrumbs={[{ label: "About" }, { label: "Leadership" }]}
+        title="Leadership Insight"
+        breadcrumbs={[{ label: "About" }, { label: "Leadership Insight" }]}
       />
       <div className="leadership_inner">
         <div className="container">

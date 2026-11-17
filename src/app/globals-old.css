@@ -3807,16 +3807,13 @@ table {
   position: -webkit-sticky;
   top: 120px;
   align-self: flex-start;
+  
 }
 .leader-image {
   width: 100%;
   height: auto;
   border-radius: 20px;
   display: block;
-}
-.leader-sticky {
-  position: sticky;
-  top: 120px;
 }
 .leader-image-wrapper {
   position: relative;

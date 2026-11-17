@@ -14,10 +14,14 @@ import {
 
 interface RecruitersSliderProps {
   program: string;
+  slidesPerView?: number;
+  spaceBetween?: number;
 }
 
 export default function RecruitersSlider({
   program,
+  slidesPerView,
+  spaceBetween,
 }: RecruitersSliderProps) {
   const recruiterData = programRecruiters[program];
 
@@ -41,25 +45,25 @@ export default function RecruitersSlider({
             disableOnInteraction: false,
             pauseOnMouseEnter: true,
           }}
-          slidesPerView={2}
-          spaceBetween={15}
+          slidesPerView={slidesPerView ?? 2}
+          spaceBetween={spaceBetween ?? 15}
           allowTouchMove={true}
           breakpoints={{
             576: {
-              slidesPerView: 3,
-              spaceBetween: 20,
+              slidesPerView: slidesPerView ?? 3,
+              spaceBetween: spaceBetween ?? 20,
             },
             768: {
-              slidesPerView: 3,
-              spaceBetween: 20,
+              slidesPerView: slidesPerView ?? 3,
+              spaceBetween: spaceBetween ?? 20,
             },
             992: {
-              slidesPerView: 4,
-              spaceBetween: 20,
+              slidesPerView: slidesPerView ?? 4,
+              spaceBetween: spaceBetween ?? 20,
             },
             1279: {
-              slidesPerView: 5,
-              spaceBetween: 15,
+              slidesPerView: slidesPerView ?? 5,
+              spaceBetween: spaceBetween ?? 15,
             },
           }}
         >

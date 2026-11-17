@@ -1,3 +1,51 @@
+// About Us Tab Start Here-------------------------------------------------------------------------
+// Nodal Officer Anti Ragging Start Here
+  export const nodalOfficerColumns = [
+  {
+    key: "srNo",
+    title: "Sr. No.",
+  },
+  {
+    key: "name",
+    title: "Name",
+  },
+  {
+    key: "designation",
+    title: "Designation",
+  },
+  {
+    key: "officeAddress",
+    title: "Office Address",
+  },
+  {
+    key: "emailId",
+    title: "Email ID",
+  },
+  {
+    key: "mobileNumber",
+    title: "Mobile Number",
+  },
+  {
+    key: "deskNumber",
+    title: "Desk Number",
+  },
+];
+export const nodalOfficerData = [
+  {
+    srNo: "1",
+    name: "Mr. Nikhil Pujari",
+    designation: "Nodal Officer",
+    officeAddress:
+      "Symbiosis Institute of Technology, Near Lupin Research Park, Gram: Lavale, Tal: Mulshi, Pune 412 115",
+    emailId: "Nikhil.pujari@sitpune.edu.in",
+    mobileNumber: "9028765797",
+    deskNumber: "020-61936465",
+  },
+];
+// Nodal Officer Anti Ragging End Here
+
+
+// About Us Tab End Here -------------------------------------------------------------------------
 // Admission Start Here -----------------------------------------------------------------------
 export const eligibilityAdmissionColumns = [
   {
