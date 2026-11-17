@@ -8,6 +8,8 @@ interface SubTabItem {
   title: string;
   content?: React.ReactNode;
   subTabs?: SubTabItem[];
+  href?: string;
+  external?: boolean;
 }
 
 interface TabItem extends SubTabItem {
@@ -146,27 +148,44 @@ const TabbingSidebar = ({
 
       return (
         <li key={subTab.id} className="sidebar-item">
-          <button
-            className={`sidebar-link nav-link ${
-              activeSubTab === subTab.id ? "active" : ""
-            }`}
-            onClick={() => handleSubTabClick(subTab)}
-            style={{
-              paddingLeft: `${20 + depth * 16}px`,
-              fontSize: "14px",
-            }}
-          >
-            <span>{subTab.title}</span>
-            {subTab.subTabs?.length ? (
-              <span className="ms-2 subtabbingitem">
-                {isOpen ? (
-                  <ChevronUp size={18} strokeWidth={1.8} />
-                ) : (
-                  <ChevronDown size={18} strokeWidth={1.8} />
-                )}
-              </span>
-            ) : null}
-          </button>
+          {subTab.href ? (
+            <a
+              className={`sidebar-link nav-link ${
+                activeSubTab === subTab.id ? "active" : ""
+              }`}
+              href={subTab.href}
+              target={subTab.external ? "_blank" : undefined}
+              rel={subTab.external ? "noopener noreferrer" : undefined}
+              style={{
+                paddingLeft: `${20 + depth * 16}px`,
+                fontSize: "14px",
+              }}
+            >
+              <span>{subTab.title}</span>
+            </a>
+          ) : (
+            <button
+              className={`sidebar-link nav-link ${
+                activeSubTab === subTab.id ? "active" : ""
+              }`}
+              onClick={() => handleSubTabClick(subTab)}
+              style={{
+                paddingLeft: `${20 + depth * 16}px`,
+                fontSize: "14px",
+              }}
+            >
+              <span>{subTab.title}</span>
+              {subTab.subTabs?.length ? (
+                <span className="ms-2 subtabbingitem">
+                  {isOpen ? (
+                    <ChevronUp size={18} strokeWidth={1.8} />
+                  ) : (
+                    <ChevronDown size={18} strokeWidth={1.8} />
+                  )}
+                </span>
+              ) : null}
+            </button>
+          )}
 
           {isOpen && subTab.subTabs?.length ? (
             <ul className="nav flex-column">

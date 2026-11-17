@@ -453,7 +453,6 @@ export const civil: RecruiterLogo[] = [
     height: 50,
   },
 ];
-
 export const RAandRAIRecruiters: RecruiterLogo[] = [
   {
     id: 1,
@@ -512,6 +511,86 @@ export const RAandRAIRecruiters: RecruiterLogo[] = [
     height: 50,
   },
 ];
+export const MagazineArticle: RecruiterLogo[] = [
+  {
+    id: 1,
+    name: "Magazine Article 1",
+    image: "/images/innerpages/about/magazine-article/magazine-article1.jpg",
+    width: 100,
+    height: 100,
+  },
+  {
+    id: 2,
+    name: "Magazine Article 2",
+    image: "/images/innerpages/about/magazine-article/magazine-article2.jpg",
+    width: 100,
+    height: 100,
+  },
+  {
+    id: 3,
+    name: "Magazine Article 3",
+    image: "/images/innerpages/about/magazine-article/magazine-article3.jpeg",
+    width: 100,
+    height: 100,
+  },
+  {
+    id: 4,
+    name: "Magazine Article 4",
+    image: "/images/innerpages/about/magazine-article/magazine-article4.jpeg",
+    width: 100,
+    height: 100,
+  },
+  {
+    id: 5,
+    name: "Magazine Article 5",
+    image: "/images/innerpages/about/magazine-article/magazine-article5.jpeg",
+    width: 100,
+    height: 100,
+  },
+  {
+    id: 6,
+    name: "Magazine Article 6",
+    image: "/images/innerpages/about/magazine-article/magazine-article6.jpeg",
+    width: 100,
+    height: 100,
+  },
+  {
+    id: 7,
+    name: "Magazine Article 7",
+    image: "/images/innerpages/about/magazine-article/magazine-article7.jpeg",
+    width: 100,
+    height: 100,
+  },
+  {
+    id: 8,
+    name: "Magazine Article 8",
+    image: "/images/innerpages/about/magazine-article/magazine-article8.jpeg",
+    width: 100,
+    height: 100,
+  },
+  {
+    id: 9,
+    name: "Magazine Article 9",
+    image: "/images/innerpages/about/magazine-article/magazine-article9.jpeg",
+    width: 100,
+    height: 100,
+  },
+  {
+    id: 10,
+    name: "Magazine Article 10",
+    image: "/images/innerpages/about/magazine-article/magazine-article10.jpeg",
+    width: 100,
+    height: 100,
+  },
+  {
+    id: 11,
+    name: "Magazine Article 11",
+    image: "/images/innerpages/about/magazine-article/magazine-article11.jpeg",
+    width: 100,
+    height: 100,
+  },
+];
+
 /* =============================  PROGRAM-WISE RECRUITERS  ============================= */
 export const programRecruiters: Record<string, ProgramRecruiters> = {
   aiml: {
@@ -542,5 +621,10 @@ export const programRecruiters: Record<string, ProgramRecruiters> = {
   robotics: {
     title: "Top Recruiters",
     logos: RAandRAIRecruiters,
+  },
+
+  MagazineArticle: {
+    title: "Magazine Articles (Digital Magazine.)",
+    logos: MagazineArticle,
   },
 };

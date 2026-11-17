@@ -2671,33 +2671,22 @@ table {
   color: #c4161c;
 }
 /* PDF Preview New Design Start Here */
-/* =========================================
-   PDF PREVIEW SECTION
-========================================= */
 .pdf-preview-section {
   width: 100%;
   margin-top: 10px;
 }
-/* =========================================
-   HEADING
-========================================= */
+/* ----------- HEADING ------------- */
 .pdf-preview-heading {
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 25px;
   color: #1f2937;
 }
-/* =========================================
-   GRID
-========================================= */
 .pdf-preview-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 28px;
 }
-/* =========================================
-   CARD
-========================================= */
 .pdf-preview-card {
   background: #ffffff;
   border: 1px solid #e8e8e8;
@@ -3510,6 +3499,7 @@ table {
   position: -webkit-sticky;
   top: 120px;
   align-self: flex-start;
+  z-index: 999999;
 }
 .leader-image {
   width: 100%;
@@ -3523,6 +3513,46 @@ table {
 .leadershipContent{
   padding-left:15px !important;
 }
+.leadership_emailboxmain{
+  display:flex;
+  gap:15px;
+  flex-wrap: wrap;
+}
+.leadership_emailbox{
+  padding:20px;
+  border-radius:15px;
+  background-color:#c4161c0a;
+  width: 48%;
+  margin: 10px 0 0 0;
+}
+.redlink {
+  color: #c4161c !important;
+  text-decoration: none;
+  text-decoration:none;
+}
+.news_paper_articles .redlink{
+  color:#fff !important;
+}
+.Magzin_artical_slider{
+  margin:60px 0px 0px 0px;
+}
+.Magzin_artical_slider .recruiter_logo_item {
+  width: 95%;
+  height: 220px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border-radius: 15px;
+  border: 1px solid #fff2f2;
+}
+.Magzin_artical_slider .recruiter_logo_item img {
+  width: 100%;
+  max-width: 250px;
+  max-height: 250px;
+  object-fit: contain;
+}
 /* Leadership Page End Here */
 /* Vision Mission Page Start Here */
 .about_vision_mision{
@@ -3533,7 +3563,21 @@ table {
   top:100px
 }
 /* Vision Mission Page End Here */
-
+  .GrievanceRedressal_main{
+    position: relative;
+  }
+  .GrievanceRedressal_main::after{
+    padding:30px 0px 30px 0px;
+    background-image:url('/images/innerpages/about/Grievance-Redressal.webp');
+    background-position:right;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    right:0;
+    width:300px;
+    height:200px;
+    content:"";
+    z-index:99;
+  }
 /*------------ ABout Us Tab End Here ------------*/
 
 .homepage_main .container-fluid{
@@ -5100,6 +5144,8 @@ table {
   .leader-sticky{
     position: inherit;
   }
+
+
 
   /*------------- About Us Tab End Here -------------*/
   /*------------- AIML Department Start Here -------------*/

@@ -13,12 +13,13 @@ export const menuData: NavMenu[] = [
           {
             id: 1,
             title: "Administration and Governance ",
-            href: "/",
+            href: "https://www.siu.edu.in/about-us/administration",
+            target: "_blank",
           },
           {
             id: 2,
             title: "Grievance Redressal / Anti-Ragging ",
-            href: "/",
+            href: "/grievance-redressal-anti-ragging",
           },
 
         ],
@@ -31,12 +32,12 @@ export const menuData: NavMenu[] = [
           {
             id: 1,
             title: "SIT Pune Leadership",
-            href: "/",
+            href: "/sit-pune-leadership",
           },
           {
             id: 2,
             title: "Leadership Insights",
-            href: "/",
+            href: "/leadership-insight",
           },
 
         ],
@@ -58,7 +59,17 @@ export const menuData: NavMenu[] = [
         id: 4,
         heading: "Vision & Mission ",
         links: [
-          
+          {
+            id: 1,
+            title: "SIT Vision & Mission",
+            href: "/institute-vision-mission",
+          },
+          {
+            id: 2,
+            title: "SIU Vision & Mission",
+            href: "https://www.sitpune.edu.in/siu-vision-mission",
+            target:"_blank"
+          },
         ],
       },
     ],
