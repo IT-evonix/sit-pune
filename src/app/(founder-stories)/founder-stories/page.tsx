@@ -5,6 +5,7 @@ import Image from "next/image";
 const additionalFounderStories = [
   {
     name: "Sairaj Pisal",
+    image: "/images/innerpages/founder-stories/founder-img/Sairaj-Pisal%20.png",
     company: "Founder, Jugnu",
     batch: "Batch 2022-26",
     description:
@@ -12,6 +13,7 @@ const additionalFounderStories = [
   },
   {
     name: "Ayush Kumar",
+    image: "/images/innerpages/founder-stories/founder-img/Ayush-Kumar.png",
     company: "Founders, Cyronix",
     batch: "Batch 2022-26",
     description:
@@ -19,6 +21,7 @@ const additionalFounderStories = [
   },
   {
     name: "Chaitanya Yenge",
+    image: "/images/innerpages/founder-stories/founder-img/Chaitanya-Yenge.png",
     company: "Founder, Oxobot Robotics",
     batch: "Batch 2022-26",
     description:
@@ -26,6 +29,7 @@ const additionalFounderStories = [
   },
   {
     name: "Om Sonone",
+    image: "/images/innerpages/founder-stories/founder-img/Om-Sonone.png",
     company: "Founder, MonkEco Tech",
     batch: "Batch 2024–28",
     description:
@@ -33,6 +37,7 @@ const additionalFounderStories = [
   },
   {
     name: "Avi Shah",
+    image: "/images/innerpages/founder-stories/founder-img/Avi-Shah.png",
     company: "Founder, ReviewRewardz",
     batch: "Batch 2019–23",
     description:
@@ -40,6 +45,7 @@ const additionalFounderStories = [
   },
   {
     name: "Jay Makwana",
+    image: "/images/innerpages/founder-stories/founder-img/Jay-Makwana.png",
     company: "Founder, Take Me Places",
     batch: "Batch 2017–21",
     description:
@@ -47,6 +53,7 @@ const additionalFounderStories = [
   },
   {
     name: "Omkar Jagdale",
+    image: "/images/innerpages/founder-stories/founder-img/Omkar-Jagdale.png",
     company: "Founder, Jagson Buildcon Pvt. Ltd.",
     batch: "Batch 2021–22",
     description:
@@ -54,6 +61,7 @@ const additionalFounderStories = [
   },
   {
     name: "Arnav Chamadia",
+    image: "/images/innerpages/founder-stories/founder-img/Arnav-Chamadia.png",
     company: "Director, Chamadia Group of Industries",
     batch: "Batch 2016–20",
     description:
@@ -61,6 +69,7 @@ const additionalFounderStories = [
   },
   {
     name: "Dhruv Patel",
+    image: "/images/innerpages/founder-stories/founder-img/Dhruv-Patel.png",
     company: "Founder, Krishna Realty",
     batch: "Batch 2017–21",
     description:
@@ -68,6 +77,7 @@ const additionalFounderStories = [
   },
   {
     name: "Tanay Agrawal",
+    image: "/images/innerpages/founder-stories/founder-img/Tanay-Agrawal.png",
     company: "Founder, Global Good",
     batch: "Batch 2017–21",
     description:
@@ -75,6 +85,7 @@ const additionalFounderStories = [
   },
   {
     name: "Shubham Shitole",
+    image: "/images/innerpages/founder-stories/founder-img/Shubham-Shitole.png",
     company: "Founder, Rubicon Electricals",
     batch: "Batch 2017–21",
     description:
@@ -82,6 +93,7 @@ const additionalFounderStories = [
   },
   {
     name: "Raj Kalkute",
+    image: "/images/innerpages/founder-stories/founder-img/Raj-Kalkute.png",
     company: "Founder, Chrazit Pvt. Ltd.",
     batch: "Batch 2016–20.",
     description:
@@ -89,6 +101,7 @@ const additionalFounderStories = [
   },
   {
     name: "Ojus Shinde",
+    image: "/images/innerpages/founder-stories/founder-img/Ojus-Shinde.png",
     company: "Founder, Vijaya Industries",
     batch: "Batch 2017–21",
     description:
@@ -150,8 +163,8 @@ const page = () => {
                   <div className="founder_img">
                     <Image
                       className="img-fluid"
-                      src="/images/innerpages/founder-stories/founder-img/founder.png"
-                      alt="Asmita Kothari"
+                      src="/images/innerpages/founder-stories/founder-img/Yash-Parkhi%20.png"
+                      alt="Yash Parkhi"
                       width={200}
                       height={200}
                     />
@@ -191,8 +204,8 @@ const page = () => {
                   <div className="founder_img">
                     <Image
                       className="img-fluid"
-                      src="/images/innerpages/founder-stories/founder-img/founder.png"
-                      alt="Asmita Kothari"
+                      src="/images/innerpages/founder-stories/founder-img/Tanisha-Vyas.png"
+                      alt="Tanisha Vyas"
                       width={200}
                       height={200}
                     />
@@ -231,7 +244,7 @@ const page = () => {
                     <div className="founder_img">
                       <Image
                         className="img-fluid"
-                        src="/images/innerpages/founder-stories/founder-img/founder.png"
+                        src={story.image}
                         alt={story.name}
                         width={200}
                         height={200}

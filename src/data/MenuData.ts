@@ -288,12 +288,6 @@ export const menuData: NavMenu[] = [
     href: "/",
   },
 
-  // {
-  //   id: 5,
-  //   title: "Campus Life",
-  //   href: "/",
-  // },
-
   {
     id: 5,
     title: "Campus Life",
@@ -360,12 +354,6 @@ export const menuData: NavMenu[] = [
     ],
   },
 
-  // {
-  //   id: 6,
-  //   title: "Academics",
-  //   href: "/",
-  // },
-
   {
     id: 6,
     title: "Academics",
@@ -425,10 +413,51 @@ export const menuData: NavMenu[] = [
     ],
   },
 
+  // {
+  //   id: 7,
+  //   title: "Placements",
+  //   href: "/",
+  // },
+
   {
-    id: 7,
+    id: 10,
     title: "Placements",
-    href: "/",
+    hasMegaMenu: true,
+    columns: [
+      {
+        id: 1,
+        heading: "Placements",
+        links: [
+          {
+            id: 1,
+            title: "Placement Brochure",
+            href: "/pdf/placement/placement_brochure.pdf",
+            target: "_blank",
+          },
+          {
+            id: 2,
+            title: "Placement Overview",
+            href: "/placement-overview",
+          },
+          {
+            id: 3,
+            title: "Placement Cell",
+            href: "/placement-cell",
+          },
+          {
+            id: 4,
+            title: "Placement Records",
+            href: "/pdf/placement/Placement-Record-Graphs.pdf",
+            target: "_blank",
+          },
+          {
+            id: 4,
+            title: "SITian Voices & Photo Gallery",
+            href: "/sitian-voices",
+          },
+        ],
+      },      
+    ],
   },
 
   {
@@ -506,12 +535,6 @@ export const menuData: NavMenu[] = [
     title: "Going Global",
     href: "/",
   },
-
-  // {
-  //   id: 9,
-  //   title: "Career",
-  //   href: "/",
-  // },
 
   {
     id: 10,

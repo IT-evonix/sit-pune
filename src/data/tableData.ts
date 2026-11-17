@@ -4028,6 +4028,77 @@ export const LibraryStaffData = [
 ];
 // -------- Library Tables End Here -----------------------------------------------------------
 
+
+// -------- Founder Stories Tab Start Here -----------------------------------------------------------
+// Placement Committee Start Here
+export const PlacementCommitteeColumns = [
+  {
+    key: "srNo",
+    title: "Sr. No.",
+  },
+  {
+    key: "name",
+    title: "Name",
+  },
+  {
+    key: "designation",
+    title: "Designation",
+  },
+    {
+    key: "email",
+    title: "Email",
+  },
+  {
+    key: "contact",
+    title: "Contact",
+  },
+];
+export const PlacementCommitteeData = [
+  {
+    srNo: "1",
+    name: "Dr. Nilisha Itankar",
+    designation: "Head, Placements",
+    email: "placements@sitpune.edu.in",
+    contact: "(020) 28116442, 9860147596",
+  },
+  {
+    srNo: "2",
+    name: "Dr. Ravi Sekhar",
+    designation: "Faculty Incharge",
+    email: "ravi.sekhar@sitpune.edu.in",
+    contact: "(020) 28116510, 9764004681",
+  },
+  {
+    srNo: "3",
+    name: "Rahul Digge",
+    designation: "Training & Placement Officer",
+    email: "tpo@sitpune.edu.in",
+    contact: "(020) 28116513, 9623477077",
+  },
+  {
+    srNo: "4",
+    name: "Akhil Chandran",
+    designation: "Training & Placement Officer",
+    email: "akhil.chandran@sitpune.edu.in",
+    contact: "(020) 28116305, 8848596436",
+  },
+  {
+    srNo: "5",
+    name: "Pushkar Gohel",
+    designation: "Placement Officer",
+    email: "pushkar.gohel@sitpune.edu.in",
+    contact: "(020) 28116516, 9972226680",
+  },
+  {
+    srNo: "6",
+    name: "Rashmi Kshirsagar",
+    designation: "Senior Supervisor",
+    email: "rashmi.kshirsagar@sitpune.edu.in",
+    contact: "(020) 28116443, 9822326886",
+  },
+];
+// -------- Placement Tab End Here -----------------------------------------------------------
+
 // -------- Founder Stories Tab Start Here -----------------------------------------------------------
 // Epic Committee Start Here
 export const EpicCommitteeColumns = [
