@@ -43,7 +43,7 @@ body.menu-open {
   display: flex;
   align-items: center;
   gap: 2px;
-  padding: 25px 0px 25px 6px;
+  padding: 25px 0px 25px 5px;
   color: #24324a;
   font-size: 12px;
   text-decoration: none;
@@ -69,8 +69,9 @@ body.menu-open {
 }
 /* ============== ARROW ============== */
 .arrow {
-  font-size: 8px;
+  font-size: 7px;
   transition: 0.3s;
+  margin: 3px 0 0 -1px;
 }
 .has-mega-menu:hover .arrow {
   transform: rotate(180deg);

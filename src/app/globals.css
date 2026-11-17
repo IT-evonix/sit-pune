@@ -2309,13 +2309,13 @@ body.menu-open {
   list-style-type: disc;
   color: #000;
 }
-.sublistingbox{
+.sublistingbox {
   padding: 0 0 0 15px;
   margin: 0px;
 }
 .listingbox .sublistingbox li {
   padding: 2px 0;
-  list-style-type:circle;
+  list-style-type: circle;
   color: #000;
 }
 .program_highlights_right .listingbox li {
@@ -2615,7 +2615,7 @@ table {
   display: flex;
   flex-wrap: wrap;
   gap: 18px;
-  margin-top:0px;
+  margin-top: 0px;
 }
 .programme-card {
   border: 1px solid #e5e7eb;
@@ -2841,7 +2841,7 @@ table {
   text-decoration: none;
   width: 31%;
   position: relative;
-  overflow:hidden;
+  overflow: hidden;
 }
 .infrastructure_card a {
   text-decoration: none;
@@ -2870,11 +2870,11 @@ table {
   min-height: 280px;
   overflow: hidden;
   object-fit: cover;
-  transition-duration:0.7s;
+  transition-duration: 0.7s;
 }
-.infrastructure_img:hover{
+.infrastructure_img:hover {
   transform: scale(1.1);
-  transition-duration:0.7s;
+  transition-duration: 0.7s;
 }
 .infrastructure_images .img-title {
   text-decoration: none;
@@ -3006,16 +3006,16 @@ table {
   margin-top: 20px;
 }
 .student_project_table thead th:first-child {
-    border-top-left-radius: 0px !important;
+  border-top-left-radius: 0px !important;
 }
 .student_project_table thead th:last-child {
-    border-top-right-radius:0px !important;
+  border-top-right-radius: 0px !important;
 }
-.student_project_year_block .table-responsive{
+.student_project_year_block .table-responsive {
   border-radius: 18px;
   border-radius: 18px !important;
 }
-.customtable{
+.customtable {
   border-radius: 18px !important;
 }
 .student_project_select:focus {
@@ -3056,13 +3056,13 @@ table {
   border-right: 1px solid #edf3fb;
   white-space: nowrap;
 }
-.student_project_table tr:last-child td{
-    border-bottom: none;
+.student_project_table tr:last-child td {
+  border-bottom: none;
 }
-.table-responsive{
+.table-responsive {
   border-radius: 18px;
 }
-.table-wrapper{
+.table-wrapper {
   background: #fff;
   border: 1px solid #e5edf7;
   border-radius: 22px;
@@ -3486,13 +3486,13 @@ table {
   color: #c4161c;
   font-family: "Metropolis-Medium";
 }
-.leader-content p{
+.leader-content p {
   text-align: justify;
 }
-.leader-header h5 span{
-  font-size:14px;
-  display:block;
-  color:#000 !important;
+.leader-header h5 span {
+  font-size: 14px;
+  display: block;
+  color: #000 !important;
 }
 .leader-sticky {
   position: sticky;
@@ -3510,31 +3510,31 @@ table {
 .leader-image-wrapper {
   position: relative;
 }
-.leadershipContent{
-  padding-left:15px !important;
+.leadershipContent {
+  padding-left: 15px !important;
 }
-.leadership_emailboxmain{
-  display:flex;
-  gap:15px;
+.leadership_emailboxmain {
+  display: flex;
+  gap: 15px;
   flex-wrap: wrap;
 }
-.leadership_emailbox{
-  padding:20px;
-  border-radius:15px;
-  background-color:#c4161c0a;
+.leadership_emailbox {
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #c4161c0a;
   width: 48%;
   margin: 10px 0 0 0;
 }
 .redlink {
   color: #c4161c !important;
   text-decoration: none;
-  text-decoration:none;
+  text-decoration: none;
 }
-.news_paper_articles .redlink{
-  color:#fff !important;
+.news_paper_articles .redlink {
+  color: #fff !important;
 }
-.Magzin_artical_slider{
-  margin:60px 0px 0px 0px;
+.Magzin_artical_slider {
+  margin: 60px 0px 0px 0px;
 }
 .Magzin_artical_slider .recruiter_logo_item {
   width: 95%;
@@ -3555,41 +3555,40 @@ table {
 }
 /* Leadership Page End Here */
 /* Vision Mission Page Start Here */
-.about_vision_mision{
-  padding:20px 0px 30px 0px;
+.about_vision_mision {
+  padding: 20px 0px 30px 0px;
 }
-.leadershipTabbing{
-  position:sticky;
-  top:100px
+.leadershipTabbing {
+  position: sticky;
+  top: 100px;
 }
 /* Vision Mission Page End Here */
-  .GrievanceRedressal_main{
-    position: relative;
-  }
-  .GrievanceRedressal_main::after{
-    padding:30px 0px 30px 0px;
-    background-image:url('/images/innerpages/about/Grievance-Redressal.webp');
-    background-position:right;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    right:0;
-    width:300px;
-    height:200px;
-    content:"";
-    z-index:99;
-  }
+.GrievanceRedressal_main {
+  position: relative;
+}
+.GrievanceRedressal_main::after {
+  padding: 30px 0px 30px 0px;
+  background-image: url("/images/innerpages/about/Grievance-Redressal.webp");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  right: 0;
+  width: 300px;
+  height: 200px;
+  content: "";
+  z-index: 99;
+}
 /*------------ ABout Us Tab End Here ------------*/
 
-.homepage_main .container-fluid{
+.homepage_main .container-fluid {
   max-width: 96%;
 }
-.container-fluid{
+.container-fluid {
   max-width: 96%;
 }
-.homepage_main .container{
+.homepage_main .container {
   max-width: 96%;
 }
-
 
 /*----------- Major and Minor Start Here -----------*/
 /* .major-minor-programmes-section {
@@ -3610,10 +3609,10 @@ table {
   background: #ffffff;
   overflow: hidden;
   box-shadow: 0 8px 28px rgba(18, 67, 119, 0.08);
-  height:100%;
+  height: 100%;
 }
 .major-minor-card-header {
-  min-height:50px;
+  min-height: 50px;
   display: flex;
   align-items: center;
   padding: 0 20px;
@@ -3621,8 +3620,8 @@ table {
   position: relative;
   overflow: hidden;
 }
-.major-minor-header-icon svg{
-  max-height:30px;
+.major-minor-header-icon svg {
+  max-height: 30px;
   stroke-width: 1.5;
 }
 .major-minor-card-header::after {
@@ -3656,12 +3655,12 @@ table {
   margin: 0 20px;
 }
 .major-minor-card-header h2 {
-    margin: 0;
-    color: #ffffff;
-    font-size: 18px;
-    line-height: normal;
-    font-family: Metropolis-SemiBold;
-    padding: 9px 0;
+  margin: 0;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: normal;
+  font-family: Metropolis-SemiBold;
+  padding: 9px 0;
 }
 .major-minor-programme-list {
   padding: 10px 20px 28px;
@@ -3670,46 +3669,42 @@ table {
   min-height: 60px;
   margin-top: 14px;
   border-radius: 15px;
-  background: linear-gradient(
-    100deg,
-    #f3f7fb 0%,
-    #f8fafc 100%
-  );
+  background: linear-gradient(100deg, #f3f7fb 0%, #f8fafc 100%);
   display: flex;
   align-items: center;
   position: relative;
   /* overflow: hidden; */
   padding: 0 0 0 0px;
 }
-.major-minor-programme-item svg{
-  max-height:30px;
+.major-minor-programme-item svg {
+  max-height: 30px;
   stroke-width: 1.3;
 }
 .major-minor-programme-number {
-    width: 30px;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: rgb(255, 255, 255);
-    font-size: 14px;
-    border-radius: 20px;
-    min-width: 30px;
-    min-height: 30px;
-    font-family: 'Metropolis-Regular';
-    position:absolute;
-    left:-10px;
-    display:flex;
-    align-items:center;
-    justify-content: center;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  border-radius: 20px;
+  min-width: 30px;
+  min-height: 30px;
+  font-family: "Metropolis-Regular";
+  position: absolute;
+  left: -10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .number-red {
   background: #e3ebf4;
-  color:#000;
+  color: #000;
 }
 .number-blue {
   background: #e3ebf4;
-  color:#000;
+  color: #000;
 }
 .major-minor-programme-icon {
   width: 60px;
@@ -3736,7 +3731,7 @@ table {
   color: #000;
   font-size: 16px;
   line-height: normal;
-  font-family: 'Metropolis-Regular';
+  font-family: "Metropolis-Regular";
 }
 .major-minor-programme-item {
   transition:
@@ -3751,30 +3746,30 @@ table {
 
 /*------------ Admission Tab Start Here ------------*/
 /*------------ Undergraduate Admissions Start Here ------------*/
-.undergraduate_admissions_page .programme-card{
+.undergraduate_admissions_page .programme-card {
   width: 32.2%;
 }
 /*------------ Undergraduate Admissions End Here ------------*/
 /*------------- Dual Degree Programs Start Here -------------*/
-.Aboutus_left{
+.Aboutus_left {
   margin: 0 0 40px 0;
 }
-.dual-degree-list{
-  padding-left:15px;
-  font-size:15px;
+.dual-degree-list {
+  padding-left: 15px;
+  font-size: 15px;
 }
-.siteee-step-card{
+.siteee-step-card {
   margin: 0 0 30px 0;
 }
 .siteee-step-card li {
-    padding-left: 1px;
-    margin-bottom: 3px;
-    color: #000;
-    overflow-wrap: anywhere;
-    list-style-type: disc;
+  padding-left: 1px;
+  margin-bottom: 3px;
+  color: #000;
+  overflow-wrap: anywhere;
+  list-style-type: disc;
 }
-.dual-degreeimg{
-  position:sticky;
+.dual-degreeimg {
+  position: sticky;
   top: 120px;
 }
 .admission_process_phase {
@@ -3808,7 +3803,7 @@ table {
   width: 100%;
 }
 .phaseName {
-  font-family: 'Metropolis-SemiBold';
+  font-family: "Metropolis-SemiBold";
   font-size: 20px;
   line-height: normal;
   padding: 0 0px 0 0px;
@@ -3846,7 +3841,7 @@ table {
 .processText .subheading {
   text-align: center;
   font-size: 14px;
-  font-family: 'Metropolis-Regular';
+  font-family: "Metropolis-Regular";
   min-height: 150px;
 }
 .processText {
@@ -3885,22 +3880,22 @@ table {
   z-index: 1;
   border-radius: 0px 0px 20px 20px;
 }
-.pdf_main .programme-card{
-  width:100%;
+.pdf_main .programme-card {
+  width: 100%;
 }
-.DualDegreePrograms{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    transition-duration: 0.5s;
-    position: relative;
-    margin: 0px 0px 9px;
-    background-color: #f3f8fe;
-    box-shadow: 0px 0px 0px #000;
-    border-radius: 100px;
-    padding: 10px;
+.DualDegreePrograms {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  transition-duration: 0.5s;
+  position: relative;
+  margin: 0px 0px 9px;
+  background-color: #f3f8fe;
+  box-shadow: 0px 0px 0px #000;
+  border-radius: 100px;
+  padding: 10px;
 }
-.DualDegreePrograms-steps{
+.DualDegreePrograms-steps {
   text-transform: uppercase;
   text-align: start;
   background-image: url(/images/innerpages/admission/dual-degree/dual-degree-bg.svg);
@@ -3911,50 +3906,110 @@ table {
   width: 26%;
   padding: 24px 90px 24px 20px;
   border-radius: 50px 0px 0px 50px;
-  font-family: 'Metropolis-SemiBold';
+  font-family: "Metropolis-SemiBold";
   font-size: 15px;
 }
-.DualDegreePrograms-buttonbox{
-    position: relative;
-    width: 32%;
-    margin: 0px 0px 0px -140px;
-    background-color: #fff;
-    padding: 10px 10px 10px 40px;
-    text-align: center;
-    border-radius: 50px;
-    color: #163c7a;
-    font-family: 'Metropolis-Regular';
-    font-size: 15px;
+.DualDegreePrograms-buttonbox {
+  position: relative;
+  width: 32%;
+  margin: 0px 0px 0px -140px;
+  background-color: #fff;
+  padding: 10px 10px 10px 40px;
+  text-align: center;
+  border-radius: 50px;
+  color: #163c7a;
+  font-family: "Metropolis-Regular";
+  font-size: 15px;
 }
-.DualDegreePrograms p{
-    width: 56%;
-    line-height: normal;
-    font-family: 'Metropolis-Regular';
-    font-size: 15px;
-    margin: 0px 0px 0px 20px;
+.DualDegreePrograms p {
+  width: 56%;
+  line-height: normal;
+  font-family: "Metropolis-Regular";
+  font-size: 15px;
+  margin: 0px 0px 0px 20px;
 }
-.DualDegreePrograms:hover .DualDegreePrograms-buttonbox{
-    background-color: #c6141c;
-    transition-duration: 0.3s;
-    color: #fff;
+.DualDegreePrograms:hover .DualDegreePrograms-buttonbox {
+  background-color: #c6141c;
+  transition-duration: 0.3s;
+  color: #fff;
 }
-.tableshighlight{
-  font-family: 'Metropolis-Bold';
+.tableshighlight {
+  font-family: "Metropolis-Bold";
 }
 /*------------- Dual Degree Programs End Here -------------*/
 /*------------ Admission Tab End Here ------------*/
 /*---------------- Academics Tab Start Here ----------------*/
 /* Academic Calendar */
-.notice-attendance-main{
-  background-image:url('/images/innerpages/academics/notice-attendance.webp');
-  background-position:right;
+.notice-attendance-main {
+  background-image: url("/images/innerpages/academics/notice-attendance.webp");
+  background-position: right;
   background-repeat: no-repeat;
-  background-size:contain;
+  background-size: contain;
 }
 /*---------------- Academics Tab End Here ----------------*/
 
-
-
+/*---------------- Placement Tab Start Here --------------*/
+.placement_overview_main {
+  padding: 60px 0px ;
+}
+.placement_image_box {
+  position: relative;
+  display: flex;
+  margin-bottom: 75px;
+}
+.placement_image_box .placement_image_center img{
+  transition-duration: 0.5s;
+}
+.placement_image_box:hover .placement_image_center img{
+  transform: scale(1.15);
+  transition-duration: 0.5s;
+}
+.placement_image_left {
+  width: 85%;
+}
+.placement_image_left img{
+  border-radius: 50px 20px 20px 20px;
+}
+.placement_image_center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9;
+  background: #fff;
+  padding: 30px;
+  border-radius: 230px;
+}
+.placement_image_center img{
+  max-height: 70px;
+  height: auto;
+  width: auto;
+}
+.placement_image_right {
+  position: absolute;
+  bottom: -85px;
+  border-left: 15px solid #fff;
+  border-top: 15px solid #fff;
+  right: 10px;
+  width:50%;
+}
+.placement_image_right img{
+  border-radius: 50px 20px 20px 20px;
+}
+.placement_right_content p{
+  text-align: justify;
+}
+.placement-last-img{
+  position: relative;
+  z-index:99;
+}
+.placement-last-img img{
+  border-radius:20px;
+}
+.SITian_gallery{
+  padding:60px 0px 0px 0px;
+}
+/*---------------- Placement Tab End Here ----------------*/
 
 /* ========== Rahul Normal CSS start ==========  */
 .adderess_form_mainbox {
@@ -4179,8 +4234,8 @@ table {
 /* ========== Rahul Normal CSS ends ========== */
 
 /*-------- Founder Story Tab Start Here --------*/
-.Innerpage_main{
-  padding:60px 0px;
+.Innerpage_main {
+  padding: 60px 0px;
 }
 .career_opportunities_images {
   display: flex;
@@ -4213,9 +4268,9 @@ table {
 .careerimages_sticky {
   position: sticky;
   top: 100px;
-  padding-left:20px;
+  padding-left: 20px;
 }
-.aicte_leadership{
+.aicte_leadership {
   background: #10467f0f;
   padding: 15px;
   border-radius: 10px;
@@ -4228,20 +4283,20 @@ table {
   box-shadow: 0px 5px 10px #00000012;
   border-radius: 10px;
 }
-.profile_photo{
-  width:33%;
+.profile_photo {
+  width: 33%;
 }
-.profile_photo img{
+.profile_photo img {
   border-radius: 10px 0px 0px 10px;
   min-height: 120px;
   overflow: hidden;
   object-fit: cover;
-  width:100%;
+  width: 100%;
 }
-.profile_details{
-  width:55%;
+.profile_details {
+  width: 55%;
 }
-.profiletag{
+.profiletag {
   font-size: 12px;
   color: #c4161c;
   margin: 0 0 10px 0;
@@ -4251,104 +4306,105 @@ table {
   border-radius: 20px;
   line-height: normal;
 }
-.profile_card .subheading{
-  font-size:16px;
+.profile_card .subheading {
+  font-size: 16px;
   line-height: normal;
 }
-.profiledesignation{
-  font-size:14px;
+.profiledesignation {
+  font-size: 14px;
   line-height: normal;
-  color:#2c2c2c;
+  color: #2c2c2c;
 }
 /* Maker Lab Start Here */
-.makersLab_main{
+.makersLab_main {
   padding: 60px 0px 70px;
   overflow: hidden;
-  background: url(/images/home/Internationalization.webp) 0px center / 100% auto no-repeat;
+  background: url(/images/home/Internationalization.webp) 0px center / 100% auto
+    no-repeat;
   background-position: 0px center;
 }
-.makersLab_main .program_highlights_right{
+.makersLab_main .program_highlights_right {
   width: 100%;
 }
-.makersLab_main .verticalScroll{
-  max-height:inherit;
+.makersLab_main .verticalScroll {
+  max-height: inherit;
 }
-.maker_lab_box{
-  padding:60px 0px 60px 0px;
+.maker_lab_box {
+  padding: 60px 0px 60px 0px;
 }
-.maker_lab_box .profile_photo{
+.maker_lab_box .profile_photo {
   min-width: 33%;
   max-width: 33%;
 }
-.maker_lab_box .profile_details{
+.maker_lab_box .profile_details {
   width: auto;
   padding: 0px 15px 0px 0px;
 }
-.maker_lab_box .profile_details p{
+.maker_lab_box .profile_details p {
   font-size: 15px;
 }
-.aicte_leadership{
+.aicte_leadership {
   padding: 25px;
 }
-.bluebg_box{
+.bluebg_box {
   background-color: #ebf5ff;
-  padding:25px;
+  padding: 25px;
   border-radius: 10px;
-  height:100%;
+  height: 100%;
   display: flex;
   align-items: center;
 }
-.maker_lab_box .aicte_leadership{
+.maker_lab_box .aicte_leadership {
   background: #fff7f7;
 }
 
 .sitepic_inner {
-  align-items:flex-start;
+  align-items: flex-start;
   display: flex;
 }
-.sitepic_left{
+.sitepic_left {
   border-radius: 40px;
   width: 45%;
-  position:sticky;
+  position: sticky;
   top: 120px;
   transition-duration: 0.7s;
 }
-.sitepic_image{
+.sitepic_image {
   overflow: hidden;
   transition-duration: 0.7s;
   border-radius: 40px;
 }
-.sitepic_left img{
+.sitepic_left img {
   border-radius: 40px;
   transition-duration: 0.7s;
 }
-.sitepic_left img:hover{
+.sitepic_left img:hover {
   transform: scale(1.1);
   transition-duration: 0.7s;
 }
-.sitepic_right{
+.sitepic_right {
   width: 55%;
   padding: 0 0 0 50px;
 }
-.sitepic_lastbox{
+.sitepic_lastbox {
   background-color: #f3f8fe;
   padding: 30px;
   border-radius: 20px;
   text-align: center;
   margin: 60px 0 0 0;
 }
-.sitepic_lastbox .subheading{
+.sitepic_lastbox .subheading {
   color: #c4161c;
   line-height: normal;
-  margin-top:10px;
+  margin-top: 10px;
 }
 /* Epic Chronicle Start Here */
-.epicchronicle_box{
-  display:grid;
+.epicchronicle_box {
+  display: grid;
   grid-template-columns: 3fr 350px;
   gap: 20px;
   border-radius: 20px;
-  padding:30px;
+  padding: 30px;
   margin: 0px 0 30px 0;
 }
 .epicchronicle_box:nth-child(odd) {
@@ -4358,29 +4414,29 @@ table {
   background-color: #eff6fb;
 }
 
-.epicchronicle_box:nth-child(even) .credential_achievements_box{
+.epicchronicle_box:nth-child(even) .credential_achievements_box {
   background-color: #fcf1f2;
 }
-.credential_achievements{
+.credential_achievements {
   background-color: #f3f8fe;
   border-radius: 20px;
 }
-.credential_achievements_main{
+.credential_achievements_main {
   background-color: #fff;
   padding: 10px;
   border-radius: 20px;
 }
-.credential_achievements_box{
+.credential_achievements_box {
   background-color: #e7f2ff;
   border-radius: 20px;
   padding: 15px;
   margin: 0px 0 10px 0;
 }
-.achievements_heading{
+.achievements_heading {
   background-color: #c4161c;
   border-radius: 30px;
   color: #fff;
-  font-family: 'Metropolis-SemiBold';
+  font-family: "Metropolis-SemiBold";
   font-size: 14px;
   line-height: normal;
   text-align: center;
@@ -4388,52 +4444,52 @@ table {
   padding: 6px 30px;
   margin: 0px 0px 10px 0px;
 }
-.achievements_details{
-  font-family: 'Metropolis-SemiBold';
+.achievements_details {
+  font-family: "Metropolis-SemiBold";
   line-height: normal;
 }
-.achievements_details span{
-  font-family: 'Metropolis-Regular';
+.achievements_details span {
+  font-family: "Metropolis-Regular";
   font-size: 14px;
 }
-.credential_achievements_box ul li{
+.credential_achievements_box ul li {
   margin: 0px 0px 8px 0px;
   line-height: normal;
-  font-size:15px;
+  font-size: 15px;
 }
 
 /* Founder Stories Page Start Here */
-.founder_stories_box{
+.founder_stories_box {
   display: flex;
   margin: 0 0 20px 0;
   scroll-margin-top: 150px;
   overflow: clip;
 }
-.founder_stories_box:nth-child(odd) .founder_stories_text{
+.founder_stories_box:nth-child(odd) .founder_stories_text {
   background-color: #fcf1f2;
 }
-.founder_stories_box:nth-child(even){
+.founder_stories_box:nth-child(even) {
   flex-direction: row-reverse;
 }
 .founder_stories_box:nth-child(even) .founder_stories_text {
-    background-color: #eff6fb;
-    text-align: right;
-    padding: 20px 20px 20px 20px;
+  background-color: #eff6fb;
+  text-align: right;
+  padding: 20px 20px 20px 20px;
 }
 .founder_stories_box:nth-child(even) .founder_stories_img {
-    flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
 .founder_stories_box:nth-child(odd) .founder_name,
 .founder_stories_box:nth-child(odd) .company_name,
 .founder_stories_box:nth-child(odd) .batchyear {
-    text-align: left;
+  text-align: left;
 }
 .founder_stories_box:nth-child(even) .founder_name,
 .founder_stories_box:nth-child(even) .company_name,
 .founder_stories_box:nth-child(even) .batchyear {
-    text-align: right;
+  text-align: right;
 }
-.founder_stories_text{
+.founder_stories_text {
   /* background-color: #FDF9F9; */
   padding: 20px 20px 20px 20px;
   color: #222222;
@@ -4444,56 +4500,60 @@ table {
   font-family: Metropolis-Regular;
 }
 .founder_name {
-    font-family: Metropolis-Bold;
-    font-size: 17px;
-    color: #c32f33;
-    width: 100%;
-    text-align: left;
+  font-family: Metropolis-Bold;
+  font-size: 17px;
+  color: #c32f33;
+  width: 100%;
+  text-align: left;
 }
 .company_name {
-    font-size: 14px;
-    color: #222;
-    width: 100%;
-    text-align: left;
-    font-family: Metropolis-Medium;
+  font-size: 14px;
+  color: #222;
+  width: 100%;
+  text-align: left;
+  font-family: Metropolis-Medium;
 }
-.batchyear{
-    font-size: 14px;
-    color: #222;
-    width: 100%;
-    text-align: left;
-    font-family: Metropolis-Regular;
+.batchyear {
+  font-size: 14px;
+  color: #222;
+  width: 100%;
+  text-align: left;
+  font-family: Metropolis-Regular;
 }
 .founder_stories_img {
-    color: #F2F2F2;
-    font-size: 50px;
-    width: 15%;
-    float: left;
-    text-align: center;
-    font-family: Metropolis-Bold;
-    display: flex;
-    align-items: center;
-}.testimonials_line {
-    width: 40%;
-    height: 2px;
-    background: #FFF4F4;
+  color: #f2f2f2;
+  font-size: 50px;
+  width: 15%;
+  float: left;
+  text-align: center;
+  font-family: Metropolis-Bold;
+  display: flex;
+  align-items: center;
+}
+.testimonials_line {
+  width: 40%;
+  height: 2px;
+  background: #fff4f4;
 }
 .testimonials_img {
-    border-radius: 100px;
-    border: 2px solid #c4161c4a;
+  border-radius: 100px;
+  border: 2px solid #c4161c4a;
+}
+.founder_img img{
+  border-radius: 200px;
 }
 .founder_stories_text .top_icon {
-    width: 15px;
-    opacity: 0.2;
-    margin: -12px 7px 0 0px;
-    display: unset;
+  width: 15px;
+  opacity: 0.2;
+  margin: -12px 7px 0 0px;
+  display: unset;
 }
 .founder_stories_text .bottom_icon {
-    width: 15px;
-    opacity: 0.2;
-    transform: rotate(180deg);
-    margin: 5px 0 0 7px;
-    display: unset;
+  width: 15px;
+  opacity: 0.2;
+  transform: rotate(180deg);
+  margin: 5px 0 0 7px;
+  display: unset;
 }
 /*-------- Founder Story Tab End Here --------*/
 /*--------------- upcoming Events Start Here ---------------*/
@@ -4547,7 +4607,7 @@ table {
 .upcoming-event-description {
   margin: 0 0 20px;
   line-height: 1.3;
-  font-size:14px;
+  font-size: 14px;
 }
 .upcoming-event-details {
   display: flex;
@@ -4567,7 +4627,7 @@ table {
   color: #c4161c;
   font-weight: 600;
 }
-.datetext{
+.datetext {
   background-color: #c4161c0f;
   border-radius: 20px;
   line-height: normal;
@@ -4578,14 +4638,12 @@ table {
 }
 /*--------------- upcoming Events End Here ---------------*/
 
-
-
 /* Media Queries Start Here */
 @media (min-width: 1599.98px) {
-  .container-fluid{
+  .container-fluid {
     max-width: 1600px;
   }
-  .homepage_main .container-fluid{
+  .homepage_main .container-fluid {
     max-width: 1600px;
   }
   /* Header Start Here*/
@@ -4607,19 +4665,18 @@ table {
   }
   /*---------- Hero Video End Here ----------*/
   /*------- Programe AIML Start Here -------*/
-  .faculty-grid{
+  .faculty-grid {
     grid-template-columns: repeat(4, minmax(0px, 1fr));
   }
   /*------- Programe AIML End Here -------*/
   /*------------ Admission Tab Start Here ------------*/
   /*----------- Dual Degree Programs Start Here -----------*/
-  .DualDegreePrograms-buttonbox{
+  .DualDegreePrograms-buttonbox {
     margin: 0px 0px 0px -160px;
     padding: 10px 10px 10px 10px;
   }
   /*------------ Dual Degree Programs End Here -----------*/
   /*------------ Admission Tab End Here ------------------*/
-
 }
 @media (min-width: 1399.98px) {
   /* Header Start Here*/
@@ -4665,10 +4722,10 @@ table {
 }
 @media (max-width: 1199.98px) {
   /*----------------- Top Strip Start Here -----------------*/
-  .topstrip_track{
+  .topstrip_track {
     gap: 5px;
   }
-  .topstrip_link{
+  .topstrip_link {
     font-size: 13px;
     padding: 2px 8px;
   }
@@ -4685,7 +4742,7 @@ table {
     font-size: 35px;
     line-height: 1.1;
   }
-  .rounded_cta{
+  .rounded_cta {
     padding: 6px 22px;
     margin-top: 5px;
   }
@@ -4695,13 +4752,13 @@ table {
   }
   /*--------------- Hero Banner End Here ---------------*/
   /*--------------- About Us Start Here ---------------*/
-  .Aboutus_section{
+  .Aboutus_section {
     padding: 100px 0px 0px 0px;
   }
-  .Aboutus_section:after{
+  .Aboutus_section:after {
     height: 320px;
   }
-  .Aboutus_inner{
+  .Aboutus_inner {
     padding: 0px 0px 0px 0px;
   }
   .Aboutus_left {
@@ -4709,51 +4766,51 @@ table {
   }
   /*--------------- About Us End Here ---------------*/
   /*--------------- Programs Offered Start Here ---------------*/
-  .academicStudentImage{
+  .academicStudentImage {
     max-height: 270px;
     width: auto;
     margin: 0 0 -80px 0px;
   }
-  .ProgramsTabbing{
+  .ProgramsTabbing {
     margin: 0px 0px -100px 0px;
   }
-  .academic_programs_section .ProgramsTabbing .btn{
-    font-size:15px;
+  .academic_programs_section .ProgramsTabbing .btn {
+    font-size: 15px;
     padding: 8px 11px !important;
   }
   /*--------------- Programs Offered End Here ---------------*/
   /*--------------- Placements Start Here ---------------*/
-  .Placements_section:after{
+  .Placements_section:after {
     width: 440px;
     height: 360px;
   }
   /*--------------- Placements End Here ---------------*/
   /*---------------- Gallery Section Start Here ----------------*/
-  .gallery-section{
+  .gallery-section {
     min-height: inherit;
   }
   /*---------------- Gallery Section End Here ----------------*/
 
   /*--------------- Reserch Start Here ---------------*/
-  .coe-card{
+  .coe-card {
     height: 300px;
   }
   /*--------------- Reserch End Here ---------------*/
   /*------------- AIML Department Start Here -------------*/
-  .main_content{
+  .main_content {
     padding: 0px 0px 0px 20px;
   }
-  .profileDepartment{
+  .profileDepartment {
     line-height: normal;
   }
-  .profileDepartment span{
-    margin-top:5px;
-    display:block;
+  .profileDepartment span {
+    margin-top: 5px;
+    display: block;
   }
   .program_count_data .count {
     font-size: 24px;
   }
-  .program_countrow{
+  .program_countrow {
     gap: 12px;
   }
   .profilecontent {
@@ -4762,11 +4819,10 @@ table {
   .profileImage {
     width: 36%;
   }
-  .profileDescription{
+  .profileDescription {
     padding: 80px 16px 20px 16px;
   }
   /*------------- AIML Department End Here -------------*/
-
 
   /* ---------------- Contact US Start Here---------------*/
   .adderess_form_mainbox {
@@ -4801,11 +4857,10 @@ table {
   .contact_background_mainbox {
     grid-template-columns: 1fr 39vw;
   }
-  #SITMap{
+  #SITMap {
     scroll-margin-top: 350px;
   }
   /* ---------------- Contact Us End  ----------------*/
-
 }
 @media (max-width: 991.98px) {
   .stat-box {
@@ -4872,7 +4927,7 @@ table {
   }
   .fab-label {
     font-size: 11px;
-    font-family: 'Metropolis-Medium';
+    font-family: "Metropolis-Medium";
     line-height: 1;
   }
   .fab-toggle {
@@ -4915,55 +4970,55 @@ table {
     }
   }
   /*----------------- Top Strip End Here -----------------*/
-  .heading{
-    font-size:30px;
+  .heading {
+    font-size: 30px;
     margin: 0px 0 17px 0;
   }
-  .subheading{
-    font-size:20px;
+  .subheading {
+    font-size: 20px;
   }
   /* Hero Banner Start Here */
   .firstslide {
     min-height: 250px;
   }
   /*------------ About Us Start Here ------------*/
-  .Aboutus_section:after{
-    height:250px;
+  .Aboutus_section:after {
+    height: 250px;
   }
-  .rounded_cta{
-    margin-top:10px;
+  .rounded_cta {
+    margin-top: 10px;
     font-size: 16px;
     line-height: normal;
     padding: 10px 22px;
   }
-  .gallery-section .campustourBtn{
+  .gallery-section .campustourBtn {
     padding: 10px 22px;
-    font-size:16px;
+    font-size: 16px;
   }
-  .gallery-section .exploregallerybtn{
+  .gallery-section .exploregallerybtn {
     padding: 10px 22px;
-    font-size:16px;
+    font-size: 16px;
   }
   /*-------- Section Padding Margin Start Here --------*/
-  .Aboutus_section{
+  .Aboutus_section {
     padding: 40px 0px 0px 0px;
   }
-  .academic_programs_section{
+  .academic_programs_section {
     padding: 40px 0px 0px 0px;
   }
-  .academic_programs_blue{
+  .academic_programs_blue {
     padding: 20px 0 40px;
   }
-  .Placements_section{
+  .Placements_section {
     padding: 40px 0 40px 0;
   }
-  .world_map_section{
+  .world_map_section {
     padding: 40px 0 40px 0;
   }
-  .coe-section{
+  .coe-section {
     padding: 40px 0 60px 0;
   }
-  .job_roles_recuitersinner{
+  .job_roles_recuitersinner {
     padding: 0px 0px 0px 0;
     background: transparent;
     margin: 40px 0 0px 0;
@@ -4973,61 +5028,61 @@ table {
   }
   /*-------- Section Padding Margin End Here --------*/
   /*-------- Programs Offered Start Here /*-------- */
-  .academicStudentImage{
+  .academicStudentImage {
     max-height: 180px;
     width: auto;
     margin: 0 0 -30px 0px;
   }
-  .ProgramsTabbing{
-    margin: 0px 0px -40px 0px; 
+  .ProgramsTabbing {
+    margin: 0px 0px -40px 0px;
   }
-  .academic_programs_section .ProgramsTabbing .btn{
-    font-size:14px !important;
+  .academic_programs_section .ProgramsTabbing .btn {
+    font-size: 14px !important;
     padding: 7px 9px !important;
   }
   /*--------------- Programs Offered End Here ---------------*/
   /*---------- Placement Start Here ----------*/
-  .Placements_section:after{
-    display:none;
+  .Placements_section:after {
+    display: none;
   }
-  .student_img{
+  .student_img {
     border-radius: 80px;
   }
   /*---------- Placement End Here ----------*/
   /* -------- Global Map Start Here -------- */
-  .mobile_card{
-    background-color:#fff;
-    padding:20px;
-    border-radius:15px;
-    box-shadow:0px 5px 13px #00000021;
+  .mobile_card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 13px #00000021;
     min-height: 140px;
   }
-  .tooltip_tags span{
+  .tooltip_tags span {
     font-size: 11px;
   }
-  .mobile_card h5{
+  .mobile_card h5 {
     font-family: Metropolis-Bold;
     font-size: 17px;
-  } 
-  .mobile_card h6 {
-      color: rgb(196, 22, 28);
-      font-family: Metropolis-Medium;
-      font-size:14px;
   }
-  .mobile_card .tooltip_tags p{
+  .mobile_card h6 {
+    color: rgb(196, 22, 28);
+    font-family: Metropolis-Medium;
+    font-size: 14px;
+  }
+  .mobile_card .tooltip_tags p {
     font-size: 10px;
     background: rgb(244, 244, 244);
-    margin:0px;
+    margin: 0px;
   }
-  .world_map_mobile .tooltip_tags span:empty{
-    display:none;
+  .world_map_mobile .tooltip_tags span:empty {
+    display: none;
   }
   /*---------- Global Map Start Here ------------*/
   /* Center Of Excelence Start Here */
-  .coe-inner{
-    gap:20px;
+  .coe-inner {
+    gap: 20px;
   }
-  .sit-footer{
+  .sit-footer {
     background-image: none;
   }
   .footer-links h3 {
@@ -5054,10 +5109,10 @@ table {
     justify-content: space-between;
     gap: 12px;
     border-radius: 0px 30px 30px 0px;
-    padding:7px 0px 7px 10px;
+    padding: 7px 0px 7px 10px;
     margin: 0;
   }
-  .tabbingSidebar .program-title span{
+  .tabbingSidebar .program-title span {
     display: none;
   }
   .tabbingSidebar-toggle {
@@ -5092,7 +5147,9 @@ table {
     box-shadow: 8px 0 24px rgb(0 0 0 / 18%);
     transform: translateX(-100%);
     visibility: hidden;
-    transition: transform 0.1s ease, visibility 0.1s ease;
+    transition:
+      transform 0.1s ease,
+      visibility 0.1s ease;
   }
   .tabbingSidebarmenus.is-open {
     transform: translateX(0);
@@ -5138,21 +5195,19 @@ table {
   /* LeftSideBar Start Here */
   /*------------- About Us Tab Start Here -------------*/
   .leadershipContent {
-    padding-left: calc(var(--bs-gutter-x) * .5) !important;
+    padding-left: calc(var(--bs-gutter-x) * 0.5) !important;
     margin-top: 25px !important;
   }
-  .leader-sticky{
+  .leader-sticky {
     position: inherit;
   }
 
-
-
   /*------------- About Us Tab End Here -------------*/
   /*------------- AIML Department Start Here -------------*/
-  .main_content{
+  .main_content {
     padding: 0px 0px 0px 0px;
   }
-  .innerbannersection{
+  .innerbannersection {
     min-height: 170px;
   }
   .innerbannersection::after {
@@ -5164,22 +5219,22 @@ table {
     min-height: inherit;
     padding: 20px 10px;
   }
-  .program_highlights_box{
+  .program_highlights_box {
     margin: 40px 0px 0px 0px;
   }
   .visionandmision {
     padding: 40px 0px 30px 0px;
   }
-  .faculty-social-links-front{
+  .faculty-social-links-front {
     display: none;
   }
-  .faculty-card-back{
+  .faculty-card-back {
     flex-wrap: wrap;
   }
-  .faculty-back-content{
-    width:100%;
+  .faculty-back-content {
+    width: 100%;
   }
-   .faculty-card-wrapper:hover .faculty-card-inner {
+  .faculty-card-wrapper:hover .faculty-card-inner {
     transform: none;
   }
   .faculty-card-wrapper.is-flipped .faculty-card-inner {
@@ -5197,8 +5252,8 @@ table {
     color: #fff;
     font-size: 13px;
     cursor: pointer;
-    font-family: 'Metropolis-Regular';
-    font-size:13px;
+    font-family: "Metropolis-Regular";
+    font-size: 13px;
     line-height: 12px;
   }
   .faculty-card-back > .faculty-card-action {
@@ -5209,38 +5264,38 @@ table {
     background: #fff;
     color: #163c7a;
     padding: 6px 15px;
-    margin-top:12px;
+    margin-top: 12px;
     text-transform: capitalize;
-    font-family: 'Metropolis-Regular';
-    font-size:13px;
+    font-family: "Metropolis-Regular";
+    font-size: 13px;
     line-height: 12px;
   }
-  .programme-list{
+  .programme-list {
     justify-content: space-between;
     gap: 13px;
   }
-  .programme-title{
+  .programme-title {
     font-size: 15px;
   }
-  .small-icon-box{
+  .small-icon-box {
     width: 50px;
     height: 50px;
   }
-  .programme-card{
+  .programme-card {
     width: 48.5%;
   }
   .infrastructure_img {
     max-height: 270px;
     min-height: 260px;
   }
-  .pdf-preview-grid{
+  .pdf-preview-grid {
     grid-template-columns: repeat(3, 1fr);
-    gap:15px;
+    gap: 15px;
   }
-  .pdf-preview-title{
-    font-size:15px;
+  .pdf-preview-title {
+    font-size: 15px;
   }
-  .pdf-view-button{
+  .pdf-view-button {
     padding: 6px 13px;
     font-size: 12px;
   }
@@ -5249,7 +5304,7 @@ table {
   }
   /*------------- AIML Department End Here -------------*/
   /* About Us Tab Start Here */
-  .leader-header{
+  .leader-header {
     padding: 20px;
   }
   /* ------------- Contact Us Start Here -------------- */
@@ -5302,7 +5357,7 @@ table {
     text-align: center;
   } */
   /* Hero Banner Start Here */
-  .firstslide h1{
+  .firstslide h1 {
     font-size: 25px;
   }
   .videobanner_content {
@@ -5314,251 +5369,251 @@ table {
     text-align: center;
     padding: 15px 30px 30px 30px;
   }
-  .herolist{
-    display:none;
+  .herolist {
+    display: none;
   }
-  .herofirstslide::after{
+  .herofirstslide::after {
     /* display: none; */
     background: linear-gradient(
-    90deg,
-    rgb(196, 22, 28) 0%,
-    rgb(16, 70, 127) 100%
-  );
-  z-index: -1;
+      90deg,
+      rgb(196, 22, 28) 0%,
+      rgb(16, 70, 127) 100%
+    );
+    z-index: -1;
   }
-/*------- Announcement Start Here -------*/
-  .latestupdateicon img{
+  /*------- Announcement Start Here -------*/
+  .latestupdateicon img {
     left: 5%;
     top: 0px;
     max-height: 45px;
   }
-  .latestupdateicon{
-    width:250px;
+  .latestupdateicon {
+    width: 250px;
   }
-  .latestupdateicon{
+  .latestupdateicon {
     font-size: 15px;
     padding: 10px 5px 10px 55px;
   }
-/*------- Announcement End Here -------*/
-/*----------- About Us Section Start Here -----------*/
-.Aboutus_section:after{
-  display:none;
-}
-.Aboutus_left {
-  width: 100%;
-  text-align: center;
-}
-.stateinner{
-  box-shadow:none;
-  padding:0px;
-  margin:0px 0 0 0;
-}
-.stat-box p {
-  font-size: 16px;
-}
-/*----------- About Us Section End Here -----------*/
-/* Programe Offered Start Here */
-.ProgramsTabbing {
+  /*------- Announcement End Here -------*/
+  /*----------- About Us Section Start Here -----------*/
+  .Aboutus_section:after {
+    display: none;
+  }
+  .Aboutus_left {
+    width: 100%;
+    text-align: center;
+  }
+  .stateinner {
+    box-shadow: none;
+    padding: 0px;
+    margin: 0px 0 0 0;
+  }
+  .stat-box p {
+    font-size: 16px;
+  }
+  /*----------- About Us Section End Here -----------*/
+  /* Programe Offered Start Here */
+  .ProgramsTabbing {
     margin: 0px 0px -25px 0px;
     width: 100%;
     justify-content: center;
   }
-/* Programe Offered End Here */
-/* Placement Section Start Here */
-.student_info h3{
-  font-size: 20px;
-}
-/*--------- Global Map Start Here ---------*/
-.mobile_card{
-  min-height: 160px;
-}
-/*--------- Global Map End Here ---------*/
-/*----------- Center Of Excelance Start Here -----------*/
-.coe-inner{
-  flex-wrap: wrap;
-}
-.coe-left {
-  width: 100%;
-  text-align: center;
-}
-.coe-right{
-  width: 100%;
-}
-/*----------- Center Of Excelance Start Here -----------*/
-.SITPUNE{
-  font-size: 90px;
-  padding: 40px 0px 0px 0px;
-  line-height: 54px;
-}
-.fab-menu{
-  bottom: 10px;
-  right: 10px;
-}
-.fab-toggle{
-  width: 38px;
-  height: 38px;
-}
-.fab-item{
-  border: 1px solid #ffffff59;
-}
+  /* Programe Offered End Here */
+  /* Placement Section Start Here */
+  .student_info h3 {
+    font-size: 20px;
+  }
+  /*--------- Global Map Start Here ---------*/
+  .mobile_card {
+    min-height: 160px;
+  }
+  /*--------- Global Map End Here ---------*/
+  /*----------- Center Of Excelance Start Here -----------*/
+  .coe-inner {
+    flex-wrap: wrap;
+  }
+  .coe-left {
+    width: 100%;
+    text-align: center;
+  }
+  .coe-right {
+    width: 100%;
+  }
+  /*----------- Center Of Excelance Start Here -----------*/
+  .SITPUNE {
+    font-size: 90px;
+    padding: 40px 0px 0px 0px;
+    line-height: 54px;
+  }
+  .fab-menu {
+    bottom: 10px;
+    right: 10px;
+  }
+  .fab-toggle {
+    width: 38px;
+    height: 38px;
+  }
+  .fab-item {
+    border: 1px solid #ffffff59;
+  }
   /*----------- Programe Main Tab Start Here -----------*/
-/*------------- AIML Department Start Here -------------*/
-.heading {
-  font-size: 25px;
-  margin: 0px 0 17px 0;
-}
-.profilemain {
-  flex-wrap: wrap;
-  flex-direction: column-reverse;
-}
-.profilecontent {
-  width: 100%;
-}
-.profileImage{
-  width: 100%;
-  position: inherit;
-}
-.profileDescription{
-  position: inherit;
-  background-color: transparent;
-  padding: 15px;
-}
-.profileName {
-  font-size: 16px;
-}
-.program_count_databox svg {
-  max-height: 50px;
-  width: auto;
-}
-.program_count_data .count{
-  font-size: 20px;
-}
-.program_count_databox {
-  gap: 10px;
-}
-.program_countrow{
-  justify-content: space-between;
-  padding: 13px;
-  gap: 10px;
-  margin: 10px 0px 0px 0px;
-}
-.innerbannerheading{
-      font-size: 20px;
-}
-.innerbannersection::after{
-  width: 450px;
-  height: 170px;
-}
-.breadcrumb_links{
+  /*------------- AIML Department Start Here -------------*/
+  .heading {
+    font-size: 25px;
+    margin: 0px 0 17px 0;
+  }
+  .profilemain {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  .profilecontent {
+    width: 100%;
+  }
+  .profileImage {
+    width: 100%;
+    position: inherit;
+  }
+  .profileDescription {
+    position: inherit;
+    background-color: transparent;
+    padding: 15px;
+  }
+  .profileName {
+    font-size: 16px;
+  }
+  .program_count_databox svg {
+    max-height: 50px;
+    width: auto;
+  }
+  .program_count_data .count {
+    font-size: 20px;
+  }
+  .program_count_databox {
+    gap: 10px;
+  }
+  .program_countrow {
+    justify-content: space-between;
+    padding: 13px;
+    gap: 10px;
+    margin: 10px 0px 0px 0px;
+  }
+  .innerbannerheading {
+    font-size: 20px;
+  }
+  .innerbannersection::after {
+    width: 450px;
+    height: 170px;
+  }
+  .breadcrumb_links {
     gap: 12px;
     bottom: 4%;
     font-size: 12px;
-}
-.collaborations_list{
-      width: 100%;
-}
-.international_collaborations span{
-  width: 48%;
-}
-.international_collaborations span img {
-  max-height: 60px;
-  margin: 0 auto;
-  width: auto;
-}
-.program_highlights_box{
-	flex-wrap: wrap;
-}
-.program_highlights_left{
-	width:100%
-}
-.program_highlights_right{
-	width:100%
-}
-.faculty-grid {
-  grid-template-columns: repeat(2, minmax(0px, 1fr));
-  column-gap: 20px;
-  row-gap: 30px;
-}
-.faculty-back-detail{
-  margin-bottom: 12px;
-}
-.faculty-back-detail p{
-  font-size:13px;
-}
-.faculty-back-detail h4{
-  padding: 4px 15px;
-  font-size: 13px;
-}
-.faculty-social-link{
-  width: 28px;
-  height: 28px;
-}
-.infrastructure_img {
-  max-height: 220px;
-  min-height: 220px;
-}
-.infrastructure_images {
-  gap: 18px;
-}
-/*  Students Projects Start Here */
-.student_project_table th,
-.student_project_table td {
-  font-size: 14px;
-  padding: 6px 7px;
-}
-.student_project_sr {
-  width: 55px;
-}
-.student_project_year_block {
-  margin-bottom: 25px;
-}
-.student_project_select {
-  width: 100%;
-  max-width: 100%;
-}
-/* Students Projects End Here */
-.customTabs__nav {
-  overflow-x: auto;
-  overflow-y: hidden;
-  flex-wrap: nowrap;
-  -webkit-overflow-scrolling: touch;
-  font-size:15px;
-  gap:15px;
-}
-.customTabs__button {
-  flex: 0 0 auto;
-  white-space: nowrap;
-  padding: 6px 20px;
-  font-size: 14px;
-}
-.upcoming-event-card{
-  gap: 15px;
-}
-.datetext{
-  font-size: 12px;
-}
-.upcoming-event-content .subheading {
-  font-size: 16px;
-}
-.upcoming-event-detail{
-  font-size: 13px;
-  gap: 5px;
-}
-.upcoming-event-detail .upcoming-event-label svg{
-  max-height: 17px;
-}
-.upcoming-event-description{
-  margin: 0 0 15px;
-}
-.upcoming-event-details {
-  gap: 10px;
-}
-/*------------- AIML Department End Here -------------*/
-/*/*----------- Programe Main Tab End Here /*-----------*/
+  }
+  .collaborations_list {
+    width: 100%;
+  }
+  .international_collaborations span {
+    width: 48%;
+  }
+  .international_collaborations span img {
+    max-height: 60px;
+    margin: 0 auto;
+    width: auto;
+  }
+  .program_highlights_box {
+    flex-wrap: wrap;
+  }
+  .program_highlights_left {
+    width: 100%;
+  }
+  .program_highlights_right {
+    width: 100%;
+  }
+  .faculty-grid {
+    grid-template-columns: repeat(2, minmax(0px, 1fr));
+    column-gap: 20px;
+    row-gap: 30px;
+  }
+  .faculty-back-detail {
+    margin-bottom: 12px;
+  }
+  .faculty-back-detail p {
+    font-size: 13px;
+  }
+  .faculty-back-detail h4 {
+    padding: 4px 15px;
+    font-size: 13px;
+  }
+  .faculty-social-link {
+    width: 28px;
+    height: 28px;
+  }
+  .infrastructure_img {
+    max-height: 220px;
+    min-height: 220px;
+  }
+  .infrastructure_images {
+    gap: 18px;
+  }
+  /*  Students Projects Start Here */
+  .student_project_table th,
+  .student_project_table td {
+    font-size: 14px;
+    padding: 6px 7px;
+  }
+  .student_project_sr {
+    width: 55px;
+  }
+  .student_project_year_block {
+    margin-bottom: 25px;
+  }
+  .student_project_select {
+    width: 100%;
+    max-width: 100%;
+  }
+  /* Students Projects End Here */
+  .customTabs__nav {
+    overflow-x: auto;
+    overflow-y: hidden;
+    flex-wrap: nowrap;
+    -webkit-overflow-scrolling: touch;
+    font-size: 15px;
+    gap: 15px;
+  }
+  .customTabs__button {
+    flex: 0 0 auto;
+    white-space: nowrap;
+    padding: 6px 20px;
+    font-size: 14px;
+  }
+  .upcoming-event-card {
+    gap: 15px;
+  }
+  .datetext {
+    font-size: 12px;
+  }
+  .upcoming-event-content .subheading {
+    font-size: 16px;
+  }
+  .upcoming-event-detail {
+    font-size: 13px;
+    gap: 5px;
+  }
+  .upcoming-event-detail .upcoming-event-label svg {
+    max-height: 17px;
+  }
+  .upcoming-event-description {
+    margin: 0 0 15px;
+  }
+  .upcoming-event-details {
+    gap: 10px;
+  }
+  /*------------- AIML Department End Here -------------*/
+  /*/*----------- Programe Main Tab End Here /*-----------*/
 }
 
 @media (max-width: 575.98px) {
-  .heading{
+  .heading {
     font-size: 25px;
   }
   /*------- Latest Update Start Here -------*/
@@ -5573,7 +5628,7 @@ table {
   }
   /*------- Latest Update End Here -------*/
   /*--------- Global Map Start Here ---------*/
-  .mobile_card{
+  .mobile_card {
     min-height: inherit;
     box-shadow: 0px 3px 8px #0000001c;
   }
@@ -5607,7 +5662,7 @@ table {
   .stat-icon {
     max-height: 30px;
   }
-  .stat-box{
+  .stat-box {
     padding: 12px;
   }
   .stat-box h2 {
@@ -5620,91 +5675,92 @@ table {
   }
   /*--------- State Counter End Here ---------*/
   /*----------- Testimonials Start Here -----------*/
-  .testimonial_section{
-    background:none;
-    padding:0px 0px 40px 0px;
+  .testimonial_section {
+    background: none;
+    padding: 0px 0px 40px 0px;
   }
-  .testimonial_card{
+  .testimonial_card {
     text-align: center;
   }
-  .student_img{
+  .student_img {
     margin: 0 auto;
   }
-  .student_info{
-    width:100%;
+  .student_info {
+    width: 100%;
   }
   /*----------- Testimonials End Here -----------*/
   /*------------ Placement Start Here ------------*/
-  .verticalline{
+  .verticalline {
     width: 100%;
     height: 0.5px;
     background-color: #00000059;
   }
-  .placementNum{
-    text-align: center; 
+  .placementNum {
+    text-align: center;
   }
-  .placementnumber{
-    gap:15px;
+  .placementnumber {
+    gap: 15px;
     flex-wrap: wrap;
-  } 
-  .Placements_section .heading{
+  }
+  .Placements_section .heading {
     text-align: center;
   }
-  .Placements_section .subheading{
+  .Placements_section .subheading {
     text-align: center;
   }
-  .Numhead{
+  .Numhead {
     font-size: 25px;
   }
   /*------------ Placement End Here ------------*/
   /*--------- Gallery Start Here ---------*/
-  .galleryinner{
+  .galleryinner {
     padding: 0 10px;
     margin: 160px 0 0 0;
   }
-  .gallerysecond{ 
-    width: 51%;   
+  .gallerysecond {
+    width: 51%;
     top: 39%;
-  } 
-  .gallery-card{
+  }
+  .gallery-card {
     border: 2px solid #fff;
   }
   /*--------- Gallery End Here ---------*/
   /* Center Of Excellence Start Here */
-  .coe-card{
+  .coe-card {
     height: 200px;
   }
-  .coe-bg{
+  .coe-bg {
     height: 150px;
     bottom: -10px;
   }
-  .coe-prev, .coe-next{
+  .coe-prev,
+  .coe-next {
     width: 40px;
     height: 25px;
   }
-  .swiper-prev-btn{
-    width:40px;
-    height:25px;
+  .swiper-prev-btn {
+    width: 40px;
+    height: 25px;
   }
-  .swiper-next-btn{
-    width:40px;
-    height:25px;
+  .swiper-next-btn {
+    width: 40px;
+    height: 25px;
   }
-  .coe-right .swiper{
+  .coe-right .swiper {
     padding: 0px;
   }
-  .coe-card img{
+  .coe-card img {
     border-radius: 15px;
   }
-  .coe-overlay{
+  .coe-overlay {
     border-radius: 15px;
   }
-  .coe-card .subheading18{
-    font-size:15px;
+  .coe-card .subheading18 {
+    font-size: 15px;
     bottom: 12px;
     left: 10px;
   }
-  .coe-card{
+  .coe-card {
     border-radius: 15px;
   }
   .footer-about h2 span {
@@ -5713,7 +5769,7 @@ table {
   }
   /* Center Of Excellence End Here */
   /*------------- AIML Department Start Here -------------*/
-  .major-minor-programmes-grid{
+  .major-minor-programmes-grid {
     grid-template-columns: 1fr;
   }
   .major-minor-programme-list {
@@ -5738,17 +5794,17 @@ table {
     padding: 14px 6px;
   }
   /*---------- LeftSideBar End Here ----------*/
-   /*------------- AIML Department Start Here -------------*/
+  /*------------- AIML Department Start Here -------------*/
   .program_countrow {
     gap: 15px;
     padding: 15px;
-    flex-wrap: wrap ;
+    flex-wrap: wrap;
   }
   .innerbannersection::after {
     width: 300px;
     height: 120px;
   }
-  .provisionbox::after{
+  .provisionbox::after {
     opacity: 0.03;
   }
   .visiontextleft {
@@ -5758,26 +5814,26 @@ table {
     width: 47%;
     padding: 10px;
   }
-  .faculty-front-body{
+  .faculty-front-body {
     padding: 95px 14px 35px;
   }
-  .faculty-name{
-    font-size:17px;
+  .faculty-name {
+    font-size: 17px;
     margin: 0 0 6px;
   }
-  .faculty-designation{
-    font-size:13px;
+  .faculty-designation {
+    font-size: 13px;
   }
   .programme-card {
     width: 100%;
   }
-  .upcoming-event-card{
+  .upcoming-event-card {
     grid-template-columns: 1fr;
   }
-  .upcoming-event-image{
+  .upcoming-event-image {
     max-height: inherit;
   }
-/*------------- AIML Department End Here -------------*/
+  /*------------- AIML Department End Here -------------*/
   /*-------------------- Inner Pages Start Here --------------------*/
   /* -------------- Contact Us Start Here ------------- */
   .adderess_content_icon svg {
@@ -5814,7 +5870,7 @@ table {
     width: 90%;
   }
   /* ------------ Contact Us End Here ------------- */
-}   
+}
 
 @media (max-width: 479.98px) {
   /* Header Start Here */
@@ -5836,14 +5892,14 @@ table {
     bottom: -10px;
   }
   /*--------------- Programs Offered Start Here ---------------*/
-  .academic_programs_section .ProgramsTabbing .btn{
-    width:48%;
+  .academic_programs_section .ProgramsTabbing .btn {
+    width: 48%;
   }
   /*------------- AIML Department Start Here -------------*/
   .faculty-grid {
     grid-template-columns: repeat(1, minmax(0px, 1fr));
   }
-  .faculty-front-body{
+  .faculty-front-body {
     border: 1px solid #ffe4e5;
   }
   .infrastructure_img {
@@ -5854,8 +5910,7 @@ table {
     grid-template-columns: repeat(2, 1fr);
   }
 
- /*------------- AIML Department End Here -------------*/ 
+  /*------------- AIML Department End Here -------------*/
   /*--------------- Programs Offered End Here ---------------*/
-  
 }
 /* Media Queries End Here */
