@@ -472,17 +472,17 @@ export const menuData: NavMenu[] = [
           {
             id: 1,
             title: "The EPIC Chronicle ",
-            href: "/programmes/btech/artificial-intelligence-machine-learning",
+            href: "/epic-chronicle",
           },
           {
             id: 2,
             title: "EPIC Moments ",
-            href: "/programmes/btech/btech-civil-engineering",
+            href: "/sit-epic",
           },
           {
             id: 3,
             title: "SIT EPIC ",
-            href: "/programmes/btech/btech-computer-science-engineering",
+            href: "/sit-epic",
           },
           
 
@@ -491,7 +491,7 @@ export const menuData: NavMenu[] = [
 
       {
         id: 2,
-        heading: "Postgraduate",
+        heading: "AICTE Idea Lab",
         links: [
           {
             id: 1,
@@ -504,7 +504,7 @@ export const menuData: NavMenu[] = [
 
       {
         id: 3,
-        heading: "Dual Degree Programmes",
+        heading: "Makers Lab",
         links: [
           {
             id: 1,

@@ -3947,6 +3947,150 @@ table {
   background-size: contain;
 }
 /*---------------- Academics Tab End Here ----------------*/
+/*---------------- Campus Life Tab Start Here --------------*/
+.hostelAccommodation .main_content{
+  padding:0px;
+}
+/* Hostel Accommodation Start Here */
+.hostelAccommodationInner{
+  display:flex;
+  gap:30px;
+}
+.hostelAccommodationcontent{
+  width:55%;
+}
+.hostelAccommodationimages{
+  width:45%;
+  position:sticky;
+  top:100px;
+  align-self:flex-start;
+}
+.hostel-security {
+  margin-top: 30px;
+  color: #17233c;
+  font-family: "Metropolis-Regular";
+}
+.hostel-intro {
+  line-height: 1.6;
+}
+.hostel-security-banner {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding:15px 30px 15px 10px;
+  border-radius: 24px;
+  background: #edf2fc;
+}
+.hostel-security-emblem {
+  position: relative;
+  display: grid;
+  flex: 0 0 82px;
+  min-height: 62px;
+  place-items: center;
+  border-right: 1px solid #8da3c6;
+}
+.hostel-security-shield {
+  width: 65px;
+  height: 65px;
+  fill: #123d7d;
+  color: #123d7d;
+  stroke-width: 1.2;
+}
+.hostel-security-lock {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  stroke-width: 1.8;
+}
+.hostel-security-copy h2 {
+  margin: 0 0 3px;
+  color: #103c79;
+  font-family: "Metropolis-Bold";
+  font-size: 17px;
+}
+.hostel-security-copy p {
+  margin: 0;
+  font-size: 14px;
+}
+.hostel-security-features {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 40px;
+}
+.hostel-security-feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 10px;
+  text-align: center;
+}
+.hostel-security-feature + .hostel-security-feature {
+  border-left: 1px solid #d5dbe6;
+}
+.hostel-security-feature-icon {
+  display: grid;
+  width: 55px;
+  height: 55px;
+  margin-bottom: 10px;
+  place-items: center;
+  border-radius: 50%;
+  background: #c90018;
+  color: #fff;
+  box-shadow: 0 3px 8px rgb(44 32 32 / 15%);
+}
+.hostel-security-feature-icon svg {
+  width: 30px;
+  height: 30px;
+  stroke-width: 1.8;
+}
+.hostel-security-feature p {
+  max-width: 220px;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.45;
+}
+.hostel-amenities {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: center;
+  margin-top: 30px;
+  padding: 15px 28px;
+  border-radius: 24px;
+  background: #edf2fc;
+  color: #061f51;
+}
+.hostel-amenity {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  min-width: 0;
+}
+.hostel-amenity + .hostel-amenity {
+  min-height: 48px;
+  padding-left: 28px;
+  border-left: 1px solid #8da3c6;
+}
+.hostel-amenity-icon {
+  display: grid;
+  flex: 0 0 55px;
+  width: 55px;
+  height: 55px;
+  place-items: center;
+  border-radius: 50%;
+  background: #e0e9fb;
+  color: #06428e;
+}
+.hostel-amenity-icon svg {
+  width: 30px;
+  height: 30px;
+  stroke-width: 1.8;
+}
+/* Hostel Accommodation End Here */
+.studentclubs_main .programme-card{
+  width: 31%;
+}
+/*---------------- Campus Life Tab End Here --------------*/
 
 /*---------------- Placement Tab Start Here --------------*/
 .placement_overview_main {
@@ -4010,6 +4154,24 @@ table {
   padding:60px 0px 0px 0px;
 }
 /*---------------- Placement Tab End Here ----------------*/
+/*---------------- Going Global Tab Start Here ----------------*/
+.training_organizedStudents{
+  padding:30px;
+  border-radius: 20px;
+  background-color: #fcf1f2;
+  margin:60px 0px 60px 0px;
+}
+.david_halliwell_msg{
+  padding:30px;
+  border-radius: 20px;
+  background-color: #eff6fb;
+  margin:60px 0px 60px 0px;
+}
+.streamListing li{
+  list-style-type: disc;
+  margin-left: 13px;
+}
+/*---------------- Going Global Tab End Here ----------------*/
 
 /* ========== Rahul Normal CSS start ==========  */
 .adderess_form_mainbox {
@@ -5834,6 +5996,33 @@ table {
     max-height: inherit;
   }
   /*------------- AIML Department End Here -------------*/
+/*--------------- Campus Life Tab Start Here ---------------*/
+/* Hostel Start Here */
+.hostel-security-banner {
+    gap: 14px;
+    padding: 16px;
+    border-radius: 20px;
+  }
+  .hostel-security-emblem {
+    flex-basis: 62px;
+  }
+  .hostel-security-copy p {
+    font-size: 14px;
+  }
+  .hostel-security-features {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+  .hostel-security-feature {
+    padding: 0 12px;
+  }
+  .hostel-security-feature + .hostel-security-feature {
+    border-top: 1px solid #d5dbe6;
+    border-left: 0;
+    padding-top: 18px;
+  }
+/*--------------- Campus Life Tab Start Here ---------------*/
+
   /*-------------------- Inner Pages Start Here --------------------*/
   /* -------------- Contact Us Start Here ------------- */
   .adderess_content_icon svg {
