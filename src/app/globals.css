@@ -4090,11 +4090,67 @@ table {
 .studentclubs_main .programme-card{
   width: 31%;
 }
+.monitoring_main .programme-list .programme-card{
+  width: 31% !important;
+}
+/* SITPuneExperience Start Here */
+.sit-experience-stories {
+  display: grid;
+  gap: 60px;
+  margin-top: 35px;
+}
+.sit-experience-story {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: center;
+  gap: 35px;
+}
+.sit-experience-story:nth-child(even) .sit-experience-media {
+  order: 2;
+}
+.sit-experience-story:nth-child(even) .sit-experience-copy {
+  order: 1;
+}
+.sit-experience-media {
+  position: sticky;
+  top: 100px;
+  align-self: start;
+  height: 330px;
+  overflow: hidden;
+  border-radius: 24px;
+  background: #edf2fc;
+}
+.sit-experience-image {
+  object-fit: cover;
+  transform: scale(1.02);
+  transition: transform 700ms ease;
+}
+.sit-experience-media:hover .sit-experience-image {
+  transform: scale(1.1);
+}
+.sit-experience-copy {
+  max-width: 560px;
+  color: #17233c;
+  text-align: justify;
+}
+.sit-experience-story .rounded_cta{
+  margin:0px;
+}
+.collageImage img{
+  border-radius:30px;
+  margin-top:60px;
+}
+.monitoring_main p{
+  text-align:justify;
+}
 /*---------------- Campus Life Tab End Here --------------*/
 
 /*---------------- Placement Tab Start Here --------------*/
 .placement_overview_main {
   padding: 60px 0px ;
+}
+.placementmain p{
+  text-align: justify;
 }
 .placement_image_box {
   position: relative;
@@ -4660,6 +4716,9 @@ table {
   float: left;
   position: relative;
   font-family: Metropolis-Regular;
+}
+.founder_stories_text p{
+  text-align:justify;
 }
 .founder_name {
   font-family: Metropolis-Bold;
@@ -5772,6 +5831,33 @@ table {
   }
   /*------------- AIML Department End Here -------------*/
   /*/*----------- Programe Main Tab End Here /*-----------*/
+/* SITPuneExperience Start Here */
+  .sit-experience-stories {
+    gap: 30px;
+    margin-top: 25px;
+  }
+  .sit-experience-story {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    min-height: 0;
+  }
+  .sit-experience-story:nth-child(even) .sit-experience-media,
+  .sit-experience-story:nth-child(even) .sit-experience-copy {
+    order: initial;
+  }
+  .sit-experience-media {
+    position: relative;
+    top: auto;
+    height: 280px;
+    border-radius: 18px;
+  }
+  .sit-experience-copy {
+    padding: 12px 4px 20px;
+  }
+  .sit-experience-copy p {
+    font-size: 15px;
+  }
+  /* SITPuneExperience End Here */
 }
 
 @media (max-width: 575.98px) {
