@@ -3,7 +3,7 @@
 import InnerpageBanner from "@/components/InnerpageBanner";
 import React from "react";
 import { Row, Col } from "react-bootstrap";
-import { ChevronRight, FileText, Link } from "lucide-react";
+import { ChevronRight, Link } from "lucide-react";
 import { useRouter } from "next/navigation";
 
 interface AdmissionItem {
@@ -21,12 +21,12 @@ const admissionData: AdmissionItem[] = [
   {
     id: 2,
     title: "Civil Engineering",
-    pageUrl: "/",
+    pageUrl: "/programmes/btech/btech-civil-engineering",
   },
   {
     id: 3,
     title: "Computer Science and Engineering",
-    pageUrl: "/",
+    pageUrl: "/programmes/btech/btech-computer-science-engineering",
   },
   {
     id: 4,
@@ -36,7 +36,7 @@ const admissionData: AdmissionItem[] = [
   {
     id: 5,
     title: "Mechanical Engineering",
-    pageUrl: "/",
+    pageUrl: "/programmes/btech/btech-mechanical-engineering",
   },
   {
     id: 6,
