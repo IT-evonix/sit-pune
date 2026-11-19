@@ -8,6 +8,9 @@ import SportsRecreation from "@/components/campus-life/SportsRecreation";
 import StudentClubs from "@/components/campus-life/StudentClubs";
 import LabsandSpaces from "@/components/campus-life/LabsandSpaces";
 import HostelAccommodation from "@/components/campus-life/HostelAccommodation";
+import GenderEquality from "@/components/campus-life/GenderEquality";
+import Mentoring from "@/components/campus-life/Mentoring";
+import SITPuneExperience from "@/components/campus-life/SITPuneExperience";
 const CampusLife = () => {
   const tabs = [
     {
@@ -19,6 +22,21 @@ const CampusLife = () => {
       id: "StudentClubs",
       title: "Student Clubs",
       content:<StudentClubs />,
+    }, 
+    {
+      id: "GenderEquality",
+      title: "Gender Equality / ISR Activities",
+      content:<GenderEquality />,
+    }, 
+    {
+      id: "mentoring",
+      title: "Mentoring",
+      content:<Mentoring/>,
+    },
+    {
+      id: "sitpuneExperience",
+      title: "The SIT Pune Experience",
+      content:<SITPuneExperience/>,
     },  
     {
       id: "SportsRecreation",
