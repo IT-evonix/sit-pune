@@ -130,37 +130,33 @@ export const menuData: NavMenu[] = [
           {
             id: 1,
             title: "Artificial Intelligence and Machine Learning",
-            href: "/",
+            href: "/programmes/btech/artificial-intelligence-machine-learning",
           },
           {
             id: 2,
             title: "Automotive Technology",
-            href: "/",
+            href: "/programmes/btech/btech-mechanical-engineering",
           },
           {
             id: 3,
             title: "Robotics and Artificial Intelligence",
-            href: "/",
+            href: "/programmes/btech/btech-robotics-artificial-intelligence",
           },
            {
             id: 4,
             title: "Engineering Design ",
-            href: "/",
+            href: "#",
           },
-           {
+          {
             id: 5,
-            title: "Robotics and Artificial Intelligence",
-            href: "/",
+            title: "Robotics and Automation ",
+            href: "/programmes/btech/btech-robotics-automation",
           },
            {
             id: 6,
-            title: "Robotics and Automation ",
-            href: "/",
-          },
-           {
-            id: 7,
             title: "Geoinformatics",
-            href: "/",
+            href: "https://sig.ac.in/",
+            target: "_blank",
           },
         ],
       },
@@ -231,12 +227,12 @@ export const menuData: NavMenu[] = [
           {
             id: 3,
             title: "Lateral Entry Admissions",
-            href: "/",
+            href: "/lateral-entry-admissions",
           },
           {
             id: 4,
             title: "Postgraduate Admissions",
-            href: "/",
+            href: "/m-tech-addmission",
           },
           {
             id: 5,
@@ -252,8 +248,6 @@ export const menuData: NavMenu[] = [
 
         ],
       },
-
-
 
       {
         id: 2,
@@ -366,7 +360,7 @@ export const menuData: NavMenu[] = [
           {
             id: 1,
             title: "Academic Guidelines",
-            href: "",
+            href: "/pdf/academics/AcademicPolicy.pdf",
             target: "_blank",
           },
           {
@@ -382,21 +376,21 @@ export const menuData: NavMenu[] = [
           },
           {
             id: 4,
+            title: "Examination",
+            href: "/notice-attendance",
+          },
+          {
+            id: 5,
             title: "Student Code",
             href: "/pdf/academics/Code-Conduct.pdf",
             target: "_blank",
           },
           {
-            id: 5,
+            id: 6,
             title: "Academic Policy",
             href: "/pdf/academics/AcademicPolicy.pdf",
             target: "_blank",
-          },
-          {
-            id: 6,
-            title: "Examination",
-            href: "/notice-attendance",
-          },
+          },          
           {
             id: 7,
             title: "Uniform Information",
@@ -412,12 +406,6 @@ export const menuData: NavMenu[] = [
       },      
     ],
   },
-
-  // {
-  //   id: 7,
-  //   title: "Placements",
-  //   href: "/",
-  // },
 
   {
     id: 10,
@@ -477,7 +465,7 @@ export const menuData: NavMenu[] = [
           {
             id: 2,
             title: "EPIC Moments ",
-            href: "/sit-epic",
+            href: "#",
           },
           {
             id: 3,
@@ -496,7 +484,7 @@ export const menuData: NavMenu[] = [
           {
             id: 1,
             title: "AICTE Idea Lab ",
-            href: "/",
+            href: "/aicte-Idea-lab",
           },
          
         ],
@@ -509,7 +497,7 @@ export const menuData: NavMenu[] = [
           {
             id: 1,
             title: "Makers Lab",
-            href: "/dual-degree-programs",
+            href: "/makers-lab",
           },
           
         ],
@@ -522,7 +510,7 @@ export const menuData: NavMenu[] = [
           {
             id: 1,
             title: "Founder Stories",
-            href: "/dual-degree-programs",
+            href: "/founder-stories",
           },
           
         ],

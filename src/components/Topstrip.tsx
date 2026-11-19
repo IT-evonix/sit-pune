@@ -16,20 +16,20 @@ const Topstrip = () => {
       link: "/",
       highlight: true,
     },
-    {
-      title: "SITEEE Exam Result",
-      link:
-        "https://set2026.ishinfosys.com/SYMENTSCORE-TC2026/login.aspx",
-    },
+    // {
+    //   title: "SITEEE Exam Result",
+    //   link:
+    //     "https://set2026.ishinfosys.com/SYMENTSCORE-TC2026/login.aspx",
+    // },
     {
       title: "Dual Degree Programs at SIT",
-      link: "https://www.sitpune.edu.in/dual-degree-programs",
+      link: "/dual-degree-programs",
       highlight: true,
     },
     {
-      title: "Bajaj Engineering Skills Programme",
+      title: "IEEE Conference ICEI 2026 (December 4-5, 2026) ",
       link:
-        "https://ezapp26.ishinfo.com/SITB2026/Register/Index.aspx",
+        "https://iceiagnei.sitpune.edu.in/?_gl=1*ohvrmu*_gcl_au*MTM5MTQ0Mjc2NS4xNzkzNjIwMTg1#_ga=2.254415816.1593511415.1794986187-376287186.1792130173",
     },
   ];
 

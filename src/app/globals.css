@@ -4776,6 +4776,34 @@ table {
   margin: 5px 0 0 7px;
   display: unset;
 }
+
+/* vision Mission Start Here */
+.epicvisionMission{
+  background-image:url(/images/innerpages/founder-stories/VisionMision-bg-main-bg.webp);
+  background-size:100%;
+  background-repeat:no-repeat;
+  background-position: right;
+  padding:150px 0px 150px 0px;
+}
+.VisionMissionBox{
+  background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(249, 249, 249, 1) 100%);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 10px #0000000f;
+  height:100%;
+}
+.missionGolas{
+  margin: -70px 0 0 0;
+  padding: 0 0 60px 0;
+}
+.VisionMissionBox ul li{
+  background-image:url(/images/innerpages/founder-stories/righttick.png);
+  background-size: 14px;
+  background-repeat: no-repeat;
+  background-position: 0px 7px;
+  padding: 3px 0px 3px 22px;
+  
+}
 /*-------- Founder Story Tab End Here --------*/
 /*--------------- upcoming Events Start Here ---------------*/
 .upcoming-events-department {
@@ -5081,7 +5109,18 @@ table {
   #SITMap {
     scroll-margin-top: 350px;
   }
-  /* ---------------- Contact Us End  ----------------*/
+/* ---------------- Contact Us End  ----------------*/
+
+}
+@media (max-width: 1099.98px) {
+/*---------------- Campus Life Tab Start Here --------------*/
+.studentclubs_main .programme-card {
+  width: 48%;
+}
+.monitoring_main .programme-list .programme-card {
+    width: 48% !important;
+}
+/*---------------- Campus Life Tab End Here --------------*/
 }
 @media (max-width: 991.98px) {
   .stat-box {
@@ -5568,15 +5607,13 @@ table {
     padding: 100px 0 0 0;
   }
   /* ------------- Contact Us End Here ------------- */
+/*---------------- Campus Life Tab Start Here --------------*/
+
+/*---------------- Campus Life Tab End Here --------------*/
+
   /*---------- Inner Page Start Here ----------*/
 }
 @media (max-width: 767.98px) {
-  /* .heading{
-    text-align: center;
-  }
-  .subheading{
-    text-align: center;
-  } */
   /* Hero Banner Start Here */
   .firstslide h1 {
     font-size: 25px;
@@ -5832,6 +5869,9 @@ table {
   /*------------- AIML Department End Here -------------*/
   /*/*----------- Programe Main Tab End Here /*-----------*/
 /* SITPuneExperience Start Here */
+  .collageImage img {
+    margin-top: 0px;
+  }
   .sit-experience-stories {
     gap: 30px;
     margin-top: 25px;
@@ -5852,12 +5892,45 @@ table {
     border-radius: 18px;
   }
   .sit-experience-copy {
-    padding: 12px 4px 20px;
+    padding: 0px 4px 20px;
   }
   .sit-experience-copy p {
     font-size: 15px;
   }
   /* SITPuneExperience End Here */
+  .hostelAccommodationimages{
+    opacity: 0.05;
+    position: absolute;
+    left: 0;
+    top: 0%;
+    width: 100%;
+    right: 0;
+    z-index:-0;
+  }
+  .hostelAccommodationInner {
+    position: relative;
+  }
+  .hostelAccommodationcontent{
+    width: 100%;
+  }
+  .hostel-amenities{
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 20px;
+  }
+  .hostel-amenity + .hostel-amenity{
+    min-height: inherit;
+    padding-left: 0px;
+    border-left: none;
+  }
+  .hostel-amenity{
+    border-bottom: 1px solid #8da3c6;
+    padding: 0 0 10px 0px;
+  }
+  .hostel-amenity:last-child{
+    border-bottom: none;
+    padding: 0 0 0px 0px;
+  }
+
 }
 
 @media (max-width: 575.98px) {
@@ -6187,5 +6260,10 @@ table {
 
   /*------------- AIML Department End Here -------------*/
   /*--------------- Programs Offered End Here ---------------*/
+/*---------------- Campus Life Tab Start Here --------------*/
+.studentclubs_main .programme-card {
+  width: 100%;
+}
+/*---------------- Campus Life Tab End Here --------------*/
 }
 /* Media Queries End Here */

@@ -67,7 +67,7 @@ const Mentoring = () => {
     window.open(url, "_blank", "noopener,noreferrer");
   };
   return (
-    <div className="main_content">
+    <div className="main_content programme-wrapper">
       <div className="admission-tabs monitoring_main">
         <ul
           className="nav nav-tabs"

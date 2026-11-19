@@ -16,7 +16,7 @@ import {
 const links = [
   {
     title: "Visit SIU Website",
-    url: "#",
+    url: "https://www.siu.edu.in/",
     icon: <Globe size={18} />,
   },
   {
@@ -26,27 +26,27 @@ const links = [
   },
   {
     title: "Symbiosis Merchandise",
-    url: "#",
+    url: "https://merchandisebysymbiosis.com/",
     icon: <ShoppingBag size={18} />,
   },
   {
     title: "Campus Tour",
-    url: "#",
+    url: "https://www.youtube.com/watch?si=-kkyrFqAYcDF-DA_&v=em3Q8NFeH6s&feature=youtu.be",
     icon: <Video size={18} />,
   },
   {
     title: "Mandatory Disclosure",
-    url: "#",
+    url: "/pdf/Mandatory-Disclosure-2025-26.pdf",
     icon: <FileText size={18} />,
   },
   {
     title: "SAI 24x7 AI Assistant",
-    url: "#",
+    url: "https://www.siu.edu.in/contact",
     icon: <Bot size={18} />,
   },
   {
     title: "SITEEE Exam Result",
-    url: "#",
+    url: "https://set2026.ishinfosys.com/SYMENTSCORE-TC2026/login.aspx?_gl=1*1hk22p*_gcl_au*MTM5MTQ0Mjc2NS4xNzkzNjIwMTg1*_ga*Mzc2Mjg3MTg2LjE3OTIxMzAxNzM.*_ga_C0E00815H8*czE3OTUwOTQwMzUkbzEwMCRnMSR0MTc5NTA5NTE1MCRqMjYkbDAkaDg5NTg5MDY3MQ..*_ga_WRBP7SB61L*czE3OTUwOTQwMzUkbzEwMCRnMSR0MTc5NTA5NTE1MCRqMjYkbDAkaDE5MDkzOTcyNTM.",
     icon: <GraduationCap size={18} />,
   },
 ];
