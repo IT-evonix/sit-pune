@@ -33,7 +33,7 @@ export default function StatsSection() {
     },
     {
       number: 50,
-      suffix: "",
+      suffix: "+",
       title: "Research Labs",
       color: "text-primary",
       icon: "/images/home/Research-Labs.svg",
