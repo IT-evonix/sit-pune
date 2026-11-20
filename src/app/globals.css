@@ -4491,7 +4491,7 @@ table {
 .aicte_leadership {
   background: #10467f0f;
   padding: 15px;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 .profile_card {
   display: flex;
@@ -4502,7 +4502,7 @@ table {
   border-radius: 10px;
 }
 .profile_photo {
-  width: 33%;
+  width: 26%;
 }
 .profile_photo img {
   border-radius: 10px 0px 0px 10px;
@@ -4512,10 +4512,10 @@ table {
   width: 100%;
 }
 .profile_details {
-  width: 55%;
+  width: 58%;
 }
 .profiletag {
-  font-size: 12px;
+  font-size: 14px;
   color: #c4161c;
   margin: 0 0 10px 0;
   background: #c4161c0f;
@@ -4525,11 +4525,11 @@ table {
   line-height: normal;
 }
 .profile_card .subheading {
-  font-size: 16px;
+  font-size: 18px;
   line-height: normal;
 }
 .profiledesignation {
-  font-size: 14px;
+  font-size: 15px;
   line-height: normal;
   color: #2c2c2c;
 }
@@ -4537,9 +4537,12 @@ table {
 .makersLab_main {
   padding: 60px 0px 70px;
   overflow: hidden;
-  background: url(/images/home/Internationalization.webp) 0px center / 100% auto
+  background: url(/images/innerpages/founder-stories/Internationalization.webp) 0px center / 100% auto
     no-repeat;
   background-position: 0px center;
+}
+.makersLab_main p{
+  text-align: justify;
 }
 .makersLab_main .program_highlights_right {
   width: 100%;
@@ -4551,8 +4554,11 @@ table {
   padding: 60px 0px 60px 0px;
 }
 .maker_lab_box .profile_photo {
-  min-width: 33%;
-  max-width: 33%;
+  min-width: 32%;
+  max-width: 32%;
+}
+.maker_lab_box .profile_photo img {
+  min-height: 280px;
 }
 .maker_lab_box .profile_details {
   width: auto;
@@ -4560,6 +4566,8 @@ table {
 }
 .maker_lab_box .profile_details p {
   font-size: 15px;
+  margin: 0;
+  text-align: justify;
 }
 .aicte_leadership {
   padding: 25px;
@@ -4571,6 +4579,10 @@ table {
   height: 100%;
   display: flex;
   align-items: center;
+}
+.bluebg_box p{
+  margin: 0;
+  text-align: justify;
 }
 .maker_lab_box .aicte_leadership {
   background: #fff7f7;
@@ -4624,6 +4636,9 @@ table {
   border-radius: 20px;
   padding: 30px;
   margin: 0px 0 30px 0;
+}
+.epicchronicle_box .epicchronicle_boxleft{
+  text-align:justify;
 }
 .epicchronicle_box:nth-child(odd) {
   background-color: #fcf1f2;
@@ -4762,6 +4777,12 @@ table {
 }
 .founder_img img{
   border-radius: 200px;
+  max-height: 100px;
+  min-height: 100px;
+  min-width: 100px;
+  max-width: 100px;
+  object-fit: cover;
+  object-position: center;
 }
 .founder_stories_text .top_icon {
   width: 15px;
@@ -4779,11 +4800,11 @@ table {
 
 /* vision Mission Start Here */
 .epicvisionMission{
-  background-image:url(/images/innerpages/founder-stories/VisionMision-bg-main-bg.webp);
+  background-image:url(/images/innerpages/founder-stories/VisionMisionMain.webp);
   background-size:100%;
   background-repeat:no-repeat;
   background-position: right;
-  padding:150px 0px 150px 0px;
+  padding:50px 0px 150px 0px;
 }
 .VisionMissionBox{
   background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(249, 249, 249, 1) 100%);
@@ -4802,7 +4823,9 @@ table {
   background-repeat: no-repeat;
   background-position: 0px 7px;
   padding: 3px 0px 3px 22px;
-  
+}
+.AICTE_box p{
+  text-align: justify;
 }
 /*-------- Founder Story Tab End Here --------*/
 /*--------------- upcoming Events Start Here ---------------*/
