@@ -3452,6 +3452,105 @@ table {
 }
 /* Event Page End Here */
 /*------------ ABout Us Tab Start Here ------------*/
+/* vision Mission Page Start Here */
+.mission_mbox_main{
+  display:flex;
+  gap:30px;
+}
+.InstitutevisionMission{
+  background-image:url(/images/innerpages/about/vision-mision/vision-mission.webp);
+  background-size:100%;
+  background-repeat:no-repeat;
+  background-position: right;
+  padding:200px 0px 150px 0px;
+}
+.Institutevision{
+  padding:0px 0px 50px 0px;
+}
+.mission_mbox{
+  position: relative;
+  isolation: isolate;
+  background-color: #fff;
+  border-radius:20px;
+  box-shadow:0px 10px 14px #0000001a;
+  padding:20px;
+  width:24%;
+  text-align: center;
+}
+.mission_mbox::before,
+.mission_mbox::after{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  content: "";
+  z-index: -1;
+  transition: background-color 0.3s ease;
+}
+.mission_mbox::before{
+  left: 0;
+  background: #F5FAFF;
+  clip-path: polygon(0 0, 50% 100%, 0 100%);
+  border-bottom-left-radius: 20px;
+}
+.mission_mbox::after{
+  right: 0;
+  background: #fff0f0;
+  clip-path: polygon(100% 0, 100% 100%, 65% 100%);
+  border-bottom-right-radius: 20px;
+}
+.mission_mbox .mission_iconbox{
+  width:90px;
+  height:90px;
+  border-radius:100px;
+  margin:-65px auto 15px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border: 6px solid #E2F0FF;
+  padding:15px;
+  }
+.mission_mbox_main > .mission_mbox:nth-child(2) .mission_iconbox,
+.mission_mbox_main > .mission_mbox:nth-child(4) .mission_iconbox{
+  border-color: #FFEEEF;
+}
+.mission_mbox:hover::before{
+  background: #DDEEFF;
+  transition-duration:0.5s;
+}
+.mission_mbox:hover::after{
+  background: #FFDEE1;
+  transition-duration:0.5s;
+}
+.mission_iconbox svg {
+  max-height: 90px;
+  width: auto;
+  transition-duration: 0.7s;
+}
+.mission_mbox:hover .mission_iconbox svg {
+  animation: visionMission 1s ease infinite;
+}
+@keyframes visionMission {
+  30% {
+    transform: scale(1.1);
+  }
+  40%,
+  60% {
+    transform: rotate(-20deg) scale(1.1);
+  }
+  50% {
+    transform: rotate(20deg) scale(1.1);
+  }
+  70% {
+    transform: rotate(0deg) scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+/* vision Mission Page End Here */
 /* Leadership Page Start Here */
 .leadership_page {
   position: relative;

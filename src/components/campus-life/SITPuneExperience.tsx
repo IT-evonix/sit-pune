@@ -31,7 +31,7 @@ const SITPuneExperience = () => {
                 views or golf-course views, with a private balcony.
               </p>
               <div className="mt-3">
-                <p>Visit the link for more information:</p>
+                {/* <p>Visit the link for more information:</p> */}
                 <Rounded_CTA
                   label="Sandipani Hometel"
                   link="https://www.sandipanihometel.com/?utm_source=chatgpt.com"
@@ -55,11 +55,11 @@ const SITPuneExperience = () => {
             </div>
             <div className="sit-experience-copy">
               <div className="subheading">Medical Facilities at campus</div>
-              <div className="subheading18">
+              <p style={{lineHeight:"20px", color:"#C4161C", marginBottom:"10px"}}>
                 Symbiosis International (Deemed University) is committed to
                 promote the spirit and essence of Wellness amongst all
                 stakeholders.
-              </div>
+              </p>
               <p>
                 As a Health Promoting University, SIU is focused on Emotional
                 Wellbeing, Healthcare Services, Nutrition and Dietetics, Sports
@@ -69,7 +69,7 @@ const SITPuneExperience = () => {
               </p>
 
               <div className="mt-3">
-                <p>Please visit the website for more information:</p>
+                {/* <p>Please visit the website for more information:</p> */}
                 <Rounded_CTA
                   label="SIU Health Promoting University"
                   link="https://www.siu.edu.in/about-us/why-us/health-promoting-university"
@@ -96,17 +96,6 @@ const SITPuneExperience = () => {
               <div className="subheading18">
                 We offer a paid bus facility covering 23 routes across the city.
               </div>
-
-              <div className="mt-3">
-                <p>For more information please contact below number:</p>
-                <Rounded_CTA
-                  label="SIU Health Promoting University"
-                  link="https://www.siu.edu.in/about-us/why-us/health-promoting-university"
-                  bgColor="transparent"
-                  textColor="#10467F"
-                  borderColor="#10467F"
-                />
-              </div>
             </div>
           </article>
 
@@ -123,7 +112,6 @@ const SITPuneExperience = () => {
             <div className="sit-experience-copy">
               <div className="subheading">Bandhara </div>
               <p>
-                {" "}
                 The Symbiosis International (Deemed University) Lavale campus
                 features water-storage reservoirs that contribute to rainwater
                 conservation and sustainable campus water management. These
