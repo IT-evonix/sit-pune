@@ -3598,7 +3598,7 @@ table {
   position: -webkit-sticky;
   top: 120px;
   align-self: flex-start;
-  z-index: 999999;
+  z-index: 9;
 }
 .leader-image {
   width: 100%;
@@ -3758,7 +3758,7 @@ table {
   color: #ffffff;
   font-size: 18px;
   line-height: normal;
-  font-family: Metropolis-SemiBold;
+  font-family: "Metropolis-SemiBold";
   padding: 9px 0;
 }
 .major-minor-programme-list {
@@ -4047,143 +4047,116 @@ table {
 }
 /*---------------- Academics Tab End Here ----------------*/
 /*---------------- Campus Life Tab Start Here --------------*/
-.hostelAccommodation .main_content{
-  padding:0px;
-}
-/* Hostel Accommodation Start Here */
-.hostelAccommodationInner{
+.campuslifeecardmain{
   display:flex;
-  gap:30px;
+  gap:20px;
+  flex-wrap: wrap;
+  margin:10px 0px 0px 0px;
 }
-.hostelAccommodationcontent{
-  width:55%;
+.campuslifeecard{
+  width:31%;
+  overflow: hidden;
+  margin:20px 0px 0px 0px;
 }
-.hostelAccommodationimages{
-  width:45%;
-  position:sticky;
-  top:100px;
-  align-self:flex-start;
+.campuslifeecard .campusImage{
+  overflow:hidden;
+  max-height:200px;
+  border-radius:20px;
 }
-.hostel-security {
-  margin-top: 30px;
-  color: #17233c;
-  font-family: "Metropolis-Regular";
+.campuslifeecard .campusImage img{
+  transition-duration:0.7s;
 }
-.hostel-intro {
-  line-height: 1.6;
+.campuslifeecard img:hover{
+  overflow:hidden;
+  transform: scale(1.2);
+  transition-duration:0.7s;
 }
-.hostel-security-banner {
-  display: flex;
+.campuslifeecard p{
+  margin: 8px 0 0 0;
+}
+/* Hostel Accommodation Start Here ---------*/
+.hostel-section {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 40px;
   align-items: center;
-  gap: 20px;
-  padding:15px 30px 15px 10px;
-  border-radius: 24px;
-  background: #edf2fc;
+  margin-top:50px;
 }
-.hostel-security-emblem {
+.hosteltopinner{
+  background-image: url(/images/campus-life/hostel/hostelbg.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.hostel-section + .hostel-section {
+  grid-template-columns: 1fr 300px;
+}
+.hostel-image-box {
   position: relative;
-  display: grid;
-  flex: 0 0 82px;
-  min-height: 62px;
-  place-items: center;
-  border-right: 1px solid #8da3c6;
+  height: 300px;
+  border-radius: 25px;
+  overflow: hidden;
 }
-.hostel-security-shield {
-  width: 65px;
-  height: 65px;
-  fill: #123d7d;
-  color: #123d7d;
-  stroke-width: 1.2;
+.hostel-main-image {
+  object-fit: cover;
+  object-position: center;
 }
-.hostel-security-lock {
+.hostel-capacity {
   position: absolute;
-  width: 30px;
-  height: 30px;
-  color: #fff;
-  stroke-width: 1.8;
-}
-.hostel-security-copy h2 {
-  margin: 0 0 3px;
-  color: #103c79;
-  font-family: "Metropolis-Bold";
-  font-size: 17px;
-}
-.hostel-security-copy p {
-  margin: 0;
-  font-size: 14px;
-}
-.hostel-security-features {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  margin-top: 40px;
-}
-.hostel-security-feature {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0 10px;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
   text-align: center;
+  z-index: 1;
+  background: linear-gradient(180deg,rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+  padding: 70px 0 13px 0;
 }
-.hostel-security-feature + .hostel-security-feature {
-  border-left: 1px solid #d5dbe6;
+.hostel-capacity h2 {
+  font-size: 16px;
+  color:#fff;
+  font-family: 'Metropolis-Medium';
+  line-height: normal;
+  margin:0px;
 }
-.hostel-security-feature-icon {
+.hostel-capacity h1 {
+  font-size: 45px;
+  color: #FFDF2D;
+  font-family: 'Metropolis-Bold';
+  line-height: normal;
+  margin: 0px;
+}
+.hostel-security-grid {
   display: grid;
-  width: 55px;
-  height: 55px;
-  margin-bottom: 10px;
-  place-items: center;
-  border-radius: 50%;
-  background: #c90018;
-  color: #fff;
-  box-shadow: 0 3px 8px rgb(44 32 32 / 15%);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px 25px;
 }
-.hostel-security-feature-icon svg {
-  width: 30px;
-  height: 30px;
-  stroke-width: 1.8;
-}
-.hostel-security-feature p {
-  max-width: 220px;
-  margin: 0;
-  font-size: 14px;
-  line-height: 1.45;
-}
-.hostel-amenities {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  align-items: center;
-  margin-top: 30px;
-  padding: 15px 28px;
-  border-radius: 24px;
-  background: #edf2fc;
-  color: #061f51;
-}
-.hostel-amenity {
+.hostel-security-card {
+  min-height: 80px;
+  border: 1.5px dashed #ed171f;
+  border-radius: 15px;
+  background: #fff6f6;
   display: flex;
   align-items: center;
-  gap: 20px;
-  min-width: 0;
+  gap: 15px;
+  padding: 12px 17px;
 }
-.hostel-amenity + .hostel-amenity {
-  min-height: 48px;
-  padding-left: 28px;
-  border-left: 1px solid #8da3c6;
+.hostel-security-card img {
+  object-fit: contain;
+  flex-shrink: 0;
+  max-height: 42px;
 }
-.hostel-amenity-icon {
-  display: grid;
-  flex: 0 0 55px;
-  width: 55px;
-  height: 55px;
-  place-items: center;
-  border-radius: 50%;
-  background: #e0e9fb;
-  color: #06428e;
+.hostel-security-card p {
+  margin: 0px;
+  line-height: 1.2;
 }
-.hostel-amenity-icon svg {
-  width: 30px;
-  height: 30px;
-  stroke-width: 1.8;
+.hostel-security-wide {
+  grid-column: span 2;
+  min-height: 80px;
+}
+.hosteltopinner .subheading18{
+  line-height: normal;
+  margin:0px 0px 10px 0px;
 }
 /* Hostel Accommodation End Here */
 .studentclubs_main .programme-card{
@@ -4192,55 +4165,212 @@ table {
 .monitoring_main .programme-list .programme-card{
   width: 31% !important;
 }
-/* SITPuneExperience Start Here */
-.sit-experience-stories {
-  display: grid;
-  gap: 60px;
-  margin-top: 35px;
-}
-.sit-experience-story {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  align-items: center;
-  gap: 35px;
-}
-.sit-experience-story:nth-child(even) .sit-experience-media {
-  order: 2;
-}
-.sit-experience-story:nth-child(even) .sit-experience-copy {
-  order: 1;
-}
-.sit-experience-media {
-  position: sticky;
-  top: 100px;
-  align-self: start;
-  height: 330px;
-  overflow: hidden;
-  border-radius: 24px;
-  background: #edf2fc;
-}
-.sit-experience-image {
-  object-fit: cover;
-  transform: scale(1.02);
-  transition: transform 700ms ease;
-}
-.sit-experience-media:hover .sit-experience-image {
-  transform: scale(1.1);
-}
-.sit-experience-copy {
-  max-width: 560px;
-  color: #17233c;
-  text-align: justify;
-}
-.sit-experience-story .rounded_cta{
-  margin:0px;
-}
 .collageImage img{
   border-radius:30px;
   margin-top:60px;
 }
 .monitoring_main p{
   text-align:justify;
+}
+/* SITPuneExperience Start Here */
+.Experienceinner{
+  display:flex;
+  position: relative;
+  border-radius:30px 30px 0px 0px;
+  margin: 0 0 60px 0;
+}
+/* Odd elements (1st, 3rd, 5th...) */
+.Experienceinner:nth-child(odd)::after{
+  background-color:#FFE4E5;
+}
+/* Even elements (2nd, 4th, 6th...) */
+.Experienceinner:nth-child(even)::after{
+  background-color:#EBF5FF;
+}
+.Experienceinner:nth-child(even){
+  flex-direction: row-reverse;
+}
+.Experienceinner::after{
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:0;
+  height:94%;
+  content:"";
+  z-index:-1;
+  border-radius:30px 30px 0px 0px;
+}
+.ExperienceImage{
+  width:30%;
+  overflow: hidden;
+  border-radius:45px 45px 0px 0px;
+}
+.ExperienceImage img{
+  max-height:320px;
+  min-height: 320px;
+  overflow: hidden;
+  border-radius:45px 45px 0px 0px;
+  object-fit: cover;
+  transition-duration:0.5s;
+}
+.ExperienceImage img:hover{
+  transition-duration:0.5s;
+  transform: scale(1.1);
+}
+.ExperienceContent{
+  width:70%;
+  padding:40px 30px 10px 30px;
+  text-align: justify;
+  font-size: 15px;
+  line-height: 20px; 
+}
+.ExperienceHeading{
+  font-size:45px;
+  font-family: "Metropolis-Black";
+  color:#ffffff44;
+  line-height: 32px;
+  text-transform:uppercase;
+}
+.Experienceinner:nth-child(even) .ExperienceHeading{
+  color:#ffffff6e;
+}
+.ExperienceContent .subheading18{
+  line-height: normal;
+  margin: 0 0 8px 0;
+  font-size: 16px;
+}
+.ExperienceContent .innerpageheading{
+  margin: 0 0 5px 0;
+}
+.ExperienceContent .ExploreMore{
+  background-color: #fff;
+  border-radius:30px;
+  padding:10px 20px;
+  color:#000;
+  font-family: "Metropolis-Regular";
+  border:1px solid #fff;
+  text-decoration: none;
+}
+.SITPuneExperience .sitExperienceButton{
+  display: inline-flex;
+  position: relative;
+  overflow: hidden;
+}
+.SITPuneExperience .sitExperienceButton:hover::before{
+  animation-name: sitExperienceButtonShine;
+}
+@keyframes sitExperienceButtonShine {
+  to {
+    left: 100%;
+  }
+}
+.CampusGreeneryImg{
+  overflow: hidden;
+  border-radius:40px;
+}
+.CampusGreeneryImg img{
+  transition-duration:0.5s;
+}
+.CampusGreeneryImg img:hover{
+  transition-duration:0.5s;
+  transform: scale(1.1);
+}
+/* SITPuneExperience End Here */
+/* Sports Achievements Start Here */
+.achievementsmain_Image{
+  background-color:#FEEBEC;
+  border-radius:40px;
+}
+.achievements_Image{
+  overflow:hidden;
+  border-radius:40px 40px 0px 0px;
+}
+.achievements_Image img{
+  max-height:500px;
+  overflow: hidden;
+  object-fit: cover;
+  width:100%;
+}
+.achievements_Content{
+  padding:30px;
+}
+
+.achievementsGallery{
+  display:flex;
+  gap:20px;
+  flex-wrap:wrap;
+  margin-top: 60px;
+}
+.achievementimgbox{
+  border-radius:20px;
+  overflow:hidden;
+  width:31.5%;
+}
+.achievementimgbox img{
+  border-radius: 20px;
+  overflow: hidden;
+  transition-duration: 0.5s;
+  min-height: 230px;
+  object-fit: cover;
+  max-height: 230px;
+}
+.achievementimgbox:hover img{
+  transition-duration:0.5s;
+  transform: scale(1.2);
+}
+
+
+
+
+.AnnualSportsinner{
+  background-color:#FFECEC;
+  border-radius:20px;
+  padding:30px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  position:relative;
+}
+.AnnualSportsinner::after{
+  background-image:url(/images/campus-life/sports/Volleyball-Player.webp);
+  background-position:0px 0px;
+  background-repeat: no-repeat;
+  background-size:cover;
+  position: absolute;
+  left:20px;
+  bottom:0;
+  content:"";
+  width:225px;
+  height:370px;
+}
+.AnnualSportsinner::before{
+  background-image: url(/images/campus-life/sports/designelement.png);
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: -50px;
+  bottom: -50px;
+  content: "";
+  width: 300px;
+  height: 300px;
+  z-index: 0;
+}
+.AnnualSportContent{
+  background-color: #fff;
+  border-radius:20px;
+  width:70%;
+  padding:30px;
+}
+.AnnualSportheading{
+  font-size:70px;
+  font-family: "Metropolis-Black";
+  color:#C4161C;
+  margin:0px;
+}
+.AnnualSportheading span{
+  color:#505050;
+  font-family: "Metropolis-Black";
 }
 /*---------------- Campus Life Tab End Here --------------*/
 
@@ -5092,109 +5222,118 @@ table {
   /*------- Programe AIML End Here -------*/
 }
 @media (max-width: 1199.98px) {
-  /*----------------- Top Strip Start Here -----------------*/
-  .topstrip_track {
-    gap: 5px;
-  }
-  .topstrip_link {
-    font-size: 13px;
-    padding: 2px 8px;
-  }
+/*----------------- Top Strip Start Here -----------------*/
+.topstrip_track {
+  gap: 5px;
+}
+.topstrip_link {
+  font-size: 13px;
+  padding: 2px 8px;
+}
+/*----------------- Top Strip End Here -----------------*/
+/*--------------- Header Menu Other Stuff Start Here ---------------*/
 
-  /*----------------- Top Strip End Here -----------------*/
-  /*--------------- Header Menu Other Stuff Start Here ---------------*/
+/*--------------- Header Menu Other Stuff End Here ---------------*/
+/*--------------- Hero Banner Start Here ---------------*/
+.firstslide {
+  min-height: 320px;
+}
+.firstslide h1 {
+  font-size: 35px;
+  line-height: 1.1;
+}
+.rounded_cta {
+  padding: 6px 22px;
+  margin-top: 5px;
+}
+.firstslide .herolist {
+  margin: 18px 0 0 0;
+  font-size: 13px;
+}
+/*--------------- Hero Banner End Here ---------------*/
+/*--------------- About Us Start Here ---------------*/
+.Aboutus_section {
+  padding: 100px 0px 0px 0px;
+}
+.Aboutus_section:after {
+  height: 320px;
+}
+.Aboutus_inner {
+  padding: 0px 0px 0px 0px;
+}
+.Aboutus_left {
+  width: 45%;
+}
+/*--------------- About Us End Here ---------------*/
+/*--------------- Programs Offered Start Here ---------------*/
+.academicStudentImage {
+  max-height: 270px;
+  width: auto;
+  margin: 0 0 -80px 0px;
+}
+.ProgramsTabbing {
+  margin: 0px 0px -100px 0px;
+}
+.academic_programs_section .ProgramsTabbing .btn {
+  font-size: 15px;
+  padding: 8px 11px !important;
+}
+/*--------------- Programs Offered End Here ---------------*/
+/*--------------- Placements Start Here ---------------*/
+.Placements_section:after {
+  width: 440px;
+  height: 360px;
+}
+/*--------------- Placements End Here ---------------*/
+/*---------------- Gallery Section Start Here ----------------*/
+.gallery-section {
+  min-height: inherit;
+}
+/*---------------- Gallery Section End Here ----------------*/
 
-  /*--------------- Header Menu Other Stuff End Here ---------------*/
-  /*--------------- Hero Banner Start Here ---------------*/
-  .firstslide {
-    min-height: 320px;
+/*--------------- Reserch Start Here ---------------*/
+.coe-card {
+  height: 300px;
+}
+/*--------------- Reserch End Here ---------------*/
+/*------------- AIML Department Start Here -------------*/
+.main_content {
+  padding: 0px 0px 0px 20px;
+}
+.profileDepartment {
+  line-height: normal;
+}
+.profileDepartment span {
+  margin-top: 5px;
+  display: block;
+}
+.program_count_data .count {
+  font-size: 24px;
+}
+.program_countrow {
+  gap: 12px;
+}
+.profilecontent {
+  width: 64%;
+}
+.profileImage {
+  width: 36%;
+}
+.profileDescription {
+  padding: 80px 16px 20px 16px;
+}
+/*------------- AIML Department End Here -------------*/
+/*------------- About Us Tab Start Here -------------*/
+  .sit-pune-leadership .admission-tabs .nav-tabs{
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 15px;
+    padding: 20px;
   }
-  .firstslide h1 {
-    font-size: 35px;
-    line-height: 1.1;
-  }
-  .rounded_cta {
-    padding: 6px 22px;
-    margin-top: 5px;
-  }
-  .firstslide .herolist {
-    margin: 18px 0 0 0;
-    font-size: 13px;
-  }
-  /*--------------- Hero Banner End Here ---------------*/
-  /*--------------- About Us Start Here ---------------*/
-  .Aboutus_section {
-    padding: 100px 0px 0px 0px;
-  }
-  .Aboutus_section:after {
-    height: 320px;
-  }
-  .Aboutus_inner {
-    padding: 0px 0px 0px 0px;
-  }
-  .Aboutus_left {
-    width: 45%;
-  }
-  /*--------------- About Us End Here ---------------*/
-  /*--------------- Programs Offered Start Here ---------------*/
-  .academicStudentImage {
-    max-height: 270px;
-    width: auto;
-    margin: 0 0 -80px 0px;
-  }
-  .ProgramsTabbing {
-    margin: 0px 0px -100px 0px;
-  }
-  .academic_programs_section .ProgramsTabbing .btn {
-    font-size: 15px;
-    padding: 8px 11px !important;
-  }
-  /*--------------- Programs Offered End Here ---------------*/
-  /*--------------- Placements Start Here ---------------*/
-  .Placements_section:after {
-    width: 440px;
-    height: 360px;
-  }
-  /*--------------- Placements End Here ---------------*/
-  /*---------------- Gallery Section Start Here ----------------*/
-  .gallery-section {
-    min-height: inherit;
-  }
-  /*---------------- Gallery Section End Here ----------------*/
-
-  /*--------------- Reserch Start Here ---------------*/
-  .coe-card {
-    height: 300px;
-  }
-  /*--------------- Reserch End Here ---------------*/
-  /*------------- AIML Department Start Here -------------*/
-  .main_content {
-    padding: 0px 0px 0px 20px;
-  }
-  .profileDepartment {
-    line-height: normal;
-  }
-  .profileDepartment span {
-    margin-top: 5px;
-    display: block;
-  }
-  .program_count_data .count {
-    font-size: 24px;
-  }
-  .program_countrow {
-    gap: 12px;
-  }
-  .profilecontent {
-    width: 64%;
-  }
-  .profileImage {
-    width: 36%;
-  }
-  .profileDescription {
-    padding: 80px 16px 20px 16px;
-  }
-  /*------------- AIML Department End Here -------------*/
-
+/*------------- About Us Tab End Here -------------*/
   /* ---------------- Contact US Start Here---------------*/
   .adderess_form_mainbox {
     gap: 40px;
@@ -5235,6 +5374,7 @@ table {
 
 }
 @media (max-width: 1099.98px) {
+
 /*---------------- Campus Life Tab Start Here --------------*/
 .studentclubs_main .programme-card {
   width: 48%;
@@ -5350,6 +5490,10 @@ table {
     100% {
       transform: translateX(-50%);
     }
+  }
+  .contact_btnheader {
+    padding: 3px 7px;
+    font-size: 13px;
   }
   /*----------------- Top Strip End Here -----------------*/
   .heading {
@@ -5583,7 +5727,9 @@ table {
   .leader-sticky {
     position: inherit;
   }
-
+  .student_project_table td{
+    white-space: break-spaces;
+  }
   /*------------- About Us Tab End Here -------------*/
   /*------------- AIML Department Start Here -------------*/
   .main_content {
@@ -5736,6 +5882,7 @@ table {
   /*---------- Inner Page Start Here ----------*/
 }
 @media (max-width: 767.98px) {
+  
   /* Hero Banner Start Here */
   .firstslide h1 {
     font-size: 25px;
@@ -5836,6 +5983,13 @@ table {
   .fab-item {
     border: 1px solid #ffffff59;
   }
+  /*----------- Center Of Excelance End Here -----------*/
+  /*-------------- Inner Pages Start Here --------------*/
+  .leadership_inner {
+    padding: 30px 0;
+  }
+  
+  /*-------------- Inner Pages End Here --------------*/
   /*----------- Programe Main Tab Start Here -----------*/
   /*------------- AIML Department Start Here -------------*/
   .heading {
@@ -5990,35 +6144,32 @@ table {
   }
   /*------------- AIML Department End Here -------------*/
   /*/*----------- Programe Main Tab End Here /*-----------*/
-/* SITPuneExperience Start Here */
+
+  /* About Us Tab Start Here */
+  .leader-header .subheading18 {
+    color: #c4161c;
+    font-family: "Metropolis-Medium";
+  }
+  .leader-header .heading {
+    font-size: 22px;
+  }
+  .leadership_emailbox{
+    padding: 15px;
+    width: 100%;
+  }
+  .leadership_emailboxmain{
+    gap: 5px;
+  }
+  .Magzin_artical_slider .recruiter_logo_item{
+    height: inherit;
+  }
+  /* About Us Tab End Here */
+  /* Life At Campus Start Here */
+  /* SITPuneExperience Start Here */
   .collageImage img {
     margin-top: 0px;
   }
-  .sit-experience-stories {
-    gap: 30px;
-    margin-top: 25px;
-  }
-  .sit-experience-story {
-    grid-template-columns: 1fr;
-    gap: 18px;
-    min-height: 0;
-  }
-  .sit-experience-story:nth-child(even) .sit-experience-media,
-  .sit-experience-story:nth-child(even) .sit-experience-copy {
-    order: initial;
-  }
-  .sit-experience-media {
-    position: relative;
-    top: auto;
-    height: 280px;
-    border-radius: 18px;
-  }
-  .sit-experience-copy {
-    padding: 0px 4px 20px;
-  }
-  .sit-experience-copy p {
-    font-size: 15px;
-  }
+  
   /* SITPuneExperience End Here */
   .hostelAccommodationimages{
     opacity: 0.05;
@@ -6053,6 +6204,8 @@ table {
     padding: 0 0 0px 0px;
   }
 
+  /* Life At Campus End Here */
+
 }
 
 @media (max-width: 575.98px) {
@@ -6070,6 +6223,16 @@ table {
     width: 200px;
   }
   /*------- Latest Update End Here -------*/
+  /*--------- About Us Tab Start Here ---------*/
+  .innerbannersection {
+    min-height: 150px;
+  }
+  .breadcrumb_links {
+    gap: 6px;
+    font-size: 11px;
+    bottom: 4%;
+  }
+  /*--------- About Us Tab End Here ---------*/
   /*--------- Global Map Start Here ---------*/
   .mobile_card {
     min-height: inherit;

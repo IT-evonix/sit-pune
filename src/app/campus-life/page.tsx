@@ -4,6 +4,7 @@
 import TabbingSidebar from "@/components/TabbingSidebar";
 import InnerpageBanner from "@/components/InnerpageBanner";
 
+import CampusLifeTab from "@/components/campus-life/CampusLifeTab";
 import SportsRecreation from "@/components/campus-life/SportsRecreation";
 import StudentClubs from "@/components/campus-life/StudentClubs";
 import LabsandSpaces from "@/components/campus-life/LabsandSpaces";
@@ -13,6 +14,11 @@ import Mentoring from "@/components/campus-life/Mentoring";
 import SITPuneExperience from "@/components/campus-life/SITPuneExperience";
 const CampusLife = () => {
   const tabs = [
+    {
+      id: "CampusLife",
+      title: "Campus Life",
+      content: <CampusLifeTab />,
+    },
     {
       id: "LabsandSpaces",
       title: "Labs and Spaces",

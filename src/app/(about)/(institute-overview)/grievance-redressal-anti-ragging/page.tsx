@@ -60,7 +60,7 @@ const CEPage = () => {
       <InnerpageBanner
         title={`Grievance Redressal / Anti-Ragging`}
         breadcrumbs={[
-          { label: "Programmes" },
+          { label: "About" },
 
           { label: "Grievance Redressal / Anti-Ragging" },
         ]}

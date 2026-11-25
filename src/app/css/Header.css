@@ -43,7 +43,7 @@ body.menu-open {
   display: flex;
   align-items: center;
   gap: 2px;
-  padding: 25px 0px 25px 5px;
+  padding: 25px 0px 25px 7px;
   color: #24324a;
   font-size: 12px;
   text-decoration: none;

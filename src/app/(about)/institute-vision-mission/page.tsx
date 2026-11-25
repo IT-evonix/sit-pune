@@ -34,6 +34,7 @@ const page = () => {
       <div className="missionGolas">
         <div className="container">
           <div className="mission_mbox_main">
+            <div className="heading innerpageheading">Our Mission</div>
             <div className="mission_mbox">
               <div className="mission_iconbox">
                 <svg

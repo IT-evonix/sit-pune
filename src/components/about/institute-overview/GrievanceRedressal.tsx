@@ -28,8 +28,8 @@ const GrievanceRedressal = () => {
     <div className="main_content">
       <div className="mainpage-wrapper academic_calendar_main GrievanceRedressal_main">
         <div className="programme-wrapper">
-          <div className="row align-items-center">
-            <div className="col-md-8">
+          <div className="row">
+            <div className="col-lg-8 col-md-9">
               <div className="heading innerpageheading">
                 Grievance Redressal
               </div>
@@ -67,7 +67,7 @@ const GrievanceRedressal = () => {
                 ))}
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-lg-4 col-md-3">
               <div className="academic_calender_img">
                 <Image
                   src="/images/innerpages/about/Grievance-Redressal.webp"
