@@ -170,7 +170,7 @@ export default function ChancellorMessagePage() {
                             <div className="leader-image-wrapper">
                               <Image
                                 src="/images/innerpages/about/vidya_yeravdekar.webp"
-                                alt="Dr. S.B. Mujumdar"
+                                alt="vidya yeravdekar"
                                 width={500}
                                 height={650}
                                 className="img-fluid leader-image"
@@ -319,7 +319,7 @@ export default function ChancellorMessagePage() {
                             <div className="leader-image-wrapper">
                               <Image
                                 src="/images/innerpages/about/ramakrishnan_raman.webp"
-                                alt="Dr. S.B. Mujumdar"
+                                alt="ramakrishnan raman"
                                 width={500}
                                 height={650}
                                 className="img-fluid leader-image"

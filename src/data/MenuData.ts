@@ -282,70 +282,72 @@ export const menuData: NavMenu[] = [
     href: "/",
   },
 
+  // {
+  //   id: 5,
+  //   title: "Campus Life",
+  //   hasMegaMenu: true,
+  //   columns: [
+  //     {
+  //       id: 1,
+  //       heading: "Life at SIT",
+  //       links: [
+  //         {
+  //           id: 1,
+  //           title: "Labs and Spaces",
+  //           href: "/",
+  //         },
+  //         {
+  //           id: 2,
+  //           title: "Student Clubs",
+  //           href: "/",
+  //         },
+  //         {
+  //           id: 3,
+  //           title: "Sports & Recreation",
+  //           href: "/",
+  //         },
+  //         {
+  //           id: 4,
+  //           title: "Hostel/Accommodation",
+  //           href: "/",
+  //         },
+  //         {
+  //           id: 5,
+  //           title: "Events & Engagement",
+  //           href: "/",
+  //         },
+  //         {
+  //           id: 6,
+  //           title: "The SIT Pune Experience",
+  //           href: "/",
+  //         },
+
+  //       ],
+  //     },
+  //     {
+  //       id: 2,
+  //       heading: "The SIT Pune Experience",
+  //       links: [
+  //         {
+  //           id: 1,
+  //           title: "Gender Equality / ISR Activities",
+  //           href: "/",
+  //         },
+  //         {
+  //           id: 2,
+  //           title: "Mentoring",
+  //           href: "/",
+  //         },
+           
+  //       ],
+  //     },
+  //   ],
+  // },
+
   {
     id: 5,
     title: "Campus Life",
-    hasMegaMenu: true,
-    columns: [
-      {
-        id: 1,
-        heading: "Life at SIT",
-        links: [
-          {
-            id: 1,
-            title: "Labs and Spaces",
-            href: "/",
-          },
-          {
-            id: 2,
-            title: "Student Clubs",
-            href: "/",
-          },
-          {
-            id: 3,
-            title: "Sports & Recreation",
-            href: "/",
-          },
-          {
-            id: 4,
-            title: "Hostel/Accommodation",
-            href: "/",
-          },
-          {
-            id: 5,
-            title: "Events & Engagement",
-            href: "/",
-          },
-          {
-            id: 6,
-            title: "The SIT Pune Experience",
-            href: "/",
-          },
-
-        ],
-      },
-
-
-
-      {
-        id: 2,
-        heading: "The SIT Pune Experience",
-        links: [
-          {
-            id: 1,
-            title: "Gender Equality / ISR Activities",
-            href: "/",
-          },
-          {
-            id: 2,
-            title: "Mentoring",
-            href: "/",
-          },
-           
-        ],
-      },
-
-    ],
+    href: "/campus-life",
   },
 
   {
@@ -448,74 +450,79 @@ export const menuData: NavMenu[] = [
     ],
   },
 
+  // {
+  //   id: 8,
+  //   title: "Founder Stories ",
+  //   hasMegaMenu: true,
+  //   columns: [
+  //     {
+  //       id: 1,
+  //       heading: "EPIC",
+  //       links: [
+  //         {
+  //           id: 1,
+  //           title: "The EPIC Chronicle ",
+  //           href: "/epic-chronicle",
+  //         },
+  //         {
+  //           id: 2,
+  //           title: "EPIC Moments ",
+  //           href: "#",
+  //         },
+  //         {
+  //           id: 3,
+  //           title: "SIT EPIC ",
+  //           href: "/sit-epic",
+  //         },
+          
+
+  //       ],
+  //     },
+
+  //     {
+  //       id: 2,
+  //       heading: "AICTE Idea Lab",
+  //       links: [
+  //         {
+  //           id: 1,
+  //           title: "AICTE Idea Lab ",
+  //           href: "/aicte-Idea-lab",
+  //         },
+         
+  //       ],
+  //     },
+
+  //     {
+  //       id: 3,
+  //       heading: "Makers Lab",
+  //       links: [
+  //         {
+  //           id: 1,
+  //           title: "Makers Lab",
+  //           href: "/makers-lab",
+  //         },
+          
+  //       ],
+  //     },
+
+  //     {
+  //       id: 3,
+  //       heading: "Founder Stories",
+  //       links: [
+  //         {
+  //           id: 1,
+  //           title: "Founder Stories",
+  //           href: "/founder-stories",
+  //         },
+          
+  //       ],
+  //     },
+  //   ],
+  // },
   {
     id: 8,
-    title: "Founder Stories ",
-    hasMegaMenu: true,
-    columns: [
-      {
-        id: 1,
-        heading: "EPIC",
-        links: [
-          {
-            id: 1,
-            title: "The EPIC Chronicle ",
-            href: "/epic-chronicle",
-          },
-          {
-            id: 2,
-            title: "EPIC Moments ",
-            href: "#",
-          },
-          {
-            id: 3,
-            title: "SIT EPIC ",
-            href: "/sit-epic",
-          },
-          
-
-        ],
-      },
-
-      {
-        id: 2,
-        heading: "AICTE Idea Lab",
-        links: [
-          {
-            id: 1,
-            title: "AICTE Idea Lab ",
-            href: "/aicte-Idea-lab",
-          },
-         
-        ],
-      },
-
-      {
-        id: 3,
-        heading: "Makers Lab",
-        links: [
-          {
-            id: 1,
-            title: "Makers Lab",
-            href: "/makers-lab",
-          },
-          
-        ],
-      },
-
-      {
-        id: 3,
-        heading: "Founder Stories",
-        links: [
-          {
-            id: 1,
-            title: "Founder Stories",
-            href: "/founder-stories",
-          },
-          
-        ],
-      },
-    ],
+    title: "Founder Stories",
+    href: "/",
   },
 
   {

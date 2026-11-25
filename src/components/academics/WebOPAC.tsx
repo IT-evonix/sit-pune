@@ -33,7 +33,7 @@ Web OPAC is an Online Public Access Catalogue which allows library users avail t
         <div className="webopac_image mt-4 mt-sm-5">
           <Image
             src="/images/innerpages/academics/sssit.webp"
-            alt="Dr. S.B. Mujumdar"
+            alt="sssit"
             width={1000}
             height={479}
             className="img-fluid "

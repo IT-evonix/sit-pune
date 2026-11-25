@@ -78,7 +78,7 @@ const ProgramOverview = () => {
         <div className="program_overview_right">
           <Image
             src="/images/innerpages/admission/m-tech-addmission/Programme-Overview.webp"
-            alt="Dr. S.B. Mujumdar"
+            alt="Programme Overview"
             width={900}
             height={1080}
             className="img-fluid leader-image"

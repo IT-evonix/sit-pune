@@ -129,7 +129,7 @@ export default function ChancellorMessagePage() {
                             <div className="leader-image-wrapper">
                               <Image
                                 src="/images/innerpages/programe/aiml/faculty/Dr-Ketan-Kotecha-aiml.webp"
-                                alt="Dr. S.B. Mujumdar"
+                                alt="Dr Ketan Kotecha"
                                 width={500}
                                 height={650}
                                 className="img-fluid leader-image"
@@ -483,7 +483,7 @@ export default function ChancellorMessagePage() {
                             <div className="leader-image-wrapper">
                               <Image
                                 src="/images/innerpages/about/Dr-Deepali-Vora.webp"
-                                alt="Dr. S.B. Mujumdar"
+                                alt="Dr Deepali Vora"
                                 width={500}
                                 height={650}
                                 className="img-fluid leader-image"
@@ -607,7 +607,7 @@ export default function ChancellorMessagePage() {
                             <div className="leader-image-wrapper">
                               <Image
                                 src="/images/innerpages/about/satish-patil.webp"
-                                alt="Dr. S.B. Mujumdar"
+                                alt="satish patil"
                                 width={500}
                                 height={650}
                                 className="img-fluid leader-image"
