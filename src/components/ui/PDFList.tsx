@@ -4,7 +4,7 @@ import React from "react";
 import { Row, Col, Badge } from "react-bootstrap";
 import { FileText, Hourglass, ChevronRight } from "lucide-react";
 
-import { PDFItem } from "@/data/pdfPreviewData";
+import { PDFItem } from "@/data/pdfData";
 
 interface PDFListProps {
   data: PDFItem[];
