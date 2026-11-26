@@ -534,6 +534,7 @@ body.menu-open {
   font-size: 18px;
   font-family: "Metropolis-SemiBold";
 }
+ 
 .Aboutus_section {
   padding: 160px 0px 0px 0px;
   position: relative;
@@ -2109,7 +2110,7 @@ body.menu-open {
   background-position: bottom right;
   background-repeat: no-repeat;
   content: "";
-  z-index: 2;
+  z-index: 0;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -2118,6 +2119,8 @@ body.menu-open {
   font-size: 35px;
   line-height: normal;
   font-family: "Metropolis-Black";
+  position: relative;
+  z-index: 1;
 }
 .homepagelink {
   background-color: #fff;
@@ -3844,6 +3847,106 @@ table {
 /*----------- Major and Minor End Here -----------*/
 
 /*------------ Admission Tab Start Here ------------*/
+/* Mainadmission Procedure Start Here */
+.mainadmission_inner{
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 24px;
+}
+.mainadmission_top{
+  background-image: url(/images/innerpages/admission/mainadmission_top.webp);
+  background-position: 0% 17%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 100px 0px 70px 0px;
+}
+.mainadmission_bottom{
+  background-image:url(/images/innerpages/admission/mainadmission_bottom.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding:0px 0px 100px 0px;
+}
+.admission_card{
+  min-width: 0;
+  margin: -70px 0 0 0;
+}
+.admission_Image{
+  position: relative;
+}
+.admission_Image img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.admission_Image::after{
+    background: linear-gradient(180deg,rgba(255, 255, 255, 0) 30%, rgba(0, 0, 0, 1) 100%);
+    position: absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    content:"";
+    top:0;
+    z-index:0;
+    border-radius: 30px;
+}
+.mainadmission_dots{
+  display: none;
+}
+.admission_content{
+  position: absolute;
+  left:0;
+  right:0;
+  bottom:0;
+  padding:60px 10px 20px 10px;
+  color:#fff;
+  border-radius:30px;
+  text-align: center;
+  z-index:1;
+  border-radius: 30px;
+}
+.admission_content .subheading{
+  color:#fff;
+  text-align:center;
+  margin:0 0 4px 0;
+  line-height: normal;
+}
+.admission_content .subheading18{
+  color:#fff;
+  text-align:center;
+  line-height: normal;
+  font-family: 'Metropolis-Regular';
+  margin: 0 0 17px 0;
+}
+.ExploreMore{
+    font-family: Metropolis-Regular;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-image: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color:#fff;
+    line-height: normal;
+    overflow: hidden;
+    margin:20px auto 0px auto;
+    color:#C4161C;
+    font-size:15px;
+}
+.admission_content .ExploreMore{
+    display: inline-flex;
+    position: relative;
+    overflow: hidden;
+}
+.admission_Image{
+  border-radius:30px;
+  position: relative;
+}
+.admission_Image img{
+  border-radius:30px;
+}
+
 /*------------ Undergraduate Admissions Start Here ------------*/
 .undergraduate_admissions_page .programme-card {
   width: 32.2%;
@@ -4133,9 +4236,9 @@ table {
 }
 .hostel-security-card {
   min-height: 80px;
-  border: 1.5px dashed #ed171f;
+  border: 1.5px dashed #C4161C;
   border-radius: 15px;
-  background: #fff6f6;
+  background: #FCF3F4;
   display: flex;
   align-items: center;
   gap: 15px;
@@ -4255,6 +4358,7 @@ table {
   display: inline-flex;
   position: relative;
   overflow: hidden;
+  gap: 4px;
 }
 .SITPuneExperience .sitExperienceButton:hover::before{
   animation-name: sitExperienceButtonShine;
@@ -5882,7 +5986,6 @@ table {
   /*---------- Inner Page Start Here ----------*/
 }
 @media (max-width: 767.98px) {
-  
   /* Hero Banner Start Here */
   .firstslide h1 {
     font-size: 25px;
@@ -6164,12 +6267,51 @@ table {
     height: inherit;
   }
   /* About Us Tab End Here */
+/*----------- Admission Tab Start Here-----------*/
+/* Main Admission Page Start Here */
+  .mainadmission_inner{
+    display: flex;
+    gap: 0;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  .mainadmission_inner::-webkit-scrollbar{
+    display: none;
+  }
+  .mainadmission_inner .admission_card{
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+  }
+
+  .mainadmission_dots{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 16px;
+  }
+  .mainadmission_dots button{
+    width: 8px;
+    height: 8px;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+  }
+  .mainadmission_dots button.active{
+    width: 22px;
+    border-radius: 8px;
+    background: #fff;
+  }
+/*----------- Admission Tab End Here-----------*/
   /* Life At Campus Start Here */
   /* SITPuneExperience Start Here */
   .collageImage img {
     margin-top: 0px;
   }
-  
+
   /* SITPuneExperience End Here */
   .hostelAccommodationimages{
     opacity: 0.05;
@@ -6203,7 +6345,6 @@ table {
     border-bottom: none;
     padding: 0 0 0px 0px;
   }
-
   /* Life At Campus End Here */
 
 }

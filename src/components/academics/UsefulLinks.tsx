@@ -115,7 +115,7 @@ const UsefulLinks = () => (
           <span className="library-link-card-copy">
             <span className="subheading18 mb-1">{link.title}</span>
             <span className="subheading18">{link.subtitle}</span>
-            <p className="usefulllink_para">{link.description}</p>
+            <p className="usefulllink_para ">{link.description}</p>
           </span>
           <ArrowUpRight
             className="library-link-arrow"

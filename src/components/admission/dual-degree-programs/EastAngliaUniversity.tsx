@@ -15,7 +15,7 @@ const EastAngliaUniversity = () => {
             <div className="heading innerpageheading">
               Program with University of East Anglia
             </div>
-            <p>
+            <p className="text-justify">
               This dual degree program will allow the students to obtain a Bachelor of Technology (Mechanical Engineering) from SIT, Pune and B Eng Hons. (Mechanical Engineering) from University of East Anglia. The new offerings will extend brilliant opportunities for ambitious Indian students to get a two-year work visa (Extension is subject to the policy changes of the UK Government), opening avenues for global career outcomes. The ease of mobility and accessibility is being facilitated by the two institutions in alignment with their commitment to providing quality education, skilling, and research pathways to help shape successful future outcomes for Indian students.
             </p>
           </div>

@@ -68,7 +68,7 @@ const UndergraduateAdmissionsPage = () => {
       />
 
       <div className="Innerpage_main undergraduate_admissions_page">
-        <div className="container-fluid">
+        <div className="container">
           <div className="programme-wrapper">
             <div className="heading innerpageheading">
               Undergraduate Admissions

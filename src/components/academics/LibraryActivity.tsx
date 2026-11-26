@@ -48,7 +48,7 @@ const LibraryActivity = () => {
     <div className="main_content libraryMainSec">
       <section className="library-section-heading">
         <div className="heading innerpageheading">Library Activities</div>
-        <p>
+        <p className="text-justify">
           The library conducts an annual information literacy program for
           students and faculty members, providing comprehensive training on the
           various databases subscribed by SIT and SIU. The SIT library annually

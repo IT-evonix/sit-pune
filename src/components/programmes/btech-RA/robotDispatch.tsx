@@ -45,7 +45,7 @@ import Tabs, { TabItem } from "@/components/ui/Tabs";
 // import PDFList from "@/components/ui/PDFList";
 import PDFPreview from "@/components/ui/PDFPreview";
 
-import { RABrochurePDF, } from "@/data/pdfData";
+import { RABrochurePDF, } from "@/data/pdfPreviewData";
 
 const RADispatch = () => {
   const tabsData: TabItem[] = [

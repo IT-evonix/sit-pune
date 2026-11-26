@@ -276,11 +276,11 @@ export const menuData: NavMenu[] = [
     ],
   },
 
-  {
-    id: 4,
-    title: "Research",
-    href: "/",
-  },
+  // {
+  //   id: 4,
+  //   title: "Research",
+  //   href: "/",
+  // },
 
   // {
   //   id: 5,
@@ -522,14 +522,14 @@ export const menuData: NavMenu[] = [
   {
     id: 8,
     title: "Founder Stories",
-    href: "/",
+    href: "/sit-epic",
   },
 
-  {
-    id: 9,
-    title: "Going Global",
-    href: "/",
-  },
+  // {
+  //   id: 9,
+  //   title: "Going Global",
+  //   href: "/",
+  // },
 
   {
     id: 10,

@@ -7,7 +7,7 @@ const CampusLife = () => {
       <div className="heading innerpageheading">
         Life at SIT Pune – Beyond Academics
       </div>
-      <div className="div">
+      <div className="text-justify">
         Experience an enriching campus life at Symbiosis Institute of Technology
         (SIT), Pune, where academics blend with creativity, culture, sports, and
         innovation. From exciting cultural celebrations like Reverb to engaging
@@ -28,7 +28,7 @@ const CampusLife = () => {
               priority
             />
           </div>
-          <p>explore their interests, showcase their talents</p>
+          <p>lorem ipsum is simply dummy text of the printing</p>
         </div>
         <div className="campuslifeecard">
           <div className="campusImage">
@@ -41,7 +41,7 @@ const CampusLife = () => {
               priority
             />
           </div>
-          <p>explore their interests, showcase their talents</p>
+          <p>lorem ipsum is simply dummy text of the printing</p>
         </div>
         <div className="campuslifeecard">
           <div className="campusImage">
@@ -54,7 +54,7 @@ const CampusLife = () => {
               priority
             />
           </div>
-          <p>explore their interests, showcase their talents</p>
+          <p>lorem ipsum is simply dummy text of the printing</p>
         </div>
         <div className="campuslifeecard">
           <div className="campusImage">
@@ -67,7 +67,7 @@ const CampusLife = () => {
               priority
             />
           </div>
-          <p>explore their interests, showcase their talents</p>
+          <p>lorem ipsum is simply dummy text of the printing</p>
         </div>
         <div className="campuslifeecard">
           <div className="campusImage">
@@ -80,7 +80,7 @@ const CampusLife = () => {
               priority
             />
           </div>
-          <p>explore their interests, showcase their talents</p>
+          <p>lorem ipsum is simply dummy text of the printing</p>
         </div>
         <div className="campuslifeecard">
           <div className="campusImage">
@@ -93,7 +93,7 @@ const CampusLife = () => {
               priority
             />
           </div>
-          <p>explore their interests, showcase their talents</p>
+          <p>lorem ipsum is simply dummy text of the printing</p>
         </div>
       </div>
     </div>

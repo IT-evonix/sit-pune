@@ -177,6 +177,8 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
+  margin: 0px;
+  font-size:14px;
 }
 @media (max-width: 767.98px) {
   .libraryMainSec .library-stat-grid,
