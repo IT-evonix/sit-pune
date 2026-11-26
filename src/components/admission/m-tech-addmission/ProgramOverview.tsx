@@ -75,7 +75,7 @@ const ProgramOverview = () => {
             to their desired careers.
           </p>
         </div>
-        <div className="program_overview_right">
+        <div className="program_overview_right d-none d-sm-block">
           <Image
             src="/images/innerpages/admission/m-tech-addmission/Programme-Overview.webp"
             alt="Programme Overview"

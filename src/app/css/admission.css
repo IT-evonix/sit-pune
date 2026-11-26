@@ -61,6 +61,7 @@
 .redlink {
   color: #c4161c !important;
   text-decoration: none;
+  word-break: break-all;
 }
 .siteee-timeline {
   position: relative;
@@ -490,6 +491,11 @@
   font-size: 15px;
   font-style: italic;
 }
+@media (max-width: 1099.98px) {
+  .lateral-eligibility__options {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
 
 @media (max-width: 991.98px) {
   .tab-content-wrapper .main_content .admission-tabs .nav-tabs,
@@ -516,12 +522,25 @@
     font-weight: 600;
     white-space: nowrap;
   }
-  .lateral-eligibility__options {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
+
   .lateral-eligibility__option:last-child {
     grid-column: 1 / -1;
   }
+  /* Admission Pages Start B.tech M.tech lateral entry Start */
+  .siteee-contact-grid{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .siteee-title{
+    font-size:18px;
+  }
+  .redheading{
+    font-size:16px;
+  }
+  /* Admission Pages Start B.tech M.tech lateral entry End */
+
+
+
+
 }
 @media (max-width: 767.98px) {
   .tab-content-wrapper .main_content .admission-tabs .nav-tabs,
@@ -530,54 +549,64 @@
     overflow-y: hidden;
     -webkit-overflow-scrolling: touch;
   }
+
+  /* Admission Pages Start B.tech M.tech lateral entry Start */
+  .siteee-contact-grid{
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+  /* Admission Pages Start B.tech M.tech lateral entry End */
+  .admission_process_phase{
+    margin: 30px 0px 30px 0px;
+  }
+  .dual-degreeimg{
+    margin-top: 30px;
+  }
 }
 @media (max-width: 575.98px) {
-  .admission-tabs .nav-tabs {
-    display: flex;
-    gap: 8px;
-    padding: 10px;
-  }
-  .admission-tabs .nav-item {
-    flex: 1 1 auto;
-  }
-  .admission-tabs .nav-link {
-    width: 100%;
-    padding: 10px 8px;
-    white-space: normal;
-  }
-  .admission-tabs-content {
-    padding-top: 18px;
-  }
-  .siteee-title {
-    font-size: 18px;
-  }
-  .siteee-intro {
-    margin-bottom: 22px;
-    padding: 12px 13px;
-  }
-  .siteee-timeline::before {
-    left: 17px;
-  }
-  .siteee-step {
-    margin-left: 40px;
-    margin-bottom: 14px;
-  }
-  .siteee-step-number {
+.admission-tabs .nav-tabs {
+  display: flex;
+  gap: 8px;
+  padding: 10px;
+}
+.admission-tabs .nav-tabs{
+  overflow-x: scroll;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 15px;
+}
+.admission-tabs .nav-link {
+  width: 100%;
+  padding: 10px 8px;
+  white-space: normal;
+}
+.admission-tabs-content {
+  padding-top: 18px;
+}
+.siteee-title {
+  font-size: 18px;
+}
+.siteee-intro {
+  margin-bottom: 22px;
+  padding: 12px 13px;
+}
+.siteee-timeline::before {
+  left: 17px;
+}
+.siteee-step {
+  margin: 0 0 10px 43px;
+}
+.siteee-step-number {
     left: -41px;
-    width: 36px;
-    height: 36px;
-    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
   }
   .siteee-step-card {
     padding: 14px 13px;
     border-radius: 13px;
-    font-size: 13px;
-  }
-  .siteee-step-card h3 {
-    font-size: 15px;
-  }
-  .siteee-step-card h4 {
-    font-size: 13px;
+    margin: 0 0 20px 0;
   }
   .siteee-step-card .siteee-date-badge {
     border-radius: 14px;
@@ -589,7 +618,6 @@
   .siteee-contact-grid {
     grid-template-columns: 1fr;
   }
-
   .scholarship_main .scholarship_box {
     gap: 11px;
     padding: 13px;
@@ -638,6 +666,9 @@
   .lateral-eligibility__note {
     margin-top: 16px;
     padding: 15px;
+  }
+  .program_overview_left {
+    width: 100%;
   }
 }
 @media (prefers-reduced-motion: reduce) {

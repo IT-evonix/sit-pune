@@ -3878,6 +3878,7 @@ table {
   display: block;
   width: 100%;
   height: auto;
+  border-radius:30px;
 }
 .admission_Image::after{
     background: linear-gradient(180deg,rgba(255, 255, 255, 0) 30%, rgba(0, 0, 0, 1) 100%);
@@ -3919,34 +3920,33 @@ table {
   margin: 0 0 17px 0;
 }
 .ExploreMore{
-    font-family: Metropolis-Regular;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(255, 255, 255);
-    border-image: none;
-    border-radius: 30px;
-    padding: 10px 20px;
-    text-decoration: none;
-    background-color:#fff;
-    line-height: normal;
-    overflow: hidden;
-    margin:20px auto 0px auto;
-    color:#C4161C;
-    font-size:15px;
+  font-family: Metropolis-Regular;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  border-image: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color:#fff;
+  line-height: normal;
+  overflow: hidden;
+  margin:20px auto 0px auto;
+  color:#C4161C;
+  font-size:15px;
 }
 .admission_content .ExploreMore{
-    display: inline-flex;
-    position: relative;
-    overflow: hidden;
+  display: inline-flex;
+  position: relative;
+  overflow: hidden;
 }
 .admission_Image{
   border-radius:30px;
   position: relative;
 }
-.admission_Image img{
-  border-radius:30px;
+.mainadmission_top .innerpageheading{
+  margin: 0px 0px 30px 0px;
 }
-
 /*------------ Undergraduate Admissions Start Here ------------*/
 .undergraduate_admissions_page .programme-card {
   width: 32.2%;
@@ -5335,9 +5335,6 @@ table {
   padding: 2px 8px;
 }
 /*----------------- Top Strip End Here -----------------*/
-/*--------------- Header Menu Other Stuff Start Here ---------------*/
-
-/*--------------- Header Menu Other Stuff End Here ---------------*/
 /*--------------- Hero Banner Start Here ---------------*/
 .firstslide {
   min-height: 320px;
@@ -5438,6 +5435,11 @@ table {
     padding: 20px;
   }
 /*------------- About Us Tab End Here -------------*/
+/*------------- Admission Tab Start Here -------------*/
+.undergraduate_admissions_page .programme-card {
+  width: 49%;
+}
+/*------------- Admission Tab End Here -------------*/
   /* ---------------- Contact US Start Here---------------*/
   .adderess_form_mainbox {
     gap: 40px;
@@ -5731,7 +5733,7 @@ table {
     margin: 0;
     background: transparent;
     z-index: 999;
-    top: 270px;
+    top: 250px;
   }
   .tabbingSidebar .program-title {
     display: flex;
@@ -5824,6 +5826,9 @@ table {
   }
   /* LeftSideBar Start Here */
   /*------------- About Us Tab Start Here -------------*/
+  .Innerpage_main{
+    padding: 40px 0px;
+  }
   .leadershipContent {
     padding-left: calc(var(--bs-gutter-x) * 0.5) !important;
     margin-top: 25px !important;
@@ -5833,6 +5838,30 @@ table {
   }
   .student_project_table td{
     white-space: break-spaces;
+  }
+  .InstitutevisionMission{
+    padding: 100px 0 99px;
+  }
+  .mission_mbox{
+    width: 48%;
+    margin: 0 0 50px 0;
+  }
+  .mission_mbox_main{
+    flex-wrap: wrap;
+    gap: 13px;
+  }
+  .missionGolas .innerpageheading {
+    text-align: center;
+  }
+  .Institutevision {
+    padding: 0px 0px 0px 0px;
+  }
+  .missionGolas {
+    margin: 0px 0 0 0;
+    padding: 30px 0 0px 0;
+  }
+  .leader-header {
+    padding: 20px;
   }
   /*------------- About Us Tab End Here -------------*/
   /*------------- AIML Department Start Here -------------*/
@@ -5934,12 +5963,29 @@ table {
   .col-lg-3:last-child .stat-box {
     border-right: 1px solid #ccc;
   }
-  /*------------- AIML Department End Here -------------*/
-  /* About Us Tab Start Here */
-  .leader-header {
-    padding: 20px;
-  }
-  /* ------------- Contact Us Start Here -------------- */
+/*------------- AIML Department End Here -------------*/
+/*---------------- Admission Tab Start Here --------------*/
+.mainadmission_inner{
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 25px;
+}
+.mainadmission_bottom{
+  padding: 40px 0px 40px 0px;
+}
+.admission_card{
+  margin: 0px 0 0 0;
+}
+.mainadmission_top{
+  padding: 40px 0px 20px 0px;
+}
+.mainadmission_top .innerpageheading {
+    margin: 0px 0px 0px 0px;
+}
+/*---------------- Admission Tab End Here --------------*/
+/*---------------- Campus Life Tab Start Here --------------*/
+
+/*---------------- Campus Life Tab End Here --------------*/
+/* ------------- Contact Us Start Here -------------- */
   .enquiry_listing {
     width: 30.9%;
   }
@@ -5979,11 +6025,7 @@ table {
     padding: 100px 0 0 0;
   }
   /* ------------- Contact Us End Here ------------- */
-/*---------------- Campus Life Tab Start Here --------------*/
-
-/*---------------- Campus Life Tab End Here --------------*/
-
-  /*---------- Inner Page Start Here ----------*/
+/*---------- Inner Page Start Here ----------*/
 }
 @media (max-width: 767.98px) {
   /* Hero Banner Start Here */
@@ -6248,7 +6290,7 @@ table {
   /*------------- AIML Department End Here -------------*/
   /*/*----------- Programe Main Tab End Here /*-----------*/
 
-  /* About Us Tab Start Here */
+  /*----------- About Us Tab Start Here -----------*/
   .leader-header .subheading18 {
     color: #c4161c;
     font-family: "Metropolis-Medium";
@@ -6266,7 +6308,28 @@ table {
   .Magzin_artical_slider .recruiter_logo_item{
     height: inherit;
   }
-  /* About Us Tab End Here */
+.InstitutevisionMission{
+  padding: 40px 0 10px;
+  position: relative;
+}
+.InstitutevisionMission .heading{
+  position:relative;
+  z-index:1;
+  text-align: center;
+}
+.InstitutevisionMission p{
+  position:relative;
+  z-index:1;
+  text-align: center;
+  margin:0;
+}
+.InstitutevisionMission::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:#ffffff80;
+}
+  /*----------- About Us Tab End Here -----------*/
 /*----------- Admission Tab Start Here-----------*/
 /* Main Admission Page Start Here */
   .mainadmission_inner{
@@ -6305,13 +6368,18 @@ table {
     border-radius: 8px;
     background: #fff;
   }
+  .undergraduate_admissions_page .programme-card {
+    width: 48%;
+  }
+  .student_project_table{
+    min-width: 100%;
+  }
 /*----------- Admission Tab End Here-----------*/
   /* Life At Campus Start Here */
   /* SITPuneExperience Start Here */
   .collageImage img {
     margin-top: 0px;
   }
-
   /* SITPuneExperience End Here */
   .hostelAccommodationimages{
     opacity: 0.05;
@@ -6471,179 +6539,184 @@ table {
   .gallery-card {
     border: 2px solid #fff;
   }
-  /*--------- Gallery End Here ---------*/
-  /* Center Of Excellence Start Here */
-  .coe-card {
-    height: 200px;
-  }
-  .coe-bg {
-    height: 150px;
-    bottom: -10px;
-  }
-  .coe-prev,
-  .coe-next {
-    width: 40px;
-    height: 25px;
-  }
-  .swiper-prev-btn {
-    width: 40px;
-    height: 25px;
-  }
-  .swiper-next-btn {
-    width: 40px;
-    height: 25px;
-  }
-  .coe-right .swiper {
-    padding: 0px;
-  }
-  .coe-card img {
-    border-radius: 15px;
-  }
-  .coe-overlay {
-    border-radius: 15px;
-  }
-  .coe-card .subheading18 {
-    font-size: 15px;
-    bottom: 12px;
-    left: 10px;
-  }
-  .coe-card {
-    border-radius: 15px;
-  }
-  .footer-about h2 span {
-    width: auto;
-    display: inline;
-  }
-  /* Center Of Excellence End Here */
-  /*------------- AIML Department Start Here -------------*/
-  .major-minor-programmes-grid {
-    grid-template-columns: 1fr;
-  }
-  .major-minor-programme-list {
-    padding: 0px 15px 20px;
-  }
-  .infrastructure_card {
-    width: 47%;
-  }
-  .infrastructure_img {
-    max-height: 200px;
-    min-height: 250px;
-  }
-  /*------------- AIML Department End Here -------------*/
-  /*------------- Inner Pages Start Here -------------*/
-  /* /*-------------------- LeftSideBar Start Here /*-------------------- */
-  .sidebar-wrapper {
-    padding: 16px;
-    border-radius: 18px;
-  }
-  .sidebar-link {
-    font-size: 15px;
-    padding: 14px 6px;
-  }
-  /*---------- LeftSideBar End Here ----------*/
-  /*------------- AIML Department Start Here -------------*/
-  .program_countrow {
-    gap: 15px;
-    padding: 15px;
-    flex-wrap: wrap;
-  }
-  .innerbannersection::after {
-    width: 300px;
-    height: 120px;
-  }
-  .provisionbox::after {
-    opacity: 0.03;
-  }
-  .visiontextleft {
-    width: 100%;
-  }
-  .international_collaborations span {
-    width: 47%;
-    padding: 10px;
-  }
-  .faculty-front-body {
-    padding: 95px 14px 35px;
-  }
-  .faculty-name {
-    font-size: 17px;
-    margin: 0 0 6px;
-  }
-  .faculty-designation {
-    font-size: 13px;
-  }
-  .programme-card {
-    width: 100%;
-  }
-  .upcoming-event-card {
-    grid-template-columns: 1fr;
-  }
-  .upcoming-event-image {
-    max-height: inherit;
-  }
-  /*------------- AIML Department End Here -------------*/
+/*--------- Gallery End Here ---------*/
+/* Center Of Excellence Start Here */
+.coe-card {
+  height: 200px;
+}
+.coe-bg {
+  height: 150px;
+  bottom: -10px;
+}
+.coe-prev,
+.coe-next {
+  width: 40px;
+  height: 25px;
+}
+.swiper-prev-btn {
+  width: 40px;
+  height: 25px;
+}
+.swiper-next-btn {
+  width: 40px;
+  height: 25px;
+}
+.coe-right .swiper {
+  padding: 0px;
+}
+.coe-card img {
+  border-radius: 15px;
+}
+.coe-overlay {
+  border-radius: 15px;
+}
+.coe-card .subheading18 {
+  font-size: 15px;
+  bottom: 12px;
+  left: 10px;
+}
+.coe-card {
+  border-radius: 15px;
+}
+.footer-about h2 span {
+  width: auto;
+  display: inline;
+}
+/* Center Of Excellence End Here */
+/*------------- AIML Department Start Here -------------*/
+.major-minor-programmes-grid {
+  grid-template-columns: 1fr;
+}
+.major-minor-programme-list {
+  padding: 0px 15px 20px;
+}
+.infrastructure_card {
+  width: 47%;
+}
+.infrastructure_img {
+  max-height: 200px;
+  min-height: 250px;
+}
+/*------------- AIML Department End Here -------------*/
+/*------------- Inner Pages Start Here -------------*/
+/*-------------------- LeftSideBar Start Here /*-------------------- */
+.sidebar-wrapper {
+  padding: 16px;
+  border-radius: 18px;
+}
+.sidebar-link {
+  font-size: 15px;
+  padding: 14px 6px;
+}
+/*---------- LeftSideBar End Here ----------*/
+/*------------- AIML Department Start Here -------------*/
+.program_countrow {
+  gap: 15px;
+  padding: 15px;
+  flex-wrap: wrap;
+}
+.innerbannersection::after {
+  width: 300px;
+  height: 120px;
+}
+.provisionbox::after {
+  opacity: 0.03;
+}
+.visiontextleft {
+  width: 100%;
+}
+.international_collaborations span {
+  width: 47%;
+  padding: 10px;
+}
+.faculty-front-body {
+  padding: 95px 14px 35px;
+}
+.faculty-name {
+  font-size: 17px;
+  margin: 0 0 6px;
+}
+.faculty-designation {
+  font-size: 13px;
+}
+.programme-card {
+  width: 100%;
+}
+.upcoming-event-card {
+  grid-template-columns: 1fr;
+}
+.upcoming-event-image {
+  max-height: inherit;
+}
+/*------------- AIML Department End Here -------------*/
+/*--------------- Admission Tab Start Here ---------------*/
+.undergraduate_admissions_page .programme-card {
+  width: 100%;
+}
+/*--------------- Admission Tab Start Here ---------------*/
 /*--------------- Campus Life Tab Start Here ---------------*/
 /* Hostel Start Here */
 .hostel-security-banner {
-    gap: 14px;
-    padding: 16px;
-    border-radius: 20px;
-  }
-  .hostel-security-emblem {
-    flex-basis: 62px;
-  }
-  .hostel-security-copy p {
-    font-size: 14px;
-  }
-  .hostel-security-features {
-    grid-template-columns: 1fr;
-    gap: 18px;
-  }
-  .hostel-security-feature {
-    padding: 0 12px;
-  }
-  .hostel-security-feature + .hostel-security-feature {
-    border-top: 1px solid #d5dbe6;
-    border-left: 0;
-    padding-top: 18px;
-  }
+  gap: 14px;
+  padding: 16px;
+  border-radius: 20px;
+}
+.hostel-security-emblem {
+  flex-basis: 62px;
+}
+.hostel-security-copy p {
+  font-size: 14px;
+}
+.hostel-security-features {
+  grid-template-columns: 1fr;
+  gap: 18px;
+}
+.hostel-security-feature {
+  padding: 0 12px;
+}
+.hostel-security-feature + .hostel-security-feature {
+  border-top: 1px solid #d5dbe6;
+  border-left: 0;
+  padding-top: 18px;
+}
 /*--------------- Campus Life Tab Start Here ---------------*/
 
-  /*-------------------- Inner Pages Start Here --------------------*/
-  /* -------------- Contact Us Start Here ------------- */
-  .adderess_content_icon svg {
-    width: 20px;
-    height: 20px;
-  }
-  .adderess_content_box {
-    grid-template-columns: 20px 1fr;
-    gap: 10px;
-  }
-  .adderess_inquiry_number_box {
-    padding: 20px;
-    margin: 20px 0 0 0;
-  }
-  .adderess_content_heading {
-    font-size: 18px;
-  }
-  .adderess_content_subheading {
-    font-size: 14px;
-  }
-  .adderess_inquiry_number_right_listing {
-    grid-template-columns: 1fr;
-    gap: 0px;
-  }
-  .adderess_inquiry_number_right {
-    padding: 20px;
-    border-radius: 20px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  .enquiry_listing {
-    width: 90%;
-  }
-  /* ------------ Contact Us End Here ------------- */
+/*-------------------- Inner Pages Start Here --------------------*/
+/* -------------- Contact Us Start Here ------------- */
+.adderess_content_icon svg {
+  width: 20px;
+  height: 20px;
+}
+.adderess_content_box {
+  grid-template-columns: 20px 1fr;
+  gap: 10px;
+}
+.adderess_inquiry_number_box {
+  padding: 20px;
+  margin: 20px 0 0 0;
+}
+.adderess_content_heading {
+  font-size: 18px;
+}
+.adderess_content_subheading {
+  font-size: 14px;
+}
+.adderess_inquiry_number_right_listing {
+  grid-template-columns: 1fr;
+  gap: 0px;
+}
+.adderess_inquiry_number_right {
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.enquiry_listing {
+  width: 90%;
+}
+/* ------------ Contact Us End Here ------------- */
 }
 
 @media (max-width: 479.98px) {
@@ -6683,9 +6756,14 @@ table {
   .pdf-preview-grid {
     grid-template-columns: repeat(2, 1fr);
   }
-
   /*------------- AIML Department End Here -------------*/
   /*--------------- Programs Offered End Here ---------------*/
+  /*------------- About Us Tab Start Here -------------*/
+  .mission_mbox {
+    width: 100%;
+    margin: 0 0 60px 0;
+  }
+  /*------------- About Us Tab End Here -------------*/
 /*---------------- Campus Life Tab Start Here --------------*/
 .studentclubs_main .programme-card {
   width: 100%;

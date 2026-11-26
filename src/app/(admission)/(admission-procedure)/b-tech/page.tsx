@@ -9,7 +9,7 @@ const AdmissionProcedureug = () => {
   const [activeTab, setActiveTab] = useState("siteee");
 
   return (
-    <div className="mainpage-wrapper">
+    <div className="mainpage-wrapper leadership_tabbing">
       <InnerpageBanner
         title={`Admission Procedure (B.Tech)`}
         breadcrumbs={[
