@@ -18,7 +18,7 @@ const AdmissionProcedurepg = () => {
   const [activeTab, setActiveTab] = useState("siteee");
 
   return (
-    <div className="mainpage-wrapper">
+    <div className="mainpage-wrapper leadership_tabbing">
       <InnerpageBanner
         title={`Admission Procedure (Lateral Entry)`}
         breadcrumbs={[
@@ -28,7 +28,7 @@ const AdmissionProcedurepg = () => {
           { label: "Lateral Entry" },
         ]}
       />
-      <div className="container">
+      <div className="container ">
         <div className="admission-tabs Innerpage_main">
           <ul
             className="nav nav-tabs"

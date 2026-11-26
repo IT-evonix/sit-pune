@@ -926,7 +926,7 @@ const LateralEntryAdmission = () => {
           </ul>
         </div>
 
-        <div
+        <div className="mt-4"
           id="lateral-registration-panel"
           role="tabpanel"
           aria-labelledby="lateral-registration-tab"
@@ -939,7 +939,7 @@ const LateralEntryAdmission = () => {
           />
         </div>
 
-        <div
+        <div className="mt-4"
           id="lateral-general-panel"
           role="tabpanel"
           aria-labelledby="lateral-general-tab"

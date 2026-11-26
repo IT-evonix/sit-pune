@@ -56,11 +56,11 @@ const AdmissionProcedurePage = () => {
         ]}
       />
       <div className="mainadmission_top">
-        <div className="heading text-center innerpageheading m-0">Admissions Procedure</div>
+        <div className="heading text-center innerpageheading">Admissions Procedure</div>
       </div>
       <div className="mainadmission_bottom">
         <div className="container">
-          <div className="subheading18">Admissions Procedure</div>
+          {/* <div className="subheading18">Admissions Procedure</div> */}
           <div className="mainadmission_slider">
             <div
               className="mainadmission_inner"

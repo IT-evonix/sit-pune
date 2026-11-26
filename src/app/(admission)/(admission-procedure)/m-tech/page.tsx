@@ -13,7 +13,7 @@ import InnerpageBanner from "@/components/InnerpageBanner";
 
 const AdmissionProceduremtech = () => {
   return (
-    <div className="mainpage-wrapper">
+    <div className="mainpage-wrapper leadership_tabbing">
       <InnerpageBanner
         title={`Admission Procedure (M.Tech)`}
         breadcrumbs={[
