@@ -45,7 +45,7 @@ import Tabs, { TabItem } from "@/components/ui/Tabs";
 // import PDFList from "@/components/ui/PDFList";
 import PDFPreview from "@/components/ui/PDFPreview";
 
-import { CEBrochurePDF } from "@/data/pdfPreviewData";
+import { CEBrochurePDF } from "@/data/pdfData";
 
 const AIMLDispatch = () => {
   const tabsData: TabItem[] = [

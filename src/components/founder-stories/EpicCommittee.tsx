@@ -18,7 +18,7 @@ const page = () => {
           <div className="mt-4 mt-sm-5">
             <PDFViewer
               src="/pdf/placement/placement_brochure.pdf"
-              title="Fees Structure"
+              title="Dummy PDF"
               height={750}
             />
           </div>

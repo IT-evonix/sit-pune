@@ -3,7 +3,7 @@
 import Tabs, { TabItem } from "@/components/ui/Tabs";
 import PDFPreview from "@/components/ui/PDFPreview";
 
-import { CSBrochurePDF, CSMagazinePDF, CSNewsletterPDF } from "@/data/pdfPreviewData";
+import { CSBrochurePDF, CSMagazinePDF, CSNewsletterPDF } from "@/data/pdfData";
 
 const CSDispatch = () => {
   const tabsData: TabItem[] = [
