@@ -56,7 +56,7 @@ const SITPuneExperience = () => {
               golf-course views, with a private balcony.
             </p>
             <Link target="_blank" rel="noopener noreferrer" href="https://www.sandipanihometel.com" className="ExploreMore sitExperienceButton rounded-pill transition rounded_cta m-0">
-              Explore <span>More</span>
+              Explore <span> More</span>
             </Link>
           </div>
         </div>
@@ -80,7 +80,7 @@ const SITPuneExperience = () => {
               As a Health Promoting University, SIU is focused on Emotional Wellbeing, Healthcare Services, Nutrition and Dietetics, Sports & Fitness and Community Outreach which have been identified through consultation with our community and informed by research.
             </p>
             <Link target="_blank" rel="noopener noreferrer" href="https://www.siu.edu.in/about-us/why-us/health-promoting-university" className="ExploreMore sitExperienceButton rounded-pill transition rounded_cta m-0">
-              Explore <span>More</span>
+              Explore <span> More</span>
             </Link>
           </div>
         </div>

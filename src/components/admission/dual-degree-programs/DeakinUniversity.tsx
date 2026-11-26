@@ -19,7 +19,7 @@ const DeakinUniversity = () => {
             <div className="heading innerpageheading">
               SIT -Deakin University Partnership
             </div>
-            <p>
+            <p className="text-justify">
               This dual degree program will allow the students to obtain a
               Bachelor of Technology in Computer Science and Engineering/ Civil
               Engineering from SIT, Pune and a Bachelor of Data Science

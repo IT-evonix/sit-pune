@@ -3,7 +3,7 @@
 import React from "react";
 import { FileText, ExternalLink } from "lucide-react";
 import Image from "next/image";
-import { PDFItem } from "@/data/pdfData";
+import { PDFItem } from "@/data/pdfPreviewData";
 
 interface PDFPreviewProps {
   data: PDFItem[];

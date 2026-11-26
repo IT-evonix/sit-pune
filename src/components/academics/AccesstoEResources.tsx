@@ -19,7 +19,7 @@ const AccesstoEResources = () => (
   <div className="main_content libraryMainSec">
     <section className="library-section-heading">
       <div className="heading innerpageheading">Access to E-Resources</div>
-      <p>
+      <p className="text-justify">
 Library members can get the access of all e-resources on library portal. To access these e-resources you should have the login credentials for it. Every year newly admitted student’s registration is done according to their course duration by the librarian. Once the registration is completed members get the access of all e-resources. Link to Access All Subscribed E-resources:      </p>
     </section>
     <div className="library-resource-banner">

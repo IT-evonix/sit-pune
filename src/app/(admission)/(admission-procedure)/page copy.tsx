@@ -13,6 +13,11 @@ const tabs = [
       content: <AdmissionProcedureug/>,
     },
     {
+      id: "LateralEntry",
+      title: "Lateral Entry",
+      content: <AdmissionProcedureug/>,
+    },
+    {
       id: "pg",
       title: "Postgraduate (PG)",
       content: <AdmissionProcedurepg/>,

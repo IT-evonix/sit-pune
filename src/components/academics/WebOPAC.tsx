@@ -12,7 +12,7 @@ const WebOPAC = () => (
   <div className="main_content libraryMainSec">
     <section className="library-section-heading">
       <div className="heading innerpageheading">Web OPAC</div>
-      <p>
+      <p className="text-justify">
 Web OPAC is an Online Public Access Catalogue which allows library users avail the services of the library using Internet. Every library member gets the access of Web OPAC where he/she can check his/her circulation history, recommend new book titles to the library, create own reading list of favourite books etc.
 
       </p>
@@ -21,7 +21,7 @@ Web OPAC is an Online Public Access Catalogue which allows library users avail t
       {/* <span className="library-opac-symbol"><BookOpenCheck size={30} aria-hidden="true" /></span> */}
       <div className="library-opac-copy">
         <div className="subheading mb-2">KOHA · Version 22.05</div>
-        <p>The library utilizes ILMS KOHA-22.05 Version, a comprehensive, integrated library management system, to efficiently manage operations, including cataloging, circulation, and resource management. A Web OPAC is available for students and faculty to check the availability of resources. Additionally, they can log in to their personal accounts to view the borrowed books and CDs, as well as their due dates. The OPAC offers students the convenience of making online reservations for books to secure their desired titles with ease.
+        <p className="text-justify">The library utilizes ILMS KOHA-22.05 Version, a comprehensive, integrated library management system, to efficiently manage operations, including cataloging, circulation, and resource management. A Web OPAC is available for students and faculty to check the availability of resources. Additionally, they can log in to their personal accounts to view the borrowed books and CDs, as well as their due dates. The OPAC offers students the convenience of making online reservations for books to secure their desired titles with ease.
 
 </p>
       </div>

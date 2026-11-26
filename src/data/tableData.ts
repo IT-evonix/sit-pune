@@ -1037,11 +1037,11 @@ export const btech2ndFeestructure2026_27SecAColumns = [
     title: "Yearly Fees FY 2026-27 (₹)",
   },
   {
-    key: "feehead",
+    key: "installment1",
     title: "Installment 1 (₹)",
   },
   {
-    key: "installment1",
+    key: "installment2",
     title: "Installment 2 (₹)",
   },
 ];
@@ -1898,23 +1898,23 @@ export const MtechFeestructure2026_27NRISecBColumns = [
   },
   {
     key: "installment1",
-    title: "1st Year 2026–27 Inst. 1",
+    title: "1st Year 2026-27 Inst. 1",
   },
   {
     key: "installment2",
-    title: "1st Year 2026–27 Inst. 2",
-  },
-  {
-    key: "installment2",
-    title: "1st Year 2026–27 Inst. 3",
+    title: "1st Year 2026-27 Inst. 2",
   },
   {
     key: "installment3",
-    title: "2nd Year 2027–28 Inst. 1",
+    title: "1st Year 2026-27 Inst. 3",
   },
   {
     key: "installment4",
-    title: "2nd Year 2027–28 Inst. 2",
+    title: "2nd Year 2027-28 Inst. 1",
+  },
+  {
+    key: "installment5",
+    title: "2nd Year 2027-28 Inst. 2",
   },
 ];
 export const MtechFeestructure2026_27NRISecBData = [

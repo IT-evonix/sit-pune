@@ -35,7 +35,7 @@ const ScholarshipDetails = () => {
               </div>
               <div className="scholarship_content">
                 <div className="subheading18">Scholarship Policy</div>
-                <p>
+                <p className="text-justify">
                   With the objective of encouraging meritorious students and
                   academic excellence, Scholarships/ Awards are offered to
                   deserving students of the University by the Symbiosis Society
@@ -52,7 +52,7 @@ const ScholarshipDetails = () => {
               </div>
               <div className="scholarship_content">
                 <div className="subheading18">SIT</div>
-                <p>
+                <p className="text-justify">
                   SIT awards merit scholarships under SIU policy for all our
                   undergraduate/ postgraduate programmes. The following are the
                   details of the Scholarship for Academic Excellence at SIT.
@@ -108,12 +108,12 @@ const ScholarshipDetails = () => {
               <div className="scholarship_heading subheading18">
                 Nature of the Scholarship:
               </div>
-              <p>
+              <p className="text-justify">
                 First four toppers in the order of merit of every batch of every
                 programme in every semester/ annually will be awarded the Merit
                 Scholarship.
               </p>
-              <p>
+              <p className="text-justify">
                 The Scholarship recipients are granted concession in Academic
                 Fees of the semester, applicable to all full time Post Graduate
                 and Undergraduate degree programmes of all the Constituents of
@@ -142,7 +142,7 @@ const ScholarshipDetails = () => {
                 <span className="scholarship_icon">
                   <CashCoin size={28} aria-hidden="true" />
                 </span>
-                <p>
+                <p className="text-justify">
                   The scholarship amount will not be paid directly to the
                   students. It will be transferred by the University directly to
                   the Constituent, for the adjustment in academic fee of the

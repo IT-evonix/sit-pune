@@ -45,7 +45,7 @@ import Tabs, { TabItem } from "@/components/ui/Tabs";
 // import PDFList from "@/components/ui/PDFList";
 import PDFPreview from "@/components/ui/PDFPreview";
 
-import { MEBrochurePDF, MENewsletterPDF } from "@/data/pdfData";
+import { MEBrochurePDF, MENewsletterPDF } from "@/data/pdfPreviewData";
 
 const MEDispatch = () => {
   const tabsData: TabItem[] = [
