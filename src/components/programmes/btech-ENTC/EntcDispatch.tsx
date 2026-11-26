@@ -45,7 +45,7 @@ import Tabs, { TabItem } from "@/components/ui/Tabs";
 // import PDFList from "@/components/ui/PDFList";
 import PDFPreview from "@/components/ui/PDFPreview";
 
-import { ENTCBrochurePDF, ENTCMagazinePDF, ENTCNewsletterPDF } from "@/data/pdfPreviewData";
+import { ENTCBrochurePDF, ENTCMagazinePDF, ENTCNewsletterPDF } from "@/data/pdfData";
 
 const ENTCDispatch = () => {
   const tabsData: TabItem[] = [
