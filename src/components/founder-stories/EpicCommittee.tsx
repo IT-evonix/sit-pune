@@ -1,7 +1,7 @@
 import React from "react";
 import { EpicCommitteeColumns, EpicCommitteeData } from "@/data/tableData";
 import Table from "@/components/ui/Table";
-import PDFViewer from "../PdfPreview";
+import PDFViewer from "../pdfViewer";
 
 const page = () => {
   return (
