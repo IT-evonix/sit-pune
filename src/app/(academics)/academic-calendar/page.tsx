@@ -32,7 +32,6 @@ const admissionData: AdmissionItem[] = [
     title: "M.Tech Higher Semester Odd & Even A.Y. 2026-27",
     pdf: "/pdf/academics/academic-calendar/4-M-Tech-Higher-sem-ODD&EVEN-2026-27.pdf",
   },
-  
 ];
 
 const UndergraduateAdmissionsPage = () => {
@@ -45,7 +44,7 @@ const UndergraduateAdmissionsPage = () => {
 
       <div className="Innerpage_main">
         <div className="container-fluid">
-          <div className="programme-wrapper">
+          <div className="programme-wrapper academics_pdfs_main">
             <div className="row align-items-center">
               <div className="col-md-4">
                 <div className="academic_calender_img">
@@ -58,39 +57,48 @@ const UndergraduateAdmissionsPage = () => {
                 </div>
               </div>
               <div className="col-md-8">
-                <div className="heading innerpageheading">Academic Calendar</div>
-                <div className="programme-list">
-                  {admissionData.map((item) => (
-                    <a
-                      key={item.id}
-                      className="programme-card"
-                      href={item.pdf}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      style={{ color: "inherit", textDecoration: "none" }}
-                    >
-                      <Row className="align-items-center">
-                        <Col xs={10} md={11}>
-                          <div className="d-flex align-items-center gap-2 gap-sm-3">
-                            <div className="small-icon-box">
-                              <FileText size={28} strokeWidth={2} />
-                            </div>
-                            <div className="grow">
-                              <div className="d-flex flex-wrap flex-column flex-md-row align-items-md-center gap-2">
-                                <h5 className="programme-title mb-0">
-                                  {item.title}
-                                </h5>
+                <div className="academics_pdfs">
+                  <div className="heading innerpageheading">
+                    Academic Calendar
+                  </div>
+                  <div className="programme-list">
+                    {admissionData.map((item) => (
+                      <a
+                        key={item.id}
+                        className="programme-card"
+                        href={item.pdf}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{ color: "inherit", textDecoration: "none" }}
+                      >
+                        <Row className="align-items-center">
+                          <Col xs={10} md={11}>
+                            <div className="d-flex align-items-center gap-2 gap-sm-3">
+                              <div className="small-icon-box">
+                                <FileText size={28} strokeWidth={2} />
+                              </div>
+                              <div className="grow">
+                                <div className="d-flex flex-wrap flex-column flex-md-row align-items-md-center gap-2">
+                                  <h5 className="programme-title mb-0">
+                                    {item.title}
+                                  </h5>
+                                </div>
                               </div>
                             </div>
-                          </div>
-                        </Col>
+                          </Col>
 
-                        <Col xs={2} md={1} className="text-end">
-                          <ChevronRight size={30} className="arrow-icon" />
-                        </Col>
-                      </Row>
-                    </a>
-                  ))}
+                          <Col
+                            xs={2}
+                            md={1}
+                            className="text-end"
+                            style={{ paddingLeft: "0px" }}
+                          >
+                            <ChevronRight size={30} className="arrow-icon" />
+                          </Col>
+                        </Row>
+                      </a>
+                    ))}
+                  </div>
                 </div>
               </div>
             </div>

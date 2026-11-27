@@ -112,7 +112,7 @@ const AdmissionProcedureug = () => {
               duration. Government taxes are additional.
             </p>
 
-            <div className="subheading18 mt-4 mt-sm-5">
+            <div className="subheading18 mt-4 mt-md-5">
               Section B: Payment Installments — 1st Year 2026-27 (Amount in USD)
             </div>
             <Table
@@ -152,7 +152,7 @@ const AdmissionProcedureug = () => {
               tableClassName="student_project_table"
             />
 
-            <div className="subheading18 mt-4 mt-sm-5">
+            <div className="subheading18 mt-4 mt-md-5">
               Section B: Payment Installments — 1st Year 2026-27 (Amount in USD)
             </div>
             <Table
@@ -194,7 +194,7 @@ const AdmissionProcedureug = () => {
                 tableClassName="student_project_table"
               />
 
-              <div className="subheading18 mt-4 mt-sm-5">
+              <div className="subheading18 mt-4 mt-md-5">
                 Section B: Payment Installments — 1st Year 2026-27 (Amount in
                 USD)
               </div>

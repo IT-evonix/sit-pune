@@ -87,7 +87,7 @@ const ProgramOverview = () => {
         </div>
       </div>
 
-      <div className="div mt-4 mt-sm-5">
+      <div className="div mt-4 mt-md-5">
         <div className="heading innerpageheading">Programme Profile</div>
         <p>
           Master of Technology (M.Tech) with specializations in the following
@@ -100,7 +100,7 @@ const ProgramOverview = () => {
           tableClassName="student_project_table"
         />
       </div>
-      <div className="siteee-step-card mt-4 mt-sm-5">
+      <div className="siteee-step-card mt-4 mt-md-5">
         <ul className="listingbox">
           <li>Carnegie Mellon University, USA</li>
           <li>RMIT University, Australia</li>
@@ -108,7 +108,7 @@ const ProgramOverview = () => {
         </ul>
       </div>
       <section
-        className="siteee-contact mt-4 mt-sm-5"
+        className="siteee-contact mt-4 mt-md-5"
         aria-labelledby="jeemain-contact-title"
       >
         <h3 id="jeemain-contact-title">Write to Us</h3>

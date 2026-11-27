@@ -58,7 +58,7 @@ const DeakinUniversity = () => {
         </div>
       </div>
 
-      <div className="mt-4 mt-sm-5">
+      <div className="mt-4 mt-md-5">
         <div className="heading innerpageheading">
           Cost Estimate for the Dual Degree Program
         </div>

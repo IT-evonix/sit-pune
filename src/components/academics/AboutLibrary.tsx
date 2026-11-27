@@ -36,7 +36,7 @@ const AboutLibrary = () => (
     <div className="program_overview_section">
       <div className="program_overview_left">
         <div className="heading innerpageheading">About Library</div>
-        <p>
+        <p className="m-0">
           Library of Symbiosis Institute of Technology (SIT) came into existence
           with the establishment of SIT in 2008. The library occupies a place of
           pride in SIT and plays a very vital role in provision of learning

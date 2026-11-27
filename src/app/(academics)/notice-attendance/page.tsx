@@ -70,7 +70,7 @@ const UndergraduateAdmissionsPage = () => {
                           </div>
                         </Col>
 
-                        <Col xs={2} md={1} className="text-end">
+                        <Col xs={2} md={1} className="text-end" style={{ paddingLeft: "0px" }}>
                           <ChevronRight size={30} className="arrow-icon" />
                         </Col>
                       </Row>

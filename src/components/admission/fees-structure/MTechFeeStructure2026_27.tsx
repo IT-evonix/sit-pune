@@ -125,9 +125,9 @@ const AdmissionProcedureug = () => {
               SIT Pune — M.Tech Fee Structure AY 2026-27 | Indian Students
               (Annexure I)
             </div>
-            <div className="div">
+            <p className="mb-2">
               Batch 2026-28 | Letter FO/SIU/2026-27/223 dated 17 Jan 2026
-            </div>
+            </p>
             <div className="subheading18">
               Section A: Annual Academic Fees — 1st Year 2026–27 (Amount in ₹)
             </div>
@@ -139,7 +139,7 @@ const AdmissionProcedureug = () => {
               tableClassName="student_project_table"
             />
 
-            <div className="subheading18 mt-4 mt-sm-5">
+            <div className="subheading18 mt-4 mt-md-5">
               Section B: Payment Installments — Both Years (Amount in ₹)
             </div>
             <Table
@@ -180,7 +180,7 @@ const AdmissionProcedureug = () => {
               tableClassName="student_project_table"
             />
 
-            <div className="subheading18 mt-4 mt-sm-5">
+            <div className="subheading18 mt-4 mt-md-5">
               Section B: Payment Installments — Both Years (Amount in USD)
             </div>
             <Table
@@ -231,7 +231,7 @@ const AdmissionProcedureug = () => {
                 tableClassName="student_project_table"
               />
 
-              <div className="subheading18 mt-4 mt-sm-5">
+              <div className="subheading18 mt-4 mt-md-5">
                 Section B: Payment Installments — Both Years (Amount in USD)
               </div>
               <Table

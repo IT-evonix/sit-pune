@@ -15,7 +15,7 @@ const page = () => {
             wrapperClassName="table-responsive"
             tableClassName="student_project_table"
           />
-          <div className="mt-4 mt-sm-5">
+          <div className="mt-4 mt-md-5">
             <PDFViewer
               src="/pdf/placement/placement_brochure.pdf"
               title="Dummy PDF"

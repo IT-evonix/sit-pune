@@ -242,7 +242,7 @@ const AdmissionProcedurepg = () => {
                   </div>
                 </div>
               </section>
-              <section className="siteee-step-card mt-4 mt-sm-5 mb-4 mb-sm-5">
+              <section className="siteee-step-card mt-4 mt-md-5 mb-4 mb-md-5">
                 <h2 className="siteee-title">
                   Guidelines for Documents Uploading
                 </h2>
@@ -293,7 +293,7 @@ const AdmissionProcedurepg = () => {
 
               <section
                 aria-labelledby="siteee-talk-us"
-                className="mt-4 mt-sm-5"
+                className="mt-4 mt-md-5"
               >
                 <div className="subheading18">
                   Overall Admission Process Enquiry

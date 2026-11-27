@@ -17,7 +17,7 @@ const IMPDates = () => {
           tableClassName="student_project_table"
         />
       </div>
-      <div className="mt-4 mt-sm-5">
+      <div className="mt-4 mt-md-5">
         <div className="subheading18 mb-2">
           M.Tech Geoinformatics
         </div>

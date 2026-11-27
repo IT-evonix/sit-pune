@@ -220,6 +220,7 @@
   padding: 15px 16px;
   border-radius: 15px;
   background: #eff6fb;
+  align-items: center;
 }
 .scholarship_main .scholarship_summary {
   min-height: 104px;
@@ -621,6 +622,10 @@
   .scholarship_main .scholarship_box {
     gap: 11px;
     padding: 13px;
+    flex-wrap: wrap;
+  }
+  .scholarship_main .scholarship_icon{
+    display: none;
   }
   .scholarship_main .scholarship_awarded {
     align-items: flex-start;
@@ -670,6 +675,13 @@
   .program_overview_left {
     width: 100%;
   }
+
+  .highlighttext{
+    word-break: break-all;
+  }
+
+
+
 }
 @media (prefers-reduced-motion: reduce) {
   .lateral-eligibility__option {

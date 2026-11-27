@@ -118,7 +118,7 @@ const AdmissionProcedureug = () => {
               tableClassName="student_project_table"
             />
 
-            <div className="subheading18 mt-4 mt-sm-5">
+            <div className="subheading18 mt-4 mt-md-5">
               Section B: Payment Installments — Full Time 2 Years (Amount in ₹)
             </div>
             <Table
@@ -137,7 +137,7 @@ const AdmissionProcedureug = () => {
               tableClassName="student_project_table"
             />
 
-            <div className="subheading18 mt-4 mt-sm-5">
+            <div className="subheading18 mt-4 mt-md-5">
               Section C: Payment Installments — Part Time 3 Years (Amount in ₹)
             </div>
             <Table
@@ -187,7 +187,7 @@ const AdmissionProcedureug = () => {
               tableClassName="student_project_table"
             />
 
-            <div className="subheading18 mt-4 mt-sm-5">
+            <div className="subheading18 mt-4 mt-md-5">
               Section B: Payment Installments — Full Time 2 Years (Amount in
               USD)
             </div>
@@ -203,7 +203,7 @@ const AdmissionProcedureug = () => {
               tableClassName="student_project_table"
             />
 
-            <div className="subheading18 mt-4 mt-sm-5">
+            <div className="subheading18 mt-4 mt-md-5">
               Section C: Payment Installments — Part Time 3 Years (Amount in
               USD)
             </div>
@@ -255,7 +255,7 @@ const AdmissionProcedureug = () => {
                 tableClassName="student_project_table"
               />
 
-              <div className="subheading18 mt-4 mt-sm-5">
+              <div className="subheading18 mt-4 mt-md-5">
                 Section B: Payment Installments — Full Time 2 Years (Amount in
                 USD)
               </div>
@@ -271,7 +271,7 @@ const AdmissionProcedureug = () => {
                 tableClassName="student_project_table"
               />
 
-              <div className="subheading18 mt-4 mt-sm-5">
+              <div className="subheading18 mt-4 mt-md-5">
                 Section C: Payment Installments — Part Time 3 Years (Amount in
                 USD)
               </div>

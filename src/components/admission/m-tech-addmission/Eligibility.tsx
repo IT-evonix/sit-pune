@@ -152,7 +152,7 @@ const Eligibility = () => {
         </p>
       </div>
 
-      <div className="table-wrapper mtechEligibility mt-4 mt-sm-5">
+      <div className="table-wrapper mtechEligibility mt-4 mt-md-5">
         <div className="table-responsive">
           <table className="student_project_table">
             <thead>
