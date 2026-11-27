@@ -63,7 +63,7 @@ const Mentoring = () => {
                   (ENTC), and Mechanical Engineering - the event fosters
                   friendly rivalry and camaraderie among students.
                 </p>
-                <p className="m-0">
+                <p>
                   Dressed in their distinctive branch-specific jerseys,
                   participants engage in an array of sports, ranging from
                   traditional favorites like football, cricket, and volleyball
@@ -87,7 +87,7 @@ const Mentoring = () => {
                 />
               </div>
             </div>
-            <div className="row mt-4 mt-sm-5">
+            <div className="row mt-4 mt-md-5">
               <div className="col-md-12">
                 <div className="AnnualSports">
                   <div className="AnnualSportsinner">

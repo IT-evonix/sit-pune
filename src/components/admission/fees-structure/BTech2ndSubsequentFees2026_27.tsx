@@ -111,7 +111,7 @@ const AdmissionProcedureug = () => {
             />
 
 
-            <div className="subheading18 mt-4 mt-sm-5">
+            <div className="subheading18 mt-4 mt-md-5">
               Section B: Direct Second Year (DSY) Batch Academic Fees — AY 2026–27 (Amount in ₹)
             </div>
             <Table
@@ -151,7 +151,7 @@ const AdmissionProcedureug = () => {
               tableClassName="student_project_table"
             />
 
-            <div className="subheading18 mt-4 mt-sm-5">
+            <div className="subheading18 mt-4 mt-md-5">
               DSY Batches — Academic Fees AY 2026–27 (Amount in USD)
             </div>
             <Table
@@ -190,7 +190,7 @@ const AdmissionProcedureug = () => {
                 tableClassName="student_project_table"
               />
 
-              <div className="subheading18 mt-4 mt-sm-5">
+              <div className="subheading18 mt-4 mt-md-5">
                 DSY Batches — Academic Fees FY 2026-27 (Amount in USD) — After Golden Jubilee Scholarship
               </div>
               <Table

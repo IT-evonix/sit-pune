@@ -30,28 +30,119 @@ const programmeData: ProgrammeItem[] = [
   },
   {
     id: 4,
-    title: "ASCE Students Chapter",
-    pdfUrl:
-      "/pdf/campus-life/student-clubs/ASCE-Student-Chapter.pdf",
-  },  
-  {
-    id: 5,
     title: "Brushes and Pixels",
     pdfUrl:
       "/pdf/campus-life/student-clubs/Brushes-and-Pixels.pdf",
   },
-    {
-    id: 6,
+  {
+    id: 5,
     title: "CESS",
     pdfUrl:
       "/pdf/campus-life/student-clubs/CESS.pdf",
   },
-  // {
-  //   id: 6,
-  //   title: "Codex SIT",
-  //   pdfUrl:
-  //     "/pdf/campus-life/student-clubs/CodeX-SIT.pdf",
-  // },
+  {
+    id: 6,
+    title: "Codex SIT",
+    pdfUrl:
+      "/pdf/campus-life/student-clubs/CESS.pdf",
+  },
+  {
+    id: 7,
+    title: "Developer Student Club",
+    pdfUrl:
+      "/",
+  },
+  {
+    id: 8,
+    title: "EPIC",
+    pdfUrl:
+      "/",
+  },
+  {
+    id: 9,
+    title: "Mathelete Club",
+    pdfUrl:
+      "/pdf/campus-life/student-clubs/Mathelets.pdf",
+  },
+  {
+    id: 10,
+    title: "MESA",
+    pdfUrl:
+      "/pdf/campus-life/student-clubs/MESA.pdf",
+  },
+  {
+    id: 11,
+    title: "Robotics Process Automation",
+    pdfUrl:
+      "/pdf/campus-life/student-clubs/ROBOTICS.pdf",
+  },
+  {
+    id: 12,
+    title: "Rotonity Club",
+    pdfUrl:
+      "/",
+  },
+  {
+    id: 13,
+    title: "Varsity club",
+    pdfUrl:
+      "/pdf/campus-life/student-clubs/Varsity.pdf",
+  },
+  {
+    id: 14,
+    title: "WWR",
+    pdfUrl:
+      "/pdf/campus-life/student-clubs/WWR.pdf",
+  },
+  {
+    id: 15,
+    title: "IEEE",
+    pdfUrl:
+      "/",
+  },
+  {
+    id: 16,
+    title: "Symbiosis Quantum Club",
+    pdfUrl:
+      "/",
+  },
+  {
+    id: 17,
+    title: "FOSS Club",
+    pdfUrl:
+      "/",
+  },
+  {
+    id: 18,
+    title: "Antariksh-Space & Astronomy Club",
+    pdfUrl:
+      "/",
+  },
+  {
+    id: 19,
+    title: "Electronics Design Club (EDC)",
+    pdfUrl:
+      "/",
+  },
+  {
+    id: 20,
+    title: "Symbiosis Economics Club",
+    pdfUrl:
+      "/",
+  },
+  {
+    id: 21,
+    title: "CBC Club",
+    pdfUrl:
+      "/",
+  },
+  {
+    id: 22,
+    title: "Quantum Club",
+    pdfUrl:
+      "/pdf/campus-life/student-clubs/Quantum-Club.pdf",
+  },
+
 ];
 
 const StudentClubs = () => {

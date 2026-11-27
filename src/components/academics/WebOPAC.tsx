@@ -1,4 +1,4 @@
-import { ArrowUpRight, } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 import "@/app/css/library.css";
 import Image from "next/image";
 
@@ -13,33 +13,49 @@ const WebOPAC = () => (
     <section className="library-section-heading">
       <div className="heading innerpageheading">Web OPAC</div>
       <p className="text-justify">
-Web OPAC is an Online Public Access Catalogue which allows library users avail the services of the library using Internet. Every library member gets the access of Web OPAC where he/she can check his/her circulation history, recommend new book titles to the library, create own reading list of favourite books etc.
-
+        Web OPAC is an Online Public Access Catalogue which allows library users
+        avail the services of the library using Internet. Every library member
+        gets the access of Web OPAC where he/she can check his/her circulation
+        history, recommend new book titles to the library, create own reading
+        list of favourite books etc.
       </p>
     </section>
     <div className="library-opac-callout">
       {/* <span className="library-opac-symbol"><BookOpenCheck size={30} aria-hidden="true" /></span> */}
       <div className="library-opac-copy">
         <div className="subheading mb-2">KOHA · Version 22.05</div>
-        <p className="text-justify">The library utilizes ILMS KOHA-22.05 Version, a comprehensive, integrated library management system, to efficiently manage operations, including cataloging, circulation, and resource management. A Web OPAC is available for students and faculty to check the availability of resources. Additionally, they can log in to their personal accounts to view the borrowed books and CDs, as well as their due dates. The OPAC offers students the convenience of making online reservations for books to secure their desired titles with ease.
-
-</p>
+        <p className="text-justify m-0">
+          The library utilizes ILMS KOHA-22.05 Version, a comprehensive,
+          integrated library management system, to efficiently manage
+          operations, including cataloging, circulation, and resource
+          management. A Web OPAC is available for students and faculty to check
+          the availability of resources. Additionally, they can log in to their
+          personal accounts to view the borrowed books and CDs, as well as their
+          due dates. The OPAC offers students the convenience of making online
+          reservations for books to secure their desired titles with ease.
+        </p>
       </div>
-      <a className="library-button-link" href="http://symbiosis-koha.informindia.co.in/" target="_blank" rel="noopener noreferrer">
-        Web OPAC<ArrowUpRight size={16} aria-hidden="true" />
+      <a
+        className="library-button-link"
+        href="http://symbiosis-koha.informindia.co.in/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Web OPAC
+        <ArrowUpRight size={16} aria-hidden="true" />
       </a>
     </div>
 
-        <div className="webopac_image mt-4 mt-sm-5">
-          <Image
-            src="/images/innerpages/academics/sssit.webp"
-            alt="sssit"
-            width={1000}
-            height={479}
-            className="img-fluid "
-            priority
-          />
-        </div>
+    <div className="webopac_image mt-4 mt-md-5">
+      <Image
+        src="/images/innerpages/academics/sssit.webp"
+        alt="sssit"
+        width={1000}
+        height={479}
+        className="img-fluid "
+        priority
+      />
+    </div>
 
     {/* <div className="library-card-grid">
       {opacFeatures.map((feature, index) => {

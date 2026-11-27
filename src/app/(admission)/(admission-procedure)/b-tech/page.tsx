@@ -377,7 +377,7 @@ const AdmissionProcedureug = () => {
                 </article>
               </div>
               <section
-                className="siteee-contact mt-4 mt-sm-5"
+                className="siteee-contact mt-4 mt-md-5"
                 aria-labelledby="siteee-contact-title"
               >
                 <h3 id="siteee-contact-title">Write to Us</h3>
@@ -644,7 +644,7 @@ const AdmissionProcedureug = () => {
               </div>
 
               <section
-                className="siteee-contact mt-4 mt-sm-5"
+                className="siteee-contact mt-4 mt-md-5"
                 aria-labelledby="jeemain-contact-title"
               >
                 <h3 id="jeemain-contact-title">Write to Us</h3>

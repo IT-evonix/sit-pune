@@ -79,7 +79,7 @@ const AcademicPathways = () => {
               tableClassName="student_project_table"
             />
 
-            <div className="subheading mt-4 mt-sm-5">
+            <div className="subheading mt-4 mt-md-5">
               Dual Degree Programs Launched in 2025-26
             </div>
             <Table

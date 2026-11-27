@@ -4248,6 +4248,7 @@ table {
   object-fit: contain;
   flex-shrink: 0;
   max-height: 42px;
+  max-width: 40px;
 }
 .hostel-security-card p {
   margin: 0px;
@@ -4309,8 +4310,8 @@ table {
   border-radius:45px 45px 0px 0px;
 }
 .ExperienceImage img{
-  max-height:320px;
-  min-height: 320px;
+  max-height:330px;
+  min-height: 330px;
   overflow: hidden;
   border-radius:45px 45px 0px 0px;
   object-fit: cover;
@@ -4323,9 +4324,12 @@ table {
 .ExperienceContent{
   width:70%;
   padding:40px 30px 10px 30px;
-  text-align: justify;
   font-size: 15px;
   line-height: 20px; 
+}
+.ExperienceContent p{
+  text-align: justify;
+  margin:0px;
 }
 .ExperienceHeading{
   font-size:45px;
@@ -4359,7 +4363,9 @@ table {
   position: relative;
   overflow: hidden;
   gap: 4px;
+  margin: 12px 0 0 0 !important;
 }
+
 .SITPuneExperience .sitExperienceButton:hover::before{
   animation-name: sitExperienceButtonShine;
 }
@@ -4489,6 +4495,8 @@ table {
   position: relative;
   display: flex;
   margin-bottom: 75px;
+  position: sticky;
+  top:100px;
 }
 .placement_image_box .placement_image_center img{
   transition-duration: 0.5s;
@@ -5477,7 +5485,26 @@ table {
     scroll-margin-top: 350px;
   }
 /* ---------------- Contact Us End  ----------------*/
-
+/*--------------- Campus Life Tab Start Here ---------------*/
+.ExperienceHeading{
+  font-size:35px;
+}
+.ExperienceContent{
+  padding: 35px 25px 10px 25px;
+}
+.hostel-section{
+  gap:20px;
+}
+.hostel-section{
+  grid-template-columns: 250px 1fr;
+}
+.hostel-section + .hostel-section {
+    grid-template-columns: 1fr 250px;
+}
+.hostel-security-grid{
+  gap:15px;
+}
+/*--------------- Campus Life Tab End Here ---------------*/
 }
 @media (max-width: 1099.98px) {
 
@@ -5488,7 +5515,21 @@ table {
 .monitoring_main .programme-list .programme-card {
     width: 48% !important;
 }
+.achievementimgbox {
+    width: 31%;
+}
 /*---------------- Campus Life Tab End Here --------------*/
+/*---------------- Academics Tab End Here --------------*/
+.libraryMainSec .library-contact-detail{
+  grid-template-columns: 1fr !important;
+}
+.libraryMainSec .library-contact-card{
+  grid-template-columns: 1fr !important;
+}
+.libraryMainSec .library-contact-detail address, .libraryMainSec .library-contact-value{
+ line-height: 1.3 !important;
+}
+/*---------------- Academics Tab End Here --------------*/
 }
 @media (max-width: 991.98px) {
   .stat-box {
@@ -5607,7 +5648,12 @@ table {
     margin: 0px 0 17px 0;
   }
   .subheading {
-    font-size: 20px;
+    font-size: 18px;
+  }
+  .subheading18{
+    font-size: 16px;
+    line-height:normal;
+    margin: 0 0 5px 0;
   }
   /* Hero Banner Start Here */
   .firstslide {
@@ -5982,12 +6028,33 @@ table {
     margin: 0px 0px 0px 0px;
 }
 /*---------------- Admission Tab End Here --------------*/
+/*---------------- Placement Tab End Here --------------*/
+.placement_overview_main{
+  padding:40px 0px 0px 0px;
+}
+.placementmain .coe-section {
+  padding: 40px 0 30px 0;
+}
+.placementmain .coe-section{
+  background-position: bottom;
+}
+.SITian_gallery {
+  padding: 20px 0px 0px 0px;
+}
+.founder_img img{
+    max-height: 70px;
+    min-height: 70px;
+    min-width: 70px;
+    max-width: 70px;
+}
+/*---------------- Placement Tab End Here --------------*/
 /*---------------- Campus Life Tab Start Here --------------*/
-
+.AnnualSportContent .AnnualSportheading{
+  font-size:70px;
+}
 /*---------------- Campus Life Tab End Here --------------*/
 /* ------------- Contact Us Start Here -------------- */
   .enquiry_listing {
-    width: 30.9%;
   }
   .adderess_form_mainbox {
     grid-template-columns: 1fr;
@@ -6413,8 +6480,143 @@ table {
     border-bottom: none;
     padding: 0 0 0px 0px;
   }
+  .campuslifeecardmain{
+    justify-content: space-between;
+  }
+  .campuslifeecard{
+    width:48%;
+  }
+  .Experienceinner{
+    flex-wrap: wrap;
+    margin: 0 0 30px 0;
+  }
+  .ExperienceImage{
+    width:100%;
+  }
+  .ExperienceContent{
+    width:100%;
+    padding: 25px;
+  }
+  .ExperienceHeading {
+    display: none;
+  }
+  .ExperienceImage img{
+    max-height: inherit;
+    min-height: inherit;
+    object-fit: inherit;
+  }
+  .AnnualSportContent .AnnualSportheading{
+    font-size:35px;
+    margin: 0;
+  }
+  .AnnualSportsinner::after{
+    width: 180px;
+    height: 260px;
+    background-size: 100%;
+    left: 0px;
+  }
+  .AnnualSportContent{
+    padding:15px;
+  }
+  .AnnualSportsinner::before{
+    width: 240px;
+    height: 240px;
+  }
+  .achievementsGallery{
+    gap: 15px;
+    margin-top: 30px;
+  }
+  .achievementimgbox {
+      width: 48%;
+  }
+  .hostel-security-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .hostel-security-grid > * {
+    width: 100%;
+  }
+  .hostel-security-wide {
+    grid-column: span 1;
+    min-height: 70px;
+  }
+  .hostel-section{
+    margin-top: 30px;
+  }
   /* Life At Campus End Here */
-
+/*--------------- Academics Tab Start Here ---------------*/
+  .academic_calender_img{
+    max-height:260px;
+    display:none;
+  }
+  .library-content-section{
+    margin-top: 30px !important;
+  }
+  .libraryMainSec .siteee-step-card{
+    margin: 0 0 0px 0;
+  }
+  .libraryMainSec .facultyandstudent_box .library-card-grid{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .libraryMainSec .facultyandstudent_box .library-button-link{
+    margin: 10px 0px 0px;
+    padding: 10px 10px;
+    min-height:inherit;
+  }
+  .feedback_box{
+    margin: 20px 0 0 0;
+  }
+  .libraryMainSec .library-link-card .library-link-card-copy{
+    gap: 0px;
+  }
+  .libraryMainSec .library-link-card .library-link-card-copy .subheading18{
+    margin:0px;
+  }
+  .usefulllink_para{
+    margin:0px;
+    line-height:normal;
+  }
+/*--------------- Academics Tab End Here ---------------*/
+/*---------------- Placement Tab End Here --------------*/
+.placement_image_right{
+  bottom: 0px;
+  border-left: 5px solid #fff;
+  border-top: 5px solid #fff;
+  right: 0px;
+  width: 35%;
+}
+.placement_image_right img {
+  border-radius:0px;
+}
+.placement_image_center img{
+  max-height: 40px;
+}
+.placement_image_center{
+  padding: 15px;
+  left: 9%;
+  top: 90%;
+}
+.placement_image_left img {
+  border-radius: 20px;
+}
+.placement_image_left {
+  width: 100%;
+}
+.placement_image_box{
+  margin-bottom: 20px;
+}
+.founder_img{
+  display:none;
+}
+.founder_stories_text{
+  width:100%;
+}
+.founder_stories_img{
+  display:none;
+}
+.founder_stories_box:nth-child(even) .founder_name, .founder_stories_box:nth-child(even) .company_name, .founder_stories_box:nth-child(even) .batchyear {
+    text-align: left;
+}
+/*---------------- Placement Tab End Here --------------*/
 }
 
 @media (max-width: 575.98px) {
@@ -6679,8 +6881,48 @@ table {
   border-left: 0;
   padding-top: 18px;
 }
-/*--------------- Campus Life Tab Start Here ---------------*/
+.monitoring_main .programme-list .programme-card{
+  width: 100% !important;
+}
 
+.AnnualSportsinner{
+  padding:13px;
+}
+.AnnualSportContent .AnnualSportheading{
+  font-size:25px;
+}
+.AnnualSportsinner::after {
+  width: 95px;
+  height: 155px;
+}
+.AnnualSportContent {
+  position: relative;
+  z-index: 9;
+  padding:13px;
+}
+.AnnualSportsinner::before {
+  width: 170px;
+  height: 170px;
+}
+.achievements_Content {
+    padding: 15px;
+}
+.hostel-section {
+  grid-template-columns: 1fr;
+}
+.hostel-section + .hostel-section {
+  grid-template-columns: 1fr;
+  grid-row: auto;
+}
+.hostel-section + .hostel-section .hostel-image-box {
+  order: -1;
+}
+/*--------------- Campus Life Tab Start Here ---------------*/
+/*--------------- Academics Tab Start Here ---------------*/
+.libraryMainSec .program_overview_right{
+    display: none;
+}
+/*--------------- Academics Tab End Here ---------------*/
 /*-------------------- Inner Pages Start Here --------------------*/
 /* -------------- Contact Us Start Here ------------- */
 .adderess_content_icon svg {
@@ -6767,6 +7009,13 @@ table {
 /*---------------- Campus Life Tab Start Here --------------*/
 .studentclubs_main .programme-card {
   width: 100%;
+}
+.campuslifeecard{
+  width: 100%;
+  margin: 10px 0px 0px 0px;
+}
+.achievementimgbox {
+    width: 100%;
 }
 /*---------------- Campus Life Tab End Here --------------*/
 }

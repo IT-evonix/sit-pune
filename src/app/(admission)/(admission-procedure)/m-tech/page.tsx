@@ -180,7 +180,7 @@ const AdmissionProceduremtech = () => {
             </div>
           </section>
           <section
-            className="siteee-step-card mt-4 mt-sm-5 mb-4 mb-sm-5"
+            className="siteee-step-card mt-4 mt-md-5 mb-4 mb-md-5"
             id="mtech-document-guidelines"
           >
             <h2 className="siteee-title">Guidelines for Documents Uploading</h2>
@@ -227,7 +227,7 @@ const AdmissionProceduremtech = () => {
               tableClassName="student_project_table"
             />
           </section>
-          <section aria-labelledby="siteee-talk-us" className="mt-4 mt-sm-5">
+          <section aria-labelledby="siteee-talk-us" className="mt-4 mt-md-5">
             <div className="subheading18">Branch Specific Enquiry</div>
             <Table
               columns={MtechBranchSpecificEnquiryColumns}
@@ -236,7 +236,7 @@ const AdmissionProceduremtech = () => {
               tableClassName="student_project_table"
             />
           </section>
-          <div className="mt-4 mt-sm-5">
+          <div className="mt-4 mt-md-5">
             <div className="subheading">International Admission</div>
             <p>
               Symbiosis Centre for International Education (SCIE) handles all

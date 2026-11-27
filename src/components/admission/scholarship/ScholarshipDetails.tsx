@@ -61,7 +61,7 @@ const ScholarshipDetails = () => {
             </div>
           </div>
 
-          <div className="col-12 mt-4 mt-sm-5">
+          <div className="col-12 mt-4 mt-md-5">
             <section className="scholarship_section">
               <div className="siteee-step-card m-0">
                 <h2 className="scholarship_heading subheading18">The Scheme</h2>
@@ -87,7 +87,7 @@ const ScholarshipDetails = () => {
                   </li>
                 </ul>
               </div>
-              <hr className="my-4 my-sm-5" />
+              <hr className="my-4 my-md-5" />
               <div className="siteee-step-card m-0">
                 <div className="subheading18">Awarded To:</div>
                 <ul className="siteee-sublist">
@@ -103,7 +103,7 @@ const ScholarshipDetails = () => {
             </section>
           </div>
 
-          <div className="col-12 mt-4 mt-sm-5">
+          <div className="col-12 mt-4 mt-md-5">
             <section className="scholarship_section">
               <div className="scholarship_heading subheading18">
                 Nature of the Scholarship:

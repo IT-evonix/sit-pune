@@ -21,7 +21,7 @@ const HostelAccommodation = () => {
               alt="infrastructure"
               width={1400}
               height={522}
-              className="img-fluid"
+              className="img-fluid d-none d-md-block"
             />
           </div>
         </div>
